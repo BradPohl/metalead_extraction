@@ -1,0 +1,1763 @@
+{
+  "paper_id": "1812.10235",
+  "tuples": [
+    {
+      "method": {
+        "name": "Recursive NN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 93.96,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Recursive NN  & 93.96\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_0"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{guo2014joint}",
+        "locator": "row_1",
+        "reference": "guo2014joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Recursive NN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 95.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.96\\% & 95.4\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent Accuracy",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{guo2014joint}",
+        "locator": "row_1",
+        "reference": "guo2014joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent intent and slot label context"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 94.47,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "slot label context &94.47\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "row_2",
+        "reference": "liu2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent intent and slot label context"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.43,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.47\\% & 98.43\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent Accuracy",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "row_2",
+        "reference": "liu2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent slot label context"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 94.64,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.64\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "row_3",
+        "reference": "liu2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent slot label context"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.21,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.64\\% & 98.21\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent Accuracy",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "row_3",
+        "reference": "liu2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "RNN with Label Sampling"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 94.89,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "RNN with Label Sampling  & 94.89\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2015recurrent}",
+        "locator": "row_4",
+        "reference": "liu2015recurrent"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Hybrid RNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.06,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Hybrid RNN & 95.06\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{mesnil2015using}",
+        "locator": "row_5",
+        "reference": "mesnil2015using"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "RNN-EM"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.25,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "RNN-EM  & 95.25\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{peng2015recurrent}",
+        "locator": "row_6",
+        "reference": "peng2015recurrent"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "CNN CRF"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.35,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CNN CRF & 95.35\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{xu2013convolutional}",
+        "locator": "row_7",
+        "reference": "xu2013convolutional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Encoder-labeler Deep LSTM"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.66,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Encoder-labeler Deep LSTM & 95.66\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{kurata2016leveraging}",
+        "locator": "row_8",
+        "reference": "kurata2016leveraging"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Joint GRU Model (W)"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.49,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Joint GRU Model (W) &95.49\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{zhang2016joint}",
+        "locator": "row_9",
+        "reference": "zhang2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Joint GRU Model (W)"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.49\\%&98.10\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent Accuracy",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{zhang2016joint}",
+        "locator": "row_9",
+        "reference": "zhang2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Attention Encoder-Decoder NN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.87,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Attention Encoder-Decoder NN &95.87\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "row_10",
+        "reference": "liu2016attention"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Attention Encoder-Decoder NN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.43,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.87\\% & 98.43\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent Accuracy",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "row_10",
+        "reference": "liu2016attention"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.98,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Attention BiRNN & 95.98\\%"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "row_11_col_0",
+        "reference": "liu2016attention"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.21,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.98\\% & 98.21\\%"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "wrongly classified utterances in test dataset",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent Accuracy",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "row_11_col_0",
+        "reference": "liu2016attention"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 92.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Attention BiRNN & 979 & 92.1\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Attention BiRNN",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "Movie",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 92.86,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.1\\%& 92.86\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Attention BiRNN",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "Movie",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 93.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "979  & 93.3\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model without a decoder",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "Movie",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 94.89,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.3\\%& 94.89\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model without a decoder",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "Movie",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 93.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{93.8\\%}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model with a decoder",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "Movie",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 95.91,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{95.91\\%}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model with a decoder",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "Movie",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 92.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "983 & 92.3\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Attention BiRNN",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "Food",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.48,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.3\\%& 98.48\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Attention BiRNN",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "Food",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 93.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "983  & 93.6\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model without a decoder",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "Food",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.98,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.6\\%& 98.98\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model without a decoder",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "Food",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 95.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{95.8\\%}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model with a decoder",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "Food",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 99.49,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{99.49\\%}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model with a decoder",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "Food",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 96.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "689 & 96.5\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Attention BiRNN",
+        "locator": "row_7_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "Home",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 97.83,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.5\\%& 97.83\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Attention BiRNN",
+        "locator": "row_7_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "Home",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1-score",
+          "value": 97.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "689  & 97.8\\%"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 Score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model without a decoder",
+        "locator": "row_8_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "Home",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "internal multi-domain dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.8\\%& 98.55\\%"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "20% for test",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-model without a decoder",
+        "locator": "row_8_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "Home",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 2,
+    "n_results_tables_loose": 2,
+    "tables_completed": 2,
+    "calls": 6,
+    "cost_usd": 0.8140080000000001,
+    "tokens_in": 23502,
+    "tokens_out": 36000,
+    "context_pass_cost": 0.062048
+  }
+}

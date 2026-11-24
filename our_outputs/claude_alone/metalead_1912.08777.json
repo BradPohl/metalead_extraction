@@ -1,0 +1,233 @@
+{
+  "paper_id": "1912.08777",
+  "tuples": [
+    {
+      "method": {
+        "name": "PEGASUS_LARGE (HugeNews)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE2-F",
+          "value": 13.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "PEGASUS_LARGE demonstrated much better zero-shot",
+        "locator": "section_6.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "zero-shot",
+          "quote": "much better zero-shot",
+          "locator": "section_6.3_paragraph_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "On CNN/DailyMail, with half the number of parameters PEGASUS_LARGE demonstrated much better zero-shot (ROUGE2-F=13.28) performance than GPT-2 (ROUGE2-F=8.27).",
+        "quoted_span": "(ROUGE2-F=13.28)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "GPT-2"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE2-F",
+          "value": 8.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gpt2",
+        "quote": "achieving a ROUGE-2 of 8.27",
+        "locator": "section_2_paragraph_last"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "zero-shot",
+          "quote": "if prompted with \"TL;DR\"",
+          "locator": "section_2_paragraph_last"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "performance than GPT-2 (ROUGE2-F=8.27).",
+        "quoted_span": "GPT-2 (ROUGE2-F=8.27)"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "PEGASUS_LARGE (HugeNews)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE2-F",
+          "value": 19.35,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Using only 1000 examples",
+        "locator": "section_6.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "1000 examples",
+          "quote": "Using only 1000 examples",
+          "locator": "section_6.3_paragraph_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Using only 1000 examples, PEGASUS_LARGE achieved ROUGE2-F of 19.35, much higher than the 13.1 obtained in khandelwal2019sample with 3000 examples.",
+        "quoted_span": "achieved ROUGE2-F of 19.35"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Transformer LM (Khandelwal et al.)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 13.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "khandelwal2019sample",
+        "quote": "achieving 13.1 ROUGE-2",
+        "locator": "section_2_paragraph_last"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "3000 examples",
+          "quote": "fine-tuned using 3000 examples",
+          "locator": "section_2_paragraph_last"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "pre-trained a Transformer language model on Wikipedia, and fine-tuned using 3000 examples, achieving 13.1 ROUGE-2.",
+        "quoted_span": "achieving 13.1 ROUGE-2"
+      },
+      "confidence": 0.75
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      4
+    ],
+    "tokens_in": 20268,
+    "tokens_out": 1693,
+    "cost_usd": 0.114932
+  }
+}

@@ -1,0 +1,38 @@
+\section{Introduction}
+
+%%% Andrew:
+%%% Alternative start to the storyline:  Two broad desires in NLP: (1) speed/efficiency, especially now running on web,
+%%% (2) accuracy increases with NNs. Back up both with lovely motivation.  This paper addresses both.
+%%% Replacement for Bi-LSTM, preserving or increasing its accuracy, with 8x-14x speed increases. 
+
+In order to democratize large-scale NLP and information extraction while minimizing our environmental footprint, we require fast, resource-efficient methods for sequence tagging tasks such as part-of-speech tagging and named entity recognition (NER). Speed is not sufficient of course: they must also be expressive enough to tolerate the tremendous lexical variation in input data. 
+
+The massively parallel computation facilitated by GPU hardware has led to a surge of successful neural network architectures for sequence labeling~\citep{ling2015finding,ma2016end,chiu2016named,lample2016neural}. While these models are expressive and accurate, they fail to fully exploit the parallelism opportunities of a GPU, and thus their speed is limited. Specifically, they employ either recurrent neural networks (RNNs) for feature extraction, or Viterbi inference in a structured output model, both of which require sequential computation across the length of the input.
+
+Instead, parallelized runtime independent of the length of the sequence saves time and energy costs, maximizing GPU resource usage and minimizing the amount of time it takes to train and evaluate models. Convolutional neural networks (CNNs) provide exactly this property~\citep{kim2014convolutional,kalchbrenner2014convolutional}. Rather than composing representations incrementally over each token in a sequence, they apply filters in parallel across the entire sequence at once.  Their computational cost grows with the number of layers, but not the input size, up to the memory and threading limitations of the hardware. This provides, for example, audio generation models that can be trained in parallel~\citep{vandenoord2016wavenet}. 
+
+
+
+%In tasks such as NER, inference in a chain-structured graphical model such as a CRF \citep{lafferty2001conditional} can be particularly important for enforcing segment boundary constraints. Though RNNs more effectively leverage the dense-matrix-multiply capabilities of the latest GPU hardware better than the sparse, lexicalized features of their predecessors, they still perform at a minimum $O(n)$ computation in the length $n$ of the sentence, fundamentally limiting their ability to leverage the significant parallelism made available by GPU architectures. More complex models suffer from even worse time complexities: In the case of neural attention \citep{bahdanau2014neural}, computation becomes quadratic in the length of the sentence, and Viterbi inference adds a coefficient quadratic in the number of labels. 
+
+Despite the clear computational advantages of CNNs, RNNs have become the standard method for composing deep representations of text. This is because a token encoded by a bidirectional RNN will incorporate evidence from the entire input sequence, but the CNN's representation is limited by the effective input width\footnote{What we call \emph{effective input width} here is known as the \emph{receptive field} in the vision literature, drawing an analogy to the visual receptive field of a neuron in the retina.} of the network: the size of the input context which is observed, directly or indirectly, by the representation of a token at a given layer in the network. Specifically, in a network composed of a series of stacked convolutional layers of convolution width $w$, the number $r$ of context tokens incorporated into a token's representation at a given layer $l$, is given by $r=l(w-1) + 1$. The number of layers required to incorporate the entire input context grows linearly with the length of the sequence. To avoid this scaling, one could pool representations across the sequence, but this is not appropriate for sequence labeling, since it reduces the output resolution of the representation.
+
+%and adds a dependence on the sequence length to computation time.
+
+
+%, as was recently done for speech generation by \citet{vandenoord2016wavenet}.
+
+%As in dense prediction (e.g. pixel classification, such as image segmentation), in sequence labeling we desire (1) output resolution equal to input resolution and (2) to incorporate broad context into these high-resolution representations in order to perform accurate labeling.
+
+In response, this paper presents an application of~\emph{dilated convolutions} \citep{yu2015multi} for sequence labeling (Figure \ref{dilated-block-fig}). For dilated convolutions, the effective input width can grow exponentially with the depth, with no loss in resolution at each layer and with a modest number of parameters to estimate. Like typical CNN layers, dilated convolutions operate on a sliding window of context over the sequence, but unlike conventional convolutions, the context need not be consecutive; the dilated window skips over every dilation width $d$ inputs. By stacking layers of dilated convolutions of exponentially increasing dilation width, we can expand the size of the effective input width to cover the entire length of most sequences using only a few layers: The size of the effective input width for a token at layer $l$ is now given by $2^{l+1}-1$. More concretely, just four stacked dilated convolutions of width 3 produces token representations with a n effective input width of 31 tokens -- longer than the average sentence length (23) in the Penn TreeBank. 
+
+Our overall \textit{iterated dilated CNN} architecture (ID-CNN) repeatedly applies the same block of dilated convolutions to token-wise representations. This parameter sharing prevents overfitting and also provides opportunities to inject supervision on intermediate activations of the network. Similar to models that use logits produced by an RNN, the ID-CNN provides two methods for performing prediction: we can predict each token's label independently, or by running Viterbi inference in a chain structured graphical model. 
+
+%By incorporating context in this way, achieve accuracy that is competitive with their of accuracy with their more expensive recurrent counterparts.
+\begin{figure}
+\includegraphics[scale=1.0]{dilated-block.pdf}
+\caption{A dilated CNN block with maximum dilation width 4 and filter width 3. Neurons contributing to a single highlighted neuron in the last layer are also highlighted. \label{dilated-block-fig}}
+\end{figure}
+
+In experiments on CoNLL 2003 and OntoNotes 5.0 English NER, we demonstrate significant speed gains of our ID-CNNs over various recurrent models, while maintaining similar F1 performance. When performing prediction using independent classification, the ID-CNN consistently outperforms a bidirectional LSTM (Bi-LSTM), and performs on par with inference in a CRF with logits from a Bi-LSTM (Bi-LSTM-CRF). As an extractor of per-token logits for a CRF, our model out-performs the Bi-LSTM-CRF. We also apply ID-CNNs to entire documents, where independent token classification is as accurate as the Bi-LSTM-CRF while decoding almost 8$\times$ faster. The clear accuracy gains resulting from incorporating broader context suggest that these models could similarly benefit many other context-sensitive NLP tasks which have until now been limited by the computational complexity of existing context-rich models.\footnote{Our implementation in TensorFlow \citep{abadi2015tensorflow} is available at: \url{{https://github.com/iesl/dilated-cnn-ner}}}
+

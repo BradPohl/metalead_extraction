@@ -1,0 +1,3351 @@
+{
+  "paper_id": "1910.13461",
+  "tuples": [
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Comprehension"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD 1.1",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BERT Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 84.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "MNLI",
+        "locator": "row_2_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BERT Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Comprehension"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD 1.1",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Language Model",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Sequence Classification"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 83.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "MNLI",
+        "locator": "row_4_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Language Model",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 24.77,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24.77"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "row_4_col_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Language Model",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 7.87,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.87"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "XSum",
+        "locator": "row_4_col_5"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Language Model",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 12.59,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "ConvAI2",
+        "locator": "row_4_col_6"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Language Model",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 7.06,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.06"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DM",
+        "locator": "row_4_col_7"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Language Model",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Comprehension"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD 1.1",
+        "locator": "row_5_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Seq2seq",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Sequence Classification"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "MNLI",
+        "locator": "row_5_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Seq2seq",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 23.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.40"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "row_5_col_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Seq2seq",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 6.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "XSum",
+        "locator": "row_5_col_5"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Seq2seq",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 11.43,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.43"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "ConvAI2",
+        "locator": "row_5_col_6"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Seq2seq",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 6.19,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DM",
+        "locator": "row_5_col_7"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Masked Seq2seq",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Comprehension"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "76.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD 1.1",
+        "locator": "row_6_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Language Model",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Sequence Classification"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 80.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "MNLI",
+        "locator": "row_6_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Language Model",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 21.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.40"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "row_6_col_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Language Model",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 7.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.00"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "XSum",
+        "locator": "row_6_col_5"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Language Model",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 11.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "ConvAI2",
+        "locator": "row_6_col_6"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Language Model",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 6.56,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.56"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DM",
+        "locator": "row_5_col_7"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Language Model",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "Comprehension"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD 1.1",
+        "locator": "row_7_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Permuted Language Model",
+        "locator": "row_7_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "Sequence Classification"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 83.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "MNLI",
+        "locator": "row_7_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Permuted Language Model",
+        "locator": "row_7_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 24.03,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24.03"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "row_6_col_4"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "PPL",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Permuted Language Model",
+        "locator": "row_7_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 7.6667,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 40.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.42"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Lead-3",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 17.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.62"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Lead-3",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 36.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.67"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Lead-3",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 16.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.30"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Lead-3",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 1.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1.60"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Lead-3",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 11.95,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.95"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Lead-3",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 36.44,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.44"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 15.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "15.66"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 33.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "33.42"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "29.70"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 9.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.21"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_2_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 23.24,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.24"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_2_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 39.53,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.53"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN+COV",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 17.28,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.28"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN+COV",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 36.38,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.38"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_3_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN+COV",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 28.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.10"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_3_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN+COV",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 8.02,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "8.02"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_3_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN+COV",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 21.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.72"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_3_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTGEN+COV",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 43.33,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "43.33"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on two standard summarization datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "UniLM",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq + Attention"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 16.02,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.02"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid F1",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq + Attention"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 35.07,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.07"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid PPL",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best System"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 19.09,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.09"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid F1",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Best System & 19.09",
+        "locator": "row_3_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best System"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 17.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid PPL",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Best System & 17.51",
+        "locator": "row_3_col_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 20.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{20.72}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid F1",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART & \\textbf{20.72}",
+        "locator": "row_4_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 11.85,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{11.85}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid PPL",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART & \\textbf{11.85}",
+        "locator": "row_4_col_3",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 23.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Best Extractive",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 3.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "3.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Best Extractive",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 17.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Best Extractive",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 27.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "27.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Language Model",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 4.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "4.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Language Model",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 23.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Language Model",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Seq2Seq"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 28.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 5.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 22.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "22.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_3_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq Multitask"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 28.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq Multitask",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq Multitask"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 5.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq Multitask",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq Multitask"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 23.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_4_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq Multitask",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 30.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "30.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R1",
+        "locator": "row_5_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 6.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R2",
+        "locator": "row_5_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Abstractive Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE",
+          "value": 24.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "ELI5",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RL",
+        "locator": "row_5_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Baseline"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The performance (BLEU) of baseline and BART on WMT'16 RO-EN augmented with back-translation data.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Baseline",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 1.0,
+      "source_table_id": "tab_9",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.29,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The performance (BLEU) of baseline and BART on WMT'16 RO-EN augmented with back-translation data.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Fixed BART",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 1.0,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 37.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "37.96"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The performance (BLEU) of baseline and BART on WMT'16 RO-EN augmented with back-translation data.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Tuned BART",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1910.13461",
+      "paper_version_confidence": 1.0,
+      "source_table_id": "tab_9"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 10,
+    "n_results_tables_loose": 9,
+    "tables_completed": 9,
+    "calls": 27,
+    "cost_usd": 0.32324064,
+    "tokens_in": 60736,
+    "tokens_out": 79064,
+    "context_pass_cost": 0.006645954999999999
+  }
+}

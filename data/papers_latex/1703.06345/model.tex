@@ -1,0 +1,83 @@
+
+\begin{figure*}[t]
+% \vspace{-0.1in}
+    \centering
+    \subfigure[Base model: both of Char NN and Word NN can be implemented as CNNs or RNNs.]{\label{fig:base}\includegraphics[width=50mm]{figures/base.png}} ~~~~~~~~
+    \subfigure[Transfer model T-A: used for cross-domain transfer where label mapping is possible.]{\label{fig:transfer-1}\includegraphics[width=50mm]{figures/transfer-1.png}}
+\vspace{0.1in}
+    \subfigure[Transfer model T-B: used for cross-domain transfer with disparate label sets, and cross-application transfer.]{\label{fig:transfer-2}\includegraphics[width=50mm]{figures/transfer-2.png}} ~~~~~~~~~~~
+    \subfigure[Transfer model T-C: used for cross-lingual transfer.]{\label{fig:transfer-3}\includegraphics[width=54mm]{figures/transfer-3.png}}
+    \caption{Model architectures: ``Char NN'' denotes character-level neural networks, ``Word NN'' denotes word-level neural networks, ``Char Emb'' and ``Word Emb'' refer to character embeddings and word embeddings respectively.}\label{fig:transfer}
+ \vspace{-0.1in}
+\end{figure*}
+
+\section{Approach}
+
+In this section, we introduce our transfer learning approach. We first introduce an abstract framework for neural sequence tagging, summarizing previous work, and then discuss three different transfer learning architectures.
+
+\subsection{Base Model}
+
+Though many different variants of neural networks have been proposed for the problem of sequence tagging, we find that most of the models can be described with the hierarchical framework illustrated in Figure \ref{fig:base}. A character-level layer takes a sequence of characters (represented as embeddings) as input, and outputs a representation that encodes the morphological information at the character level. A word-level layer subsequently combines the character-level feature representation and a word embedding, and further incorporates the contextual information to output a new feature representation. After two levels of feature extraction (encoding), the feature representation output by the word-level layer is fed to a conditional random field (CRF) layer that outputs the label sequence.
+
+Both of the word-level layer and the character-level layer can be implemented as convolutional neural networks (CNNs) or recurrent neural networks (RNNs) \citep{collobert2011natural,chiu2015named,lample2016neural,ma2016end}. We discuss the details of the model we use in this work in Section \ref{sec:imp}.
+
+\subsection{Transfer Learning Architectures}
+
+We develop three architectures for transfer learning, T-A, T-B, and T-C, are illustrated in Figures \ref{fig:transfer-1}, \ref{fig:transfer-2}, and \ref{fig:transfer-3} respectively. The three architectures are all extensions of the base model discussed in the previous section with different parameter sharing schemes. We now discuss the use cases for the different architectures.
+
+\subsubsection{Cross-Domain Transfer}
+
+Since different domains are ``sub-languages'' that have domain-specific regularities, sequence taggers trained on one domain might not have optimal performance on another domain. The goal of cross-domain transfer is to learn a sequence tagger that transfers knowledge from a source domain to a target domain. We assume that few labels are available in the target domain.
+
+There are two cases of cross-domain transfer. The two domains can have label sets that can be mapped to each other, or disparate label sets. For example, POS tags in the Genia biomedical corpus can be mapped to Penn Treebank tags \citep{barrett2014token}, while some POS tags in Twitter (e.g., ``URL'') cannot be mapped to Penn Treebank tags \citep{ritter2011named}.
+
+If the two domains have mappable label sets, we share all the model parameters and feature representation in the neural networks, including the word and character embedding, the word-level layer, the character-level layer, and the CRF layer. We perform a label mapping step on top of the CRF layer. This becomes the model T-A as shown in Figure \ref{fig:transfer-1}.
+
+If the two domains have disparate label sets, we untie the parameter sharing in the CRF layer---i.e., each task learns a separate CRF layer. This parameter sharing scheme reduces to model T-B as shown in Figure \ref{fig:transfer-2}.
+
+\subsubsection{Cross-Application Transfer}
+
+Sequence tagging has a couple of applications including POS tagging, chunking, and named entity recognition. Similar to the motivation in \citep{collobert2011natural}, it is usually desirable to exploit the underlying similarities and regularities of different applications, and improve the performance of one application via joint training with another. Moreover, transfer between multiple applications can be helpful when the labels are limited.
+
+% Our neural architecture for cross-application transfer learning. 
+In the cross-application setting, we assume that multiple applications are in the same language. Since different applications share the same alphabet, the case is similar to cross-domain transfer with disparate label sets. We adopt the architecture of model T-B for cross-application transfer learning where only the CRF layers are disjoint for different applications.
+
+\subsubsection{Cross-Lingual Transfer}
+
+Though cross-lingual transfer is usually accomplished with additional multi-lingual resources, these methods are sensitive to the size and quality of the additional resources \citep{yarowsky2001inducing,wang2013cross}. In this work, instead, we explore a complementary method that exploits the cross-lingual regularities purely on the model level.
+
+Our approach focuses on transfer learning between languages with similar alphabets, such as English and Spanish, since it is very difficult for transfer learning between languages with disparate alphabets (e.g., English and Chinese) to work without additional resources \citep{zirikly2cross}.
+
+Model-level transfer learning is achieved through exploiting the morphologies shared by the two languages. For example, ``Canada'' in English and ``Canad\'{a}'' in Spanish refer to the same named entity, and the morphological similarities can be leveraged for NER and also POS tagging with nouns. Thus we share the character embeddings and the character-level layer between different languages for transfer learning, which is illustrated as the model T-C in Figure \ref{fig:transfer-3}.
+
+\subsection{Training}
+
+In the above sections, we introduced three neural architectures with different parameter sharing schemes, designed for different transfer learning settings. Now we describe how we train the neural networks jointly for two tasks.
+
+Suppose we are transferring from a source task $s$ to a target task $t$, with the training instances being $X_s$ and $X_t$. Let $W_s$ and $W_t$ denote the set of model parameters for the source and target tasks respectively. The model parameters are divided into two sets, \textit{task specific parameters} and \textit{shared parameters}, i.e.,
+\[
+W_s = W_{s, \mbox{spec}} \cup W_{\mbox{shared}}, W_t = W_{t, \mbox{spec}} \cup W_{\mbox{shared}},
+\]
+where shared parameters $W_{\mbox{shared}}$ are jointly optimized by the two tasks, while task specific parameters $W_{s, \mbox{spec}}$ and $W_{t, \mbox{spec}}$ are trained for each task separately.
+
+The training procedure is as follows. At each iteration, we sample a task (i.e., either $s$ or $t$) from $\{s, t\}$ based on a binomial distribution (the binomial probability is set as a hyperparameter). Given the sampled task, we sample a batch of training instances from the given task, and then perform a gradient update according to the loss function of the given task. We update both the shared parameters and the task specific parameters. We repeat the above iterations until stopping. We adopt AdaGrad \citep{duchi2011adaptive} to dynamically compute the learning rates for each iteration. Since the source and target tasks might have different convergence rates, we do early stopping on the target task performance.
+
+\subsection{Model Implementation} \label{sec:imp}
+
+In this section, we describe our implementation of the base model. Both the character-level and word-level neural networks are implemented as RNNs. More specifically, we employ gated recurrent units (GRUs) \citep{cho2014properties}. Let $(\mathbf{x}_1, \mathbf{x}_2, \cdots, \mathbf{x}_T)$ be a sequence of inputs that can be embeddings or hidden states of other layers. Let $\mathbf{h}_t$ be the GRU hidden state at time step $t$. Formally, a GRU unit at time step $t$ can be expressed as
+\begin{eqnarray*}
+\mathbf{r}_t &=& \sigma(W_{rx} \mathbf{x}_t + W_{rh} \mathbf{h}_{t - 1}) \\
+\mathbf{z}_t &=& \sigma(W_{zx} \mathbf{x}_t + W_{zh} \mathbf{h}_{t - 1}) \\
+\tilde{\mathbf{h}}_t &=& \tanh(W_{hx} \mathbf{x}_t + W_{hh} (\mathbf{r}_t \odot \mathbf{h}_{t - 1})) \\
+\mathbf{h}_t &=& \mathbf{z}_t \odot \mathbf{h}_{t- 1} + (1 - \mathbf{z}_t) \odot \tilde{\mathbf{h}}_t,
+\end{eqnarray*}
+where $W$'s are model parameters of each unit, $\tilde{\mathbf{h}}_t$ is a candidate hidden state that is used to compute $\mathbf{h}_t$, $\sigma$ is an element-wise sigmoid logistic function defined as $\sigma(\mathbf{x}) = 1 / (1 + e^{- \mathbf{x}})$, and $\odot$ denotes element-wise multiplication of two vectors. Intuitively, the update gate $\mathbf{z}_t$ controls how much the unit updates its hidden state, and the reset gate $\mathbf{r}_t$ determines how much information from the previous hidden state needs to be reset. The input to the character-level GRUs is character embeddings, while the input to the word-level GRUs is the concatenation of character-level GRU hidden states and word embeddings. Both GRUs are bi-directional and have two layers.
+
+Given an input sequence of words, the word-level GRUs and the character-level GRUs together learn a feature representation $\mathbf{h}_t$ for the $t$-th word in the sequence, which forms a sequence $\mathbf{h} = (\mathbf{h}_1, \mathbf{h}_2, \cdots, \mathbf{h}_T)$. Let $\mathbf\mathbf{y} = (y_1, y_2, \cdots, y_T)$ denote the tag sequence. Given the feature representation $\mathbf{h}$ and the tag sequence $\mathbf{y}$ for each training instance, the CRF layer defines the objective function to maximize based on a max-margin principle \citep{gimpel2010softmax} as:
+\[
+f(\mathbf{h}, \mathbf{y}) - \log \sum_{\mathbf{y}' \in \mathcal{Y}(\mathbf{h})} \exp (f(\mathbf{h}, \mathbf{y}') + \mbox{cost} (\mathbf{y}, \mathbf{y}')),
+\]
+where $f$ is a function that assigns a score for each pair of $\mathbf{h}$ and $\mathbf{y}$, and $\mathcal{Y}(\mathbf{h})$ denotes the space of tag sequences for $\mathbf{h}$. The cost function $\mbox{cost}(\mathbf{y}, \mathbf{y}')$ is added based on the max-margin principle \citep{gimpel2010softmax} that high-cost tags $\mathbf{y}'$ should be penalized more heavily.
+
+Our base model is similar to \cite{lample2016neural}, but in contrast to their model, we employ GRUs for the character-level and word-level networks instead of Long Short-Term Memory (LSTM) units, and define the objective function based on the max-margin principle. We note that our transfer learning framework does not make assumptions about specific model implementation, and could be applied to other neural architectures \citep{collobert2011natural,chiu2015named,lample2016neural,ma2016end} as well.
+

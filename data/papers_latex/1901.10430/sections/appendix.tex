@@ -1,0 +1,88 @@
+
+
+\section{Comparison of softmax-normalization to alternatives}
+\label{app:smnorm}
+
+We compare our proposed softmax-normalization of weights to other alternatives in Table~\ref{tab:ablation_softmax}. 
+For each setting, we use three seeds and report the mean and the standard deviation of the BLEU score on WMT English-German newstest2013. 
+The softmax and norms are computed over the kernel dimension. 
+Simply using the absolute value of the weights or squaring them does not make the training more stable, which shows that having all non-negative weights is not critical. 
+Dividing the weights by the $\ell_2$-norm or bounding the weights with sigmoid or the hyperbolic tangent function also stablizes the training procedure; however, the softmax-normalization performs best.
+
+\begin{table*}[h]
+\centering
+\setlength\extrarowheight{5pt}
+\begin{tabular}{lr}
+\toprule
+Method & BLEU \\
+\midrule
+$\emW$ (No normalization) &  diverges \\
+$\softmax (\emW)$ & 26.9 $\pm$ 0.2 \\
+$\sigmoid (\emW)$ & 26.6 $\pm$ 0.3 \\
+$\tanh (\emW)$ & 25.6 $\pm$ 0.2 \\
+$\frac{\emW}{\lVert \emW \rVert_1 + \epsilon}$ & diverges \\
+$\frac{\emW}{\lVert \emW \rVert_2 + \epsilon}$ & 26.8 $\pm$ 0.2 \\
+$ \text{power} (\emW, 2) $ & diverges \\
+$\text{abs} (\emW)$ & diverges \\
+$\frac{\text{abs} (\emW)}{\lVert \emW \rVert_1 + \epsilon}$ & diverges \\
+$\frac{\text{abs} (\emW)}{\lVert \emW \rVert_2 + \epsilon}$ & 26.7 $\pm$ 0.2 \\
+\bottomrule
+\end{tabular}
+\caption{Alternatives to softmax-normalization in \tvsdconv{} on WMT English-German newstest2013 ($\epsilon= 10^{-6}$).}
+\label{tab:ablation_softmax}
+\end{table*}
+
+
+\section{On the current state of non-autoregressive generation}
+
+\begin{table*}[h]
+\small
+\centering
+\resizebox{\textwidth}{!}{  
+\begin{tabular}{ l c r r r}
+\toprule
+Model (batch size = 1, beam size = 1) & Param & BLEU & Sent/sec & Tok/sec \\
+\midrule
+NAT (+ FT) \citep{gu2018nonautoregressive} & - & 17.7 & 25.6 & - \\
+NAT (+ FT + NPD=10) \citep{gu2018nonautoregressive} & - & 18.7 & 12.7 & - \\
+NAT (+ FT + NPD=100) \citep{gu2018nonautoregressive} & - & 19.2 & 3.9 & - \\
+LT, Improved Semhash \citep{kaiser2018fastdecoding} &- & 19.8 & 9.5 & - \\
+\midrule
+IR $i_{dec} = 1$ \citep{lee2018deterministic} & - & 13.9 & - & 511.4 \\
+IR $i_{dec} = 2$ \citep{lee2018deterministic} & - & 17.0 & - & 393.6 \\
+IR $i_{dec} = 5$ \citep{lee2018deterministic} & - & 20.3 & - & 139.7 \\
+IR $i_{dec} = 10$ \citep{lee2018deterministic} & - & 21.6 & - & 90.4 \\
+IR Adaptive \citep{lee2018deterministic} & - & 21.5 & - & 107.2 \\
+\midrule
+NART w/ hints \citep{li2019hintbased} & - & 21.1 & 38.5 & - \\
+NART w/ hints ($B=4$, 9 candidates) \citep{li2019hintbased} & - & 25.2 & 22.7 & - \\
+\midrule
+ENAT Embedding Mapping \citep{guo2018non} & - & 20.7 & 41.7 & - \\
+\multirow{2}{*}{\shortstack[l]{ENAT Embedding Mapping (rescoring 9 candidates) \\ \citep{guo2018non}}} & \multirow{2}{*}{-} & \multirow{2}{*}{24.3} & \multirow{2}{*}{20.4} &  \multirow{2}{*}{-} \\
+\\
+\midrule
+Autoregressive \citep{gu2018nonautoregressive} & - & 22.7 & 2.5 & - \\ 
+Autoregressive \citep{lee2018deterministic} & - & 23.8 & - & 54.0 \\ 
+Transformer \citep{li2019hintbased} & - & 27.3 & 1.3 & - \\ 
+Transformer \citep{guo2018non} & - & 27.4 & 1.6 & - \\ 
+\midrule
+\tvsdconv{} (1-decoder layer (k=31)) & 124M & 26.1 & 15.2 & 423.0   \\
+\tvsdconv{} (3-decoder layers (k=3,7,15)) & 153M & 27.7 & 7.2 & 202.3   \\
+\tvsdconv{} (6-decoder layers (k=3,7,15,31,31,31)) & 200M & 28.5 & 3.9 & 110.9  \\
+\bottomrule
+\end{tabular}
+}
+\caption{Inference speed of non-autoregressive models and small decoder versions of \tvsdconv{} on WMT English-German newstest2014. For some models, the decoding speed (sent/sec) is derived by taking the inverse of the sentence generation latency in the literature.}
+\label{tab:smalldec}
+\end{table*}
+
+In this section we compare \tvsdconv{} to current non-autoregressive models in the literature. 
+We measured generation speed for \tvsdconv{} on a P100 GPU using batch size one to be comparable with other results.
+Results in the literature are based on either NVIDIA GTX-1080 GPUs or P100 GPUs. 
+The effects of different GPU types is likely negligible because GPUs are vastly underutilized with batch size one.
+
+Table~\ref{tab:smalldec} shows that \tvsdconv{} with a single decoder layer outperforms all previously reported non-autoregressive results both in terms of speed as well as accuracy.
+Only two non-autoregressive concurrent efforts \citep{guo2018non,li2019hintbased} achieve a speedup over \tvsdconv{} with a small drop in BLEU.
+Notably, both \citet{guo2018non} and \citet{li2019hintbased} distill autoregressive models into non-autoregressive models \citep{hinton2015distilling}, in order to improve their results.
+% Thus, a larger gap of BLEU score may exist if the auto-regressive models are also trained with the knowledge distillation method.
+

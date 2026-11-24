@@ -1,0 +1,188 @@
+\section{Introduction}
+
+Automatic summarization is one of the central problems in Natural
+Language Processing (NLP) posing several challenges relating to {\em
+  understanding} (i.e.,~identifying important content) and {\em
+  generation} (i.e.,~aggregating and rewording the identified
+content into a summary). Of the many summarization paradigms that have
+been identified over the years (see \citeauthor{mani2001automatic},
+\citeyear{mani2001automatic} and \citeauthor{Nenkova:McKeown:2011},
+\citeyear{Nenkova:McKeown:2011} for a comprehensive overview),
+single-document summarization has consistently attracted attention
+\cite{jp-acl16,durrett-nyt-ext,nallapati-signll16,nallapati17,see-acl17,tanwan-acl17,narayan-arxiv17,Fan2017Controllable,paulus-socher-arxiv17,Pasunuru-multireward18,asli-multiagent18,narayan-sidenet18,narayan-rank18}.
+
+
+\begin{figure}[t!]
+  \center{\fontsize{10}{12}\selectfont % \footnotesize % \small % scriptsize % footnotesize
+    \begin{tabular}{ p{7.2cm} }
+      \thickhline
+      
+     % \vspace{0.01cm}
+      
+      \textbf{\textsc{Summary:}} \emph{\textcolor{orangered}{A man and
+          a child have been killed} after a \textcolor{sepia}{light}
+        \textcolor{forestgreen}{aircraft made an emergency landing} on
+        \textcolor{midnightblue}{a beach in Portugal}.}  
+       \\ \thickhline
+      
+      \textbf{\textsc{Document:}} Authorities said the incident took place on \textcolor{midnightblue}{Sao Joao beach in Caparica, south-west of Lisbon}. \\ 
+
+      The National Maritime Authority said \textcolor{orangered}{a middle-aged man and a young girl died} after they were unable to avoid the plane. \\
+      
+      [{\em 6 sentences with 139 words are abbreviated from here.}] \\
+      
+      % The plane's only two occupants were unharmed, it added. \\
+
+      % The Diario de Noticias newspaper quoted an eyewitness who said the plane had been flying at a low altitude over the beach, although he did not realise anything was wrong until other beachgoers began running. \\
+
+      % One young witness told Reuters news agency: "I was near the water when I saw the plane. I called my parents, the plane fell on the sand and ran over two people, fatally hurting them and another was injured, I think, but I'm not sure, people were running away. \\
+
+      % "The plane is still there, but the ambulances arrived quickly. I think maybe the fuel ran out because I find it weird that it landed on the beach." \\
+
+      Other reports said the victims had been sunbathing when \textcolor{forestgreen}{the plane made its emergency landing}. \\
+
+      [{\em Another 4 sentences with 67 words are abbreviated from here.}] \\
+
+      % The Associated Press news agency said the girl who died had been with her parents, who were unhurt. The agency quoted witnesses from local television broadcasts. \\
+
+      % Joao Quadros, who was on the beach, tweeted photos of the aftermath, saying the plane had passed by his son by a matter of metres. There had been no noise, he said. \\ 
+
+      Video footage from the scene carried by local broadcasters showed \textcolor{sepia}{a small recreational plane} parked on the sand, apparently intact and surrounded by beachgoers and emergency workers. % One wing seemed to be misaligned in those photos.
+      \\
+
+      % The cause of the emergency landing remains unclear.
+      % \\
+        
+      [{\em Last 2 sentences with 19 words are abbreviated.}] \\
+      
+      \thickhline
+    \end{tabular}     
+  }
+  \caption{An abridged example from our extreme summarization dataset
+    showing the document and its one-line summary. Document content
+    present in the summary is color-coded.
+    %The summary exemplifies across-the-document reasoning to identify important content and 
+    %multiple levels of abstraction such as sentence fusion % ,
+                                                           % synthesis
+    %and paraphrasing. 
+    % Title: Two killed in Portugal beach plane crash
+    % url: http://www.bbc.co.uk/news/world-europe-40806376
+  }\label{fig:bbcex-1}
+\end{figure}
+
+Neural approaches to NLP and their ability to learn continuous
+features without recourse to pre-processing tools or linguistic
+annotations have driven the development of large-scale document
+summarization datasets
+\cite{nytcorpus,hermann-nips15,newsroom-naacl18}.
+% and their \shaycomment{ability of what? approach? neural networks? grammatically confusing}
+% ability to learn continuous features
+% without recourse to preprocessing tools or linguistic annotations has
+% driven the development and use of large scale single document
+% summarization datasets
+% \cite{nytcorpus,hermann-nips15,newsroom-naacl18}.
+However, these datasets often favor extractive models which create a
+summary by identifying (and subsequently concatenating) the most
+important sentences in a document
+\cite{jp-acl16,nallapati17,narayan-rank18}.  Abstractive approaches,
+despite being more faithful to the actual summarization task, either
+lag behind extractive ones or are mostly extractive, exhibiting a
+small degree of abstraction
+\cite{see-acl17,tanwan-acl17,paulus-socher-arxiv17,Pasunuru-multireward18,asli-multiagent18}.
+
+
+In this paper we introduce \emph{extreme summarization}, a new
+single-document summarization task which is not amenable to extractive
+strategies and requires an abstractive modeling approach. The idea is
+to create a short, one-sentence news summary answering the question
+``What is the article about?''. An example of a document and its
+extreme summary are shown in Figure~\ref{fig:bbcex-1}. As can be seen,
+the summary is very different from a headline whose aim is to
+encourage readers to read the story; it draws on information
+interspersed in various parts of the document (not only the beginning)
+and displays multiple levels of abstraction including paraphrasing,
+fusion, synthesis, and inference. We build a dataset for the proposed
+task by harvesting online articles from the British Broadcasting
+Corporation (BBC) that often include a first-sentence summary.
+%answering ``What is the article about?''  Extreme summarization aims
+%at generating the first sentence from the rest of the article.
+
+
+
+
+
+%address the issue of this ``extractive bias''.  We
+%introduce a new single document summarization task, ``extreme
+%summarization,'' which does not favor extractive strategies and
+%essentially requires abstractive summarization. 
+
+%Figure~\ref{fig:bbcex-1} shows an example article
+%from our dataset. Information to assemble the summary comes from
+%different depths of the document demanding multiple levels of
+%abstractions including paraphrasing, fusion, synthesis and
+%inference. By the virtue of this task, it presents more challenges
+%than extractive summarization while upholding the important
+%characteristics of NLP and document summarization.
+
+
+We further propose a novel deep learning model which we argue is
+well-suited to the extreme summarization task. Unlike most existing
+abstractive approaches
+\cite{rush-acl15,chenIjcai-16,nallapati-signll16,see-acl17,tanwan-acl17,paulus-socher-arxiv17,Pasunuru-multireward18,asli-multiagent18}
+which rely on an encoder-decoder architecture modeled by recurrent
+neural networks (RNNs), we present a \emph{topic-conditioned} neural
+model which is based entirely on convolutional neural networks
+\cite{convseq2seq}. Convolution layers capture long-range
+dependencies between words in the document more effectively compared to
+RNNs, allowing to perform document-level inference, abstraction, and
+paraphrasing.  Our convolutional encoder associates each word with a
+topic vector capturing whether it is representative of the document's
+content, while our convolutional decoder conditions each word
+prediction on a document topic vector.
+
+
+%and that are prone to mishandling long-range
+%dependencies, we present a topic-conditioned convolutional
+%sequence-to-sequence which allows document-level inference,
+%abstraction and paraphrasing.  
+%
+%Our models adapts an architecture based
+%entirely on convolutional neural networks (\textsc{ConvS2S},
+%\citeauthor{convseq2seq}, \citeyear{convseq2seq}). We stack
+%convolution layers to model long-range dependencies between words in
+%the document effectively; they provide a shorter path to capture
+%relationship between distant words in the document compared to RNNs.
+
+
+
+% words at closer distances interact at lower layers while distant
+% words interact at higher layers.
+%In addition, we improve the convolutional
+%encoder by associating each word with a topic vector capturing ``how
+%topical is a word in the document?'' and the convolutional decoder by
+%conditioning each word prediction on the document topic vector.
+
+
+Experimental results show that when evaluated automatically (in terms
+of ROUGE) our topic-aware convolutional model outperforms an oracle
+extractive system and state-of-the-art RNN-based abstractive
+systems. We also conduct two human evaluations in order to assess (a)
+which type of summary participants prefer and (b) how much key
+information from the document is preserved in the summary. Both
+evaluations overwhelmingly show that human subjects find our summaries
+more informative and complete. Our contributions in this work are
+three-fold: a new single document summarization dataset that
+encourages the development of abstractive systems; corroborated by
+analysis and empirical results showing that extractive approaches are
+not well-suited to the extreme summarization task; and a novel
+topic-aware convolutional sequence-to-sequence model for abstractive
+summarization.
+%and an additional novel topic-conditioned model for summarization
+%(also based on convolutional seq2seq modeling).
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "extreme-sum"
+%%% End:
+

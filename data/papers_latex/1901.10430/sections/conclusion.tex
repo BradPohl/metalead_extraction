@@ -1,0 +1,14 @@
+
+We presented \sdconvfull{}s which perform competitively to the best reported results in the literature despite their simplicity. 
+They have a very small parameter footprint and the kernel does not change over time-steps. 
+This demonstrates that self-attention is not critical to achieve good accuracy on the language tasks we considered.
+
+\Tvsdconvfull{}s build on \sdconvfull{}s by predicting a different kernel at every time-step, similar to the attention weights computed by self-attention. 
+The dynamic weights are a function of the current time-step only rather than the entire context.
+
+Our experiments show that \sdconvfull{}s can outperform a strong self-attention baseline on WMT'17 Chinese-English translation, \iwslt{}'14 German-English translation and \cnndm{} summarization. 
+\Tvsdconvfull{}s improve further and achieve a new state of the art on the test set of WMT'14 English-German.
+Both \sdconvfull{} and \tvsdconvfull{} are 20\% faster at runtime than self-attention.
+On \gbw{} language modeling we achieve comparable results to self-attention.
+
+We are excited about the future of dynamic convolutions and plan to apply them to other tasks such as question answering and computer vision where inputs are even larger than the tasks we considered in this paper.

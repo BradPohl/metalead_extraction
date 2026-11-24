@@ -1,0 +1,53 @@
+\begin{table*}[htb!]
+  \scriptsize
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{ccccccccc}
+    \hline
+    \multicolumn{9}{c}{\textbf{Pre-training (default unless otherwise specified in section \ref{sec:experiments})}} \\\hline
+    Model & \makecell{Learning \\ rate} & \makecell{Label \\ smoothing} & Num of steps & Batch size & Objective & Corpus & \makecell{Max input\\tokens} & \makecell{Max target\\tokens}\\\hline
+    $\text{PEGASUS}_{\text{BASE}}$      & 0.1 & 0.0 & 500k & 256    & Ind-Orig & c4 & 512 & 256 \\
+    $\text{PEGASUS}_{\text{LARGE}}$     & 0.1 & 0.0 & 500k & 8192   & Ind-Orig & c4 or \gnews & 512 & 256 \\\hline
+    \multicolumn{9}{c}{\textbf{Fine-tuning of $\text{PEGASUS}_{\text{BASE}}$ in Figure \ref{fig:exp_copora}, \ref{fig:exp_gsg}, \ref{fig:exp_vocab},  \ref{fig:exp_pre-training_steps} and Table \ref{tab:large_model}}} \\\hline
+    Dataset & \makecell{Learning \\ rate} & \makecell{Label \\ smoothing} & Num of steps & Batch size & Beam size & Beam alpha & \makecell{Max input\\tokens} & \makecell{Max target\\tokens}\\\hline
+    XSum            & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 64 \\
+    CNN/DailyMail   & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 128 \\
+    NEWSROOM        & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 128 \\
+    Multi-News      & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 256 \\
+    WikiHow         & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 256 \\
+    Reddit TIFU     & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 128 \\
+    BIGPATENT       & 0.01 & 0.1 & 300k & 256 & 1 & - & 512 & 256 \\
+    arXiv           & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 256 \\
+    PubMed          & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 256 \\
+    Gigaword        & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 128 & 32 \\
+    AESLC           & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 32 \\
+    BillSum         & 5e-4 & 0.1 & 50k  & 256 & 1 & - & 512 & 256 \\\hline
+    \multicolumn{9}{c}{\textbf{\transformerbase in Table \ref{tab:large_model}}} \\\hline
+    Dataset & \makecell{Learning \\ rate} & \makecell{Label \\ smoothing} & Num of steps & Batch size & Beam size & Beam alpha & \makecell{Max input\\tokens} & \makecell{Max target\\tokens}\\\hline
+    BIGPATENT   & 0.01 & 0.1 & 300k & 256 & 1 & - & 512 & 256 \\
+    AESLC       & 5e-4 & 0.1 & 300k & 256 & 1 & - & 512 & 32 \\
+    Others      & 5e-3 & 0.1 & 300k & 256 & 1 & - & \multicolumn{2}{c}{Same as $\text{PEGASUS}_{\text{BASE}}$}  \\ \hline
+    \multicolumn{9}{c}{\textbf{Fine-tuning of $\text{PEGASUS}_{\text{LARGE}}$ in Table \ref{tab:large_model} and \ref{tab:large_model_selected}}} \\\hline
+    Dataset & \makecell{Learning \\ rate} & \makecell{Label \\ smoothing} & Num of steps & Batch size & Beam size & Beam alpha & \makecell{Max input\\tokens} & \makecell{Max target\\tokens}\\\hline
+    XSum(C4)            & 1e-4  & 0.1 & 130k     & 256   & 8 & 0.8   & 512   & 64    \\
+    XSum(\gnews)            & 1e-4  & 0.1 & 80k     & 256   & 8 & 0.8   & 512   & 64    \\
+    CNN/DailyMail(C4)   & 5e-5  & 0.1 & 220k    & 256   & 8 & 0.8   & 1024   & 128   \\
+    CNN/DailyMail(\gnews)   & 5e-5  & 0.1 & 170k    & 256   & 8 & 0.9   & 1024   & 128   \\
+    NEWSROOM        & 4e-4  & 0.1 & 104k    & 256   & 8 & 0.8     & 512   & 128   \\
+    Multi-News      & 5e-5  & 0.1 & 80k     & 256   & 8 & 0.9   & 1024   & 256   \\
+    WikiHow         & 8e-4  & 0.1 & 50k     & 256   & 8 & 0.6   & 512   & 256   \\
+    Reddit TIFU     & 1e-4  & 0.1 & 12k     & 256   & 8 & 0.6   & 512   & 128   \\
+    BIGPATENT       & 5e-3  & 0.1 & 300k    & 256   & 8 & 0.7     & 1024  & 256   \\
+    arXiv           & 8e-4  & 0.1 & 74k     & 256   & 8 & 0.8   & 1024  & 256   \\
+    PubMed          & 2e-4  & 0.1 & 100k    & 256   & 8 & 0.8   & 1024  & 256   \\
+    Gigaword        & 8e-4  & 0.1 & 90k     & 256   & 8 & 0.6   & 128   & 32    \\
+    AESLC           & 2e-4  & 0.1 & 16k     & 256   & 8 & 0.6   & 512   & 32    \\
+    BillSum         & 2e-4  & 0.1 & 100k    & 256   & 8 & 0.8   & 1024  & 256   \\\hline
+    \multicolumn{9}{c}{\textbf{Fine-tuning of $\text{PEGASUS}_{\text{LARGE}}$ in Figure~\ref{fig:low_resource} }}\\\hline
+    Dataset & \makecell{Learning \\ rate} & \makecell{Label \\ smoothing} & Num of steps & Batch size & Beam size & Beam alpha & \makecell{Max input\\tokens} & \makecell{Max target\\tokens}\\\hline
+    all   & 5e-4 & 0.1 & 2k & 256 & 1 & - & \multicolumn{2}{c}{Same as $\text{PEGASUS}_{\text{BASE}}$} \\\hline
+  \end{tabular}
+  \caption{Hyperparamters of the pre-training and fine-tuning stages reported in section \ref{sec:experiments}. The hyperparameters of fine-tuning $\text{PEGASUS}_{\text{LARGE}}$ were decided by grid search while others were decided by empirically default commonly used values. Max input/target tokens correspond to $L_{input}$ and $L_{target}$ in Section~\ref{sec:experiments}.
+  }
+  \label{tab:hyperparamters}
+\end{table*}

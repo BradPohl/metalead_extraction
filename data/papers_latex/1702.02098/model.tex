@@ -1,0 +1,48 @@
+\section{Iterated Dilated CNNs}
+\label{blocks-section}
+Stacked dilated CNNs can easily incorporate global information from a whole sentence or document. For example, with a radius of 1 and 4 layers of dilated convolutions, the effective input width of each token is width 31, which exceeds the average sentence length (23) in the Penn TreeBank corpus. With a radius of size 2 and 8 layers of dilated convolutions, the effective input width exceeds 1,000 tokens, long enough to encode a full newswire document.
+
+Unfortunately, simply increasing the depth of stacked dilated CNNs causes considerable over-fitting in our experiments. In response, we present Iterated Dilated CNNs (ID-CNNs), which instead apply the same small stack of dilated convolutions multiple times, each iterate taking as input the result of the last application. Repeatedly employing the same parameters in a recurrent fashion provides both broad effective input width and desirable generalization capabilities. We also obtain significant accuracy gains with a training objective that strives for accurate labeling after each iterate, allowing follow-on iterations to observe and resolve dependency violations.
+
+%Sharing parameters in this way allows us to incorporate a large context window into our token representations without vastly increasing the number of parameters of our model. We describe our model in more detail in Section \ref{model-section}. In addition to this architectural change, we found dropout with expectation-linear regularization \citep{ma2017dropout}, described in more detail in Section \ref{drop-regularizer}, a vital addition to our training objective.
+
+\subsection{Model Architecture\label{model-section}}
+The network takes as input a sequence of $T$ vectors ${\bf x_t}$, and outputs a sequence of per-class scores ${\bf h_t}$, which serve either as the local conditional distributions of Eqn.~\eqref{eq:cond-ind} or the local factors $\psi_t$ of Eqn.~\eqref{eq:crf}. 
+
+%%% Andrew:
+%%% Make any novelty in the modeling (no matter how small) clear up front
+
+%Our model is a neural network made up of several convolutional layers, possibly repeated. Final token labeling is performed either by linear classification, as in \citet{collobert2011natural}, or by a linear-chain CRF, as was used, for example, in some of the experiments in \citet{lample2016neural}  and \citet{collobert2011natural}. 
+
+We denote the $j$th dilated convolutional layer of dilation width $\delta$ as $D_\delta^{(j)}$. The first layer in the network is a dilation-1 convolution $D_1^{(0)}$ that transforms the input to a representation ${\bf i_t}$:
+\begin{align}
+{\bf i_t} = D_1^{(0)}{\bf x_t}
+\end{align}
+Next, $L_c$ layers of dilated convolutions of exponentially increasing dilation width are applied to ${\bf i_t}$, folding in increasingly broader context into the embedded representation of ${\bf x_t}$ at each layer. Let $r()$ denote the ReLU activation function \citep{glorot2011deep}. Beginning with ${\bf c_t}^{(0)} = {\bf i_t}$ we define the stack of layers with the following recurrence:
+\begin{align}
+%{\bf c_t}^{(1)} &= r\left(D_1^{(2)}{\bf i_t}\right) \nonumber \\
+%{\bf c_t}^{(2)} &= r\left(D_2^{(1)}{\bf c_t}^{(1)}\right) \nonumber \\
+%{\bf c_t}^{(3)} &= r\left(D_4^{(1)}{\bf c_t}^{(2)}\right) \nonumber \\
+%&\mathrel{\makebox[\widthof{=}]{\vdots}} \nonumber \\
+{\bf c_t}^{(j)} &= r\left(D_{2^{L_c-1}}^{(j-1)}{\bf c_t}^{(j-1)}\right)
+\end{align}
+and add a final dilation-1 layer to the stack:
+\begin{align}
+{\bf c_t}^{(L_c+1)} &= r\left(D_1^{(L_c)}{\bf c_t}^{(L_c)}\right)
+\end{align}
+We refer to this stack of dilated convolutions as a \emph{block} $B(\cdot)$, which has output resolution equal to its input resolution. To incorporate even broader context without over-fitting, we avoid making $B$ deeper, and instead iteratively apply $B$ $L_b$ times, introducing no extra parameters. Starting with ${\bf b_t}^{(1)} = B\left({\bf i_t}\right)$:
+\begin{align}
+%{\bf b_t}^{(1)} &= B\left({\bf i_t}\right) \nonumber \\
+%{\bf b_t}^{(2)} &= B\left({\bf b_t}^{(1)}\right) \nonumber \\
+%&\mathrel{\makebox[\widthof{=}]{\vdots}} \nonumber \\
+{\bf b_t}^{(k)} &= B\left({\bf b_t}^{(k-1)} \right)
+\label{block-eqn}
+\end{align}
+We apply a simple affine transformation $W_o$ to this final representation to obtain per-class scores for each token ${\bf x_t}$:
+\begin{align}
+{\bf h_t}^{(L_b)} = W_o{\bf b_t}^{(L_b)}
+\label{outputs-eqn}
+\end{align}
+
+
+%Note that unlike other convolutional models of text such as that described in \citet{collobert2011natural}, we never reduce the resolution of our representations by pooling or striding: we maintain a distinct representation of each token at each layer of the network, making our model especially suited to fine-grained tasks, such as sequence labeling. 

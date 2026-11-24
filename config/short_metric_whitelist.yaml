@@ -1,0 +1,34 @@
+# v6e short-metric whitelist — metric canonical heads of length < 3 that are
+# allowed to substring-anchor against qualified forms (e.g. "F1" ↔
+# "entity-level F1", "IS" ↔ "inception score").
+#
+# Rules:
+#   - Each entry is a lowercase canonical head.
+#   - A head matches against a qualified form iff the head appears in the
+#     longer form bounded by non-alphanumeric characters (or string boundaries).
+#   - Provenance line names where the short head shows up in v4l / v6a / v6b /
+#     MetaLead gold.
+
+short_metrics:
+  - f1       # v6a/v6b on 2105.03654 emit "entity-level F1"; gold "F1"
+  - is       # Inception Score; v4l arms sometimes emit "IS" alone
+  - ap       # Average Precision; v4l image arms occasionally emit "AP"
+  - em       # Exact Match; used across QA benchmarks
+  - iou      # Intersection-over-Union; segmentation
+  - map      # mean Average Precision; info retrieval
+  - cer      # Character Error Rate; ASR
+  - wer      # Word Error Rate; ASR
+  - ppl      # Perplexity; LM
+  - acc      # Accuracy shorthand; some arms emit "ACC"
+  - auc      # Area under ROC
+  - nll      # Negative log-likelihood
+  - roc      # ROC-AUC
+  - pr       # Precision-recall
+  - mrr      # Mean reciprocal rank
+  - ndcg     # NDCG
+  - rmse     # RMSE
+  - mae      # MAE
+  - mse      # MSE
+  - bleu     # BLEU (len 4 but included for parity with the qualified forms
+             # like "BLEU-4", "BLEU score", "detokenized BLEU")
+  - rouge    # same rationale as BLEU

@@ -1,0 +1,305 @@
+{
+  "paper_id": "1912.08777",
+  "tuples": [
+    {
+      "method": {
+        "name": "GPT-2"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 8.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "on CNN/DailyMail",
+        "locator": "section_related_works"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "a ROUGE-2 of 8.27",
+        "locator": "section_related_works"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gpt2",
+        "quote": "\\citet{gpt2} showed",
+        "locator": "section_related_works"
+      },
+      "evaluation_setting": [
+        {
+          "name": "prompt",
+          "value": "TL;DR",
+          "quote": "if prompted with \"TL;DR\"",
+          "locator": "section_related_works"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "\\citet{gpt2} showed that a large Transformer language model pre-trained on Web text could generate summaries if prompted with \"TL;DR\", achieving a ROUGE-2 of 8.27 on CNN/DailyMail.",
+        "quoted_span": "ROUGE-2 of 8.27"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Transformer language model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 13.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "using the CNN/DailyMail dataset",
+        "locator": "section_related_works"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "13.1 ROUGE-2",
+        "locator": "section_related_works"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "khandelwal2019sample",
+        "quote": "\\citet{khandelwal2019sample}",
+        "locator": "section_related_works"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "3000 examples",
+          "quote": "fine-tuned\nusing 3000 examples",
+          "locator": "section_related_works"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "Wikipedia",
+          "quote": "pre-trained a Transformer language model on Wikipedia",
+          "locator": "section_related_works"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "\\citet{khandelwal2019sample} pre-trained a Transformer language model on Wikipedia, and fine-tuned using 3000 examples, achieving 13.1 ROUGE-2.",
+        "quoted_span": "achieving 13.1 ROUGE-2"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "PEGASUS_LARGE"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE2-F",
+          "value": 13.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "On CNN/DailyMail",
+        "locator": "section_low_resource"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE2-F=13.28",
+        "locator": "section_low_resource"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "\\pegasuslarge demonstrated",
+        "locator": "section_low_resource"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "zero-shot",
+          "quote": "zero-shot\n(ROUGE2-F=13.28)",
+          "locator": "section_low_resource"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "HugeNews",
+          "quote": "fine-tune \\pegasuslarge (\\gnews)",
+          "locator": "section_low_resource"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "On CNN/DailyMail, with half the number of parameters \\pegasuslarge demonstrated much better zero-shot (ROUGE2-F=13.28) performance than GPT-2 (ROUGE2-F=8.27).",
+        "quoted_span": "ROUGE2-F=13.28"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PEGASUS_LARGE"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE2-F",
+          "value": 19.35,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "On CNN/DailyMail",
+        "locator": "section_low_resource"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE2-F of 19.35",
+        "locator": "section_low_resource"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "\\pegasuslarge achieved ROUGE2-F",
+        "locator": "section_low_resource"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "1000 examples",
+          "quote": "Using only 1000 examples",
+          "locator": "section_low_resource"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "HugeNews",
+          "quote": "fine-tune \\pegasuslarge (\\gnews)",
+          "locator": "section_low_resource"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Using only 1000 examples, \\pegasuslarge achieved ROUGE2-F of 19.35, much higher than the 13.1 obtained in \\citet{khandelwal2019sample} with 3000 examples.",
+        "quoted_span": "ROUGE2-F of 19.35"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE2-F",
+          "value": 16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "an example\nmodel summary from the CNN/DailyMail dataset",
+        "locator": "appendix_example_low_rouge"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE2-F of 16",
+        "locator": "appendix_example_low_rouge"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "an example\nmodel summary",
+        "locator": "appendix_example_low_rouge"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation scope",
+          "value": "single example",
+          "quote": "an example\nmodel summary",
+          "locator": "appendix_example_low_rouge"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "This figure shows an example model summary from the CNN/DailyMail dataset exhibiting high fluency, coherence, although highly abstractive, and only ROUGE2-F of 16.",
+        "quoted_span": "only ROUGE2-F of 16"
+      },
+      "confidence": 0.79
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      5
+    ],
+    "tokens_in": 45720,
+    "tokens_out": 5180,
+    "cost_usd": 0.07161999999999999
+  }
+}

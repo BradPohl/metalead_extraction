@@ -1,0 +1,900 @@
+{
+  "paper_id": "1812.09471",
+  "tuples": [
+    {
+      "method": {
+        "name": "CNN TriCRF"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.944,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.944"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN TriCRF \\cite{xu2013convolutional}",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.873,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.873"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.969,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.969"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Joint Slot Filling and Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.732,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.732"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.942,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.942"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.926,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.926"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "row_2_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Joint Slot Filling and Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.807,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.807"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "row_2_col_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.878,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.878"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.967,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.967"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Joint Slot Filling and Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.741,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.741"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "row_3_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.942,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.942"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "row_3_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.911,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.911"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "row_3_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Joint Slot Filling and Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.789,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.789"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "row_3_col_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.888,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.888"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.97,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.970"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Joint Slot Filling and Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.755,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.755"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "row_4_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.948,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.948"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "row_4_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 0.936,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.936"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Slot filling and intention detection results using on two datasets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "row_4_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 3,
+    "n_results_tables_loose": 3,
+    "tables_completed": 3,
+    "calls": 9,
+    "cost_usd": 0.075414915,
+    "tokens_in": 18321,
+    "tokens_out": 18327,
+    "context_pass_cost": 0.00506364
+  }
+}

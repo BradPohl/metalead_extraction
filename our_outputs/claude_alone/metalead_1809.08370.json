@@ -1,0 +1,1267 @@
+{
+  "paper_id": "1809.08370",
+  "tuples": [
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "CCG Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 95.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "We report the mean score over 5 runs",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "CCG Acc.",
+        "sentence": null,
+        "quoted_span": "CVT* & 95.7 & 96.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "Chunk F1",
+        "sentence": null,
+        "quoted_span": "CVT* & 95.7 & 96.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "NER F1",
+        "sentence": null,
+        "quoted_span": "96.6 & 92.3  & 88.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "FGN F1",
+        "sentence": null,
+        "quoted_span": "92.3  & 88.7 & 97.70"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "POS Acc.",
+        "sentence": null,
+        "quoted_span": "88.7 & 97.70 & 95.9"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 95.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "UAS",
+        "sentence": null,
+        "quoted_span": "97.70 & 95.9 & 94.1"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "LAS",
+        "sentence": null,
+        "quoted_span": "97.70 & 95.9 & 94.1"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese tst2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "BLEU scores on the tst2013 test set",
+        "locator": "section_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT*",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "tokenization",
+          "value": "tokenized BLEU",
+          "quote": "We report (tokenized) BLEU scores",
+          "locator": "section_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT*",
+        "column_label": "Translate BLEU",
+        "sentence": null,
+        "quoted_span": "\\textbf{29.6}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task + Large"
+      },
+      "task": {
+        "name": "CCG Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 96.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task + Large",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_size",
+          "value": "4x hidden units",
+          "quote": "four times as many hidden units",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task + Large",
+        "column_label": "CCG Acc.",
+        "sentence": null,
+        "quoted_span": "\\textbf{96.1}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task + Large"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task + Large",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task + Large",
+        "column_label": "Chunk F1",
+        "sentence": null,
+        "quoted_span": "\\textbf{97.0}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task + Large"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task + Large",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task + Large",
+        "column_label": "NER F1",
+        "sentence": null,
+        "quoted_span": "\\textbf{92.6}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task + Large"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task + Large",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task + Large",
+        "column_label": "FGN F1",
+        "sentence": null,
+        "quoted_span": "\\textbf{88.8}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task + Large"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.74,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task + Large",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task + Large",
+        "column_label": "POS Acc.",
+        "sentence": null,
+        "quoted_span": "97.74"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task + Large"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 96.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task + Large",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task + Large",
+        "column_label": "UAS",
+        "sentence": null,
+        "quoted_span": "\\textbf{96.6}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task + Large"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 95.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task + Large",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task + Large",
+        "column_label": "LAS",
+        "sentence": null,
+        "quoted_span": "\\textbf{95.0}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "CCG Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 96.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task",
+        "column_label": "CCG Acc.",
+        "sentence": null,
+        "quoted_span": "96.0 &  96.9 & 92.4"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT + Multi-task",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CVT + Multi-task",
+        "column_label": "NER F1",
+        "sentence": null,
+        "quoted_span": "96.0 &  96.9 & 92.4"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese tst2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Supervised",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Supervised",
+        "column_label": "Translate BLEU",
+        "sentence": null,
+        "quoted_span": "95.1 & 93.3 & 28.9"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Supervised",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Supervised",
+        "column_label": "NER F1",
+        "sentence": null,
+        "quoted_span": "94.9 & 95.1 & 91.2"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "ELMo (our implementation)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "peters2018deep",
+        "quote": "Our implementaiton follows \\citet{peters2018deep}",
+        "locator": "section_4.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ELMo (our implementation)*",
+        "column_label": "NER F1",
+        "sentence": null,
+        "quoted_span": "95.8 & 96.5  & 92.2"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2018deep",
+        "quote": "ELMo* \\cite{peters2018deep}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ELMo* (peters2018deep)",
+        "column_label": "NER F1",
+        "sentence": null,
+        "quoted_span": "& 92.2  & & & &"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Google"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese tst2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luong17",
+        "quote": "Google \\cite{luong17}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Google",
+        "column_label": "Translate BLEU",
+        "sentence": null,
+        "quoted_span": "& 26.1"
+      },
+      "confidence": 0.82
+    },
+    {
+      "method": {
+        "name": "Stack Pointer"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ma2018stack",
+        "quote": "Stack Pointer \\cite{ma2018stack}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Stack Pointer",
+        "column_label": "LAS",
+        "sentence": null,
+        "quoted_span": "95.9 & 94.2"
+      },
+      "confidence": 0.82
+    },
+    {
+      "method": {
+        "name": "CVT-MT"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance of multi-task CVT",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT-MT",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CVT-MT",
+        "column_label": "Chnk",
+        "sentence": null,
+        "quoted_span": "CVT-MT & 95.7 & 97.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CVT"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ablation study on auxiliary prediction modules",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "CVT",
+        "column_label": "NER",
+        "sentence": null,
+        "quoted_span": "CVT & 95.6 & 97.0 & 95.9"
+      },
+      "confidence": 0.65
+    },
+    {
+      "method": {
+        "name": "CVT-MT frozen"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Comparison of single-task models on the dev sets.",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "CVT-MT frozen",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "frozen, pretrained on five other tasks",
+          "quote": "pretrain a CVT + multi-task model on five tasks",
+          "locator": "caption_table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "CVT-MT frozen",
+        "column_label": "Chnk",
+        "sentence": null,
+        "quoted_span": "CVT-MT frozen & 95.1 & 96.6"
+      },
+      "confidence": 0.85
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      26
+    ],
+    "tokens_in": 20348,
+    "tokens_out": 8073,
+    "cost_usd": 0.242852
+  }
+}

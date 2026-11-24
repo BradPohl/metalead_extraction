@@ -1,0 +1,3428 @@
+{
+  "paper_id": "1903.07785",
+  "tuples": [
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Linguistic acceptability"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 53.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Table~\\ref{tab:glue} shows results for three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "Common Crawl 9B tokens",
+          "quote": "All experiments use Common Crawl subsampled to 9B tokens",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "CoLA (mcc)",
+        "sentence": null,
+        "quoted_span": "CNN Base       & 53.1 & 93.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Sentiment classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 93.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "SST-2 (acc)",
+        "sentence": null,
+        "quoted_span": "CNN Base       & 53.1 & 93.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Paraphrase detection"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "MRPC (F1)",
+        "sentence": null,
+        "quoted_span": "93.6 & 81.3 & 82.2"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Semantic textual similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 82.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "STS-B (scc)",
+        "sentence": null,
+        "quoted_span": "81.3 & 82.2 & 70.5"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Question pair similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "QQP (F1)",
+        "sentence": null,
+        "quoted_span": "82.2 & 70.5 & 82.5/82.2"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI-m"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 82.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "For MNLI we report both matched (m) and mismatched (mm) accuracy on test",
+        "locator": "section_6.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "MNLI-m (acc)",
+        "sentence": null,
+        "quoted_span": "70.5 & 82.5/82.2 & 89.5"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI-mm"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 82.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "For MNLI we report both matched (m) and mismatched (mm) accuracy on test",
+        "locator": "section_6.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "MNLI-mm (acc)",
+        "sentence": null,
+        "quoted_span": "70.5 & 82.5/82.2 & 89.5"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 89.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "QNLI (acc)",
+        "sentence": null,
+        "quoted_span": "82.5/82.2 & 89.5 & 64.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 64.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "RTE (acc)",
+        "sentence": null,
+        "quoted_span": "89.5 & 64.6 & 77.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 77.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "The average column does not include the WNLI test set",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Base",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "89.5 & 64.6 & 77.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Linguistic acceptability"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 52.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "CoLA (mcc)",
+        "sentence": null,
+        "quoted_span": "CNN Large      & 52.8 & 94.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Sentiment classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 94.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "SST-2 (acc)",
+        "sentence": null,
+        "quoted_span": "52.8 & 94.6 & 83.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Paraphrase detection"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "MRPC (F1)",
+        "sentence": null,
+        "quoted_span": "94.6 & 83.7 & 83.4"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Semantic textual similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 83.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "STS-B (scc)",
+        "sentence": null,
+        "quoted_span": "83.7 & 83.4 & 71.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Question pair similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 71.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "QQP (F1)",
+        "sentence": null,
+        "quoted_span": "83.4 & 71.7 & 84.3/83.8"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI-m"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 84.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "accuracy on test",
+        "locator": "section_6.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "MNLI-m (acc)",
+        "sentence": null,
+        "quoted_span": "71.7 & 84.3/83.8 & 89.8"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI-mm"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 83.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "accuracy on test",
+        "locator": "section_6.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "MNLI-mm (acc)",
+        "sentence": null,
+        "quoted_span": "71.7 & 84.3/83.8 & 89.8"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 89.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "QNLI (acc)",
+        "sentence": null,
+        "quoted_span": "84.3/83.8 & 89.8 & 63.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 63.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "RTE (acc)",
+        "sentence": null,
+        "quoted_span": "89.8 & 63.7 & 78.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "CNN Large"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 78.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "The average column does not include the WNLI test set",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CNN Large",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "89.8 & 63.7 & 78.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Linguistic acceptability"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 51.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "CoLA (mcc)",
+        "sentence": null,
+        "quoted_span": "BPE Large      & 51.8 & 94.0"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Sentiment classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 94.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "SST-2 (acc)",
+        "sentence": null,
+        "quoted_span": "51.8 & 94.0 & 83.0"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Paraphrase detection"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "MRPC (F1)",
+        "sentence": null,
+        "quoted_span": "94.0 & 83.0 & 84.2"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Semantic textual similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "scc",
+          "value": 84.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "STS-B (scc)",
+        "sentence": null,
+        "quoted_span": "83.0 & 84.2 & 70.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Question pair similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "QQP (F1)",
+        "sentence": null,
+        "quoted_span": "84.2 & 70.6 & 82.9/82.2"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI-m"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 82.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "accuracy on test",
+        "locator": "section_6.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "MNLI-m (acc)",
+        "sentence": null,
+        "quoted_span": "70.6 & 82.9/82.2 & 89.3"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI-mm"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 82.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "accuracy on test",
+        "locator": "section_6.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "MNLI-mm (acc)",
+        "sentence": null,
+        "quoted_span": "70.6 & 82.9/82.2 & 89.3"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 89.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "QNLI (acc)",
+        "sentence": null,
+        "quoted_span": "82.9/82.2 & 89.3 & 65.1"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 65.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "RTE (acc)",
+        "sentence": null,
+        "quoted_span": "89.3 & 65.1 & 78.1"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BPE Large"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 78.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "The average column does not include the WNLI test set",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three configurations of our approach",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BPE Large",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "89.3 & 65.1 & 78.1"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 75.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "radford2018unsup",
+        "quote": "uni-directional transformer (OpenAI GPT) of \\citet{radford2018unsup}",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "OpenAI GPT",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "88.1 & 56.0 & 75.2"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "acc",
+          "value": 56.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "radford2018unsup",
+        "quote": "OpenAI GPT) of \\citet{radford2018unsup}",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "OpenAI GPT",
+        "column_label": "RTE (acc)",
+        "sentence": null,
+        "quoted_span": "88.1 & 56.0 & 75.2"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "GPT on STILTs"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 77.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "phang2018stilts",
+        "quote": "concurrently introduced STILTs \\citep{phang2018stilts}",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "GPT on STILTs",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "87.2 & 69.1 & 77.8"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "BERT$_{BASE}$"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 79.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "devlin2018bert",
+        "quote": "BERT \\citep{devlin2018bert}",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BERT_BASE",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "90.1 & 66.4 & 79.6"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "BERT$_{LARGE}$"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 81.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "devlin2018bert",
+        "quote": "BERT \\citep{devlin2018bert}",
+        "locator": "section_6.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BERT_LARGE",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "91.1 & 70.1 & 81.9"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_3_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "span-level F1",
+        "locator": "section_6.2.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2018acl",
+        "quote": "previous published ELMo$_{BASE}$ results \\citep{peters2018acl}",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ELMo_BASE",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "95.7 & 92.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "table_3_col_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "span-level F1",
+        "locator": "section_6.2.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2018acl",
+        "quote": "previous published ELMo$_{BASE}$ results \\citep{peters2018acl}",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ELMo_BASE",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "95.7 & 92.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_3_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "span-level F1",
+        "locator": "section_6.2.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Both of our stacking methods outperform the previous state of the art",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "stacking",
+          "value": "ELMo-style, not fine-tuned",
+          "quote": "ELMo-style, where the pretrained models are not fine-tuned",
+          "locator": "section_6.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "CNN Large + ELMo",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + ELMo & 96.4 & 93.2"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test result was evaluated on parameter set with the best dev F1",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "span-level F1",
+        "locator": "section_6.2.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Both of our stacking methods outperform the previous state of the art",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "stacking",
+          "value": "ELMo-style, not fine-tuned",
+          "quote": "ELMo-style, where the pretrained models are not fine-tuned",
+          "locator": "section_6.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "CNN Large + ELMo",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + ELMo & 96.4 & 93.2"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_3_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "span-level F1",
+        "locator": "section_6.2.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "fine tuning gives the biggest gain",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "learning_rates",
+          "value": "1E-03 task / 1E-05 LM",
+          "quote": "projection-biLSTM-CRF with 1E-03 and pretrained language model with 1E-05",
+          "locator": "section_6.2.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "CNN Large + fine-tune",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + fine-tune & 96.9 &93.5"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test result was evaluated on parameter set with the best dev F1",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "span-level F1",
+        "locator": "section_6.2.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "fine tuning gives the biggest gain",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "learning_rates",
+          "value": "1E-03 task / 1E-05 LM",
+          "quote": "projection-biLSTM-CRF with 1E-03 and pretrained language model with 1E-05",
+          "locator": "section_6.2.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "CNN Large + fine-tune",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + fine-tune & 96.9 &93.5"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BERT$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_3_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "devlin2018bert",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BERT_BASE",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "96.4 & 92.4"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "BERT$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "table_3_col_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "devlin2018bert",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BERT_BASE",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "96.4 & 92.4"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "BERT$_{LARGE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_3_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "devlin2018bert",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BERT_LARGE",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "96.6 & 92.8"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "BERT$_{LARGE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "table_3_col_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "devlin2018bert",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "section_6.2.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BERT_LARGE",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "96.6 & 92.8"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_4_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "parseval F1",
+        "locator": "section_6.2.2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "previous state of the art, which used ELMo embeddings",
+        "locator": "section_6.2.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ELMo_BASE",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "95.2 & 95.1"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "table_4_col_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "parseval F1",
+        "locator": "section_6.2.2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "previous state of the art, which used ELMo embeddings",
+        "locator": "section_6.2.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ELMo_BASE",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "95.2 & 95.1"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_4_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "parseval F1",
+        "locator": "section_6.2.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Table~\\ref{tab:parsing_results} shows the results",
+        "locator": "section_6.2.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "stacking",
+          "value": "ELMo-style",
+          "quote": "ELMo-style, where the pretrained models are not fine-tuned",
+          "locator": "section_6.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "CNN Large + ELMo",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + ELMo & 95.1 & 95.2"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test result was evaluated on parameter set with the best dev F1",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "parseval F1",
+        "locator": "section_6.2.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Table~\\ref{tab:parsing_results} shows the results",
+        "locator": "section_6.2.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "stacking",
+          "value": "ELMo-style",
+          "quote": "ELMo-style, where the pretrained models are not fine-tuned",
+          "locator": "section_6.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "CNN Large + ELMo",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + ELMo & 95.1 & 95.2"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "table_4_col_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "parseval F1",
+        "locator": "section_6.2.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "fine tuning is required to achieve gains",
+        "locator": "section_6.2.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "learning_rates",
+          "value": "8E-04 LM / 8E-03 parser, 2 encoder layers",
+          "quote": "used 8E-04 for language model finetuning, 8E-03 for the parsing model parameters",
+          "locator": "section_6.2.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "CNN Large + fine-tune",
+        "column_label": "dev F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + fine-tune & 95.5 &95.6"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test result was evaluated on parameter set with the best dev F1",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "parseval F1",
+        "locator": "section_6.2.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "fine tuning is required to achieve gains",
+        "locator": "section_6.2.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "learning_rates",
+          "value": "8E-04 LM / 8E-03 parser, 2 encoder layers",
+          "quote": "used 8E-04 for language model finetuning, 8E-03 for the parsing model parameters",
+          "locator": "section_6.2.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "CNN Large + fine-tune",
+        "column_label": "test F1",
+        "sentence": null,
+        "quoted_span": "CNN Large + fine-tune & 95.5 &95.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "cloze"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 80.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Different loss functions on the development sets of GLUE",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the cloze loss performs significantly better than the bilm loss",
+        "locator": "section_6.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "CNN base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption_table_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "cloze",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.5 & 66.4 & 80.9"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 79.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Different loss functions on the development sets of GLUE",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We change the two-tower model to predict the next word using the individual towers only",
+        "locator": "section_6.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "CNN base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption_table_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "bilm",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "84.0 & 66.4 & 79.3"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "cloze + bilm"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 80.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Different loss functions on the development sets of GLUE",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "combining the two loss types does not improve over the cloze loss",
+        "locator": "section_6.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "bilm_loss_scale",
+          "value": "0.15",
+          "quote": "scaling the bilm term by a factor of $0.15$",
+          "locator": "section_6.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "cloze + bilm",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.1 & 65.5 & 80.4"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "cloze"
+      },
+      "task": {
+        "name": "Linguistic acceptability"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 55.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "on the development sets of GLUE",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "cloze loss performs significantly better",
+        "locator": "section_6.3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "cloze",
+        "column_label": "CoLA (mcc)",
+        "sentence": null,
+        "quoted_span": "cloze        & 55.1 & 92.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Linguistic acceptability"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 50.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "on the development sets of GLUE",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "(bilm)",
+        "locator": "section_6.3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "bilm",
+        "column_label": "CoLA (mcc)",
+        "sentence": null,
+        "quoted_span": "bilm         & 50.0 & 92.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "cloze + bilm"
+      },
+      "task": {
+        "name": "Linguistic acceptability"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "mcc",
+          "value": 52.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "on the development sets of GLUE",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "triplet loss",
+        "locator": "section_6.3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "cloze + bilm",
+        "column_label": "CoLA (mcc)",
+        "sentence": null,
+        "quoted_span": "cloze + bilm & 52.6 & 93.2"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (ccrawl 562M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 79.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "on the on the development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Table~\\ref{tab:data} shows a breakdown into individual GLUE tasks",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "Common Crawl 562M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ccrawl 562",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "85.7 & 63.3 & 79.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (ccrawl 1125M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 80.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "shows a breakdown into individual GLUE tasks",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "Common Crawl 1125M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ccrawl 1125",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "85.7 & 65.2 & 80.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (ccrawl 2250M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 80.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "shows a breakdown into individual GLUE tasks",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "Common Crawl 2250M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ccrawl 2250",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.2 & 66.9 & 80.8"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (ccrawl 4500M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 80.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "shows a breakdown into individual GLUE tasks",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "Common Crawl 4500M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ccrawl 4500",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.2 & 65.7 & 80.8"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (ccrawl 9000M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 80.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "shows a breakdown into individual GLUE tasks",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "Common Crawl 9000M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ccrawl 9000",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.5 & 66.4 & 80.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (ccrawl 18000M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 81.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We train on up to 18B Common Crawl tokens",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "Common Crawl 18000M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ccrawl 18000",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.3 & 68.4 & 81.3"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (news crawl 562M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 75.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "also shows results for News Crawl",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "News Crawl 562M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "news crawl 562",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "82.0 & 55.7 & 75.6"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (news crawl 1125M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 76.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "also shows results for News Crawl",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "News Crawl 1125M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "news crawl 1125",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "82.8 & 53.9 & 76.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (news crawl 2250M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 77.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "also shows results for News Crawl",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "News Crawl 2250M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "news crawl 2250",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "82.4 & 54.8 & 77.1"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN Base (news crawl 4500M)"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 77.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "also shows results for News Crawl",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "News Crawl 4500M tokens",
+          "quote": "train data (M tok)",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "news crawl 4500",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "83.6 & 54.2 & 77.3"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BWiki - sent"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 79.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "simply using the data as is (BWiki - sent)",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pretraining_data",
+          "value": "BooksCorpus + Wikipedia 3300M tokens",
+          "quote": "BWiki - sent & 3300",
+          "locator": "table_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "BWiki - sent",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.9 & 63.8 & 79.7"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BWiki - blck"
+      },
+      "task": {
+        "name": "GLUE"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg",
+          "value": 78.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We train on a batch of these blocks (BWiki - blck)",
+        "locator": "section_6.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512-token blocks",
+          "quote": "crop blocks of $512$ consecutive tokens",
+          "locator": "section_6.4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "BWiki - blck",
+        "column_label": "Avg",
+        "sentence": null,
+        "quoted_span": "86.2 & 60.4 & 78.9"
+      },
+      "confidence": 0.85
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      69
+    ],
+    "tokens_in": 23876,
+    "tokens_out": 24325,
+    "cost_usd": 0.582004
+  }
+}

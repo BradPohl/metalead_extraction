@@ -1,0 +1,267 @@
+\section{Experimental Results}
+
+%%% Andrew
+%%% (Briefly summarize the results with exciting motivating highlights in one or two sentences.)
+We describe experiments on two benchmark English named entity recognition datasets. On CoNLL-2003 English NER, our ID-CNN performs on par with a Bi-LSTM not only when used to produce per-token logits for structured inference, but the ID-CNN with greedy decoding also performs on-par with the Bi-LSTM-CRF while running at more than 14 times the speed. We also observe a performance boost in almost all models when broadening the context to incorporate entire documents, achieving an average F1 of 90.65 on CoNLL-2003, out-performing the sentence-level model while still decoding at nearly 8 times the speed of the Bi-LSTM-CRF.
+
+\subsection{Data and Evaluation}
+We evaluate using labeled data from the CoNLL-2003 shared task \citep{tjong2003introduction} and OntoNotes 5.0 \citep{hovy2006ontonotes,pradhan2013towards}. Following previous work, we use the same OntoNotes data split used for co-reference resolution in the CoNLL-2012 shared task \citep{pradhan2012conll}.
+For both datasets, we convert the IOB boundary encoding to BILOU as previous work found this encoding to result in improved performance \citep{ratinov2009design}. As in previous work we evaluate the performance of our models using segment-level micro-averaged F1 score. Hyperparameters that resulted in the best performance on the validation set were selected via grid search. A more detailed description of the data, evaluation, optimization and data pre-processing can be found in the Appendix.
+
+\subsection{Baselines \label{baselines-sec}}
+
+We compare our {\bf ID-CNN} against strong LSTM and CNN baselines: a {\bf Bi-LSTM} with local decoding, and one with CRF decoding ({\bf Bi-LSTM-CRF}). We also compare against a non-dilated CNN architecture with the same number of convolutional layers as our dilated network ({\bf 4-layer CNN}) and one with enough layers to incorporate an effective input width of the same size as that of the dilated network ({\bf 5-layer CNN}) to demonstrate that the dilated convolutions more effectively aggregate contextual information than simple convolutions (i.e. using fewer parameters). We also compare our document-level ID-CNNs to a baseline which does not share parameters between blocks ({\bf noshare}) and one that computes loss only at the last block, rather than after every iterated block of dilated convolutions ({\bf 1-loss}).
+
+We do not compare with deeper or more elaborate CNN architectures for a number of reasons: 1) Fast train and test performance are highly desirable for NLP practitioners, and deeper models require more computation time 2) more complicated models tend to over-fit on this relatively small dataset and 3) most accurate deep CNN architectures repeatedly up-sample and down-sample the inputs. We do not compare to stacked LSTMs for similar reasons --- a single LSTM is already slower than a 4-layer CNN. Since our task is sequence labeling, we desire a model that maintains the token-level resolution of the input, making dilated convolutions an elegant solution.
+%%% Andrew:
+%%% Do some more horn-tooting here before going on to the next section
+
+\subsection{CoNLL-2003 English NER}
+\subsubsection{Sentence-level prediction}
+
+\begin{table}
+% \begin{tabular}{lll}
+%     Model & F1-max & F1-avg \\ \hline \hline
+%     \citet{ratinov2009design} Greedy & 86.82 & --- \\ 
+%     \citet{collobert2011natural} WLL & 86.96 & --- \\ 
+%     \citet{collobert2011natural} SLL & 88.67 & --- \\
+%     \citet{passos2014lexicon} Stacked CRF & 90.05 & --- \\
+%     \citet{lample2016neural} Bi-LSTM-CRF & 90.20 & --- \\ \hline 
+%     Bi-LSTM & 89.93 & 89.34 $\pm$ 0.28 \\
+%     4-layer CNN & 90.37 & 89.97 $\pm$ 0.20 \\
+%     Bi-LSTM-CRF & 90.61 & 90.43 $\pm$ 0.12 \\
+%     5-layer CNN & 90.51 & 90.23 $\pm$ 0.16 \\
+%     4-layer D-CNN & 90.64 & 90.29 $\pm$ 0.21 \\
+%   \end{tabular}
+\begin{tabular}{ll}
+    Model & F1 \\ \hline \hline
+    \citet{ratinov2009design} & 86.82 \\ 
+    \citet{collobert2011natural} & 86.96 \\ 
+    \citet{lample2016neural} & 90.33 \\ \hline 
+    Bi-LSTM & 89.34 $\pm$ 0.28 \\
+    4-layer CNN & 89.97 $\pm$ 0.20 \\
+    5-layer CNN & 90.23 $\pm$ 0.16 \\
+    ID-CNN & 90.32 $\pm$ 0.26 \\ \hline\hline
+    \citet{collobert2011natural} & 88.67 \\
+    \citet{passos2014lexicon} & 90.05 \\
+    \citet{lample2016neural} & 90.20 \\ \hline 
+    Bi-LSTM-CRF (re-impl) & 90.43 $\pm$ 0.12 \\
+    ID-CNN-CRF & {\bf 90.54 $\pm$ 0.18} \\
+  \end{tabular}
+
+  \caption{F1 score of models observing sentence-level context. No models use character embeddings or lexicons. Top models are greedy, bottom models use Viterbi inference \label{sentence-summary}.}
+  
+\end{table}
+Table \ref{sentence-summary} lists F1 scores of models predicting with sentence-level context on CoNLL-2003. For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts. The Viterbi-decoding Bi-LSTM-CRF and ID-CNN-CRF and greedy ID-CNN obtain the highest average scores, with the ID-CNN-CRF outperforming the Bi-LSTM-CRF by $0.11$ points of F1 on average, and the Bi-LSTM-CRF out-performing the greedy ID-CNN by $0.11$ as well. Our greedy ID-CNN outperforms the Bi-LSTM and the 4-layer CNN, which uses the same number of parameters as the ID-CNN, and performs similarly to the 5-layer CNN which uses more parameters but covers the same effective input width. All CNN models out-perform the Bi-LSTM when paired with greedy decoding, suggesting that CNNs are better token encoders than Bi-LSTMs for independent logistic regression. When paired with Viterbi decoding, our ID-CNN performs on par with the Bi-LSTM, showing that the ID-CNN is also an effective token encoder for structured inference.
+
+% \begin{table}
+% % \begin{tabular}{lll}
+% %     Model & F1-max & F1-avg \\ \hline \hline
+% %     \citet{ratinov2009design} Greedy & 86.82 & --- \\ 
+% %     \citet{collobert2011natural} WLL & 86.96 & --- \\ 
+% %     \citet{collobert2011natural} SLL & 88.67 & --- \\
+% %     \citet{passos2014lexicon} Stacked CRF & 90.05 & --- \\
+% %     \citet{lample2016neural} Bi-LSTM-CRF & 90.20 & --- \\ \hline 
+% %     Bi-LSTM & 89.93 & 89.34 $\pm$ 0.28 \\
+% %     4-layer CNN & 90.37 & 89.97 $\pm$ 0.20 \\
+% %     Bi-LSTM-CRF & 90.61 & 90.43 $\pm$ 0.12 \\
+% %     5-layer CNN & 90.51 & 90.23 $\pm$ 0.16 \\
+% %     4-layer D-CNN & 90.64 & 90.29 $\pm$ 0.21 \\
+% %   \end{tabular}
+% \begin{tabular}{lll}
+%     Model & F1-max & F1-avg \\ \hline \hline
+%     \citet{ratinov2009design} & 86.82 & --- \\ 
+%     \citet{collobert2011natural} & 86.96 & --- \\ 
+%     \citet{collobert2011natural} & 88.67 & --- \\
+%     \citet{passos2014lexicon} & 90.05 & --- \\
+%     \citet{lample2016neural} & 90.20 & --- \\ \hline 
+%     Bi-LSTM & 89.93 & 89.34 $\pm$ 0.28 \\
+%     4-layer CNN & 90.28 & 89.97 $\pm$ 0.20 \\
+%     5-layer CNN & 90.47 & 90.23 $\pm$ 0.16 \\
+%     Bi-LSTM-CRF & 90.56 & 90.43 $\pm$ 0.12 \\
+%     4-layer D-CNN & 90.65 & 90.32 $\pm$ 0.26 \\
+%     4-layer D-CNN-CRF & 90.43 & {\bf 90.54 $\pm$ 0.18} \\
+%   \end{tabular}
+
+%   \caption{F1 score of models trained to predict sentence-at-a-time without the use of character embeddings or lexicons. Our dilated CNN model outperforms the previous state-of-the-art, including the globally-normalized BiLSTM-CRF. [[[TODO split into two tables]]]}
+%   \label{sentence-greedy}
+% \end{table}
+
+% \begin{table}
+% % \begin{tabular}{lll}
+% %     Model & F1-max & F1-avg \\ \hline \hline
+% %     \citet{ratinov2009design} Greedy & 86.82 & --- \\ 
+% %     \citet{collobert2011natural} WLL & 86.96 & --- \\ 
+% %     \citet{collobert2011natural} SLL & 88.67 & --- \\
+% %     \citet{passos2014lexicon} Stacked CRF & 90.05 & --- \\
+% %     \citet{lample2016neural} Bi-LSTM-CRF & 90.20 & --- \\ \hline 
+% %     Bi-LSTM & 89.93 & 89.34 $\pm$ 0.28 \\
+% %     4-layer CNN & 90.37 & 89.97 $\pm$ 0.20 \\
+% %     Bi-LSTM-CRF & 90.61 & 90.43 $\pm$ 0.12 \\
+% %     5-layer CNN & 90.51 & 90.23 $\pm$ 0.16 \\
+% %     4-layer D-CNN & 90.64 & 90.29 $\pm$ 0.21 \\
+% %   \end{tabular}
+% \begin{tabular}{ll}
+%     Model & F1 \\ \hline \hline
+%     \citet{collobert2011natural} & 88.67 \\
+%     \citet{passos2014lexicon} & 90.05 \\
+%     \citet{lample2016neural} & 90.20 \\ \hline
+%     Bi-LSTM-CRF & 90.43 $\pm$ 0.12 \\
+%     4-layer D-CNN-CRF & {\bf 90.54 $\pm$ 0.18} \\
+%   \end{tabular}
+
+%   \caption{F1 score of models trained to predict sentence-at-a-time without the use of character embeddings or lexicons. Our dilated CNN model outperforms the previous state-of-the-art, including the globally-normalized BiLSTM-CRF.\label{sentence-structured}}
+% \end{table}
+Our ID-CNN is not only a better token encoder than the Bi-LSTM but it is also faster. Table \ref{sentence-speed-table} lists relative decoding times on the CoNLL development set, compared to the Bi-LSTM-CRF. We report decoding times using the fastest batch size for each method.\footnote{For each model, we tried batch sizes $b = 2^i$ with $i = 0 ... 11$. At scale, speed should increase with batch size, as we could compose each batch of as many sentences of the same length as would fit in GPU memory, requiring no padding and giving CNNs and ID-CNNs even more of a speed advantage.}
+
+The ID-CNN model decodes nearly 50\% faster than the Bi-LSTM. With Viterbi decoding, the gap closes somewhat but the ID-CNN-CRF still comes out ahead, about 30\% faster than the Bi-LSTM-CRF. The most vast speed improvements come when comparing the greedy ID-CNN to the Bi-LSTM-CRF -- our ID-CNN is more than 14 times faster than the Bi-LSTM-CRF at test time, with comparable accuracy. The 5-layer CNN, which observes the same effective input width as the ID-CNN but with more parameters, performs at about the same speed as the ID-CNN in our experiments. With a better implementation of dilated convolutions than currently included in TensorFlow, we would expect the ID-CNN to be notably faster than the 5-layer CNN.
+
+% \begin{table}
+% \begin{tabular}{lll}
+%     Model & $b=1$ & Fastest ($b$)\\ \hline \hline
+%     Bi-LSTM-CRF & 1$\times$ & 1$\times$ (1024)\\ % 1001.272450 & 15746.379030
+%     ID-CNN-CRF & 4.55$\times$ & 1.28$\times$ (32)\\ % 4557.598676 &  20131.624469
+%     Bi-LSTM & 1.01$\times$ & 9.92$\times$ (2048)\\ % 1013.650246 & 156172.950896
+%     5-layer CNN & 6.56$\times$ & 12.38$\times$ (2048)\\ % 6576.367724 & 194974.862036
+%     ID-CNN & 6.00$\times$ & 14.10$\times$ (128)\\ % 6005.393910 & 222009.159269
+%     %4-layer CNN & 6.92$\times$ & 18.40$\times$ (512)\\ % 6928.157643 & 289743.948743
+
+%   \end{tabular}
+
+%   \caption{Relative test-time speed of sentence models, using batch size $b=1$, and the fastest batch size ($b$) for each model.\footnotemark
+%   \label{sentence-speed-table}}
+% \end{table}
+% \footnotetext{Our ID-CNN could see up to 18$\times$ speed-up with a less naive implementation than is included in TensorFlow as of this writing.}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ll}
+    Model & Speed \\ \hline \hline
+    Bi-LSTM-CRF & 1$\times$ \\ % 1001.272450 & 15746.379030
+    Bi-LSTM & 9.92$\times$ \\ % 1013.650246 & 156172.950896
+    ID-CNN-CRF & 1.28$\times$ \\ % 4557.598676 &  20131.624469
+    5-layer CNN & 12.38$\times$ \\ % 6576.367724 & 194974.862036
+    ID-CNN & 14.10$\times$ \\ % 6005.393910 & 222009.159269
+    %4-layer CNN & 6.92$\times$ & 18.40$\times$ (512)\\ % 6928.157643 & 289743.948743
+  \end{tabular}
+  \end{center}
+  \caption{Relative test-time speed of sentence models, using the fastest batch size for each model.\footnotemark
+  \label{sentence-speed-table}}
+\end{table}
+\footnotetext{Our ID-CNN could see up to 18$\times$ speed-up with a less naive implementation than is included in TensorFlow as of this writing.}
+
+We emphasize the importance of the dropout regularizer of \citet{ma2017dropout} in Table \ref{dr-table}, where we observe increased F1 for every model trained with expectation-linear dropout regularization. Dropout is important for training neural network models that generalize well, especially on relatively small NLP datasets such as CoNLL-2003. We recommend this regularizer as a simple and helpful tool for practitioners training neural networks for NLP.
+
+\begin{table}
+\begin{tabular}{lll}
+    Model & w/o DR & w/ DR \\ \hline \hline
+    Bi-LSTM & 88.89 $\pm$ 0.30 & {\bf 89.34} $\pm$ 0.28 \\
+    4-layer CNN & 89.74 $\pm$ 0.23 & {\bf 89.97} $\pm$ 0.20\\
+    5-layer CNN & 89.93 $\pm$ 0.32 & {\bf 90.23} $\pm$ 0.16\\
+    Bi-LSTM-CRF & 90.01 $\pm$ 0.23 & {\bf 90.43} $\pm$ 0.12 \\
+    4-layer ID-CNN & 89.65 $\pm$ 0.30 & {\bf 90.32} $\pm$ 0.26 \\
+  \end{tabular}
+  \caption{Comparison of models trained with and without expectation-linear dropout regularization (DR). DR improves all models. \label{dr-table}}
+\end{table}
+
+\subsubsection{Document-level prediction}
+
+In Table \ref{doc-summary-table} we show that adding document-level context improves every model on CoNLL-2003. Incorporating document-level context further improves our greedy ID-CNN model, attaining 90.65 average F1. We believe this model sees greater improvement with the addition of document-level context than the Bi-LSTM-CRF due to the ID-CNN learning a feature function better suited for representing broad context, in contrast with the Bi-LSTM which, though better than a simple RNN at encoding long memories of sequences, may reach its limit when provided with sequences more than 1,000 tokens long such as entire documents.
+
+\begin{table}
+\begin{tabular}{ll}
+    Model & F1 \\ \hline \hline
+    4-layer ID-CNN (sent) & 90.32 $\pm$ 0.26 \\ %& 90.65 \\
+    Bi-LSTM-CRF (sent) & 90.43 $\pm$ 0.12 \\ \hline % & 90.56 \\ \hline
+    4-layer CNN $\times$ 3 & 90.32 $\pm$ 0.32 \\ %& 90.25 \\
+    5-layer CNN $\times$ 3 & 90.45 $\pm$ 0.21 \\ %& 90.65 \\
+    Bi-LSTM & 89.09 $\pm$ 0.19 \\ %& 88.87 \\
+    Bi-LSTM-CRF & 90.60 $\pm$ 0.19 \\ %& 90.57 \\ % 8.78
+    ID-CNN & {\bf 90.65 $\pm$ 0.15} \\ %& 90.66 \\ % 49.28; 5.61x (trained w/ 3)
+  \end{tabular}
+  \caption{F1 score of models trained to predict document-at-a-time. Our greedy ID-CNN model performs as well as the Bi-LSTM-CRF.\label{doc-summary-table}}
+\end{table}
+
+We also note that our combination of training objective (Eqn. \ref{eq:avg-loss}) and tied parameters (Eqn. \ref{block-eqn}) more effectively learns to aggregate this broad context than a vanilla cross-entropy loss or deep CNN back-propagated from the final neural network layer. Table \ref{doc-loss-table} compares models trained to incorporate entire document context using the document baselines described in Section \ref{baselines-sec}.
+
+\begin{table}
+\begin{center}
+\scalebox{0.92}{
+\begin{tabular}{lll}
+    Model & F1 \\ \hline \hline
+    ID-CNN noshare & 89.81 $\pm$ 0.19 \\
+    ID-CNN 1-loss & 90.06 $\pm$ 0.19 \\
+    ID-CNN & {\bf 90.65 $\pm$ 0.15} \\
+  \end{tabular}
+  }
+\end{center}
+  \caption{Comparing ID-CNNs with 1) back-propagating loss only from the final layer ({\bf 1-loss}) and 2) untied parameters across blocks ({\bf noshare})}
+  \label{doc-loss-table}
+\end{table}
+
+In Table \ref{doc-speed-table} we show that, in addition to being more accurate, our ID-CNN model is also much faster than the Bi-LSTM-CRF when incorporating context from entire documents, decoding at almost 8 times the speed. On these long sequences, it also tags at more than 4.5 times the speed of the greedy Bi-LSTM, demonstrative of the benefit of our ID-CNNs context-aggregating computation that does not depend on the length of the sequence.
+
+% \begin{table}
+% \begin{tabular}{lll}
+%     Model & $b=1$ & Fastest ($b$)\\ \hline \hline
+%     Bi-LSTM-CRF & 1$\times$ & 1$\times$ (1024)\\ % 1415.035277 & 12576.132257
+%     Bi-LSTM & 1.05$\times$ & 4.60$\times$ (1024)\\ % 1486.172259 &  57867.857679
+%     ID-CNN & 40.83$\times$ & 7.96$\times$ (32)\\ % 57781.257688 & 100130.481437
+%   \end{tabular}
+%   \caption{Relative test-time speed of document models, using batch size $b=1$, and the fastest batch size ($b$) for each model.}
+%   \label{doc-speed-table}
+% \end{table}
+
+\begin{table}
+\begin{center}
+\scalebox{0.92}{
+\begin{tabular}{ll}
+    Model & Speed\\ \hline \hline
+    Bi-LSTM-CRF & 1$\times$ \\ % 1415.035277 & 12576.132257
+    Bi-LSTM & 4.60$\times$ \\ % 1486.172259 &  57867.857679
+    ID-CNN & 7.96$\times$ \\ % 57781.257688 & 100130.481437
+  \end{tabular}
+  }
+    \end{center}
+  \caption{Relative test-time speed of document models (fastest batch size for each model).}
+  \label{doc-speed-table}
+\end{table}
+
+\subsection{OntoNotes 5.0 English NER}
+
+We observe similar patterns on OntoNotes as we do on CoNLL. Table \ref{summary-table-onto} lists overall F1 scores of our models compared to those in the existing literature. The greedy Bi-LSTM out-performs the lexicalized greedy model of \citet{ratinov2009design}, and our ID-CNN out-performs the Bi-LSTM as well as the more complex model of \citet{durrett2014joint} which leverages the parallel co-reference annotation available in the OntoNotes corpus to predict named entities jointly with entity linking and co-reference. Our greedy model is out-performed by the Bi-LSTM-CRF reported in \citet{chiu2016named} as well as our own re-implementation, which appears to be the new state-of-the-art on this dataset. 
+
+\begin{table}
+\scalebox{0.92}{
+\begin{tabular}{lll}
+    Model & F1 & Speed\\ \hline \hline
+    \citet{ratinov2009design}\footnotemark & 83.45 \\
+    \citet{durrett2014joint} & 84.04 \\
+    \citet{chiu2016named} & 86.19 $\pm$ 0.25 \\ \hline 
+    Bi-LSTM-CRF & 86.99 $\pm$ 0.22 & 1$\times$ \\ % 6084
+    Bi-LSTM-CRF-Doc & 86.81 $\pm$ 0.18  & 1.32$\times$\\ % 8040
+    Bi-LSTM & 83.76 $\pm$ 0.10 & 24.44$\times$ \\ \hline % 148663
+    ID-CNN-CRF (1 block) & 86.84 $\pm$ 0.19 & 1.83$\times$ \\ % 11186
+    ID-CNN-Doc (3 blocks) & 85.76 $\pm$ 0.13  & 21.19$\times$ \\ % 128943
+    ID-CNN (3 blocks) & 85.27 $\pm$ 0.24 & 13.21$\times$ \\ % 80365
+    ID-CNN (1 block) & 84.28 $\pm$ 0.10 & 26.01$\times$ \\ % 158270
+    %ID-CNN-CRF (1) & 86.56 $\pm$ 0.26 \\
+  \end{tabular}
+  }
+  \caption{F1 score of sentence and document models on OntoNotes.\label{summary-table-onto}}
+\end{table}
+\footnotetext{\protect{Results as reported in \citet{durrett2014joint} as this data split
+    did not exist at the time of publication.}}
+
+The gap between our greedy model and those using Viterbi decoding is wider than on CoNLL. We believe this is due to the more diverse set of entities in OntoNotes, which also tend to be much longer -- the average length of a multi-token named entity segment in CoNLL is about one token shorter than in OntoNotes. These long entities benefit more from explicit structured constraints enforced in Viterbi decoding. Still, our ID-CNN outperforms all other greedy methods, achieving our goal of learning a better token encoder for structured prediction.
+% \begin{table}
+% \begin{tabular}{ll}
+%     Model & F1 \\ \hline \hline
+%     Bi-LSTM-CRF & 86.81 $\pm$ 0.18 \\
+%     ID-CNN & 85.76 $\pm$ 0.13 \\
+%   \end{tabular}
+%   \caption{F1 score of models trained to predict document-at-a-time without the use of character embeddings or lexicons.}
+%   \label{summary-table-doc-onto}
+% \end{table}
+
+Incorporating greater context significantly boosts the score of our greedy model on OntoNotes, whereas the Bi-LSTM-CRF performs more poorly. In Table \ref{summary-table-onto}, we also list the F1 of our ID-CNN model and the Bi-LSTM-CRF model trained on entire document context. For the first time, we see the score decrease when more context is added to the Bi-LSTM-CRF model, though the ID-CNN, whose sentence model a lower score than that of the Bi-LSTM-CRF, sees an increase. We believe the decrease in the Bi-LSTM-CRF model occurs because of the nature of the OntoNotes dataset compared to CoNLL-2003: CoNLL-2003 contains a particularly high proportion of ambiguous entities,\footnote{According to the ACL Wiki page on CoNLL-2003: ``The corpus contains a very high ratio of metonymic references (city names standing for sport teams)''} perhaps leading to more benefit from document context that helps with disambiguation. In this scenario, adding the wider context may just add noise to the high-scoring Bi-LSTM-CRF model, whereas the less accurate dilated model can still benefit from the refined predictions of the iterated dilated convolutions.

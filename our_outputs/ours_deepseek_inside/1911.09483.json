@@ -1,0 +1,1134 @@
+{
+  "paper_id": "1911.09483",
+  "tuples": [
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "MUSE with different dynamic convolutions",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_5_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "MUSE",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "Multiple",
+          "quote": "Multiple",
+          "locator": "row_5_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "split": false
+      }
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "IWSLT 2015 De-En translation task",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "MUSE-simple (without DepthConv) & 35.8",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=3)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "IWSLT 2015 De-En translation task",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "substitute DepthConv with Convolution (k=3) & 35.2",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=5)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "IWSLT 2015 De-En translation task",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "substitute DepthConv with Convolution (k=5) & 35.0",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=7)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "34.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "IWSLT 2015 De-En translation task",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_5_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "substitute DepthConv with Convolution (k=7) & 34.5",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "DepthConv without shared projection"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "34.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "IWSLT 2015 De-En translation task",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_6_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "DepthConv without shared projection &34.9",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=3)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "IWSLT 2015 De-En translation task",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_7_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "DepthConv single kernel (k=3) & 36.2",
+        "locator": "row_7_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=15)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_9_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "DepthConv single kernel (k=15) & 36.0",
+        "locator": "row_9_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=31)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_10_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "DepthConv single kernel (k=31) & 35.8",
+        "locator": "row_10_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (grow kernels among layers:3,7,15,31)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_11_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "DepthConv single kernel (grow kernels among layers:3,7,15,31) & 35.9",
+        "locator": "row_11_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "DepthConv dynamically selected kernel (k=3,15)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_12_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "DepthConv dynamically selected kernel (k=3,15) & 36.3",
+        "locator": "row_12_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Transformer(6L,dim512) &43M  &35.3",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1911.09483",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "MUSE_FF (w/o Conv)",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "k=3",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "k=7",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "34.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "k=15",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "34.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_5_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "k=31",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "MUSE_FF_CNN (w. a single Conv cell)",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT 2014 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_4_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "MUSE_FF_CNN (w. a single Conv cell)",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "MUSE-simple(6L,dim512) &43M  &35.0",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1911.09483",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "MUSE\\_simple(12L,dim512) & 74M  &35.9",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1911.09483",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "Parallel Multi-Scale Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "34.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_6_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "+Conv\\_k7(w/o weight tying)  &51M & 34.9",
+        "locator": "row_6",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1911.09483",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_11"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 13,
+    "n_results_tables_loose": 12,
+    "tables_completed": 12,
+    "calls": 36,
+    "cost_usd": 0.600679145,
+    "tokens_in": 86323,
+    "tokens_out": 147688,
+    "context_pass_cost": 0.005674445
+  }
+}

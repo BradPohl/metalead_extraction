@@ -1,0 +1,42 @@
+% \begin{table*}[tb]
+%   \scriptsize
+%   \centering
+%   \renewcommand{\arraystretch}{1.3}
+%   \begin{tabular}{c|ccc}
+%     \hline
+%     R1/R2/RL & XSum & CNN/DailyMail & Gigaword \\\hline 
+%     BERTShare \cite{rothe2019leveraging}    &  38.52/16.12/31.13 & 39.25/18.09/36.45 & 38.13/19.81/35.62 \\
+%     MASS \cite{song2019mass}                &  39.75/17.24/31.95 & 42.12/19.50/39.01 & 38.73/19.71/35.96 \\
+%     UniLM \cite{unilm}                      &  - & 43.33/20.21/40.51 & 38.45/19.45/35.75 \\
+%     BART \cite{lewis2019bart}               &  45.14/22.27/37.25 & \textbf{44.16}/21.28/40.90 & - \\
+%     T5 \cite{raffel2019exploring}           &  - & 43.52/\textbf{21.55}/40.69 & - \\ \hline
+%     $\text{PEGASUS}_{\text{LARGE}}$ (C4)    &  45.20/22.06/36.99 & 43.90/21.20/40.76 & 38.75/19.96/36.14  \\
+%     $\text{PEGASUS}_{\text{LARGE}}$ (\gnews) &  47.21/24.56/39.25 & \textbf{44.17/21.47}/41.11 & 39.12/19.86/36.24 \\
+%     $\text{PEGASUS}_{\text{LARGE}}$ (mixed,dynamic) &  \textbf{47.60/24.83/39.64} & \textbf{44.16/21.56/41.30} & \textbf{	39.65/20.47/36.76} 
+
+%     \\\hline
+%   \end{tabular}
+%   \caption{A comparison of $\text{PEGASUS}_{\text{LARGE}}$ with other pretrained models on XSum, CNN/DailyMail and Gigaword. Best ROUGE numbers  and numbers within $0.15$ of the best numbers are bolded.}
+%   \label{tab:large_model_selected}
+% \end{table*}
+
+\begin{table*}[tb]
+  \scriptsize
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{c|ccc}
+    \hline
+    R1/R2/RL & XSum & CNN/DailyMail & Gigaword \\\hline 
+    BERTShare \cite{rothe2019leveraging}    &  38.52/16.12/31.13 & 39.25/18.09/36.45 & 38.13/19.81/35.62 \\
+    MASS \cite{song2019mass}                &  39.75/17.24/31.95 & 42.12/19.50/39.01 & 38.73/19.71/35.96 \\
+    UniLM \cite{unilm}                      &  - & 43.33/20.21/40.51 & 38.45/19.45/35.75 \\
+    BART \cite{lewis2019bart}               &  45.14/22.27/37.25 & \textbf{44.16}/21.28/40.90 & - \\
+    T5 \cite{raffel2019exploring}           &  - & 43.52/\textbf{21.55}/40.69 & - \\ \hline
+    $\text{PEGASUS}_{\text{LARGE}}$ (C4)    &  45.20/22.06/36.99 & 43.90/21.20/40.76 & 38.75\textbf{/19.96/36.14}  \\
+    $\text{PEGASUS}_{\text{LARGE}}$ (\gnews) &  \textbf{47.21/24.56/39.25} & \textbf{44.17/21.47/41.11} & \textbf{39.12/19.86/36.24} 
+
+    \\\hline
+  \end{tabular}
+  \caption{A comparison of $\text{PEGASUS}_{\text{LARGE}}$ with other pretrained models on XSum, CNN/DailyMail and Gigaword. Best ROUGE numbers  and numbers within $0.15$ of the best numbers are bolded.}
+  \label{tab:large_model_selected}
+\end{table*}

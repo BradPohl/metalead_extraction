@@ -1,0 +1,1141 @@
+{
+  "paper_id": "1711.05568",
+  "tuples": [
+    {
+      "method": {
+        "name": "Human annotator"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 84.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human annotator &84.0",
+        "locator": "table_5_row_Human_annotator"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "Human annotator",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Human annotator &84.0"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ours (CRF-ASN)"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our method (CRF-ASN)",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "memory_hops",
+          "value": "1",
+          "quote": "we set the number of hops as 1",
+          "locator": "section_Implemental_Details"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "Ours (CRF-ASN)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "\\textbf{81.3}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "Bi-LSTM-CRF",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Bi-LSTM-CRF&79.2"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "DRLM-Conditional"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 77.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "DRLM-Conditional",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "DRLM-Conditional &77.0"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-Softmax"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "LSTM-Softmax",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "LSTM-Softmax &75.8"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "RCNN"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 73.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "RCNN",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "RCNN &73.9"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "CNN"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 73.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "CNN",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "CNN & 73.1"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 71.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Simple baseline which applies the text encoding",
+        "locator": "section_Performance_Comparisons_baselines"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "CRF",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "CRF &71.7\\\\"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "HMM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 71.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "HMM",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "HMM &71.0 \\\\"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "SVM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 70.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_5_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Simple baseline which applies the text encoding",
+        "locator": "section_Performance_Comparisons_baselines"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "SVM",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "SVM &70.6 \\\\"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Ours (CRF-ASN)"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "MRDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 91.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_6_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our method (CRF-ASN)",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "class_map",
+          "value": "5 DAs",
+          "quote": "groups all tags into 5 DAs",
+          "locator": "section_Data_Preparation_MRDA"
+        },
+        {
+          "name": "memory_hops",
+          "value": "1",
+          "quote": "we set the number of hops as 1",
+          "locator": "section_Implemental_Details"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "Ours (CRF-ASN)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "(CRF-ASN)} &91.7"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "MRDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_6_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "class_map",
+          "value": "5 DAs",
+          "quote": "groups all tags into 5 DAs",
+          "locator": "section_Data_Preparation_MRDA"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "Bi-LSTM-CRF",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Bi-LSTM-CRF & 90.9"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-Softmax"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "MRDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 86.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_6_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "class_map",
+          "value": "5 DAs",
+          "quote": "groups all tags into 5 DAs",
+          "locator": "section_Data_Preparation_MRDA"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "LSTM-Softmax",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "LSTM-Softmax & 86.8"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "CNN"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "MRDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 84.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_6_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "other methods in the literature",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "class_map",
+          "value": "5 DAs",
+          "quote": "groups all tags into 5 DAs",
+          "locator": "section_Data_Preparation_MRDA"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "CNN",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "CNN & 84.6"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "MRDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 83.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_6_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Simple baseline which applies the text encoding",
+        "locator": "section_Performance_Comparisons_baselines"
+      },
+      "evaluation_setting": [
+        {
+          "name": "class_map",
+          "value": "5 DAs",
+          "quote": "groups all tags into 5 DAs",
+          "locator": "section_Data_Preparation_MRDA"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "CRF",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "CRF & 83.9"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "SVM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "MRDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_6_header"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Simple baseline which applies the text encoding",
+        "locator": "section_Performance_Comparisons_baselines"
+      },
+      "evaluation_setting": [
+        {
+          "name": "class_map",
+          "value": "5 DAs",
+          "quote": "groups all tags into 5 DAs",
+          "locator": "section_Data_Preparation_MRDA"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "SVM",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "SVM & 82.0"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Simple CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_7_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct thorough ablation experiments",
+        "locator": "section_Ablation_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Replace structured CRF-attention with simple CRF",
+          "quote": "replace the proposed structured CRF-attention layer to simple CRF",
+          "locator": "section_Ablation_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Simple CRF",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Simple CRF & 79.5"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Simple SVM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 77.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_7_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct thorough ablation experiments",
+        "locator": "section_Ablation_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Replace structured prediction with SVM classification",
+          "quote": "replace the structure prediction formulation to multi-classification on SVM",
+          "locator": "section_Ablation_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Simple SVM",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Simple SVM &77.8"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Simple Word Embedding"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 78.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_7_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct thorough ablation experiments",
+        "locator": "section_Ablation_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Replace fine-grained word representation with Glove vector",
+          "quote": "to the simple Glove vector",
+          "locator": "section_Ablation_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Simple Word Embedding",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Simple Word Embedding &78.7"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Simple Context state"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_7_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct thorough ablation experiments",
+        "locator": "section_Ablation_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Context state considers only neighboring utterances",
+          "quote": "only care its neighbor utterances",
+          "locator": "section_Ablation_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Simple Context state",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Simple Context state &79.1"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Simple Memory Network"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 78.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_7_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct thorough ablation experiments",
+        "locator": "section_Ablation_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Replace memory network with direct CRF application to utterance layer",
+          "quote": "replace the memory network to directly apply CRF layer to the utterance layer",
+          "locator": "section_Ablation_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Simple Memory Network",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Simple Memory Network &78.3"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Simple Utterance Embedding"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_Performance_Comparisons"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "table_7_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct thorough ablation experiments",
+        "locator": "section_Ablation_Results"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Simple Utterance Embedding",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "Simple Utterance Embedding &79.0"
+      },
+      "confidence": 0.92
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      22
+    ],
+    "tokens_in": 52782,
+    "tokens_out": 13476,
+    "cost_usd": 0.12016199999999999
+  }
+}

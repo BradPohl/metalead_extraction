@@ -1,0 +1,34 @@
+# v6e key corrections — documented adjustments to MetaLead gold applied at
+# scoring time only. The on-disk annotations JSON is left untouched; the
+# scorer reads this file and substitutes Metric values in memory before
+# canonicalization. Every correction carries provenance and rationale.
+
+corrections:
+  - paper_id: "1912.08777"
+    kind: metric_typo
+    from: "ROGUE-1"
+    to:   "ROUGE-1"
+    rationale: >-
+      MetaLead annotations spell ROUGE as ROGUE for all 249 records on this
+      paper. v6b's arm output spelled it correctly. Applied symmetrically
+      at scoring time; no arm re-canonicalization needed.
+    provenance: "v6d §2 diagnosis — MetaLead-release typo"
+    affected_rows_expected: 83  # one-third of 249
+
+  - paper_id: "1912.08777"
+    kind: metric_typo
+    from: "ROGUE-2"
+    to:   "ROUGE-2"
+    rationale: >-
+      Same as ROGUE-1 — single uniform typo across the paper's 249 gold rows.
+    provenance: "v6d §2 diagnosis"
+    affected_rows_expected: 83
+
+  - paper_id: "1912.08777"
+    kind: metric_typo
+    from: "ROGUE-L"
+    to:   "ROUGE-L"
+    rationale: >-
+      Same as ROGUE-1 — single uniform typo across the paper's 249 gold rows.
+    provenance: "v6d §2 diagnosis"
+    affected_rows_expected: 83

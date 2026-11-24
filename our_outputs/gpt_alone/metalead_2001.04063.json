@@ -1,0 +1,6149 @@
+{
+  "paper_id": "2001.04063",
+  "tuples": [
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 40.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "LEAD-3~\\cite{nallapati2017summarunner}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "LEAD-3",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "40.42 &17.62"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 17.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "LEAD-3~\\cite{nallapati2017summarunner}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "LEAD-3",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "17.62 &36.67"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "LEAD-3~\\cite{nallapati2017summarunner}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "LEAD-3",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "17.62 &36.67"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 36.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PTGEN~\\cite{see2017get}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "PTGEN",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "36.44 & 15.66"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 15.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PTGEN~\\cite{see2017get}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "PTGEN",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "15.66 & 33.42"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 33.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PTGEN~\\cite{see2017get}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "PTGEN",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "15.66 & 33.42"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PTGEN+Coverage"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PTGEN+Coverage~\\cite{see2017get}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "PTGEN+Coverage",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "39.53 &17.28"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PTGEN+Coverage"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 17.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PTGEN+Coverage~\\cite{see2017get}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "PTGEN+Coverage",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "17.28 &36.38"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PTGEN+Coverage"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PTGEN+Coverage~\\cite{see2017get}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "PTGEN+Coverage",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "17.28 &36.38"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "S2S-ELMo~\\cite{edunov2019pre}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "S2S-ELMo",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "41.56 & 18.94"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 18.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "S2S-ELMo~\\cite{edunov2019pre}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "S2S-ELMo",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "18.94 & 38.47"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 38.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "S2S-ELMo~\\cite{edunov2019pre}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "S2S-ELMo",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "18.94 & 38.47"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Bottom-Up~\\cite{gehrmann2018bottom}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "Bottom-Up",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "41.22 & 18.68"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 18.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Bottom-Up~\\cite{gehrmann2018bottom}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "Bottom-Up",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "18.68 & 38.34"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 38.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Bottom-Up~\\cite{gehrmann2018bottom}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "Bottom-Up",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "18.68 & 38.34"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.72,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERTSUMABS~\\cite{liu2019text}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "BERTSUMABS",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "41.72 & 19.39"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERTSUMABS~\\cite{liu2019text}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "BERTSUMABS",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "19.39 & 38.76"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 38.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERTSUMABS~\\cite{liu2019text}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "BERTSUMABS",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "19.39 & 38.76"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERTSUMEXTABS~\\cite{liu2019text}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "BERTSUMEXTABS",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "42.13 & 19.60"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERTSUMEXTABS~\\cite{liu2019text}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "BERTSUMEXTABS",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "19.60 &39.18"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.18,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERTSUMEXTABS~\\cite{liu2019text}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "BERTSUMEXTABS",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "19.60 &39.18"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "MASS",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "42.12  &19.50"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "MASS",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "19.50&  39.01"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "MASS",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "19.50&  39.01"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "UniLM",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "43.33  &20.21"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "UniLM",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "20.21&   40.51"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "tab:cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus + English Wikipedia",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "UniLM",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "20.21&   40.51"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we fine-tune and evaluate ProphetNet",
+        "locator": "section_exp2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size to 5",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "output length",
+          "value": "45\u2013110 tokens",
+          "quote": "between 45 and 110 tokens",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.2",
+          "quote": "with a 1.2 length penalty",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "trigram blocking",
+          "value": "enabled",
+          "quote": "remove the duplicated trigrams",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "ProphetNet",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{43.68}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.64,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we fine-tune and evaluate ProphetNet",
+        "locator": "section_exp2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size to 5",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "output length",
+          "value": "45\u2013110 tokens",
+          "quote": "between 45 and 110 tokens",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.2",
+          "quote": "with a 1.2 length penalty",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "trigram blocking",
+          "value": "enabled",
+          "quote": "remove the duplicated trigrams",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "ProphetNet",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{20.64}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.72,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:cnn"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we fine-tune and evaluate ProphetNet",
+        "locator": "section_exp2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size to 5",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "output length",
+          "value": "45\u2013110 tokens",
+          "quote": "between 45 and 110 tokens",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.2",
+          "quote": "with a 1.2 length penalty",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "trigram blocking",
+          "value": "enabled",
+          "quote": "remove the duplicated trigrams",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:cnn",
+        "row_label": "ProphetNet",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{40.72}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 36.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "OpenNMT~\\cite{klein2017opennmt}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "OpenNMT",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "36.73 & 17.86"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 17.86,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "OpenNMT~\\cite{klein2017opennmt}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "OpenNMT",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "17.86 & 33.68"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 33.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "OpenNMT~\\cite{klein2017opennmt}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "OpenNMT",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "17.86 & 33.68"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 37.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Re3Sum~\\cite{cao2018retrieve}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "Re3Sum",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "37.04 & 19.03"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Re3Sum~\\cite{cao2018retrieve}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "Re3Sum",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.03 & 34.46"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 34.46,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Re3Sum~\\cite{cao2018retrieve}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "Re3Sum",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.03 & 34.46"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 38.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "MASS",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "38.73 & 19.71"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.71,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "MASS",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.71 & 35.96"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 35.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "MASS",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.71 & 35.96"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 38.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "UniLM",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "38.45  & 19.45"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "UniLM",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.45 &   35.75"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 35.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "tab:gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "UniLM",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.45 &   35.75"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "fine-tune and evaluate ProphetNet",
+        "locator": "section_exp2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        },
+        {
+          "name": "beam size",
+          "value": "4",
+          "quote": "beam size to 4",
+          "locator": "section_exp2_gigaword"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.0",
+          "quote": "length penalty to 1.0",
+          "locator": "section_exp2_gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "ProphetNet",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{39.55}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "fine-tune and evaluate ProphetNet",
+        "locator": "section_exp2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        },
+        {
+          "name": "beam size",
+          "value": "4",
+          "quote": "beam size to 4",
+          "locator": "section_exp2_gigaword"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.0",
+          "quote": "length penalty to 1.0",
+          "locator": "section_exp2_gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "ProphetNet",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{20.27}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.57,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:gigaword"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "fine-tune and evaluate ProphetNet",
+        "locator": "section_exp2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        },
+        {
+          "name": "beam size",
+          "value": "4",
+          "quote": "beam size to 4",
+          "locator": "section_exp2_gigaword"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.0",
+          "quote": "length penalty to 1.0",
+          "locator": "section_exp2_gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:gigaword",
+        "row_label": "ProphetNet",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.57}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "CorefNQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 15.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "CorefNQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "CorefNQG, first split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "15.16 & 19.12"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "CorefNQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 19.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "CorefNQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "CorefNQG, first split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "15.16 & 19.12"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 18.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SemQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "SemQG, first split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "18.37 & 22.65"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 22.65,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SemQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "SemQG, first split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "22.65 & 46.68"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 46.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SemQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "SemQG, first split",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "22.65 & 46.68"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 21.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "UniLM, first split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "21.63    &25.04"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 25.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "UniLM, first split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "25.04&   51.09"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 51.09,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "UniLM, first split",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "25.04&   51.09"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 23.91,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We fine-tune the ProphetNet model",
+        "locator": "section_exp3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "input",
+          "value": "answer [SEP] input passage; first 512 passage tokens",
+          "quote": "The first 512 tokens of the passage are fed to the model",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "ProphetNet, first split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "\\textbf{23.91}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 26.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We fine-tune the ProphetNet model",
+        "locator": "section_exp3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "input",
+          "value": "answer [SEP] input passage; first 512 passage tokens",
+          "quote": "The first 512 tokens of the passage are fed to the model",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "ProphetNet, first split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "\\textbf{26.60}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 52.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We fine-tune the ProphetNet model",
+        "locator": "section_exp3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning",
+          "quote": "Following~\\citet{du2017learning}, we split",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "input",
+          "value": "answer [SEP] input passage; first 512 passage tokens",
+          "quote": "The first 512 tokens of the passage are fed to the model",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "ProphetNet, first split",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{52.26}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "MP-GSN"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 16.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MP-GSN",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "MP-GSN, second split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "16.38 & 20.25"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "MP-GSN"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 20.25,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MP-GSN",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "MP-GSN, second split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "20.25 & 44.48"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "MP-GSN"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 44.48,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MP-GSN",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "MP-GSN, second split",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "20.25 & 44.48"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 20.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SemQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "SemQG, second split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "20.76 & 24.20"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 24.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SemQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "SemQG, second split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "24.20 & 48.91"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 48.91,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SemQG",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "SemQG, second split",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "24.20 & 48.91"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 23.08,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "UniLM, second split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "23.08    &25.57"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 25.57,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "UniLM, second split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "25.57&   52.03"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 52.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "UniLM",
+        "locator": "tab:squad-recover"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "UniLM, second split",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "25.57&   52.03"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "B4",
+          "value": 25.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We fine-tune the ProphetNet model",
+        "locator": "section_exp3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "input",
+          "value": "answer [SEP] input passage; first 512 passage tokens",
+          "quote": "The first 512 tokens of the passage are fed to the model",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "ProphetNet, second split",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "\\textbf{25.80}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MTR",
+          "value": 27.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We fine-tune the ProphetNet model",
+        "locator": "section_exp3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "input",
+          "value": "answer [SEP] input passage; first 512 passage tokens",
+          "quote": "The first 512 tokens of the passage are fed to the model",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "ProphetNet, second split",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "\\textbf{27.54}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 53.65,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SQuAD 1.1 test set",
+        "locator": "caption_tab:squad-recover"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption_tab:squad-recover"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We fine-tune the ProphetNet model",
+        "locator": "section_exp3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph",
+          "quote": "reverses the development set and test set",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "input",
+          "value": "answer [SEP] input passage; first 512 passage tokens",
+          "quote": "The first 512 tokens of the passage are fed to the model",
+          "locator": "section_exp3"
+        },
+        {
+          "name": "pre-training corpus",
+          "value": "16GB BookCorpus and English Wikipedia",
+          "quote": "English Wikipedia (16GB in total)",
+          "locator": "section_exp1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:squad-recover",
+        "row_label": "ProphetNet, second split",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{53.65}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "T5"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 43.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "T5~\\cite{raffel2019exploring}",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB",
+          "quote": "750GB &  43.52",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, T5",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "750GB &  43.52"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T5"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 21.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "T5~\\cite{raffel2019exploring}",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB",
+          "quote": "750GB &  43.52",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, T5",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{21.55}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T5"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 40.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "T5~\\cite{raffel2019exploring}",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB",
+          "quote": "750GB &  43.52",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, T5",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "21.55} & 40.69"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 43.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (C4)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB C4",
+          "quote": "750GB & 43.90",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, PEGASUSLARGE (C4)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "43.90 & 21.20"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 21.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (C4)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB C4",
+          "quote": "750GB & 43.90",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, PEGASUSLARGE (C4)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "21.20 & 40.76"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 40.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (C4)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB C4",
+          "quote": "750GB & 43.90",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, PEGASUSLARGE (C4)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "21.20 & 40.76"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 44.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (HugeNews)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "3800GB HugeNews",
+          "quote": "3800GB & 44.17",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, PEGASUSLARGE (HugeNews)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "44.17 &21.47"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 21.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (HugeNews)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "3800GB HugeNews",
+          "quote": "3800GB & 44.17",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, PEGASUSLARGE (HugeNews)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "21.47 &41.11"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 41.11,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (HugeNews)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "3800GB HugeNews",
+          "quote": "3800GB & 44.17",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, PEGASUSLARGE (HugeNews)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "21.47 &41.11"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 44.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BART~\\cite{lewis2019bart}",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB  & 44.16",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, BART",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "44.16 & 21.28"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 21.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BART~\\cite{lewis2019bart}",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB  & 44.16",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, BART",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "21.28 & 40.90"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 40.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BART~\\cite{lewis2019bart}",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB  & 44.16",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, BART",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "21.28 & 40.90"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 44.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also pre-train ProphetNet",
+        "locator": "section_exp4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB English language corpora",
+          "locator": "section_exp4"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size to 5",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.2",
+          "quote": "with a 1.2 length penalty",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, ProphetNet",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{44.20}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 21.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also pre-train ProphetNet",
+        "locator": "section_exp4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB English language corpora",
+          "locator": "section_exp4"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size to 5",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.2",
+          "quote": "with a 1.2 length penalty",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, ProphetNet",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "21.17 & \\textbf{41.30}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also pre-train ProphetNet",
+        "locator": "section_exp4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB English language corpora",
+          "locator": "section_exp4"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size to 5",
+          "locator": "section_exp2"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.2",
+          "quote": "with a 1.2 length penalty",
+          "locator": "section_exp2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "CNN/DailyMail, ProphetNet",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{41.30}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 38.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (C4)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB C4",
+          "quote": "750GB &   38.75",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, PEGASUSLARGE (C4)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "38.75  & 19.96"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (C4)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB C4",
+          "quote": "750GB &   38.75",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, PEGASUSLARGE (C4)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.96   & 36.14"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (C4)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB C4",
+          "quote": "750GB &   38.75",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, PEGASUSLARGE (C4)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.96   & 36.14"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (HugeNews)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "3800GB HugeNews",
+          "quote": "3800GB & 39.12",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, PEGASUSLARGE (HugeNews)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.12  & 19.86"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.86,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (HugeNews)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "3800GB HugeNews",
+          "quote": "3800GB & 39.12",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, PEGASUSLARGE (HugeNews)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.86   & 36.24"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PEGASUSLARGE (HugeNews)",
+        "locator": "tab:large"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "3800GB HugeNews",
+          "quote": "3800GB & 39.12",
+          "locator": "tab:large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, PEGASUSLARGE (HugeNews)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.86   & 36.24"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also pre-train ProphetNet",
+        "locator": "section_exp4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB English language corpora",
+          "locator": "section_exp4"
+        },
+        {
+          "name": "beam size",
+          "value": "4",
+          "quote": "beam size to 4",
+          "locator": "section_exp2_gigaword"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.0",
+          "quote": "length penalty to 1.0",
+          "locator": "section_exp2_gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, ProphetNet",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{39.51}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also pre-train ProphetNet",
+        "locator": "section_exp4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB English language corpora",
+          "locator": "section_exp4"
+        },
+        {
+          "name": "beam size",
+          "value": "4",
+          "quote": "beam size to 4",
+          "locator": "section_exp2_gigaword"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.0",
+          "quote": "length penalty to 1.0",
+          "locator": "section_exp2_gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, ProphetNet",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{20.42}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_tab:large"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption_tab:large"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also pre-train ProphetNet",
+        "locator": "section_exp4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB English language corpora",
+          "locator": "section_exp4"
+        },
+        {
+          "name": "beam size",
+          "value": "4",
+          "quote": "beam size to 4",
+          "locator": "section_exp2_gigaword"
+        },
+        {
+          "name": "length penalty",
+          "value": "1.0",
+          "quote": "length penalty to 1.0",
+          "locator": "section_exp2_gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:large",
+        "row_label": "Gigaword, ProphetNet",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.69}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail dev set without pre-training",
+        "locator": "caption_tab:nopretrain"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Setting & R-1 & R-2 & R-L",
+        "locator": "tab:nopretrain"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "raffel2019exploring",
+        "quote": "Transformer which has the same architecture hyper-parameters",
+        "locator": "section_exp5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "caption_tab:nopretrain"
+        },
+        {
+          "name": "architecture",
+          "value": "12-layer encoder and decoder, 768 hidden size",
+          "quote": "12-layer encoder and 12-layer decoder with 768 embedding/hidden size",
+          "locator": "section_exp5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:nopretrain",
+        "row_label": "Transformer",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.19    &17.60"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 17.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail dev set without pre-training",
+        "locator": "caption_tab:nopretrain"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Setting & R-1 & R-2 & R-L",
+        "locator": "tab:nopretrain"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "raffel2019exploring",
+        "quote": "Transformer which has the same architecture hyper-parameters",
+        "locator": "section_exp5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "caption_tab:nopretrain"
+        },
+        {
+          "name": "architecture",
+          "value": "12-layer encoder and decoder, 768 hidden size",
+          "quote": "12-layer encoder and 12-layer decoder with 768 embedding/hidden size",
+          "locator": "section_exp5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:nopretrain",
+        "row_label": "Transformer",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "17.60&   36.69"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail dev set without pre-training",
+        "locator": "caption_tab:nopretrain"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Setting & R-1 & R-2 & R-L",
+        "locator": "tab:nopretrain"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "raffel2019exploring",
+        "quote": "Transformer which has the same architecture hyper-parameters",
+        "locator": "section_exp5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "caption_tab:nopretrain"
+        },
+        {
+          "name": "architecture",
+          "value": "12-layer encoder and decoder, 768 hidden size",
+          "quote": "12-layer encoder and 12-layer decoder with 768 embedding/hidden size",
+          "locator": "section_exp5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:nopretrain",
+        "row_label": "Transformer",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "17.60&   36.69"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "ProphetNet w/o pre-train"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 40.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail dev set without pre-training",
+        "locator": "caption_tab:nopretrain"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Setting & R-1 & R-2 & R-L",
+        "locator": "tab:nopretrain"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we evaluate the ProphetNet model without pre-training",
+        "locator": "section_exp5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "caption_tab:nopretrain"
+        },
+        {
+          "name": "architecture",
+          "value": "12-layer encoder and decoder, 768 hidden size",
+          "quote": "12-layer encoder and 12-layer decoder with 768 embedding/hidden size",
+          "locator": "section_exp5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:nopretrain",
+        "row_label": "ProphetNet w/o pre-train",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{40.66}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet w/o pre-train"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 18.05,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail dev set without pre-training",
+        "locator": "caption_tab:nopretrain"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Setting & R-1 & R-2 & R-L",
+        "locator": "tab:nopretrain"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we evaluate the ProphetNet model without pre-training",
+        "locator": "section_exp5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "caption_tab:nopretrain"
+        },
+        {
+          "name": "architecture",
+          "value": "12-layer encoder and decoder, 768 hidden size",
+          "quote": "12-layer encoder and 12-layer decoder with 768 embedding/hidden size",
+          "locator": "section_exp5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:nopretrain",
+        "row_label": "ProphetNet w/o pre-train",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{18.05}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet w/o pre-train"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 37.79,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail dev set without pre-training",
+        "locator": "caption_tab:nopretrain"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Setting & R-1 & R-2 & R-L",
+        "locator": "tab:nopretrain"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we evaluate the ProphetNet model without pre-training",
+        "locator": "section_exp5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "caption_tab:nopretrain"
+        },
+        {
+          "name": "architecture",
+          "value": "12-layer encoder and decoder, 768 hidden size",
+          "quote": "12-layer encoder and 12-layer decoder with 768 embedding/hidden size",
+          "locator": "section_exp5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:nopretrain",
+        "row_label": "ProphetNet w/o pre-train",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{37.79}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "MASS base"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 42.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "We also compare the MASS\\textsubscript{base}",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "MASS base",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "42.12 &19.50"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "MASS base"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "We also compare the MASS\\textsubscript{base}",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "MASS base",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.50&   39.01"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "MASS base"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 39.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "We also compare the MASS\\textsubscript{base}",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "MASS base",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.50&   39.01"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-1gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 42.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "architecture",
+          "value": "6-layer encoder and decoder, 768 hidden size, 12 attention heads",
+          "quote": "6-layer encoder, 6-layer decoder, 768 hidden size, and 12 attention heads",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-1gram",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "42.21  & 19.54"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-1gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "architecture",
+          "value": "6-layer encoder and decoder, 768 hidden size, 12 attention heads",
+          "quote": "6-layer encoder, 6-layer decoder, 768 hidden size, and 12 attention heads",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-1gram",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.54   &39.06"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-1gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 39.06,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "architecture",
+          "value": "6-layer encoder and decoder, 768 hidden size, 12 attention heads",
+          "quote": "6-layer encoder, 6-layer decoder, 768 hidden size, and 12 attention heads",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-1gram",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.54   &39.06"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-2gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 42.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "attenuation coefficient",
+          "value": "1.0",
+          "quote": "$\\gamma$ is set to 1.0",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-2gram",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "42.52  & 19.78"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-2gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.78,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "attenuation coefficient",
+          "value": "1.0",
+          "quote": "$\\gamma$ is set to 1.0",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-2gram",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "19.78   &39.59"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-2gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 39.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "attenuation coefficient",
+          "value": "1.0",
+          "quote": "$\\gamma$ is set to 1.0",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-2gram",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.78   &39.59"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-3gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 42.61,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "attenuation coefficient",
+          "value": "0.5",
+          "quote": "attenuation coefficient $\\gamma$ is set to 0.5",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-3gram",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{42.61}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-3gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.83,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "attenuation coefficient",
+          "value": "0.5",
+          "quote": "attenuation coefficient $\\gamma$ is set to 0.5",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-3gram",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{19.83}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-3gram"
+      },
+      "task": {
+        "name": "text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 39.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_tab:abngram"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "attenuation coefficient",
+          "value": "0.5",
+          "quote": "attenuation coefficient $\\gamma$ is set to 0.5",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:abngram",
+        "row_label": "ProphetNet base-3gram",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{39.67}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-2gram"
+      },
+      "task": {
+        "name": "training"
+      },
+      "datasets": [
+        {
+          "name": "Wikipedia+BookCorpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training speed",
+          "value": 15,
+          "unit": "% faster"
+        }
+      ],
+      "split": {
+        "value": "train",
+        "quote": "training speed is 15% faster",
+        "locator": "section_exp6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "training speed is 15\\% faster",
+        "locator": "section_exp6"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model",
+        "locator": "section_exp6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "comparison",
+          "value": "ProphetNet base-3gram",
+          "quote": "15\\% faster than ProphetNet\\textsubscript{base}-3gram",
+          "locator": "section_exp6"
+        },
+        {
+          "name": "pre-training",
+          "value": "Wikipedia+BookCorpus, 125k steps",
+          "quote": "pre-trained on the Wikipedia+BookCorpus dataset with 125k steps",
+          "locator": "section_exp6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Considering the computational and time cost, we use ProphetNet\\textsubscript{base}-2gram in other experiments due to its training speed is 15\\% faster than ProphetNet\\textsubscript{base}-3gram.",
+        "quoted_span": "training speed is 15\\% faster"
+      },
+      "confidence": 0.82
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      111
+    ],
+    "tokens_in": 95649,
+    "tokens_out": 57091,
+    "cost_usd": 0.381104
+  }
+}

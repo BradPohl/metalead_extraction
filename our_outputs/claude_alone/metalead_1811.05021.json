@@ -1,0 +1,655 @@
+{
+  "paper_id": "1811.05021",
+  "tuples": [
+    {
+      "method": {
+        "name": "RCNN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 73.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "105 conversations for testing",
+        "locator": "section_5.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "kalchbrenner2013recurrent",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "RCNN(Bulnsom et al. 2013)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "RCNN(Bulnsom et al. 2013)&73.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BiLSTM-Softmax"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "105 conversations for testing",
+        "locator": "section_5.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "khanpour2016dialogue",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BiLSTM-Softmax(Khanpour et al. 2016)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "BiLSTM-Softmax(Khanpour et al. 2016)&75.8"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DRLM-Conditional"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 77.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "105 conversations for testing",
+        "locator": "section_5.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ji2016a",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DRLM-Conditional(Ji et al. 2016)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "DRLM-Conditional(Ji et al. 2016)&77.0"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "PDI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "105 conversations for testing",
+        "locator": "section_5.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "tran2017aprocessings",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "PDI(Tran et al. 2017)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "PDI(Tran et al. 2017)&75.6"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "UCI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "105 conversations for testing",
+        "locator": "section_5.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2017using",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "UCI(Liu et al. 2017)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "UCI(Liu et al. 2017)&79.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "105 conversations for testing",
+        "locator": "section_5.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": "kumar2016ask",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DMN(Kumar et al., 2015)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "DMN(Kumar et al., 2015) & 75.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ALDMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ALDMN (Our Model)",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "adversarial_epsilon",
+          "value": "3",
+          "quote": "we set $\\epsilon = 3$",
+          "locator": "section_5.6"
+        },
+        {
+          "name": "memory_iterations",
+          "value": "3",
+          "quote": "We set the memory updating iterations to $3$",
+          "locator": "section_5.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ALDMN (Our Model)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "ALDMN (Our Model) & \\textbf{81.5}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ALDMN without adversarial learning (dropout only)"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model achieves accuracy of 79.1\\%",
+        "locator": "section_5.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "dropout only",
+          "quote": "with only dropout applied",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Take SwDA as an example, with only dropout applied, our model achieves accuracy of 79.1\\%, while the accuracy of model with adversarial learning can reach up to 81.5\\%.",
+        "quoted_span": "achieves accuracy of 79.1\\%"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ADC"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 55.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "julia2010dialog",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ADC(Julia et al. 2010)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "ADC(Julia et al. 2010)&55.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "GAN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 62.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "tran2017bgenerative",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "GAN(Tran et al. 2017b)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "GAN(Tran et al. 2017b)&62.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "PDI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 65.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "tran2017aprocessings",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "PDI(Tran et al. 2017a)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "PDI(Tran et al. 2017a)&65.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 64.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": "kumar2016ask",
+        "quote": "other methods as described in literatures",
+        "locator": "caption_table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "DMN(Kumar et al., 2015)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "DMN(Kumar et al., 2015)&64.7"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ALDMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 68.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ALDMN (Our Model)",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "adversarial_epsilon",
+          "value": "3",
+          "quote": "we set $\\epsilon = 3$",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ALDMN (Our Model)",
+        "column_label": "Accuracy(%)",
+        "sentence": null,
+        "quoted_span": "ALDMN (Our Model) & \\textbf{68.5}"
+      },
+      "confidence": 0.9
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      13
+    ],
+    "tokens_in": 20692,
+    "tokens_out": 4695,
+    "cost_usd": 0.176668
+  }
+}

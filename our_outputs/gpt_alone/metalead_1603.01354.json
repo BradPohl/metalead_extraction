@@ -1,0 +1,5183 @@
+{
+  "paper_id": "1603.01354",
+  "tuples": [
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 96.56,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "POS}} & \\multicolumn{6}{c}{\\textbf{NER}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "POS Dev Acc.",
+        "sentence": null,
+        "quoted_span": "BRNN & 96.56 & 96.76"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 96.76,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "POS Test Acc.",
+        "sentence": null,
+        "quoted_span": "BRNN & 96.56 & 96.76"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 92.04,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "NER Dev Prec.",
+        "sentence": null,
+        "quoted_span": "96.76 & 92.04 & 89.13"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 89.13,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "NER Dev Recall",
+        "sentence": null,
+        "quoted_span": "92.04 & 89.13 & 90.56"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.56,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "NER Dev F1",
+        "sentence": null,
+        "quoted_span": "89.13 & 90.56 & 87.05"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 87.05,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "NER Test Prec.",
+        "sentence": null,
+        "quoted_span": "90.56 & 87.05 & 83.88"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 83.88,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "NER Test Recall",
+        "sentence": null,
+        "quoted_span": "87.05 & 83.88 & 85.44"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.44,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN",
+        "column_label": "NER Test F1",
+        "sentence": null,
+        "quoted_span": "87.05 & 83.88 & 85.44"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 96.88,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "POS Dev Acc.",
+        "sentence": null,
+        "quoted_span": "BLSTM & 96.88 & 96.93"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 96.93,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "POS Test Acc.",
+        "sentence": null,
+        "quoted_span": "BLSTM & 96.88 & 96.93"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 92.31,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "NER Dev Prec.",
+        "sentence": null,
+        "quoted_span": "96.93 & 92.31 & 90.85"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 90.85,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "NER Dev Recall",
+        "sentence": null,
+        "quoted_span": "92.31 & 90.85 & 91.57"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.57,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "NER Dev F1",
+        "sentence": null,
+        "quoted_span": "90.85 & 91.57 & 87.77"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 87.77,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "NER Test Prec.",
+        "sentence": null,
+        "quoted_span": "91.57 & 87.77 & 86.23"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 86.23,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "NER Test Recall",
+        "sentence": null,
+        "quoted_span": "87.77 & 86.23 & 87.00"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM",
+        "column_label": "NER Test F1",
+        "sentence": null,
+        "quoted_span": "87.77 & 86.23 & 87.00"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.34,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "POS Dev Acc.",
+        "sentence": null,
+        "quoted_span": "BLSTM-CNN & 97.34 & 97.33"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.33,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "POS Test Acc.",
+        "sentence": null,
+        "quoted_span": "BLSTM-CNN & 97.34 & 97.33"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 92.52,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "NER Dev Prec.",
+        "sentence": null,
+        "quoted_span": "97.33 & 92.52 & 93.64"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 93.64,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "NER Dev Recall",
+        "sentence": null,
+        "quoted_span": "92.52 & 93.64 & 93.07"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.07,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "NER Dev F1",
+        "sentence": null,
+        "quoted_span": "93.64 & 93.07 & 88.53"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 88.53,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "NER Test Prec.",
+        "sentence": null,
+        "quoted_span": "93.07 & 88.53 & 90.21"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 90.21,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "NER Test Recall",
+        "sentence": null,
+        "quoted_span": "88.53 & 90.21 & 89.36"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.36,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "three baseline systems",
+        "locator": "section_main_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "NER Test F1",
+        "sentence": null,
+        "quoted_span": "88.53 & 90.21 & 89.36"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.46,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "POS Dev Acc.",
+        "sentence": null,
+        "quoted_span": "BRNN-CNN-CRF & 97.46 & 97.55"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "POS Test Acc.",
+        "sentence": null,
+        "quoted_span": "BRNN-CNN-CRF & 97.46 & 97.55"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 94.85,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "NER Dev Prec.",
+        "sentence": null,
+        "quoted_span": "97.55 & 94.85 & 94.63"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 94.63,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "NER Dev Recall",
+        "sentence": null,
+        "quoted_span": "94.85 & 94.63 & 94.74"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.74,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{3}{c:}{\\textbf{Dev}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "NER Dev F1",
+        "sentence": null,
+        "quoted_span": "94.63 & 94.74 & 91.35"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 91.35,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "NER Test Prec.",
+        "sentence": null,
+        "quoted_span": "94.74 & 91.35 & 91.06"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.06,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "NER Test Recall",
+        "sentence": null,
+        "quoted_span": "91.35 & 91.06 & 91.21"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BRNN-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{3}{c}{\\textbf{Test}}",
+        "locator": "table_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & Recall & F1",
+        "locator": "table_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Performance of our model",
+        "locator": "caption_table_result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "GloVe 100 dimensional",
+          "quote": "All these models are run using Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "section_main_results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:result",
+        "row_label": "BRNN-CNN-CRF",
+        "column_label": "NER Test F1",
+        "sentence": null,
+        "quoted_span": "91.35 & 91.06 & 91.21"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "\\newcite{gimenez2004svmtool}"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.16,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gimenez2004svmtool",
+        "quote": "previous top-performance systems",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{gimenez2004svmtool}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "gimenez2004svmtool} & 97.16"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{toutanova2003feature}"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.27,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "toutanova2003feature",
+        "quote": "previous top-performance systems",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{toutanova2003feature}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "toutanova2003feature} & 97.27"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{manning2011part}"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.28,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "manning2011part",
+        "quote": "previous top-performance systems",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{manning2011part}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "manning2011part} & 97.28"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Senna"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.29,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "collobert2011natural",
+        "quote": "previous top-performance systems",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{collobert2011natural}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "collobert2011natural}$^\\ddag$ & 97.29"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "CharWNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.32,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "santos2014learning",
+        "quote": "previous top-performance systems",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{santos2014learning}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "santos2014learning}$^\\ddag$ & 97.32"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{shen2007guided}"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.33,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "shen2007guided",
+        "quote": "previous top-performance systems",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{shen2007guided}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "shen2007guided} & 97.33"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{sun2014structure}"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.36,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sun2014structure",
+        "quote": "previous top-performance systems",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{sun2014structure}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "sun2014structure} & 97.36"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{sogaard:2011:ACL-HLT20111}"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc.",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data from WSJ",
+        "locator": "caption_table_pos"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "POS tagging accuracy",
+        "locator": "caption_table_pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sogaard:2011:ACL-HLT20111",
+        "quote": "previously best reported results",
+        "locator": "section_comparison_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:pos",
+        "row_label": "\\newcite{sogaard:2011:ACL-HLT20111}",
+        "column_label": "Acc.",
+        "sentence": null,
+        "quoted_span": "sogaard:2011:ACL-HLT20111} & 97.50"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "\\newcite{chieu2002named}"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.31,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chieu2002named",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{chieu2002named}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "chieu2002named} & 88.31"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{florian2003named}"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.76,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "florian2003named",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{florian2003named}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "florian2003named} & 88.76"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{ando2005framework}"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.31,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ando2005framework",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{ando2005framework}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "ando2005framework} & 89.31"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Senna"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.59,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "collobert2011natural",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{collobert2011natural}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "collobert2011natural}$^\\ddag$ & 89.59"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "huang2015bidirectional",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{huang2015bidirectional}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "huang2015bidirectional}$^\\ddag$ & 90.10"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "LSTM-CNNs"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.77,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "result (90.77\\%) reported by \\newcite{chiu2015named}",
+        "locator": "section_comparison_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "training and development data sets",
+          "quote": "their final model was trained on the combination of the training and development data sets",
+          "locator": "section_comparison_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{chiu2015named}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "chiu2015named}$^\\ddag$ & 90.77"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "\\newcite{ratinov2009design}"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ratinov2009design",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{ratinov2009design}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "ratinov2009design} & 90.80"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{lin2009phrase}"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lin2009phrase",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{lin2009phrase}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "lin2009phrase} & 90.90"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "\\newcite{passos-kumar-mccallum:2014:W14-16}"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "passos-kumar-mccallum:2014:W14-16",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{passos-kumar-mccallum:2014:W14-16}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "mccallum:2014:W14-16} & 90.90"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.94,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lample:2016:NAACL",
+        "quote": "F1 scores of previous top-performance systems",
+        "locator": "caption_table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{lample:2016:NAACL}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "lample:2016:NAACL}$^\\ddag$ & 90.94"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "joint NER and entity linking model"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003",
+        "locator": "caption_table_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption_table_ner"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo-EtAl:2015:EMNLP2",
+        "quote": "Numbers are taken from the Table 3 of the original paper",
+        "locator": "section_comparison_ner_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ner",
+        "row_label": "\\newcite{luo-EtAl:2015:EMNLP2}",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "luo-EtAl:2015:EMNLP2} & 91.20"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.37,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test data set from CoNLL-2003 shared task",
+        "locator": "section_comparison_ner"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "91.37\\% F1 score",
+        "locator": "section_comparison_ner_footnote"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We run experiments using the same setting",
+        "locator": "section_comparison_ner_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "training and development data sets",
+          "quote": "trained on the combination of the training and development data sets",
+          "locator": "section_comparison_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "We run experiments using the same setting and get 91.37\\% F1 score.",
+        "quoted_span": "get 91.37\\% F1 score"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.13,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings",
+        "locator": "caption_table_embedding"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption_table_embedding"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we performed experiments",
+        "locator": "section_word_embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "Random, 100 dimensions",
+          "quote": "Random & 100 & 97.13",
+          "locator": "table_embedding_row_random"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:embedding",
+        "row_label": "Random",
+        "column_label": "POS",
+        "sentence": null,
+        "quoted_span": "Random & 100 & 97.13 & 80.76"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 80.76,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings",
+        "locator": "caption_table_embedding"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_embedding"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we performed experiments",
+        "locator": "section_word_embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "Random, 100 dimensions",
+          "quote": "Random & 100 & 97.13",
+          "locator": "table_embedding_row_random"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:embedding",
+        "row_label": "Random",
+        "column_label": "NER",
+        "sentence": null,
+        "quoted_span": "Random & 100 & 97.13 & 80.76"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.44,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings",
+        "locator": "caption_table_embedding"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption_table_embedding"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we performed experiments",
+        "locator": "section_word_embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "Senna, 50 dimensions",
+          "quote": "Senna & 50 & 97.44",
+          "locator": "table_embedding_row_senna"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:embedding",
+        "row_label": "Senna",
+        "column_label": "POS",
+        "sentence": null,
+        "quoted_span": "Senna & 50 & 97.44 & 90.28"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.28,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings",
+        "locator": "caption_table_embedding"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_embedding"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we performed experiments",
+        "locator": "section_word_embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "Senna, 50 dimensions",
+          "quote": "Senna & 50 & 97.44",
+          "locator": "table_embedding_row_senna"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:embedding",
+        "row_label": "Senna",
+        "column_label": "NER",
+        "sentence": null,
+        "quoted_span": "Senna & 50 & 97.44 & 90.28"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings",
+        "locator": "caption_table_embedding"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption_table_embedding"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we performed experiments",
+        "locator": "section_word_embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "Word2Vec, 300 dimensions",
+          "quote": "Word2Vec & 300 & 97.40",
+          "locator": "table_embedding_row_word2vec"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:embedding",
+        "row_label": "Word2Vec",
+        "column_label": "POS",
+        "sentence": null,
+        "quoted_span": "Word2Vec & 300 & 97.40 & 84.91"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.91,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings",
+        "locator": "caption_table_embedding"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_embedding"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we performed experiments",
+        "locator": "section_word_embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "Word2Vec, 300 dimensions",
+          "quote": "Word2Vec & 300 & 97.40",
+          "locator": "table_embedding_row_word2vec"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:embedding",
+        "row_label": "Word2Vec",
+        "column_label": "NER",
+        "sentence": null,
+        "quoted_span": "Word2Vec & 300 & 97.40 & 84.91"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 98.46,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "train",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No & 98.46",
+          "locator": "table_dropout_row_no"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "No",
+        "column_label": "POS Train",
+        "sentence": null,
+        "quoted_span": "No & 98.46 & 97.06"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.06,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No & 98.46 & 97.06",
+          "locator": "table_dropout_row_no"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "No",
+        "column_label": "POS Dev",
+        "sentence": null,
+        "quoted_span": "98.46 & 97.06 & 97.11"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.11,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No & 98.46 & 97.06 & 97.11",
+          "locator": "table_dropout_row_no"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "No",
+        "column_label": "POS Test",
+        "sentence": null,
+        "quoted_span": "97.06 & 97.11 & 99.97"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 99.97,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "train",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No & 98.46 & 97.06 & 97.11 & 99.97",
+          "locator": "table_dropout_row_no"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "No",
+        "column_label": "NER Train",
+        "sentence": null,
+        "quoted_span": "97.11 & 99.97 & 93.51"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.51,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No & 98.46",
+          "locator": "table_dropout_row_no"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "No",
+        "column_label": "NER Dev",
+        "sentence": null,
+        "quoted_span": "99.97 & 93.51 & 89.25"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.25,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No & 98.46",
+          "locator": "table_dropout_row_no"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "No",
+        "column_label": "NER Test",
+        "sentence": null,
+        "quoted_span": "99.97 & 93.51 & 89.25"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.86,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "train",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes & 97.86",
+          "locator": "table_dropout_row_yes"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "Yes",
+        "column_label": "POS Train",
+        "sentence": null,
+        "quoted_span": "Yes & 97.86 & 97.46"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 99.63,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "train",
+        "quote": "\\textbf{Train} & \\textbf{Dev} & \\textbf{Test}",
+        "locator": "table_dropout"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_dropout"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results with and without dropout",
+        "locator": "caption_table_dropout"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes & 97.86",
+          "locator": "table_dropout_row_yes"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:dropout",
+        "row_label": "Yes",
+        "column_label": "NER Train",
+        "sentence": null,
+        "quoted_span": "97.55 & 99.63 & 94.74"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.57,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Dev IV",
+        "sentence": null,
+        "quoted_span": "LSTM-CNN & 97.57 & \\textbf{93.75}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.75,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Dev OOTV",
+        "sentence": null,
+        "quoted_span": "97.57 & \\textbf{93.75} & 90.29"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 90.29,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Dev OOEV",
+        "sentence": null,
+        "quoted_span": "93.75} & 90.29 & 80.27"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.27,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Dev OOBV",
+        "sentence": null,
+        "quoted_span": "90.29 & 80.27 & 97.55"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Test IV",
+        "sentence": null,
+        "quoted_span": "80.27 & 97.55 & \\textbf{93.45}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.45,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Test OOTV",
+        "sentence": null,
+        "quoted_span": "97.55 & \\textbf{93.45} & 90.14"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 90.14,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Test OOEV",
+        "sentence": null,
+        "quoted_span": "93.45} & 90.14 & 80.07"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 80.07,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN POS",
+        "column_label": "Test OOBV",
+        "sentence": null,
+        "quoted_span": "90.14 & 80.07 \\\\"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.68,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Dev IV",
+        "sentence": null,
+        "quoted_span": "LSTM-CNN-CRF & \\textbf{97.68} & 93.65"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.65,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Dev OOTV",
+        "sentence": null,
+        "quoted_span": "97.68} & 93.65 & \\textbf{91.05}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 91.05,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Dev OOEV",
+        "sentence": null,
+        "quoted_span": "93.65 & \\textbf{91.05}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.71,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Dev OOBV",
+        "sentence": null,
+        "quoted_span": "\\textbf{82.71} & \\textbf{97.77}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.77,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Test IV",
+        "sentence": null,
+        "quoted_span": "82.71} & \\textbf{97.77} & 93.16"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.16,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Test OOTV",
+        "sentence": null,
+        "quoted_span": "97.77} & 93.16 & \\textbf{90.65}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 90.65,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Test OOEV",
+        "sentence": null,
+        "quoted_span": "93.16 & \\textbf{90.65}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 82.49,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF POS",
+        "column_label": "Test OOBV",
+        "sentence": null,
+        "quoted_span": "\\textbf{82.49} \\\\"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.83,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Dev IV",
+        "sentence": null,
+        "quoted_span": "LSTM-CNN & 94.83 & 87.28"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.28,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Dev OOTV",
+        "sentence": null,
+        "quoted_span": "94.83 & 87.28 & 96.55"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Dev OOEV",
+        "sentence": null,
+        "quoted_span": "87.28 & 96.55 & 82.90"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Dev OOBV",
+        "sentence": null,
+        "quoted_span": "96.55 & 82.90 & 90.07"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.07,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Test IV",
+        "sentence": null,
+        "quoted_span": "82.90 & 90.07 & 89.45"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.45,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Test OOTV",
+        "sentence": null,
+        "quoted_span": "90.07 & 89.45 & 100.00"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 100.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Test OOEV",
+        "sentence": null,
+        "quoted_span": "89.45 & 100.00 & 78.44"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 78.44,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "baseline LSTM-CNN model",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN NER",
+        "column_label": "Test OOBV",
+        "sentence": null,
+        "quoted_span": "100.00 & 78.44 \\\\"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.49,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Dev IV",
+        "sentence": null,
+        "quoted_span": "LSTM-CNN-CRF & \\textbf{96.49}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.63,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Dev OOTV",
+        "sentence": null,
+        "quoted_span": "\\textbf{96.49} & \\textbf{88.63}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.67,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Dev OOEV",
+        "sentence": null,
+        "quoted_span": "\\textbf{88.63} & \\textbf{97.67}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.91,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "\\multicolumn{4}{c|}{Dev}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Dev OOBV",
+        "sentence": null,
+        "quoted_span": "\\textbf{97.67} & \\textbf{86.91}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.14,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "IV",
+          "quote": "in-vocabulary words (IV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Test IV",
+        "sentence": null,
+        "quoted_span": "\\textbf{86.91} & \\textbf{92.14}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.73,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOTV",
+          "quote": "out-of-training-vocabulary words (OOTV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Test OOTV",
+        "sentence": null,
+        "quoted_span": "\\textbf{92.14} & \\textbf{90.73}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 100.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOEV",
+          "quote": "out-of-embedding-vocabulary words (OOEV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Test OOEV",
+        "sentence": null,
+        "quoted_span": "90.73} & 100.00 & \\textbf{80.60}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 80.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "\\multicolumn{4}{c}{Test}",
+        "locator": "table_oov"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption_table_oov"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "performance of our model on different subsets",
+        "locator": "section_oov_error_analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "subset",
+          "value": "OOBV",
+          "quote": "out-of-both-vocabulary words (OOBV)",
+          "locator": "section_oov_error_analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:oov",
+        "row_label": "LSTM-CNN-CRF NER",
+        "column_label": "Test OOBV",
+        "sentence": null,
+        "quoted_span": "100.00 & \\textbf{80.60}"
+      },
+      "confidence": 0.97
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      98
+    ],
+    "tokens_in": 89063,
+    "tokens_out": 51124,
+    "cost_usd": 0.344683
+  }
+}

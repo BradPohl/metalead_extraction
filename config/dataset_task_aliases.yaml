@@ -1,0 +1,183 @@
+# Documented aliases for dataset + task name canonicalization (v6c normalizer).
+#
+# Rules:
+#   - Alias chains resolve to a single canonical head (fix-point iteration).
+#   - Entries are case- and punctuation-insensitive AFTER the normalizer's
+#     Unicode + apostrophe/dash/arrow normalization + lowercasing (pipeline
+#     steps 1-4 in dataset_task_normalizer.py).
+#   - Every expansion is one-way: alias -> canonical. Never the reverse.
+#   - Each entry is sourced from an observed form in v4l / v6a / v6b outputs
+#     or MetaLead gold on the 10-paper slice or 31-paper slice. Provenance
+#     noted in comments where not obvious.
+
+datasets:
+  # CNN/DailyMail family — gold uses "CNN/DailyMail"; arms use CNNDM, CNN/DM,
+  # CNN-DailyMail, CNN+DailyMail
+  cnndm:               [cnn/dailymail, cnn-dailymail, cnn dailymail, cnn+dailymail, cnn/dm, cnn dm]
+
+  # WMT translation shared tasks — gold uses curly apostrophe + ISO caps
+  # ("WMT'14 EN-FR"); arms use mix of WMT14, WMT'14, WMT 2014, English-French,
+  # En-Fr, EN-FR. Year is tracked in meta.year_hint, not in the head, so a
+  # single head "wmt" covers all years. Language direction is in meta.lang_dir.
+  wmt:                 [wmt'14, wmt 14, wmt-14, wmt2014, wmt 2014,
+                        wmt'16, wmt 16, wmt-16, wmt2016, wmt 2016,
+                        wmt'13, wmt 13, wmt-13, wmt2013,
+                        wmt'15, wmt 15, wmt-15, wmt2015,
+                        wmt'17, wmt 17, wmt-17, wmt2017]
+
+  # IWSLT translation shared tasks
+  iwslt:               [iwslt'14, iwslt 14, iwslt-14, iwslt2014, iwslt 2014,
+                        iwslt'15, iwslt 15, iwslt-15, iwslt2015, iwslt 2015,
+                        iwslt'16, iwslt 16, iwslt-16, iwslt2016, iwslt 2016,
+                        iwslt'17, iwslt 17, iwslt-17, iwslt2017, iwslt 2017]
+
+  # SQuAD question answering
+  squad:               [stanford question answering dataset, squad 1.1, squad1.1, squad v1]
+  squad2:              [squad 2.0, squad2.0, squad 2, squad v2]
+
+  # COCO / ImageNet
+  coco:                [ms coco, ms-coco, mscoco, coco captions]
+  imagenet:            [ilsvrc-2012, ilsvrc2012, imagenet-1k, in1k, ilsvrc 2012]
+
+  # CoNLL — gold uses "CoNLL-2003 - English" (the " - English" suffix is split
+  # marker; stripped by pipeline qualifier strip). Arms use CoNLL-2003, CoNLL03,
+  # CoNLL-03, CoNLL 2003, CoNLL03 NER. Year in meta.year_hint differentiates
+  # CoNLL-2003 (NER) from CoNLL-2000 (chunking) when year is stated on both sides.
+  conll:               [conll-2003, conll 2003, conll03, conll-03, conll03 ner,
+                        conll-2000, conll 2000, conll00, conll-00]
+
+  # OntoNotes
+  ontonotes5:          [ontonotes 5.0, ontonotes v5, ontonotes-5, ontonotes5, ontonotes 5]
+
+  # GLUE / SuperGLUE
+  glue:                [glue benchmark]
+  superglue:           [super glue, super-glue, superglue benchmark]
+  mnli:                [multi-nli, multinli, mnli-m, mnli-mm, multi nli]
+  sst2:                [sst-2, sst2, stanford sentiment treebank, sst 2]
+  cola:                [corpus of linguistic acceptability]
+  qnli:                [qnli dev]
+  rte:                 [rte dev]
+  mrpc:                [microsoft research paraphrase corpus]
+  stsb:                [sts-b, sts b, semantic textual similarity benchmark]
+  qqp:                 [quora question pairs]
+
+  # PASCAL VOC
+  pascalvoc:           [pascal voc, voc 2007, voc 2012, voc07, voc12, pascal]
+
+  # Misc text corpora
+  bookcorpus:          [books corpus, book corpus]
+  librispeech:         [libri-speech, libri speech]
+  mscoco:              [ms coco, coco captions]
+
+  # Summarization
+  xsum:                [extreme summarization, x-sum]
+  gigaword:            [annotated english gigaword, english gigaword]
+  newsroom:            [cornell newsroom]
+  multinews:           [multi-news, multi news]
+
+  # SwDA (switchboard dialog act) — gold "Switchboard Dialog Act Corpus (SWDA)"
+  swda:                [switchboard dialog act corpus, switchboard, swda]
+
+  # SNIPS
+  snips:               [snips-nlu, snips nlu]
+
+  # ATIS
+  atis:                [atis corpus]
+
+  # WNUT shared tasks
+  wnut17:              [wnut-17, wnut17, wnut 17]
+  wnut16:              [wnut-16, wnut16, wnut 16]
+
+  # NYT
+  nyt:                 [new york times, new york times annotated corpus, nyt50]
+
+  # Penn Treebank
+  ptb:                 [penn treebank, penn treebank wsj, penn treebank (ptb), wall street journal portion of penn treebank dataset]
+  wsj:                 [wall street journal, wall-street-journal]
+
+  # BC5CDR
+  bc5cdr:              [bc5-cdr, bc5 cdr]
+  ncbi:                [ncbi-disease, ncbi disease]
+
+  # ELI5
+  eli5:                [eli5 dev]
+
+  # Reddit TIFU
+  reddittifu:          [reddit tifu, reddit-tifu]
+
+  # BigPatent
+  bigpatent:           [big patent, big-patent]
+
+  # BillSum / AESLC
+  billsum:             [billsum]
+  aeslc:               [aeslc]
+
+  # ConvAI2
+  convai2:             [convai 2, conv-ai-2]
+
+
+tasks:
+  # Machine translation — gold "Machine Translation"; arms use MT, NMT,
+  # machine translation, neural machine translation
+  mt:                  [machine translation, neural machine translation, nmt, translation]
+
+  # Summarization — gold "Summarization" (single canonical). Arms split it
+  # into abstractive / extractive / sentence / extreme / single-document.
+  # Alias all to the gold canonical.
+  summarization:       [abstractive summarization, abstractive summarisation, text summarization,
+                        extractive summarization, sentence summarization,
+                        abstractive sentence summarization, single-document summarization,
+                        extreme summarization, low-resource summarization,
+                        headline generation]
+
+  # NER — gold "Named Entity Recognition (NER)"; arms use variations.
+  ner:                 [named entity recognition, named-entity recognition,
+                        named entity recognition (ner), sentence-level ner,
+                        sentence level ner, token classification]
+
+  # Dialogue act classification
+  dac:                 [dialogue act classification, dialogue act recognition,
+                        dialog act classification, dialog act recognition]
+
+  # Intent detection / slot filling — gold "Intent Detection and Slot Filling"
+  # (combined). Arm papers often evaluate each separately. Map all to the
+  # combined canonical since the metric (accuracy / F1) + dataset (ATIS, SNIPS)
+  # identify the pair.
+  idsf:                [intent detection and slot filling, intent detection,
+                        slot filling, intent classification, slot prediction]
+
+  # POS tagging
+  pos:                 [pos tagging, part-of-speech tagging, part of speech tagging,
+                        part-of-speech (pos) tagging]
+
+  # QA / reading comprehension
+  qa:                  [question answering, reading comprehension]
+
+  # NLI / paraphrase / sentiment / linguistic-acceptability
+  nli:                 [natural language inference, natural language inference (nli),
+                        textual entailment]
+  paraphrase:          [paraphrase detection, paraphrase identification]
+  sentiment:           [sentiment analysis, sentiment classification]
+  cola_task:           [linguistic acceptability]
+  textsim:             [text similarity, semantic textual similarity]
+
+  # Parsing
+  parsing:             [constituency parsing, dependency parsing, syntactic parsing]
+
+  # WSI
+  wsi:                 [word sense induction, word-sense induction]
+
+  # Chunking
+  chunking:            [text chunking, noun phrase chunking, sequence labeling]
+
+  # QG, dialog, LM
+  qg:                  [question generation]
+  dialog_gen:          [dialogue generation, response generation]
+  lm:                  [language modeling, language modelling]
+
+  # CCG supertagging
+  ccg:                 [combinatory categorial grammar (ccg) supertagging, ccg supertagging]
+
+  # Author disambiguation
+  author_disambig:     [unsupervised author name disambiguation, author name disambiguation,
+                        author disambiguation]

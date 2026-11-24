@@ -1,0 +1,683 @@
+{
+  "paper_id": "1811.05021",
+  "tuples": [
+    {
+      "method": {
+        "name": "RCNN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 73.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "73.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BiLSTM-Softmax"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "75.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "DRLM-Conditional"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 77.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "77.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PDI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "75.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "UCI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_5_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "DMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "75.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_6_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "ALDMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{81.5}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_7_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ALDMN (Our Model)",
+        "locator": "row_7_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "ADC"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 55.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "55.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true,
+        "split": true
+      }
+    },
+    {
+      "method": {
+        "name": "GAN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 62.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "62.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true,
+        "split": true
+      }
+    },
+    {
+      "method": {
+        "name": "PDI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 65.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "65.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true,
+        "split": true
+      }
+    },
+    {
+      "method": {
+        "name": "DMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 64.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "64.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true,
+        "split": true
+      }
+    },
+    {
+      "method": {
+        "name": "ALDMN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 68.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "68.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ALDMN (Our Model)",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true,
+        "split": true
+      }
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 4,
+    "n_results_tables_loose": 3,
+    "tables_completed": 3,
+    "calls": 9,
+    "cost_usd": 0.09746156,
+    "tokens_in": 15144,
+    "tokens_out": 23930,
+    "context_pass_cost": 0.0173616
+  }
+}

@@ -1,0 +1,168 @@
+\subsection{Machine Translation}\label{sec:translation}
+
+We first report results on \ende{} and \enfr{} where we compare to the best results in the literature, most of which are based on self-attention.
+Table~\ref{tab:mt1} shows that \sdconv{} performs very competitively and only trails the state of the art result by 0.1 BLEU on \enfr{}; the state of the art is based on self-attention \citep{ott2018scaling}.
+This is despite the simplicity of \sdconv{} which operates with a very small number of fixed weights over all time steps whereas self-attention computes dot-products with all context elements at every time-step.
+
+\tvsdconv{} outperforms the best known result on \ende{} by 0.4 BLEU and achieves a new state of the art, whereas on \enfr{} it matches the state of the art.
+This shows that content-based self-attention is not necessary to achieve good accuracy on large translation benchmarks.
+
+\begin{table*}[t]
+\centering
+\begin{tabular}{lcrr}
+\toprule
+Model & Param (En-De) & \ende{} & \enfr{} \\
+\midrule
+\citet{gehring2017convs2s} & 216M & 25.2 & 40.5 \\
+\citet{vaswani2017transformer} & 213M & 28.4 & 41.0 \\
+\citet{ahmed2017WeightedTN} & 213M & 28.9 & 41.4 \\
+\citet{chen2018arxiv} & 379M & 28.5 & 41.0 \\
+\citet{shaw2018relpos}  & - & 29.2 & 41.5 \\
+\citet{ott2018scaling} & 210M & 29.3 & \textbf{43.2} \\
+\midrule
+\sdconv{} & 202M & 28.9 & 43.1 \\
+\tvsdconv{} & 213M & \textbf{29.7} & \textbf{43.2} \\
+\bottomrule
+\end{tabular}
+\caption{Machine translation accuracy in terms of BLEU for \ende{} and \enfr{} on newstest2014.}
+\label{tab:mt1}
+\end{table*}
+
+\iwslt{} is a much smaller benchmark and we therefore switch to a smaller architecture: $d_{ff} = 1024$, $d=512$, and $H=4$. 
+The self-attention baseline on this dataset is the best reported result in the literature (Table~\ref{tab:mt2}).\footnote{We omit comparison to \citet{elbayad2018pervasiveattn} since their test set is not directly comparable.}
+\sdconv{} outperforms this baseline by 0.4 BLEU and \tvsdconv{} improves by 0.8 BLEU.
+We further run experiments on \zhen{} translation to evaluate on a non-European language.
+\sdconv{} outperforms the baseline by 0.5 BLEU and \tvsdconv{} by 0.6 BLEU. 
+
+\begin{table*}[t]
+\centering
+\begin{tabular}{lcrrr}
+\toprule
+Model & Param (Zh-En) & \iwslt{} & \zhen{} \\
+\midrule
+\citet{deng2018latent} & - & 33.1 & - \\
+\cite{hassan2018parity} & - & - & 24.2 \\
+\midrule
+Self-attention baseline & 292M & 34.4 & 23.8 \\
+\sdconv{} & 285M & 34.8 & 24.3 \\
+\tvsdconv{} & 296M & \textbf{35.2} & \textbf{24.4} \\
+\bottomrule
+\end{tabular}
+\caption{Machine translation accuracy in terms of BLEU on \iwslt{} and \zhen{}.}
+\label{tab:mt2}
+\end{table*}
+
+
+
+\subsection{Model ablation}\label{sec:ablation}
+
+In this section we evaluate the impact of the various choices we made for \sdconv{} (\textsection\ref{sec:sdconv}) and \tvsdconv{} (\textsection\ref{sec:tvsdconv}).
+We first show that limiting the maximum context size of self-attention has no impact on validation accuracy (Table~\ref{tab:ablation}).
+Note that our baseline is stronger than the original result of \citet{vaswani2017transformer}.
+Next, we replace self-attention blocks with non-separable convolutions (CNN) with kernel size 3 and input/output dimension $d=1024$. 
+The CNN block has no input and output projections compared to the baseline and we add one more encoder layer to assimilate the parameter count. 
+This CNN with a narrow kernel trails self-attention by 1 BLEU.
+
+We improve this result by switching to a depthwise separable convolution (CNN Depthwise) with input and output projections of size $d=1024$. 
+When we progressively increase the kernel width from lower to higher layers then this further improves accuracy. 
+This narrows the gap to self-attention to only 0.5 BLEU.
+DropConnect gives a slight performance improvement and weight sharing does not decrease performance.
+Adding softmax normalization to the weights is only 0.3 BLEU below the accuracy of the baseline. 
+This corresponds to \sdconv{}.
+In Appendix~\ref{app:smnorm} we compare softmax-normalization to various alternatives.
+Finally, \tvsdconvfull{}s (\tvsdconv{}) achieve the same validation accuracy as self-attention with slightly fewer parameters and at 20\% higher inference speed.
+Softmax-normalization is important for \tvsdconv{} since training diverged in our experiments when removing it.
+To make the models more comparable, we do not introduce GLU after the input projection.
+
+For comparison, we re-implemented averaged attention networks (AAN; \citealt{zhang2018aan}) which compute a uniform average over past model states instead of a weighted average as in self-attention.
+Our re-implementation is efficient: we measure 129 sentences/sec for a base transformer-AAN on newstest2014 compared to 20 sentences/sec for \citet{zhang2018aan}.
+Table~\ref{tab:ablation} shows that our models outperform this approach.
+Note that AANs still use self-attention in the encoder network while as our approach does away with self-attention both in the encoder and decoder.
+
+
+\begin{table*}[t]
+\centering
+\begin{tabular}{lcrr}
+\toprule
+Model & Param & BLEU & Sent/sec \\
+\midrule
+\citet{vaswani2017transformer} & 213M & 26.4 & - \\
+Self-attention baseline (k=$\inf$, H=16) & 210M & 26.9 $\pm$ 0.1 & 52.1 $\pm$ 0.1 \\
+Self-attention baseline (k=3,7,15,31x3, H=16) & 210M & 26.9 $\pm$ 0.3 & 54.9 $\pm$ 0.2 \\
+\midrule
+CNN (k=3) & 208M & 25.9 $\pm$ 0.2 & 68.1 $\pm$ 0.3 \\
+CNN Depthwise (k=3, H=1024) & 195M & 26.1 $\pm$ 0.2 & 67.1 $\pm$ 1.0 \\
++ Increasing kernel (k=3,7,15,31x4, H=1024) & 195M  & 26.4 $\pm$ 0.2 & 63.3 $\pm$ 0.1 \\
++ DropConnect (H=1024) & 195M & 26.5 $\pm$ 0.2 & 63.3 $\pm$ 0.1 \\
++ Weight sharing (H=16) & 195M & 26.5 $\pm$ 0.1 & 63.7 $\pm$ 0.4 \\
++ Softmax-normalized weights [\sdconv] (H=16) & 195M & 26.6 $\pm$ 0.2 & 63.6 $\pm$ 0.1 \\
++ Dynamic weights [\tvsdconv] (H=16) & 200M & 26.9 $\pm$ 0.2 & 62.6 $\pm$ 0.4 \\
+Note: \tvsdconv (H=16) w/o softmax-normalization & 200M & diverges  \\
+\midrule
+AAN decoder + self-attn encoder & 260M & 26.8 $\pm$ 0.1 & 59.5 $\pm$ 0.1 \\
+AAN decoder + AAN encoder & 310M & 22.5 $\pm$ 0.1 & 59.2 $\pm$ 2.1 \\
+\bottomrule
+\end{tabular}
+\caption{Ablation on WMT English-German newstest2013. 
+(+) indicates that a result includes \emph{all} preceding features. 
+Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.}
+\label{tab:ablation}
+\end{table*}
+
+
+
+\subsection{Language Modeling}\label{sec:lm}
+
+As second task we consider language modeling on the \gbw{} benchmark. 
+The self-attention baseline has $N=16$ blocks, each with a self-attention module and a feed-forward module using $d_{ff} = 4096$ and $d=1024$.
+\tvsdconv{} uses $N=17$ blocks to assimilate the parameter count and we use kernel sizes 15x2, 31x4 and 63x11.
+Table~\ref{tab:gbw_lm} shows that \tvsdconv{} achieves slightly better perplexity than our self-attention baseline which is very competitive.
+
+\begin{table*}
+\centering
+\begin{tabular}{lcrrr}
+\toprule
+Model & Param & Valid & Test \\
+\midrule
+2-layer LSTM-8192-1024 \citep{jozefowicz2016lm} & -- & -- & 30.6 \\
+Gated Convolutional Model \citep{dauphin2017convlm} & 428M & -- & 31.9  \\
+Mixture of Experts \citep{shazeer2017outrageously} & 4371M $^\dagger$ & -- & 28.0 \\
+\midrule
+Self-attention baseline & 331M & 26.67 & 26.73 \\  
+\tvsdconv{} & 339M & 26.60 & \textbf{26.67} \\ 
+\bottomrule
+\end{tabular}
+\caption{Language modeling results on the Google Billion Word test set. \\
+\small{$^\dagger$does not include embedding and softmax layers}}
+\label{tab:gbw_lm}
+\end{table*}
+
+
+\subsection{Abstractive Summarization}\label{sec:abs}
+
+Finally, we evaluate on the \cnndm{} abstractive document summarization benchmark where we encode a document of up to 400 words and generate multi-sentence summaries. 
+This tests the ability of our model to deal with longer sequences.
+We reduce model capacity by setting $d=1024$, $d_{ff}=2048$, $H=8$, similar to the Transformer base setup of \citet{vaswani2017transformer}.
+
+Table~\ref{tab:abs} shows that \sdconv{} outperforms the self-attention baseline as well as comparable previous work and \tvsdconv{} performs even better.
+We also show results for a reinforcement learning approach \citep{celikyilmaz2018deep} and note that RL is equally applicable to our architecture.\footnote{An earlier version of this paper erroneously compared to \citet{gehrmann2018bottom}, however, their setup is based on the full-text \cnndm{} whereas we use the more common entity-anonymized version.}
+
+\begin{table*}[t]
+\centering
+\begin{tabular}{lcrrr}
+\toprule
+Model & Param & Rouge-1 & Rouge-2 & Rouge-l \\    
+\midrule
+LSTM \citep{paulus17intra} & - & 38.30 & 14.81 &  35.49  \\ 
+CNN \citep{fan17} & - & 39.06 & 15.38 & 35.77 \\
+\midrule
+Self-attention baseline & 90M & 39.26 & 15.98 & 36.35  \\
+\sdconv & 86M & 39.52 & 15.97 & 36.51  \\
+\tvsdconv & 87M & \textbf{39.84} & \textbf{16.25} & \textbf{36.73} \\
+\midrule 
+RL \citep{celikyilmaz2018deep} & - & \textbf{41.69} & \textbf{19.47} & \textbf{37.92} \\ 
+\bottomrule
+\end{tabular}
+\caption{Results on \cnndm{} summarization. We compare to likelihood trained approaches except for \citet{celikyilmaz2018deep}.}
+\label{tab:abs}
+\end{table*}

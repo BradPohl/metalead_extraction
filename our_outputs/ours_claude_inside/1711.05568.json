@@ -1,0 +1,1156 @@
+{
+  "paper_id": "1711.05568",
+  "tuples": [
+    {
+      "method": {
+        "name": "Human annotator"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 84.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Human annotator &84.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CRF-Attentive Structured Network"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{81.3}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (CRF-ASN)",
+        "locator": "row_2_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM-CRF&79.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "DRLM-Conditional"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 77.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "DRLM-Conditional &77.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-Softmax"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LSTM-Softmax &75.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "RCNN"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 73.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "RCNN &73.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 73.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CNN & 73.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 71.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CRF &71.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "HMM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 71.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "HMM &71.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "SVM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "SwDA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 70.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "SVM &70.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CRF-Attentive Structured Network"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "The ICSI Meeting Recorder Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 91.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Ours (CRF-ASN)} &91.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparing Accuracy of our method (CRF-ASN)",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "The ICSI Meeting Recorder Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM-CRF & 90.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "LSTM-Softmax"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "The ICSI Meeting Recorder Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 86.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LSTM-Softmax & 86.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "CNN"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "The ICSI Meeting Recorder Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 84.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CNN & 84.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "The ICSI Meeting Recorder Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 83.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CRF & 83.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "SVM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "The ICSI Meeting Recorder Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "SVM & 82.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The hyper-parameters and parameters which achieve the best performance on the validation set are chosen to conduct the testing evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "other methods in the literature",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "CRF"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Simple CRF",
+          "quote": "Simple CRF",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "SVM"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 77.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "77.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Simple SVM",
+          "quote": "Simple SVM",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Simple Word Embedding"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 78.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "78.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Simple Word Embedding",
+          "quote": "Simple Word Embedding",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Simple Context state"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Simple Context state",
+          "quote": "Simple Context state",
+          "locator": "row_5_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Simple Memory Network"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 78.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "78.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Simple Memory Network",
+          "quote": "Simple Memory Network",
+          "locator": "row_6_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Simple Utterance Embedding"
+      },
+      "task": {
+        "name": "Dialogue Act Recognition"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Component ablations on SwDA dataset",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "Simple Utterance Embedding",
+          "quote": "Simple Utterance Embedding",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true
+      }
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 8,
+    "n_results_tables_loose": 7,
+    "tables_completed": 7,
+    "calls": 21,
+    "cost_usd": 0.79792,
+    "tokens_in": 66015,
+    "tokens_out": 26693,
+    "context_pass_cost": 0.092148
+  }
+}

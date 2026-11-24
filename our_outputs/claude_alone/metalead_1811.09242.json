@@ -1,0 +1,853 @@
+{
+  "paper_id": "1811.09242",
+  "tuples": [
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "table_2a"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose a latent variable model called AutoSense",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "15",
+          "quote": "We arbitrarily set the number of senses to $S=15$",
+          "locator": "parameter_setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2a",
+        "row_label": "AutoSense",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "61.7  & 9.8   & 24.59 & 0.33"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "table_2a"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose a latent variable model called AutoSense",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "15",
+          "quote": "We arbitrarily set the number of senses to $S=15$",
+          "locator": "parameter_setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2a",
+        "row_label": "AutoSense",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "61.7  & 9.8   & 24.59 & 0.33"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 24.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "table_2a"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose a latent variable model called AutoSense",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "15",
+          "quote": "We arbitrarily set the number of senses to $S=15$",
+          "locator": "parameter_setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2a",
+        "row_label": "AutoSense",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "61.7  & 9.8   & 24.59 & 0.33"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense$^{s=5}$"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "table_2a"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "parameter_setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "5",
+          "quote": "AutoSense$^{s=5}$",
+          "locator": "table_2a"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2a",
+        "row_label": "AutoSense$^{s=5}$",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "\\textbf{25.20}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense$^{s=5}$"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 62.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "table_2a"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "parameter_setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "5",
+          "quote": "AutoSense$^{s=5}$",
+          "locator": "table_2a"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2a",
+        "row_label": "AutoSense$^{s=5}$",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "\\textbf{62.9} & 10.1"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "table_2a"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2014inducing",
+        "quote": "as reported in  \\cite{chang2014inducing}",
+        "locator": "section_experiments"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2a",
+        "row_label": "BNP-HC",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "22.23 & 11.77"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 23.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "table_2a"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "as reported in \\cite{song2016word}",
+        "locator": "section_experiments"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2a",
+        "row_label": "SE-WSI-fix",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "55.1  & 9.8   & 23.24 & 1.35"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "table_2b"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose a latent variable model called AutoSense",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "15",
+          "quote": "We arbitrarily set the number of senses to $S=15$",
+          "locator": "parameter_setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2b",
+        "row_label": "AutoSense",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "7.96  & 22.16"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "table_2b"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose a latent variable model called AutoSense",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2b",
+        "row_label": "AutoSense",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "7.96  & 22.16"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense$^{s=7}$"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "table_2b"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "parameter_setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "7",
+          "quote": "AutoSense$^{s=7}$",
+          "locator": "table_2b"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2b",
+        "row_label": "AutoSense$^{s=7}$",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "\\textbf{22.17}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "MCC"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 20.58,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "table_2b"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "komninos2016structured",
+        "quote": "as reported in \\cite{komninos2016structured}",
+        "locator": "section_experiments"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2b",
+        "row_label": "MCC",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "55.6  & 7.62  & 20.58"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "AutoSense +actual"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 24.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "table_2b"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We similarly apply the actual additional contexts to AutoSense",
+        "locator": "section_semeval2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional_context",
+          "value": "actual",
+          "quote": "with additional contexts",
+          "locator": "table_2b"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2b",
+        "row_label": "AutoSense +actual",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "\\textbf{24.37}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Unsupervised Author Name Disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 58.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "AutoSense performs the best on almost all settings",
+        "locator": "section_uand_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "table_4a"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4a",
+        "row_label": "AutoSense",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "56.2 & 56.4 & 57.9 & 58.8"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "Unsupervised Author Name Disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 55.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "We use LDA \\cite{blei2003latent}, HC \\cite{chang2014inducing} and STM",
+        "locator": "section_uand_setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "table_4a"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4a",
+        "row_label": "STM",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "52.8 & 55.0 & 55.5 & 55.0"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Unsupervised Author Name Disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 46.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "AutoSense performs the best on almost all settings",
+        "locator": "section_uand_results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "table_4b"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4b",
+        "row_label": "AutoSense",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "44.4 & 45.5 & 46.6 & 46.5"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "Unsupervised Author Name Disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 44.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "We use LDA \\cite{blei2003latent}, HC \\cite{chang2014inducing} and STM",
+        "locator": "section_uand_setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "num_senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "table_4b"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4b",
+        "row_label": "STM",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "44.9 & 44.4 & 44.9 & 41.9"
+      },
+      "confidence": 0.8
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      16
+    ],
+    "tokens_in": 20190,
+    "tokens_out": 5519,
+    "cost_usd": 0.19113999999999998
+  }
+}

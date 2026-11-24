@@ -1,0 +1,78 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\pdfoutput=1
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{url}
+\usepackage{latexsym}
+% \usepackage{natbib}
+
+\usepackage{mathtools}
+\usepackage{calc}
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{1005}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\title{Fast and Accurate Entity Recognition with Iterated Dilated Convolutions}
+
+\author{Emma Strubell \qquad Patrick Verga \qquad David Belanger \qquad Andrew McCallum\\
+  College of Information and Computer Sciences \\
+  University of Massachusetts Amherst \\
+  {\tt \{strubell, pat, belanger, mccallum\}@cs.umass.edu}
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+
+Today when many practitioners run basic NLP on the entire web and large-volume traffic, faster methods are paramount to saving time and energy costs.
+Recent advances in GPU hardware have led to the emergence of bi-directional LSTMs as a standard method for obtaining per-token vector representations serving as input to labeling tasks such as NER (often followed by prediction in a linear-chain CRF). 
+Though expressive and accurate, these models fail to fully exploit GPU parallelism, limiting their computational efficiency.
+This paper proposes a faster alternative to Bi-LSTMs for NER: Iterated Dilated Convolutional Neural Networks (ID-CNNs), which have better capacity than traditional CNNs for large context and structured prediction.  
+Unlike LSTMs whose sequential processing on sentences of length $N$ requires $O(N)$ time even in the face of parallelism, ID-CNNs permit fixed-depth convolutions to run in parallel across entire documents.
+We describe a distinct combination of network structure, parameter sharing and training procedures that enable dramatic 14-20x test-time speedups while retaining accuracy comparable to the Bi-LSTM-CRF. Moreover, ID-CNNs trained to aggregate context from the entire document are even more accurate while maintaining 8x faster test time speeds.
+
+
+% We describe a distinct combination of network structure, parameter sharing and training procedures that is not only more accurate than Bi-LSTM-CRFs, but also 8x faster at test time by effectively incorporating context from the entire document.  Moreover, ID-CNNs with independent classification enable dramatic 14-20x test-time speedups, while still attaining accuracy comparable to the Bi-LSTM-CRF.
+
+  % Bi-directional LSTMs have emerged as a standard method for obtaining per-token vector representations serving as input to various token labeling tasks (whether followed by Viterbi prediction or independent classification).  This paper proposes an alternative to Bi-LSTMs for this purpose: iterated dilated convolutional neural networks (ID-CNNs), which have better capacity than traditional CNNs for large context and structured prediction.  We describe a distinct combination of network structure, parameter sharing and training procedures that is not only more accurate than Bi-LSTM-CRFs, but also 8x faster at test time on long sequences.  Moreover, ID-CNNs with independent classification enable a dramatic 14x test-time speedup, while still attaining accuracy comparable to the Bi-LSTM-CRF.  We further demonstrate the ability of ID-CNNs to combine evidence over long sequences by demonstrating their improved accuracy on whole-document (rather than per-sentence) inference.  Unlike LSTMs whose sequential processing on sentences of length $N$ requires $O(N)$ time even in the face of parallelism, IDCNNs permit fixed-depth convolutions to run in parallel across entire documents.  Today when many companies run basic NLP on the entire web and large-volume traffic, faster methods are paramount to saving time and energy costs.
+
+\end{abstract}
+
+\input{intro}
+
+\input{background}
+
+\input{model}
+
+\input{training}
+
+\input{related-work}
+
+\input{experiments}
+
+\section{Conclusion}
+
+We present iterated dilated convolutional neural networks, fast token encoders that efficiently aggregate broad context without losing resolution. These provide impressive speed improvements for sequence labeling, particularly when processing entire documents at a time. In the future we hope to extend this work to NLP tasks with richer structured output, such as parsing.
+
+\section*{Acknowledgments}
+We thank Subhransu Maji and Luke Vilnis for helpful discussions, and Brendan O'Connor, Yoav Goldberg, the UMass NLP reading group and many anonymous reviewers for constructive comments on various drafts of the paper. We are also grateful to Guillaume Lample for sharing his pre-trained word embeddings. This work was supported in part by the Center for Intelligent Information Retrieval, in part by DARPA under agreement number FA8750-13-2-0020, in part by Defense Advanced Research Agency (DARPA) contract number HR0011-15-2-0036, in part by the National Science Foundation (NSF) grant number DMR-1534431, and in part by the National Science Foundation (NSF) grant number IIS-1514053. The U.S. Government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding any copyright notation thereon. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect those of the sponsor.
+
+\bibliography{emnlp2017}
+\bibliographystyle{emnlp_natbib}
+
+\input{appendix}
+
+\end{document}

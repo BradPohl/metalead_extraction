@@ -1,0 +1,613 @@
+{
+  "paper_id": "1811.05021",
+  "tuples": [
+    {
+      "method": {
+        "name": "RCNN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 73.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "RCNN(Bulnsom et al. 2013)&73.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Bulnsom et al. 2013"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BiLSTM-Softmax"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BiLSTM-Softmax(Khanpour et al. 2016)&75.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Khanpour et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "DRLM-Conditional"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 77.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "DRLM-Conditional(Ji et al. 2016)&77.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Ji et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "PDI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PDI(Tran et al. 2017)&75.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Tran et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "UCI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 79.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "UCI(Liu et al. 2017)&79.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Liu et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Dynamic Memory Network"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 75.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "DMN(Kumar et al., 2015) & 75.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "DMN(Kumar et al., 2015) & 75.2",
+        "locator": "row_6_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Dynamic Memory Network with Adversarial Learning"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "Switchboard Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ALDMN (Our Model) & \\textbf{81.5}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy(\\%)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ALDMN (Our Model)",
+        "locator": "row_7_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ADC"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 55.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ADC(Julia et al. 2010)&55.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Classification accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Julia et al. 2010"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "GAN"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 62.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "GAN(Tran et al. 2017b)&62.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Classification accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Tran et al. 2017b"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "PDI"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 65.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PDI(Tran et al. 2017a)&65.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Classification accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparing our ALDMN model with other methods as described in literatures",
+        "locator": "caption",
+        "reference": "Tran et al. 2017a"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Dynamic Memory Network"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 64.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "DMN(Kumar et al., 2015)&64.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Classification accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "DMN(Kumar et al., 2015)&64.7",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Dynamic Memory Network with Adversarial Learning"
+      },
+      "task": {
+        "name": "Dialogue Act Classification"
+      },
+      "datasets": [
+        {
+          "name": "MapTask Dialogue Act Corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 68.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ALDMN (Our Model) & \\textbf{68.5}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "chosen to conduct the testing evaluation",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Classification accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ALDMN (Our Model)",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    }
+  ],
+  "per_table_voted_count": {
+    "tab_2": 0,
+    "tab_3": 7,
+    "tab_4": 5
+  },
+  "_meta": {
+    "runner": "v6b_pertable_context",
+    "model": "anthropic/claude-opus-5.5",
+    "merge": "pertable_sc_vote_2of3+cross_table_dedupe",
+    "n_tables_all": 4,
+    "n_results_tables_loose": 3,
+    "tables_completed": 3,
+    "tables_skipped_budget": 0,
+    "calls": 9,
+    "cost_usd": 0.373784,
+    "tokens_in": 26331,
+    "tokens_out": 13423,
+    "context_miss_count": 0,
+    "context_pass_cost": 0.091096
+  }
+}

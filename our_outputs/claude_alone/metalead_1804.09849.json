@@ -1,0 +1,1060 @@
+{
+  "paper_id": "1804.09849",
+  "tuples": [
+    {
+      "method": {
+        "name": "GNMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 38.95,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "DBLP:journals/corr/WuSCLNMKCGMKSJL16",
+        "quote": "we cite the largest BLEU score reported in",
+        "locator": "section_4.2_paragraph_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "GNMT",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "GNMT & 38.95"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 39.49,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/GehringAGYD17",
+        "quote": "all architectures were implemented in the same framework",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean over 21-evaluation window",
+          "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ConvS2S",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "39.49 $\\pm$ 0.11"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Trans. Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 39.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/VaswaniSPUJGKP17",
+        "quote": "all architectures were implemented in the same framework",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Trans. Base",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "39.43 $\\pm$ 0.17"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Trans. Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 40.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/VaswaniSPUJGKP17",
+        "quote": "We did not perform checkpoint averaging",
+        "locator": "footnote_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Trans. Big",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "40.73 $\\pm$ 0.19"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 41.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose the new RNMT+ model",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "RNMT+",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "41.00 $\\pm$ 0.05"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "GNMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 24.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "DBLP:journals/corr/WuSCLNMKCGMKSJL16",
+        "quote": "we cite the largest BLEU score reported in",
+        "locator": "section_4.2_paragraph_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "GNMT",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "GNMT & 24.67"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 25.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/GehringAGYD17",
+        "quote": "all architectures were implemented in the same framework",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ConvS2S",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "25.01 $\\pm$0.17"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Trans. Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 27.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/VaswaniSPUJGKP17",
+        "quote": "all architectures were implemented in the same framework",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Trans. Base",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "27.26 $\\pm$ 0.15"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Trans. Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 27.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/VaswaniSPUJGKP17",
+        "quote": "all architectures were implemented in the same framework",
+        "locator": "section_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Trans. Big",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "27.94 $\\pm$ 0.18"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 28.49,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "establishes a new state of the art with an averaged value of 28.49",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "L2 weight decay 1e-5",
+          "quote": "Weight decay is only applied to the En$\\rightarrow$De task",
+          "locator": "section_4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "RNMT+",
+        "column_label": "Test BLEU",
+        "sentence": null,
+        "quoted_span": "28.49 $\\pm$ 0.05"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "RNMT+ - Label Smoothing"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report average BLEU scores on the test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "remove each one of these techniques independently",
+        "locator": "section_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "without label smoothing",
+          "quote": "- Label Smoothing",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "- Label Smoothing",
+        "column_label": "RNMT+",
+        "sentence": null,
+        "quoted_span": "- Label Smoothing & 40.33"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Trans. Big - Label Smoothing"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.49,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report average BLEU scores on the test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/VaswaniSPUJGKP17",
+        "quote": "remove each one of these techniques independently",
+        "locator": "section_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "without label smoothing",
+          "quote": "- Label Smoothing",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "- Label Smoothing",
+        "column_label": "Trans. Big",
+        "sentence": null,
+        "quoted_span": "40.33 & 40.49"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "RNMT+ - Multi-head Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report average BLEU scores on the test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "remove each one of these techniques independently",
+        "locator": "section_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "without multi-head attention",
+          "quote": "- Multi-head Attention",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "- Multi-head Attention",
+        "column_label": "RNMT+",
+        "sentence": null,
+        "quoted_span": "- Multi-head Attention & 40.44"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Trans. Big - Multi-head Attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.83,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report average BLEU scores on the test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "DBLP:journals/corr/VaswaniSPUJGKP17",
+        "quote": "remove each one of these techniques independently",
+        "locator": "section_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "without multi-head attention",
+          "quote": "- Multi-head Attention",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "- Multi-head Attention",
+        "column_label": "Trans. Big",
+        "sentence": null,
+        "quoted_span": "40.44 & 39.83"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "RNMT+ - Sync. Training"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report average BLEU scores on the test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "remove each one of these techniques independently",
+        "locator": "section_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "without synchronous training",
+          "quote": "- Sync. Training",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "- Sync. Training",
+        "column_label": "RNMT+",
+        "sentence": null,
+        "quoted_span": "- Sync. Training & 39.68"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Trans. Big encoder + RNMT+ decoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 41.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "En$\\rightarrow$Fr Test BLEU",
+        "locator": "table_5_header"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results for encoder-decoder hybrids.",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "Trans. Big / RNMT+",
+        "column_label": "En\u2192Fr Test BLEU",
+        "sentence": null,
+        "quoted_span": "41.12 $\\pm$ 0.16"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "RNMT+ encoder + Trans. Big decoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Test BLEU",
+          "value": 39.92,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "En$\\rightarrow$Fr Test BLEU",
+        "locator": "table_5_header"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results for encoder-decoder hybrids.",
+        "locator": "caption_table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "RNMT+ / Trans. Big",
+        "column_label": "En\u2192Fr Test BLEU",
+        "sentence": null,
+        "quoted_span": "39.92 $\\pm$ 0.21"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Cascaded"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results for hybrids with cascaded encoder and multi-column encoder.",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "4 Transformer layers on frozen pre-trained 6-layer RNMT+ encoder",
+          "quote": "Our best setup uses 4 Transformer layers",
+          "locator": "appendix_cascaded"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "Cascaded",
+        "column_label": "En\u2192Fr BLEU",
+        "sentence": null,
+        "quoted_span": "41.67 $\\pm$ 0.11"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Cascaded"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results for hybrids with cascaded encoder and multi-column encoder.",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "Cascaded",
+        "column_label": "En\u2192De BLEU",
+        "sentence": null,
+        "quoted_span": "28.62 $\\pm$ 0.06"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "MultiCol"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results for hybrids with cascaded encoder and multi-column encoder.",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "MultiCol",
+        "column_label": "En\u2192Fr BLEU",
+        "sentence": null,
+        "quoted_span": "41.66 $\\pm$ 0.11"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "MultiCol"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.84,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We report all our results on newstest 2014, which serves as the test set",
+        "locator": "section_3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Results for hybrids with cascaded encoder and multi-column encoder.",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "MultiCol",
+        "column_label": "En\u2192De BLEU",
+        "sentence": null,
+        "quoted_span": "28.84 $\\pm$ 0.06"
+      },
+      "confidence": 0.88
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      21
+    ],
+    "tokens_in": 19798,
+    "tokens_out": 7757,
+    "cost_usd": 0.23433199999999998
+  }
+}

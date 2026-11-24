@@ -1,0 +1,57 @@
+\section{Experiment Setup}
+To demonstrate the effectiveness of our proposed models, we compare the proposed model {\ModelName} with existing alternatives, as well as commercial natural language understanding services.
+
+\noindent\textbf{Datasets}
+For each task, we evaluate our proposed models by applying it on two real-word datasets: SNIPS Natural Language Understanding benchmark\footnote{\url{https://github.com/snipsco/nlu-benchmark/}} (SNIPS-NLU) and the Airline Travel Information Systems (ATIS) dataset \cite{tur2010left}. The statistical information on two datasets are shown in Table \ref{data_statistics}.
+
+\begin{table}[h!]
+\centering
+\resizebox{7cm}{!}{% <-
+\begin{tabular}{l|l|l}
+\hline
+\textbf{Dataset} & \textbf{SNIPS-NLU} & \textbf{ATIS} \\\hline   
+Vocab Size   &  11,241 & 722\\
+Average Sentence Length   &  9.05    & 11.28\\
+\#Intents  &  7   & 21\\
+\#Slots  &  72   & 120\\
+\#Training Samples   &  13,084    &  4,478\\
+\#Validation Samples   &  700    &  500\\
+\#Test Samples   &  700    &  893\\\hline
+\end{tabular}
+}
+\vspace{0.05in}
+\caption{Dataset statistics.}
+\label{data_statistics}
+\end{table}
+
+SNIPS-NLU contains natural language corpus collected in a crowdsourced fashion to benchmark the performance of voice assistants.
+ATIS is a widely used dataset in spoken language understanding, where audio recordings of people making flight reservations are collected.
+
+\noindent\textbf{Baselines}
+We compare the proposed capsule-based model {\ModelName} with other alternatives:
+1) CNN TriCRF \citep{xu2013convolutional} introduces a Convolution Neural Network (CNN) based sequential labeling model for slot filling. The hidden states for each word are summed up to predict the utterance intent. We adopt the performance with lexical features.
+2) Joint Seq. \citep{hakkani2016multi} adopts a Recurrent Neural Network (RNN) for slot filling and the last hidden state of the RNN is used to predict the utterance intent. 
+3) Attention BiRNN \citep{liu2016attention} further introduces a RNN based encoder-decoder model for joint slot filling and intent detection. An attention weighted sum of all encoded hidden states is used to predict the utterance intent.
+4) Slot-gated Full Atten. \citep{goo2018slot} utilizes a slot-gated mechanism as a special gate function in Long Short-term Memory Network (LSTM) to improve slot filling by the learned intent context vector. The intent context vector is used for intent detection.
+5) DR-AGG \citep{gong2018information} aggregates word-level information for text classification via dynamic routing. The high-level capsules after routing are concatenated, followed by a multi-layer perceptron layer that predicts the utterance label. We used this capsule-based text classification model for intent detection only.
+6) IntentCapsNet \citep{xia2018zero} adopts a multi-head self-attention to extract intermediate semantic features from the utterances, and uses dynamic routing to aggregate semantic features into intent representations for intent detection. We use this capsule-based model for intent detection only.
+
+We also compare our proposed model {\ModelName} with existing commercial natural language understanding services, including api.ai (Now called DialogFlow)\footnote{\url{https://dialogflow.com/}}, Waston Assistant\footnote{\url{https://www.ibm.com/cloud/watson-assistant/}}, Luis\footnote{\url{https://www.luis.ai/}}, wit.ai\footnote{\url{https://wit.ai/}}, snips.ai\footnote{\url{https://snips.ai/}}, recast.ai\footnote{\url{https://recast.ai/}}, and Amazon Lex\footnote{\url{https://aws.amazon.com/lex/}}.
+
+\noindent\textbf{Implementation Details}
+The hyperparameters used for experiments are shown in Table \ref{hyperparameter}.
+
+\begin{table}[ht!]
+\centering
+\resizebox{1.0\linewidth}{!}{% <-
+\begin{tabular}{l|llllll}
+\hline
+\textbf{Dataset}    & $D_W$ & $D_H$ & $D_P$ & $D_L$  &  $iter_{\operatorname{slot}}$ &  $iter_{\operatorname{intent}}$ \\ \hline
+SNIPS-NLU &  1024   & 512   &  512 &  128 &   2   &   2    \\ 
+ATIS &   1024 &  512  & 512   &  256 &  3  &    3    \\ \hline
+\end{tabular}
+}
+\vspace{0.1in}
+\caption{Hyperparameter settings.}
+\label{hyperparameter}
+\end{table}

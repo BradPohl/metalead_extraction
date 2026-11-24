@@ -1,0 +1,53 @@
+\section{Related work}
+
+% ner
+%LSTMs \citep{hochreiter1997long} were used for NER \citep{hammerton2003named} as early as the CoNLL shared task in 2003 \citep{tjong2003introduction}, though without the high-throughput compute power of GPUs, neural networks fell by the wayside for many years in favor of graphical models with lexicalized features based on word type, affixes and capitalization, and generous use of lexicons \citep{mccallum2003early, passos2014lexicon, luo2015joint}. 
+
+% crfs vs ILRs / sequence labeling
+The state-of-the art models for sequence labeling include an inference step that searches the space of possible output sequences of a chain-structured graphical model, or approximates this search with a beam \citep{collobert2011natural, weiss2015structured, lample2016neural, ma2016end, chiu2016named}. These outperform similar systems that use the same features, but independent local predictions. On the other hand, the greedy \emph{sequential prediction} \citep{daume2009search} approach of~\citet{ratinov2009design}, which employs lexicalized features, gazetteers, and word clusters, outperforms CRFs with similar features. 
+
+
+
+% Such greedy decoding has been shown to perform comparably with the state-of-the-art on many sequence labeling tasks in addition to NER, including part-of-speech tagging \citep{gimenez2004svmtool,toutanova2003feature} transition-based dependency parsing \citep{nivre2009non,choi2011getting,chen2014fast,kiperwasser2016simple}, and even co-reference resolution \citep{bengston2008understanding}. Still, it is well known that IID classification is fundamentally less expressive than inference in a CRF \citep{liang2008structure} and a lack of normalization over the entire sequence suffers from the label-bias problem \citep{smith2007weighted,andor2016globally}. 
+
+
+
+% NNs for named entity recognition / sequence labeling
+%With or without a structured objective, thanks to accelerated training with GPUs, neural network architectures have proven far better feature extractors than hand-engineered alternatives for sequence labeling \citep{ling2015finding, kiperwasser2016simple, ma2016end, chiu2016named, lample2016neural}, especially due to the advent of unsupervised pre-training of distributed word representations \citep{collobert2011natural,mikolov2013distributed}. 
+
+LSTMs \citep{hochreiter1997long} were used for NER as early as the CoNLL shared task in 2003 \citep{hammerton2003named, tjong2003introduction}. More recently, a wide variety of neural network architectures for NER have been proposed. \citet{collobert2011natural} employ a one-layer CNN with pre-trained word embeddings, capitalization and lexicon features, and CRF-based prediction. \citet{huang2015bidirectional} achieved state-of-the-art accuracy on part-of-speech, chunking and NER using a Bi-LSTM-CRF. \citet{lample2016neural} proposed two models which incorporated Bi-LSTM-composed character embeddings alongside words: a Bi-LSTM-CRF, and a greedy stack LSTM which uses a simple shift-reduce grammar to compose words into labeled entities. Their Bi-LSTM-CRF obtained the state-of-the-art on four languages without word shape or lexicon features. \citet{ma2016end} use CNNs rather than LSTMs to compose characters in a Bi-LSTM-CRF, achieving state-of-the-art performance on part-of-speech tagging and CoNLL NER without lexicons. \citet{chiu2016named} evaluate a similar network but propose a novel method for encoding lexicon matches, presenting results on CoNLL and OntoNotes NER. \citet{yang2016multi} use GRU-CRFs with GRU-composed character embeddings of words to train a single network on many tasks and languages. 
+
+In general, distributed representations for text can provide useful generalization capabilities for NER systems, since they can leverage unsupervised pre-training of distributed word representations \citep{turian2010word,collobert2011natural,passos2014lexicon}. Though our models would also likely benefit from additional features such as character representations and lexicons, we focus on simpler models which use word-embeddings alone, leaving more elaborate input representations to future work. 
+
+In these NER approaches, CNNs were used for low-level feature extraction that feeds into alternative architectures. Overall, end-to-end CNNs have mainly been used in NLP for sentence classification, where the output representation is lower resolution than that of the input~\citet{kim2014convolutional,kalchbrenner2014convolutional,zhang2015character,toutanova2015representing}. \citet{lei2015molding} present a CNN variant where convolutions adaptively skip neighboring words. While the flexibility of this model is powerful, its adaptive behavior is not well-suited to GPU acceleration. 
+
+Our work draws on the use of dilated convolutions for image segmentation in the computer vision community \citep{yu2015multi,chen2015semantic}. Similar to our block, \citet{yu2015multi} employ a 
+\textit{context-module} of stacked dilated convolutions of exponentially increasing dilation width. Dilated convolutions were recently applied to the task of speech generation \citep{vandenoord2016wavenet}, and concurrent with this work, \citet{kalchbrenner2016neural} posted a pre-print describing the similar ByteNet network for machine translation that uses dilated convolutions in the encoder and decoder components. Our basic model architecture is similar to that of the ByteNet encoder, except that the inputs to our model are tokens and not bytes. Additionally, we present a novel loss and parameter sharing scheme to facilitate training models on much smaller datasets than those used by \citet{kalchbrenner2016neural}. We are the first to use dilated convolutions for sequence labeling. 
+
+%Like our model, the \textit{neural GPU} replaces sequential operations with completely parallelizable computation~\citep{kaiser2015neural}. 
+
+% cnns for sentence classification / their use in sequence labelling]
+
+
+% and very deep CNNs are prone to over-fitting the relatively small datasets available for NLP tasks. \citet{kim2014convolutional} use a single-layer CNN for seven different sentence classification tasks. They experiment with multiple channels of word embedding inputs, only some of which are updated during training. \citet{kalchbrenner2014convolutional} use a deeper, two-layer CNN to perform three different sentence labeling tasks, using $k$-max pooling to aggregate representations across the sentence, which returns the top $k$ rather than top-1 values across the sequence, as in regular max-pooling.
+
+% document-level context [for ner]
+The broad effective input width of the ID-CNN helps aggregate document-level context. \citet{ratinov2009design} incorporate document context in their greedy model by adding features based on tagged entities within a large, fixed window of tokens.  Prior work has also posed a structured model that couples predictions across the whole document~\citep{bunescu2004collective,sutton2004collective,finkel2005incorporating}. 
+
+%SSimilarly, \citet{bunescu2004collective} pose an undirected graphical model over all entities in a document, \citet{sutton2004collective} employ a skip-chain CRF to model factors between entities while supporting efficient inference, and \citet{finkel2005incorporating} enforce non-local constraints during inference in a CRF.  
+
+%To our knowledge, we are the first to experiment with incorporating document-level information in neural network models, likely because shallow CNNs fail to fold in wide enough context, deep CNNs suffer from over-fitting, and LSTMs are too slow to train on such long sequences.
+
+% dilated convolutions: in vision
+
+
+%In particular, \citet{yu2015multi} introduce the idea of multi-scale context aggregation . \citet{yu2015multi} take a ``front-end'' image encoder based on the typical ``fully-convolutional'' architectures \citep{long2015fully} originally developed for image classification, but replace the final pooling layers with dilated convolutions, observing a notable increase in accuracy by maintaining pixel-level resolution.  [[[TODO insert "blocks" citation here, if in existence, or say that it's our idea.]]]
+
+% dilated convolutions in ~nlp
+
+
+%%% Andrew
+%%% (Say more about this paper in the context of this related work, explaining that because of the 
+%%% "iterated" part of our model, this is not merely a case of replacing structured prediction with 
+%%% rich input representation, but rather learning representations that coordinated structured 
+%%% outputs, and doing so efficiently in O(1) parallel time.

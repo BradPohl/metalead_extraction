@@ -1,0 +1,3413 @@
+{
+  "paper_id": "1702.02098",
+  "tuples": [
+    {
+      "method": {
+        "name": "Ratinov Greedy"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.82,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.82"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{ratinov2009design} Greedy",
+        "locator": "row_1_col_0",
+        "reference": "ratinov2009design"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Collobert WLL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.96,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.96"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{collobert2011natural} WLL",
+        "locator": "row_2_col_0",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Collobert SLL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 88.67,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.67"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{collobert2011natural} SLL",
+        "locator": "row_3_col_0",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Stacked CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.05,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{passos2014lexicon} Stacked CRF",
+        "locator": "row_4_col_0",
+        "reference": "passos2014lexicon"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{lample2016neural} Bi-LSTM-CRF",
+        "locator": "row_5_col_0",
+        "reference": "lample2016neural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.93,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.93"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "inference",
+          "value": "greedy",
+          "quote": "Top models are greedy",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.34,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.34 $\\pm$ 0.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-avg",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "average over 10 random restarts",
+          "quote": "averaging over 10 random restarts",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "inference",
+          "value": "greedy",
+          "quote": "Top models are greedy",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.37,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.37"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.97,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.97 $\\pm$ 0.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-avg",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "average over 10 random restarts",
+          "quote": "averaging over 10 random restarts",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.61,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.61"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.43,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.43 $\\pm$ 0.12"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-avg",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "average over 10 random restarts",
+          "quote": "averaging over 10 random restarts",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.51,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-max",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.23,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.23 $\\pm$ 0.16"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1-avg",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "models observing sentence-level context",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "average over 10 random restarts",
+          "quote": "averaging over 10 random restarts",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Greedy"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.82,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Greedy & 86.82"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{ratinov2009design} Greedy",
+        "locator": "row_1_col_0",
+        "reference": "ratinov2009design"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "sentence-at-a-time",
+          "quote": "trained to predict sentence-at-a-time without the use of character embeddings or lexicons",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "WLL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "WLL & 86.96"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{collobert2011natural} WLL",
+        "locator": "row_2_col_0",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "sentence-at-a-time",
+          "quote": "trained to predict sentence-at-a-time without the use of character embeddings or lexicons",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "SLL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 88.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "SLL & 88.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{collobert2011natural} SLL",
+        "locator": "row_3_col_0",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "F1-max",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "sentence-at-a-time",
+          "quote": "trained to predict sentence-at-a-time without the use of character embeddings or lexicons",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.0,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM-CRF & 1$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "using batch size $b=1$",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 4.55,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ID-CNN-CRF & 4.55$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "using batch size $b=1$",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.28,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1.28$\\times$ (32)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "32 (fastest)",
+          "quote": "1.28$\\times$ (32)",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.01,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM & 1.01$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "using batch size $b=1$",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 9.92,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.92$\\times$ (2048)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "2048 (fastest)",
+          "quote": "9.92$\\times$ (2048)",
+          "locator": "row_3_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 6.56,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5-layer CNN & 6.56$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "using batch size $b=1$",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 12.38,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.38$\\times$ (2048)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "2048 (fastest)",
+          "quote": "12.38$\\times$ (2048)",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 6.0,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ID-CNN & 6.00$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "using batch size $b=1$",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 14.1,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "14.10$\\times$ (128)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of sentence models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "128 (fastest)",
+          "quote": "14.10$\\times$ (128)",
+          "locator": "row_5_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "[section Sentence-level prediction]",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 88.89,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.89 $\\pm$ 0.30"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "increased F1",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of models trained with and without expectation-linear dropout regularization (DR)",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "w/o DR",
+          "locator": "row_0_col_1",
+          "confidence": 0.6667
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "Sentence-level prediction",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.74,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.74 $\\pm$ 0.23"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "increased F1",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of models trained with and without expectation-linear dropout regularization (DR)",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "w/o DR",
+          "locator": "row_1_col_1",
+          "confidence": 0.6667
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "Sentence-level prediction",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.93 $\\pm$ 0.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "increased F1",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of models trained with and without expectation-linear dropout regularization (DR)",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "w/o DR",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "Sentence-level prediction",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.01,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.01 $\\pm$ 0.23"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "increased F1",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of models trained with and without expectation-linear dropout regularization (DR)",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "w/o DR",
+          "locator": "row_3_col_1",
+          "confidence": 0.6667
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "Sentence-level prediction",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.65,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.65 $\\pm$ 0.30"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "increased F1",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of models trained with and without expectation-linear dropout regularization (DR)",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "w/o DR",
+          "locator": "row_4_col_1",
+          "confidence": 0.6667
+        },
+        {
+          "name": "architecture",
+          "value": "4-layer ID-CNN",
+          "quote": "4-layer ID-CNN",
+          "locator": "row_4_col_0",
+          "confidence": 0.6667
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "Sentence-level prediction",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.32,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "increased F1",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of models trained with and without expectation-linear dropout regularization (DR)",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/ DR",
+          "quote": "w/ DR",
+          "locator": "row_4_col_2",
+          "confidence": 0.6667
+        },
+        {
+          "name": "architecture",
+          "value": "4-layer ID-CNN",
+          "quote": "4-layer ID-CNN",
+          "locator": "row_4_col_0",
+          "confidence": 0.6667
+        },
+        {
+          "name": "context",
+          "value": "Sentence-level prediction",
+          "quote": "Sentence-level prediction",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.32,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "4-layer CNN $\\times$ 3 & 90.32 $\\pm$ 0.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "4-layer CNN $\\times$ 3",
+        "locator": "row_3_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "models trained to predict document-at-a-time",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "std",
+          "value": "0.32",
+          "quote": "90.32 $\\pm$ 0.32",
+          "locator": "row_3_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.45,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5-layer CNN $\\times$ 3 & 90.45 $\\pm$ 0.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "5-layer CNN $\\times$ 3",
+        "locator": "row_4_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "models trained to predict document-at-a-time",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "std",
+          "value": "0.21",
+          "quote": "90.45 $\\pm$ 0.21",
+          "locator": "row_4_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.09,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM & 89.09 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-LSTM",
+        "locator": "row_5_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "models trained to predict document-at-a-time",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "std",
+          "value": "0.19",
+          "quote": "89.09 $\\pm$ 0.19",
+          "locator": "row_5_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM-CRF & 90.60 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-LSTM-CRF",
+        "locator": "row_6_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "models trained to predict document-at-a-time",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "std",
+          "value": "0.19",
+          "quote": "90.60 $\\pm$ 0.19",
+          "locator": "row_6_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.65,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ID-CNN & {\\bf 90.65 $\\pm$ 0.15}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Incorporating document-level context further improves our greedy ID-CNN model, attaining 90.65 average F1.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "models trained to predict document-at-a-time",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "std",
+          "value": "0.15",
+          "quote": "90.65 $\\pm$ 0.15",
+          "locator": "row_7_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "ID-CNN noshare"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 89.81,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.81 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparing ID-CNNs with 1) back-propagating loss only from the final layer ( 1-loss ) and 2) untied parameters across blocks ( noshare )",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "Document-level prediction",
+          "quote": "compares models trained to incorporate entire document context",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "std",
+          "value": "0.19",
+          "quote": "89.81 $\\pm$ 0.19",
+          "locator": "row_1_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "ID-CNN 1-loss"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 90.06,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.06 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparing ID-CNNs with 1) back-propagating loss only from the final layer ( 1-loss ) and 2) untied parameters across blocks ( noshare )",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "Document-level prediction",
+          "quote": "compares models trained to incorporate entire document context",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "std",
+          "value": "0.19",
+          "quote": "90.06 $\\pm$ 0.19",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.05,
+          "unit": "\u00d7"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM & 1.05$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "using batch size $b=1$",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "document models",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 4.6,
+          "unit": "\u00d7"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "4.60$\\times$ (1024)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1024 (fastest)",
+          "quote": "4.60$\\times$ (1024)",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "document models",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 40.83,
+          "unit": "\u00d7"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ID-CNN & 40.83$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "using batch size $b=1$",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "document models",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 7.96,
+          "unit": "\u00d7"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.96$\\times$ (32)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "32 (fastest)",
+          "quote": "7.96$\\times$ (32)",
+          "locator": "row_3_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "document models",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "ratinov2009design"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 83.45,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\citet{ratinov2009design}\\footnotemark & 83.45"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{ratinov2009design}",
+        "locator": "row_1_col_0",
+        "reference": "ratinov2009design"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence-level",
+          "quote": "F1 score of sentence and document models",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 84.04,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\citet{durrett2014joint} & 84.04"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{durrett2014joint}",
+        "locator": "row_2_col_0",
+        "reference": "durrett2014joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "chiu2016named"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.19,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\citet{chiu2016named} & 86.19 $\\pm$ 0.25"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{chiu2016named}",
+        "locator": "row_3_col_0",
+        "reference": "chiu2016named"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.99,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM-CRF & 86.99 $\\pm$ 0.22"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "as well as our own re-implementation",
+        "locator": "referring_paragraph",
+        "reference": "lample2016neural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "F1 score of sentence and document models",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.81,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM-CRF-Doc & 86.81 $\\pm$ 0.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "the Bi-LSTM-CRF model trained on entire document context",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "Bi-LSTM-CRF-Doc",
+          "locator": "row_5_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.32,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.81 $\\pm$ 0.18  & 1.32$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the Bi-LSTM-CRF model trained on entire document context",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "Bi-LSTM-CRF-Doc",
+          "locator": "row_5_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 83.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bi-LSTM & 83.76 $\\pm$ 0.10"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "The greedy Bi-LSTM out-performs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "F1 score of sentence and document models",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 24.44,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.76 $\\pm$ 0.10 & 24.44$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The greedy Bi-LSTM out-performs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "F1 score of sentence and document models",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 86.84,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ID-CNN-CRF (1 block) & 86.84 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "overall F1 scores of our models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "F1 score of sentence and document models",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN-CRF (1 block)",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.83,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.84 $\\pm$ 0.19 & 1.83$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "overall F1 scores of our models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "F1 score of sentence and document models",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN-CRF (1 block)",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "segment-level micro-averaged F1 score",
+          "value": 85.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ID-CNN-Doc (3 blocks) & 85.76 $\\pm$ 0.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score of sentence and document models on OntoNotes.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we also list the F1 of our ID-CNN model ... trained on entire document context",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "ID-CNN-Doc (3 blocks)",
+          "locator": "row_8_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "blocks",
+          "value": "3",
+          "quote": "ID-CNN-Doc (3 blocks)",
+          "locator": "row_8_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_12"
+    }
+  ],
+  "per_table_voted_count": {
+    "tab_1": 0,
+    "tab_2": 13,
+    "tab_3": 11,
+    "tab_4": 10,
+    "tab_5": 9,
+    "tab_6": 5,
+    "tab_7": 10,
+    "tab_8": 7,
+    "tab_9": 3,
+    "tab_10": 5,
+    "tab_11": 3,
+    "tab_12": 12,
+    "tab_13": 2
+  },
+  "_meta": {
+    "runner": "v6b_pertable_context",
+    "model": "anthropic/claude-opus-5.5",
+    "merge": "pertable_sc_vote_2of3+cross_table_dedupe",
+    "n_tables_all": 13,
+    "n_results_tables_loose": 13,
+    "tables_completed": 13,
+    "tables_skipped_budget": 0,
+    "calls": 39,
+    "cost_usd": 3.3628240000000003,
+    "tokens_in": 121491,
+    "tokens_out": 143843,
+    "context_miss_count": 10,
+    "context_pass_cost": 0.093536
+  }
+}

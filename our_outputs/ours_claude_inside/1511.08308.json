@@ -1,0 +1,5453 @@
+{
+  "paper_id": "1511.08308",
+  "tuples": [
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.82,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.82 ($\\pm$ 0.15)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "shows the dev set performance of the best models in each round",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "hyper-parameter optimization round",
+          "value": "1",
+          "quote": "1 & 93.82",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.57,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.57} ($\\pm$ 0.27)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "shows the dev set performance of the best models in each round",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "hyper-parameter optimization round",
+          "value": "1",
+          "quote": "1 & 93.82 ($\\pm$ 0.15) & {\\bf 84.57}",
+          "locator": "row_1_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.03,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.03} ($\\pm$ 0.23)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "shows the dev set performance of the best models in each round",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "hyper-parameter optimization round",
+          "value": "2",
+          "quote": "2 & {\\bf 94.03}",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.47,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.47 ($\\pm$ 0.29)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "shows the dev set performance of the best models in each round",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "hyper-parameter optimization round",
+          "value": "2",
+          "quote": "2 & {\\bf 94.03} ($\\pm$ 0.23) & 84.47",
+          "locator": "row_2_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 89.54,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.54"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We re-implemented the FFNN model of Collobert et al. as a baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 89.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We re-implemented the FFNN model of Collobert et al. as a baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.67,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.67 ($\\pm$ 0.24)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We re-implemented the FFNN model of Collobert et al. as a baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 74.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "74.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We re-implemented the FFNN model of Collobert et al. as a baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 73.61,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "73.61"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We re-implemented the FFNN model of Collobert et al. as a baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 73.94,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "73.94 ($\\pm$ 0.43)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We re-implemented the FFNN model of Collobert et al. as a baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 80.14,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.14"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 72.81,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "72.81"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "76.29 ($\\pm$ 0.29)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 79.68,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 75.97,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "75.97"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 77.77,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "77.77 ($\\pm$ 0.37)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 83.48,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.48"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN",
+          "locator": "row_3_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 83.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN",
+          "locator": "row_3_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.38,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.38 ($\\pm$ 0.20)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN",
+          "locator": "row_3_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 82.58,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.58"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results of our models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN",
+          "locator": "row_3_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.53,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.53 ($\\pm$ 0.40)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.77,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.77 ($\\pm$ 0.29)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.82,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.82 ($\\pm$ 0.19)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.23,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.23 ($\\pm$ 0.23)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.72,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.72 ($\\pm$ 0.23)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.91,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.91 ($\\pm$ 0.20)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.17,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.17 ($\\pm$ 0.22)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.62"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.28 ($\\pm$ 0.26)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.67,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.67 ($\\pm$ 0.16)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps",
+          "quote": "emb + caps",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.19,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.19 ($\\pm$ 0.25)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps",
+          "quote": "emb + caps",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.98,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.98 ($\\pm$ 0.18)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps",
+          "quote": "emb + caps",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.84,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.84 ($\\pm$ 0.23)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Random 300d",
+          "quote": "Random 300d",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.76,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.76 ($\\pm$ 0.37)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Random 300d",
+          "quote": "Random 300d",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.09,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.09 ($\\pm$ 0.18)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.30",
+          "quote": "0.30",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.25,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.25 ($\\pm$ 0.24)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 6B 50d",
+          "quote": "GloVe 6B 50d",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.71,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.71 ($\\pm$ 0.21)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 6B 300d",
+          "quote": "GloVe 6B 300d",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.26,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.26 ($\\pm$ 0.30)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 6B 300d",
+          "quote": "GloVe 6B 300d",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.60 ($\\pm$ 0.23)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Google 100B 300d",
+          "quote": "Google 100B 300d",
+          "locator": "row_5_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.34,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.34 ($\\pm$ 0.25)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Google 100B 300d",
+          "quote": "Google 100B 300d",
+          "locator": "row_5_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.41,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.41 ($\\pm$ 0.21)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Our GloVe 50d",
+          "quote": "Our GloVe 50d",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.24,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.24 ($\\pm$ 0.35)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "%F1 score on the datasets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "%F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "in our best model in Table [ref] (BLSTM-CNN + emb + lex)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Our GloVe 50d",
+          "quote": "Our GloVe 50d",
+          "locator": "row_7_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.72 ($\\pm$ 0.10)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_1_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "none",
+          "quote": "\\--",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.76 ($\\pm$ 0.22)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "none",
+          "quote": "\\--",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.02,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.02 ($\\pm$ 0.49)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_1_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "none",
+          "quote": "\\--",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.06,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.06 ($\\pm$ 0.50)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_1_col_4"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "none",
+          "quote": "\\--",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.85,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.85 ($\\pm$ 0.18)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_2_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.10",
+          "quote": "0.10",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.87,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.87 ($\\pm$ 0.31)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.10",
+          "quote": "0.10",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.01,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.01 ($\\pm$ 0.39)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_2_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.10",
+          "quote": "0.10",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.94,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.94 ($\\pm$ 0.25)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_2_col_4"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.10",
+          "quote": "0.10",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.08,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.08 ($\\pm$ 0.17)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_3_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.30",
+          "quote": "0.30",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.61,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.61 ($\\pm$ 0.32)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_3_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.30",
+          "quote": "0.30",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.44,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.44 ($\\pm$ 0.33)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_3_col_4"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.30",
+          "quote": "0.30",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.19,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.19 ($\\pm$ 0.18)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_4_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "compares the result of various dropout values",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.50",
+          "quote": "0.50",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "training set only",
+          "quote": "Models were trained using only the training set for each dataset",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 98.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "{\\bf 98.00} ($\\pm$ 1.34)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "header_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "none",
+          "quote": "No dropout",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.98,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.98 ($\\pm$ 0.41)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "none",
+          "quote": "No dropout",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.65,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.65 ($\\pm$ 0.29)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "header_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.10",
+          "quote": "Dropout = 0.10",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.85,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.85 ($\\pm$ 0.25)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.10",
+          "quote": "Dropout = 0.10",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.60 ($\\pm$ 3.01)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "header_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.30",
+          "quote": "Dropout = 0.30",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.42 ($\\pm$ 0.33)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.30",
+          "quote": "Dropout = 0.30",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.93 ($\\pm$ 0.59)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "header_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.50",
+          "quote": "Dropout = 0.50",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.32,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "{\\bf 86.32} ($\\pm$ 0.30)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.50",
+          "quote": "Dropout = 0.50",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.54,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.54 ($\\pm$ 0.60)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "header_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.63",
+          "quote": "Dropout = 0.63",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.10 ($\\pm$ 0.47)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "header_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.70",
+          "quote": "Dropout = 0.70",
+          "locator": "row_6_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.16,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.16 ($\\pm$ 0.26)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.70",
+          "quote": "Dropout = 0.70",
+          "locator": "row_6_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "76.40 ($\\pm$ 0.45)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "header_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.90",
+          "quote": "Dropout = 0.90",
+          "locator": "row_7_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.19,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.19 ($\\pm$ 0.19)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score results with various dropout values on OntoNotes 5.0",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "0.90",
+          "quote": "Dropout = 0.90",
+          "locator": "row_7_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.21 ($\\pm$ 0.39)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "SENNA",
+          "quote": "SENNA",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Exact",
+          "quote": "Exact",
+          "locator": "row_2_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "YN",
+          "quote": "YN",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.24,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.24 ($\\pm$ 0.33)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "SENNA",
+          "quote": "SENNA",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Exact",
+          "quote": "Exact",
+          "locator": "row_2_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "YN",
+          "quote": "YN",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.14,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.14 ($\\pm$ 0.48)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "SENNA",
+          "quote": "SENNA",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Exact",
+          "quote": "Exact",
+          "locator": "row_3_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "BIOES",
+          "quote": "BIOES",
+          "locator": "row_3_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.93 ($\\pm$ 0.30)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "DBpedia",
+          "quote": "DBpedia",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Exact",
+          "quote": "Exact",
+          "locator": "row_4_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "YN",
+          "quote": "YN",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.15,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.15 ($\\pm$ 0.26)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "DBpedia",
+          "quote": "DBpedia",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Exact",
+          "quote": "Exact",
+          "locator": "row_4_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "YN",
+          "quote": "YN",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.02,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.02 ($\\pm$ 0.23)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "DBpedia",
+          "quote": "DBpedia",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Exact",
+          "quote": "Exact",
+          "locator": "row_5_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "BIOES",
+          "quote": "BIOES",
+          "locator": "row_5_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.39,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.39 ($\\pm$ 0.39)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "DBpedia",
+          "quote": "DBpedia",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Exact",
+          "quote": "Exact",
+          "locator": "row_5_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "BIOES",
+          "quote": "BIOES",
+          "locator": "row_5_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.72 ($\\pm$ 0.45)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "DBpedia",
+          "quote": "DBpedia",
+          "locator": "row_6_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Partial",
+          "quote": "Partial",
+          "locator": "row_6_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "YN",
+          "quote": "YN",
+          "locator": "row_6_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.25,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.25 ($\\pm$ 0.33)"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare different sources and matching methods on a BLSTM-CNN model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "DBpedia",
+          "quote": "DBpedia",
+          "locator": "row_6_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "matching",
+          "value": "Partial",
+          "quote": "Partial",
+          "locator": "row_6_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "encoding",
+          "value": "YN",
+          "quote": "YN",
+          "locator": "row_6_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "word embeddings",
+          "value": "random",
+          "quote": "employing random embeddings and no other features",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 78.66,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "78.66"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Finkel and Manning \\shortcite{finkel2009}",
+        "locator": "row_3_col_0",
+        "reference": "finkel2009"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "BC (broadcast conversation)",
+          "quote": "BC = broadcast conversation",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Finkel and Manning \\shortcite{finkel2009}",
+        "locator": "row_3_col_0",
+        "reference": "finkel2009"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "BN (broadcast news)",
+          "quote": "BN = broadcast news",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.45,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.45"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Finkel and Manning \\shortcite{finkel2009}",
+        "locator": "row_3_col_0",
+        "reference": "finkel2009"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "MZ (magazine)",
+          "quote": "MZ = magazine",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.50"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Finkel and Manning \\shortcite{finkel2009}",
+        "locator": "row_3_col_0",
+        "reference": "finkel2009"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "NW (newswire)",
+          "quote": "NW = newswire",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 67.27,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "67.27"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Finkel and Manning \\shortcite{finkel2009}",
+        "locator": "row_3_col_0",
+        "reference": "finkel2009"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "TC (telephone conversation)",
+          "quote": "TC = telephone conversation",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 72.56,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "72.56"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Finkel and Manning \\shortcite{finkel2009}",
+        "locator": "row_3_col_0",
+        "reference": "finkel2009"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "WB (blogs and newsgroups)",
+          "quote": "WB = blogs and newsgroups",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 78.88,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "78.88"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "We downloaded their publicly released software and model to perform the per-genre evaluation.",
+        "locator": "row_4_col_0",
+        "reference": "durrett2014"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "BC (broadcast conversation)",
+          "quote": "BC = broadcast conversation",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.39,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.39"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "We downloaded their publicly released software and model to perform the per-genre evaluation.",
+        "locator": "row_4_col_0",
+        "reference": "durrett2014"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "BN (broadcast news)",
+          "quote": "BN = broadcast news",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.46,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.46"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "We downloaded their publicly released software and model to perform the per-genre evaluation.",
+        "locator": "row_4_col_0",
+        "reference": "durrett2014"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "MZ (magazine)",
+          "quote": "MZ = magazine",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.60"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "We downloaded their publicly released software and model to perform the per-genre evaluation.",
+        "locator": "row_4_col_0",
+        "reference": "durrett2014"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "NW (newswire)",
+          "quote": "NW = newswire",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 72.68,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "72.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "We downloaded their publicly released software and model to perform the per-genre evaluation.",
+        "locator": "row_4_col_0",
+        "reference": "durrett2014"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "TC (telephone conversation)",
+          "quote": "TC = telephone conversation",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.17,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "76.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "We downloaded their publicly released software and model to perform the per-genre evaluation.",
+        "locator": "row_4_col_0",
+        "reference": "durrett2014"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "WB (blogs and newsgroups)",
+          "quote": "WB = blogs and newsgroups",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.26,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.26"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BLSTM-CNN",
+        "locator": "row_5_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "BC (broadcast conversation)",
+          "quote": "BC = broadcast conversation",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.87,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.87"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BLSTM-CNN",
+        "locator": "row_5_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "BN (broadcast news)",
+          "quote": "BN = broadcast news",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 79.94,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.94"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test set size (\\# tokens)",
+        "locator": "row_1_col_0"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per genre F1 scores on OntoNotes",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BLSTM-CNN",
+        "locator": "row_5_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "MZ (magazine)",
+          "quote": "MZ = magazine",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_16"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 24,
+    "n_results_tables_loose": 24,
+    "tables_completed": 24,
+    "calls": 72,
+    "cost_usd": 3.624276,
+    "tokens_in": 246564,
+    "tokens_out": 131901,
+    "context_pass_cost": 0.106952
+  }
+}

@@ -1,0 +1,51 @@
+
+\section{Related Work}
+
+There are two common paradigms for transfer learning for natural language processing (NLP) tasks, \textit{resource-based} transfer and \textit{model-based} transfer. Resource-based transfer utilizes additional linguistic annotations as weak supervision for transfer learning, such as cross-lingual dictionaries \citep{zirikly2cross}, corpora \citep{wang2013cross}, and word alignments \citep{yarowsky2001inducing}. Resource-based methods demonstrate considerable success in cross-lingual transfer, but are quite sensitive to the scale and quality of the additional resources. Resource-based transfer is mostly limited to cross-lingual transfer in previous works, and there is not extensive research on extending resource-based methods to cross-domain and cross-application settings.
+
+Model-based transfer, on the other hand, does not require additional resources. Model-based transfer exploits the similarity and relatedness between the source task and the target task by adaptively modifying the model architectures, training algorithms, or feature representation. For example, \cite{ando2005framework} proposed a transfer learning framework that shares structural parameters across multiple tasks, and improve the performance on various tasks including NER; \cite{collobert2011natural} presented a task-independent convolutional neural network and employed joint training to transfer knowledge from NER and POS tagging to chunking; \cite{pengimproving} studied transfer learning between named entity recognition and word segmentation in Chinese based on recurrent neural networks. Cross-domain transfer, or domain adaptation, is also a well-studied branch of model-based transfer in NLP. Techniques in cross-domain transfer include the design of robust feature representations \citep{schnabel2014flors}, co-training \citep{chen2011co}, hierarchical Bayesian prior \citep{finkel2009hierarchical}, and canonical component analysis \citep{kim2015new}.
+
+While our approach falls into the paradigm of model-based transfer, in contrast to the above methods, our method focuses on exploiting the generality of deep recurrent neural networks and is applicable to transfer between domains, applications, and languages.
+
+Our work builds on previous work on sequence tagging based on deep neural networks. \cite{collobert2011natural} develop end-to-end neural networks for sequence tagging without hand-engineered features. Later architectures based on different combinations of convolutional networks and recurrent networks have achieved state-of-the-art results on many tasks \citep{collobert2011natural,huang2015bidirectional,chiu2015named,lample2016neural,ma2016end}. These models demonstrate significant generality since they can be applied to multiple applications in multiple languages with a unified network architecture and without task-specific feature extraction.
+
+% Our work is built upon these advances to further exploit the generalizability for transfer learning.
+
+
+% On one hand, extensive approaches have been developed for transfer learning based on additional linguistic resources, such as cross-lingual dictionaries, corpora, or word alignments.
+
+
+% Ando and Zhang \shortcite{ando2005framework} proposed a multi-task joint training framework that shares structural parameters among multiple tasks, and improved the performance on various tasks including NER. Collobert et al. \shortcite{collobert2011natural} presented a task independent convolutional network and employed multi-task joint training to improve the performance of chunking. However, there is still a gap between these multi-task approaches and the state-of-the-art results on individual tasks. Furthermore, it is unclear whether these approaches can be effective in a cross-lingual setting.
+
+% Multilingual resources were extensively used for
+% cross-lingual sequence tagging through various ways, such as
+% cross-lingual feature extraction \cite{darwish2013named}, text
+% categorization \cite{virga2003transliteration}, and Bayesian parallel
+% data prediction \cite{snyder2008unsupervised}. Parallel corpora and
+% word alignments are also used for training cross-lingual distributed
+% word representations
+% \cite{kiros2014multiplicative,gouws2014bilbowa,zhou2015learning}. Unlike
+% these approaches, our method mainly focuses on using morphological
+% similarity for cross-lingual joint training.
+
+% Several neural architectures based on recurrent networks were proposed
+% for sequence tagging. Huang et al. \shortcite{huang2015bidirectional}
+% used word-level Long Short-Term Memory (LSTM) units based on
+% handcrafted features; dos Santos et al. \shortcite{dos2015boosting}
+% employed convolutional layers on both character and word levels; Chiu
+% and Nichols \shortcite{chiu2015named} applied convolutional layers on
+% the character level and LSTM units on the word level; Gillick et al. \shortcite{gillick2015multilingual} employed a sequence-to-sequence LSTM with a novel tagging scheme. We show that our
+% architecture gives better performance experimentally than these
+% approaches in Section \ref{sec:exp}.
+
+% Most similar to our work is the recent approach independently
+% developed by Lample et al. \shortcite{lample2016neural} (published two
+% weeks before our submission), which employs LSTM on both character and
+% word levels. However, there are several crucial differences. First, we
+% study cross-lingual joint training and show improvement over their
+% approach in various cases. Second, while they mainly focus on NER, we
+% generalize our model to other sequence tagging tasks, and also
+% demonstrate the effectiveness of multi-task joint training. There are
+% also differences in the technical aspect, such as the
+% cost-sensitive loss function and gated recurrent units used in our
+% work.

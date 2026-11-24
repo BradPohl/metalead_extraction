@@ -1,0 +1,1897 @@
+{
+  "paper_id": "1812.09471",
+  "tuples": [
+    {
+      "method": {
+        "name": "CNN TriCRF"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.944,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xu2013convolutional",
+        "quote": "We adopt the performance with lexical features.",
+        "locator": "section_Experiment_Setup_Baselines"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "lexical features",
+          "quote": "We adopt the performance with lexical features.",
+          "locator": "section_Experiment_Setup_Baselines"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "CNN TriCRF",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "0.944   &-"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.873,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Joint Seq.",
+        "column_label": "SNIPS-NLU Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.873\t&0.969"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.969,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Joint Seq.",
+        "column_label": "SNIPS-NLU Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.873\t&0.969\t&0.732"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.732,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Joint Seq.",
+        "column_label": "SNIPS-NLU Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.969\t&0.732\t&0.942"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.942,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Joint Seq.",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.942   &0.926"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.926,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Joint Seq.",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.942   &0.926\t&0.807"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Joint Seq."
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.807,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Joint Seq. \\cite{hakkani2016multi}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Joint Seq.",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.926\t&0.807"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.878,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Attention BiRNN",
+        "column_label": "SNIPS-NLU Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.878\t&0.967"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.967,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Attention BiRNN",
+        "column_label": "SNIPS-NLU Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.878\t&0.967\t&0.741"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.741,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Attention BiRNN",
+        "column_label": "SNIPS-NLU Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.967\t&0.741\t&0.942"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.942,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Attention BiRNN",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.942   &0.911"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.911,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Attention BiRNN",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.942   &0.911\t&0.789"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.789,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Attention BiRNN \\cite{liu2016attention}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Attention BiRNN",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.911\t&0.789"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.888,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Slot-Gated Full Atten.",
+        "column_label": "SNIPS-NLU Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.888\t&0.970"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.97,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Slot-Gated Full Atten.",
+        "column_label": "SNIPS-NLU Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.888\t&0.970\t&0.755"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.755,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Slot-Gated Full Atten.",
+        "column_label": "SNIPS-NLU Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.970\t&0.755\t&0.948"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.948,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Slot-Gated Full Atten.",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.948   &0.936"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.936,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Slot-Gated Full Atten.",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.948   &0.936\t&0.822"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten."
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.822,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Slot-Gated Full Atten. \\cite{goo2018slot}",
+        "locator": "table_tab::overall"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Slot-Gated Full Atten.",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.936\t&0.822"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "DR-AGG"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.966,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "gong2018information",
+        "quote": "We used this capsule-based text classification model for intent detection only.",
+        "locator": "section_Experiment_Setup_Baselines"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "DR-AGG",
+        "column_label": "SNIPS-NLU Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.966  \t& -"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "DR-AGG"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.914,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "gong2018information",
+        "quote": "We used this capsule-based text classification model for intent detection only.",
+        "locator": "section_Experiment_Setup_Baselines"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "DR-AGG",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.914 & -"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "IntentCapsNet"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.974,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "xia2018zero",
+        "quote": "We use this capsule-based model for intent detection only.",
+        "locator": "section_Experiment_Setup_Baselines"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "IntentCapsNet",
+        "column_label": "SNIPS-NLU Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.974\t& -"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "IntentCapsNet"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.948,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "xia2018zero",
+        "quote": "We use this capsule-based model for intent detection only.",
+        "locator": "section_Experiment_Setup_Baselines"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "IntentCapsNet",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.948 & -"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.918,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the proposed capsule-based model",
+        "locator": "section_Results_Quantitative_Evaluation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "trained from scratch",
+          "quote": "word embeddings are simply trained from scratch",
+          "locator": "section_Results_Quantitative_Evaluation"
+        },
+        {
+          "name": "routing iterations",
+          "value": "slot 2, intent 2",
+          "quote": "SNIPS-NLU &  1024   & 512   &  512 &  128 &   2   &   2",
+          "locator": "table_hyperparameter"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU",
+        "column_label": "SNIPS-NLU Slot (F1)",
+        "sentence": null,
+        "quoted_span": "\\textbf{0.918}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.973,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the proposed capsule-based model",
+        "locator": "section_Results_Quantitative_Evaluation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "trained from scratch",
+          "quote": "word embeddings are simply trained from scratch",
+          "locator": "section_Results_Quantitative_Evaluation"
+        },
+        {
+          "name": "routing iterations",
+          "value": "slot 2, intent 2",
+          "quote": "SNIPS-NLU &  1024   & 512   &  512 &  128 &   2   &   2",
+          "locator": "table_hyperparameter"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU",
+        "column_label": "SNIPS-NLU Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "0.973 &\\textbf{0.809}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU"
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.809,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the proposed capsule-based model",
+        "locator": "section_Results_Quantitative_Evaluation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "trained from scratch",
+          "quote": "word embeddings are simply trained from scratch",
+          "locator": "section_Results_Quantitative_Evaluation"
+        },
+        {
+          "name": "routing iterations",
+          "value": "slot 2, intent 2",
+          "quote": "SNIPS-NLU &  1024   & 512   &  512 &  128 &   2   &   2",
+          "locator": "table_hyperparameter"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU",
+        "column_label": "SNIPS-NLU Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "\\textbf{0.809}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.952,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the proposed capsule-based model",
+        "locator": "section_Results_Quantitative_Evaluation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "trained from scratch",
+          "quote": "word embeddings are simply trained from scratch",
+          "locator": "section_Results_Quantitative_Evaluation"
+        },
+        {
+          "name": "routing iterations",
+          "value": "slot 3, intent 3",
+          "quote": "ATIS &   1024 &  512  & 512   &  256 &  3  &    3",
+          "locator": "table_hyperparameter"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "\\textbf{0.952}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.95,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the proposed capsule-based model",
+        "locator": "section_Results_Quantitative_Evaluation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "trained from scratch",
+          "quote": "word embeddings are simply trained from scratch",
+          "locator": "section_Results_Quantitative_Evaluation"
+        },
+        {
+          "name": "routing iterations",
+          "value": "slot 3, intent 3",
+          "quote": "ATIS &   1024 &  512  & 512   &  256 &  3  &    3",
+          "locator": "table_hyperparameter"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "\\textbf{0.950}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU"
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.834,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the proposed capsule-based model",
+        "locator": "section_Results_Quantitative_Evaluation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "trained from scratch",
+          "quote": "word embeddings are simply trained from scratch",
+          "locator": "section_Results_Quantitative_Evaluation"
+        },
+        {
+          "name": "routing iterations",
+          "value": "slot 3, intent 3",
+          "quote": "ATIS &   1024 &  512  & 512   &  256 &  3  &    3",
+          "locator": "table_hyperparameter"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "\\textbf{0.834}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Intent Detection"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.902,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "without intent detection",
+          "quote": "the model without intent detection",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Intent Detection",
+        "column_label": "SNIPS-NLU Slot (F1)",
+        "sentence": null,
+        "quoted_span": "Detection &0.902"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Intent Detection"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.948,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "without intent detection",
+          "quote": "the model without intent detection",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Intent Detection",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{0.948} &-"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Joint Training"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.902,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "two-stage training",
+          "quote": "adopts a two-stage training",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Joint Training",
+        "column_label": "SNIPS-NLU Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.902\t& \\textbf{0.977}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Joint Training"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.977,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "two-stage training",
+          "quote": "adopts a two-stage training",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Joint Training",
+        "column_label": "SNIPS-NLU Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "\\textbf{0.977}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Joint Training"
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS-NLU"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.804,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "two-stage training",
+          "quote": "adopts a two-stage training",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Joint Training",
+        "column_label": "SNIPS-NLU Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.804\t&0.948"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Joint Training"
+      },
+      "task": {
+        "name": "Slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 0.948,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "two-stage training",
+          "quote": "adopts a two-stage training",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Joint Training",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&0.948  &0.847"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Joint Training"
+      },
+      "task": {
+        "name": "Intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 0.847,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "two-stage training",
+          "quote": "adopts a two-stage training",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Joint Training",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.948  &0.847\t&0.743"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Capsule-NLU w/o Joint Training"
+      },
+      "task": {
+        "name": "Joint slot filling and intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Overall (Acc)",
+          "value": 0.743,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Slot filling and intention detection results",
+        "locator": "caption_tab::overall"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_tab::overall"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also report ablation test results",
+        "locator": "section_Results_Ablation_Study"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "two-stage training",
+          "quote": "adopts a two-stage training",
+          "locator": "section_Results_Ablation_Study"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab::overall",
+        "row_label": "Capsule-NLU w/o Joint Training",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&0.847\t&0.743"
+      },
+      "confidence": 0.93
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      37
+    ],
+    "tokens_in": 58556,
+    "tokens_out": 21325,
+    "cost_usd": 0.165181
+  }
+}

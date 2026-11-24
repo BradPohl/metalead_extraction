@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper,hyphens]{article}
+\usepackage[hyperref]{acl2019}
+\usepackage{times}
+\usepackage{latexsym,graphicx,amssymb,multirow,amsmath,booktabs}
+\usepackage{balance}
+\usepackage{flushend}
+\usepackage{soul}
+\usepackage{subfigure}
+\usepackage[font={footnotesize}]{caption}
+\usepackage{url}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\newcommand{\ModelName}{{\textsc{Capsule-NLU}}}
+\newcommand{\IntentModelName}{{\textsc{IntentCapsNet}}}
+\newcommand{\UnseenCapsule}{Zero-shot DetectionCaps}
+\newcommand{\FirstCapsule}{WordCaps}
+\newcommand{\SecondCapsule}{SlotCaps}
+\newcommand{\ThirdCapsule}{IntentCaps}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\aclfinalcopy
+\sloppy
+
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{5pt}
+
+\newcommand{\hlcy}[2][yellow]{{%
+    \colorlet{foo}{red!#1}%
+    \sethlcolor{foo}\hl{#2}}}
+
+\newcommand{\hlc}[3]
+{{%
+    \colorlet{foo}{#1!#2}%
+    \sethlcolor{foo}\hl{#3}}}
+    
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\title{Joint Slot Filling and Intent Detection via Capsule Neural Networks} 
+
+\author{Chenwei Zhang\footnotemark[2]~,~Yaliang Li\footnotemark[4]~,~Nan Du\footnotemark[3]~,~Wei Fan\footnotemark[3]~,~Philip S. Yu\footnotemark[2]~\footnotemark[5]\\
+  \footnotemark[2]~University of Illinois at Chicago, Chicago, IL 60607 USA\\
+  \footnotemark[4]~Alibaba Group, Bellevue, WA 98004 USA\\
+  \footnotemark[3]~Tencent Medical AI Lab, Palo Alto, CA 94301 USA\\
+  \footnotemark[5]~~Institute for Data Science, Tsinghua University, Beijing, China\\
+  {\tt \{czhang99,psyu\}@uic.edu}, {\tt yaliang.li@alibaba-inc.com},\\
+  {\tt nandu2048@gmail.com}, {\tt davidwfan@tencent.com}\\
+  }
+\date{}
+
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Being able to recognize words as slots and detect the intent of an utterance has been a keen issue in natural language understanding. The existing works either treat slot filling and intent detection separately in a pipeline manner, or adopt joint models which sequentially label slots while summarizing the utterance-level intent without explicitly preserving the hierarchical relationship among words, slots, and intents. To exploit the semantic hierarchy for effective modeling, we propose a capsule-based neural network model which accomplishes slot filling and intent detection via a dynamic routing-by-agreement schema. A re-routing schema is proposed to further synergize the slot filling performance using the inferred intent representation. Experiments on two real-world datasets show the effectiveness of our model when compared with other alternative model architectures, as well as existing natural language understanding services\blfootnote{Code and data available at \url{https://github.com/czhang99/Capsule-NLU}}.
+\end{abstract}
+
+\input{subfiles/01_intro.tex}
+\input{subfiles/03_model.tex}
+\input{subfiles/04_exp.tex}
+\input{subfiles/05_result.tex}
+\input{subfiles/02_relate.tex}
+\input{subfiles/06_con.tex}
+\input{subfiles/ack.tex}
+\bibliography{ref.bib}
+\bibliographystyle{acl_natbib}
+\balance
+\end{document}

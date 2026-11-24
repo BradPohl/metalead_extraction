@@ -1,0 +1,3672 @@
+{
+  "paper_id": "1603.01354",
+  "tuples": [
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.56,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BRNN & 96.56"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.76,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.56 & 96.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 92.04,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.04"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 89.13,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.56,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.56"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 87.05,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 83.88,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.88"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BRNN"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.44,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.44"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.88,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BLSTM & 96.88"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.93,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.93"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 92.31,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.31"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 90.85,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.85"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.57,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.57"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 87.77,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.77"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec.",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 86.23,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.23"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_header_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall",
+        "locator": "row_header_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "three baseline systems",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 100-dimensional",
+          "quote": "Stanford's GloVe 100 dimensional word embeddings",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "gimenez2004svmtool"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.16,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{gimenez2004svmtool} & 97.16"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with top-performance systems",
+        "locator": "caption",
+        "reference": "gimenez2004svmtool"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "toutanova2003feature"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.27,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{toutanova2003feature} & 97.27"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_1_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with top-performance systems",
+        "locator": "caption",
+        "reference": "toutanova2003feature"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "manning2011part"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{manning2011part} & 97.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_2_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with top-performance systems",
+        "locator": "caption",
+        "reference": "manning2011part"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Senna"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{collobert2011natural}$^\\ddag$ & 97.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_3_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with seven previous top-performance systems for comparison",
+        "locator": "referring_paragraph",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CharWNN"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.32,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{santos2014learning}$^\\ddag$ & 97.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_4_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with seven previous top-performance systems for comparison",
+        "locator": "referring_paragraph",
+        "reference": "santos2014learning"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "shen2007guided"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.33,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{shen2007guided} & 97.33"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_5_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with top-performance systems",
+        "locator": "caption",
+        "reference": "shen2007guided"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "sun2014structure"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.36,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{sun2014structure} & 97.36"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_6_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with top-performance systems",
+        "locator": "caption",
+        "reference": "sun2014structure"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "sogaard:2011:ACL-HLT20111"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{sogaard:2011:ACL-HLT20111} & 97.50"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data from WSJ proportion of PTB",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_7_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "together with top-performance systems",
+        "locator": "caption",
+        "reference": "sogaard:2011:ACL-HLT20111"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_2_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "chieu2002named"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.31,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{chieu2002named} & 88.31"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "chieu2002named"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "florian2003named"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.76,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{florian2003named} & 88.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "florian2003named"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "ando2005framework"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.31,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{ando2005framework} & 89.31"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "ando2005framework"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Senna"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.59,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{collobert2011natural}$^\\ddag$ & 89.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{huang2015bidirectional}$^\\ddag$ & 90.10"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_4_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the LSTM-CRF proposed by",
+        "locator": "referring_paragraph",
+        "reference": "huang2015bidirectional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNNs"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.77,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{chiu2015named}$^\\ddag$ & 90.77"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_5_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the result (90.77 %) reported by",
+        "locator": "referring_paragraph",
+        "reference": "chiu2015named"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "train+dev",
+          "quote": "their final model was trained on the combination of the training and development data sets",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ratinov2009design"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{ratinov2009design} & 90.80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_6_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "ratinov2009design"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "lin2009phrase"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{lin2009phrase} & 90.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_7_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "lin2009phrase"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "passos-kumar-mccallum:2014:W14-16"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{passos-kumar-mccallum:2014:W14-16} & 90.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_8_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "passos-kumar-mccallum:2014:W14-16"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "BLSTM-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.94,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{lample:2016:NAACL}$^\\ddag$ & 90.94"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_9_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "and the LSTM-CRF by",
+        "locator": "referring_paragraph",
+        "reference": "lample:2016:NAACL"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "joint NER and entity linking model"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\newcite{luo-EtAl:2015:EMNLP2} & 91.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "on test data set from CoNLL-2003",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_10_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "we also list F1 scores of previous top-performance systems",
+        "locator": "caption",
+        "reference": "luo-EtAl:2015:EMNLP2"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_2_col_6"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.13,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings on the two tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we performed experiments with different sets of publicly published word embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embedding",
+          "value": "Random (100-dim)",
+          "quote": "Random & 100",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 80.76,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings on the two tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we performed experiments with different sets of publicly published word embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embedding",
+          "value": "Random (100-dim)",
+          "quote": "Random & 100",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.44,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.44"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings on the two tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we performed experiments with different sets of publicly published word embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embedding",
+          "value": "Senna (50-dim)",
+          "quote": "Senna & 50",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings on the two tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we performed experiments with different sets of publicly published word embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embedding",
+          "value": "Senna (50-dim)",
+          "quote": "Senna & 50",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.40"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings on the two tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we performed experiments with different sets of publicly published word embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embedding",
+          "value": "Word2Vec (300-dim)",
+          "quote": "Word2Vec & 300",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.91,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.91"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Results with different choices of word embeddings on the two tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we performed experiments with different sets of publicly published word embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word embedding",
+          "value": "Word2Vec (300-dim)",
+          "quote": "Word2Vec & 300",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 98.46,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "No & 98.46"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "row_2_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.06,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.06"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.11,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_2_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 99.97,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "99.97"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "row_2_col_4"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.51,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_2_col_5"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.25,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.25"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "row_2_col_6"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "No",
+          "quote": "No",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.86,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Yes & 97.86"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "row_2_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.46,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.46"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS tagging",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 99.63,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "99.63"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Train",
+        "locator": "row_2_col_4"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.74,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.74"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "row_2_col_5"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 for NER",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] compares the results with and without dropout layers",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dropout",
+          "value": "Yes",
+          "quote": "Yes",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.57,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LSTM-CNN & 97.57"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "IV",
+          "quote": "IV",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.75,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{93.75}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOTV",
+          "quote": "OOTV",
+          "locator": "row_4_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 90.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOEV",
+          "quote": "OOEV",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 80.27,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.27"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOBV",
+          "quote": "OOBV",
+          "locator": "row_4_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "IV",
+          "quote": "IV",
+          "locator": "row_4_col_5",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.45,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{93.45}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOTV",
+          "quote": "OOTV",
+          "locator": "row_4_col_6",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 90.14,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.14"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOEV",
+          "quote": "OOEV",
+          "locator": "row_4_col_7",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNNs"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 80.07,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.07"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "together with the baseline LSTM-CNN model for comparison",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOBV",
+          "quote": "OOBV",
+          "locator": "row_4_col_8",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.68,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{97.68}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "performance of our model on different subsets of words",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "IV",
+          "quote": "IV",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.65,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.65"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "performance of our model on different subsets of words",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOTV",
+          "quote": "OOTV",
+          "locator": "row_5_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 91.05,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{91.05}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "performance of our model on different subsets of words",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOEV",
+          "quote": "OOEV",
+          "locator": "row_5_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.71,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{82.71}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "performance of our model on different subsets of words",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOBV",
+          "quote": "OOBV",
+          "locator": "row_5_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.77,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{97.77}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "performance of our model on different subsets of words",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "IV",
+          "quote": "IV",
+          "locator": "row_5_col_5",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Bi-directional LSTM-CNNs-CRF"
+      },
+      "task": {
+        "name": "Part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal (WSJ) portion of Penn Treebank (PTB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.16,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.16"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "header_row_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracy for POS",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "performance of our model on different subsets of words",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "word subset",
+          "value": "OOTV",
+          "quote": "OOTV",
+          "locator": "row_5_col_6",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 9,
+    "n_results_tables_loose": 9,
+    "tables_completed": 9,
+    "calls": 27,
+    "cost_usd": 2.0961119999999998,
+    "tokens_in": 94923,
+    "tokens_out": 85821,
+    "context_pass_cost": 0.100032
+  }
+}

@@ -1,0 +1,2539 @@
+{
+  "paper_id": "2008.07772",
+  "tuples": [
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "6L-6L Default & 67M & 42.2 & 60.5 & 41.3",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU script",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L Default",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "67M & 42.2 & 60.5 & 41.3"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 42.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "6L-6L Default & 67M & 42.2",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L Default",
+        "column_label": "FR T",
+        "sentence": null,
+        "quoted_span": "67M & 42.2 & 60.5 & 41.3"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 60.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "6L-6L Default & 67M & 42.2 & 60.5",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L Default",
+        "column_label": "FR M",
+        "sentence": null,
+        "quoted_span": "67M & 42.2 & 60.5 & 41.3"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "61M & 54.4 & 46.6 &  27.6",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L Default",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "61M & 54.4 & 46.6 &  27.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 54.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "61M & 54.4",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L Default",
+        "column_label": "DE T",
+        "sentence": null,
+        "quoted_span": "61M & 54.4 & 46.6 &  27.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 46.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "61M & 54.4 & 46.6",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L Default",
+        "column_label": "DE M",
+        "sentence": null,
+        "quoted_span": "61M & 54.4 & 46.6 &  27.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "67M & 41.8 & 60.7 & 41.5",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "67M & 41.8 & 60.7 & 41.5"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 41.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "67M & 41.8",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "FR T",
+        "sentence": null,
+        "quoted_span": "67M & 41.8 & 60.7 & 41.5"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 60.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "67M & 41.8 & 60.7",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "FR M",
+        "sentence": null,
+        "quoted_span": "67M & 41.8 & 60.7 & 41.5"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "61M & 54.1 & 46.7 &  27.7",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "61M & 54.1 & 46.7 &  27.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 54.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "61M & 54.1",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "DE T",
+        "sentence": null,
+        "quoted_span": "61M & 54.1 & 46.7 &  27.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 46.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "61M & 54.1 & 46.7",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "DE M",
+        "sentence": null,
+        "quoted_span": "61M & 54.1 & 46.7 &  27.7"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "{\\bf 43.8} & 2.5",
+        "locator": "table_1_row_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU script",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "{\\bf 43.8} & 2.5"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 40.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TER (40.3 vs 42.2)",
+        "locator": "section_main_result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR T",
+        "sentence": null,
+        "quoted_span": "262M & {\\bf 40.3}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 62.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "METEOR (62.4 vs 60.5)",
+        "locator": "section_main_result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR M",
+        "sentence": null,
+        "quoted_span": "{\\bf 62.4}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "{\\bf 30.1} & 2.5",
+        "locator": "table_1_row_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU script",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "{\\bf 30.1} & 2.5"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 51.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "256M & {\\bf 51.8}",
+        "locator": "table_1_row_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE T",
+        "sentence": null,
+        "quoted_span": "256M & {\\bf 51.8}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 48.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "{\\bf 48.3}",
+        "locator": "table_1_row_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE M",
+        "sentence": null,
+        "quoted_span": "{\\bf 51.8} & {\\bf 48.3}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sacreBLEU",
+          "value": 41.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "section_exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "60L-12L ADMIN & {\\bf 41.8}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU script",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR (sacreBLEU)",
+        "sentence": null,
+        "quoted_span": "60L-12L ADMIN & {\\bf 41.8}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sacreBLEU",
+          "value": 29.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "section_exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "{\\bf 29.5}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU script",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE (sacreBLEU)",
+        "sentence": null,
+        "quoted_span": "{\\bf 41.8}  & {\\bf 29.5}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "wu2019depth"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019depth",
+        "quote": "\\cite{wu2019depth}  & 43.3 & 29.9",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU script",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "wu2019depth",
+        "column_label": "FR",
+        "sentence": null,
+        "quoted_span": "\\cite{wu2019depth}  & 43.3 & 29.9"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "wu2019depth"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019depth",
+        "quote": "\\cite{wu2019depth}  & 43.3 & 29.9",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "wu2019depth",
+        "column_label": "DE",
+        "sentence": null,
+        "quoted_span": "\\cite{wu2019depth}  & 43.3 & 29.9"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "wang2019preln"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2019preln",
+        "quote": "\\cite{wang2019preln} & - & 29.6",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "wang2019preln",
+        "column_label": "DE",
+        "sentence": null,
+        "quoted_span": "\\cite{wang2019preln} & - & 29.6"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "wu19dycnn"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu19dycnn",
+        "quote": "\\cite{wu19dycnn}  & 43.2 & 29.7",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "wu19dycnn",
+        "column_label": "FR",
+        "sentence": null,
+        "quoted_span": "\\cite{wu19dycnn}  & 43.2 & 29.7"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "wu19dycnn"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu19dycnn",
+        "quote": "\\cite{wu19dycnn}  & 43.2 & 29.7",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "wu19dycnn",
+        "column_label": "DE",
+        "sentence": null,
+        "quoted_span": "\\cite{wu19dycnn}  & 43.2 & 29.7"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "\\cite{ott-etal-2018-scaling} & 43.2 & 29.3",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "FR",
+        "sentence": null,
+        "quoted_span": "\\cite{ott-etal-2018-scaling} & 43.2 & 29.3"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "\\cite{ott-etal-2018-scaling} & 43.2 & 29.3",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "DE",
+        "sentence": null,
+        "quoted_span": "\\cite{ott-etal-2018-scaling} & 43.2 & 29.3"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "vaswani2017attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "\\cite{vaswani2017attention} & 41.8 & 28.4",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "vaswani2017attention",
+        "column_label": "FR",
+        "sentence": null,
+        "quoted_span": "\\cite{vaswani2017attention} & 41.8 & 28.4"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "vaswani2017attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "\\cite{vaswani2017attention} & 41.8 & 28.4",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "vaswani2017attention",
+        "column_label": "DE",
+        "sentence": null,
+        "quoted_span": "\\cite{vaswani2017attention} & 41.8 & 28.4"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "so19evolved"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so19evolved",
+        "quote": "\\cite{so19evolved}   & 41.3 & 29.8",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "so19evolved",
+        "column_label": "FR",
+        "sentence": null,
+        "quoted_span": "\\cite{so19evolved}   & 41.3 & 29.8"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "so19evolved"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so19evolved",
+        "quote": "\\cite{so19evolved}   & 41.3 & 29.8",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "so19evolved",
+        "column_label": "DE",
+        "sentence": null,
+        "quoted_span": "\\cite{so19evolved}   & 41.3 & 29.8"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "gehring2017"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017",
+        "quote": "\\cite{gehring2017}  & 40.5 & 25.2",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "gehring2017",
+        "column_label": "FR",
+        "sentence": null,
+        "quoted_span": "\\cite{gehring2017}  & 40.5 & 25.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "gehring2017"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017",
+        "quote": "\\cite{gehring2017}  & 40.5 & 25.2",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "gehring2017",
+        "column_label": "DE",
+        "sentence": null,
+        "quoted_span": "\\cite{gehring2017}  & 40.5 & 25.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sacreBLEU",
+          "value": 41.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "\\cite{ott-etal-2018-scaling} & 41.4 & 28.6",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU script",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "FR (sacreBLEU)",
+        "sentence": null,
+        "quoted_span": "\\cite{ott-etal-2018-scaling} & 41.4 & 28.6"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sacreBLEU",
+          "value": 28.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "\\cite{ott-etal-2018-scaling} & 41.4 & 28.6",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "DE (sacreBLEU)",
+        "sentence": null,
+        "quoted_span": "\\cite{ott-etal-2018-scaling} & 41.4 & 28.6"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "so19evolved"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sacreBLEU",
+          "value": 29.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "State-of-the-Art on WMT'14 EN-FR/EN-DE",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so19evolved",
+        "quote": "\\cite{so19evolved}   & n/a & 29.2",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "so19evolved",
+        "column_label": "DE (sacreBLEU)",
+        "sentence": null,
+        "quoted_span": "\\cite{so19evolved}   & n/a & 29.2"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "12L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 42.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "b:12L-12L & 42.6",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization, on WMT'14 EN-FR",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "b:12L-12L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "b:12L-12L & 42.6"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "24L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "c:24L-12L &  43.3",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization, on WMT'14 EN-FR",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "c:24L-12L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "c:24L-12L &  43.3"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "48L-12L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "d:48L-12L &  43.6",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization, on WMT'14 EN-FR",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "d:48L-12L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "d:48L-12L &  43.6"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "36L-36L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "f:36L-36L & 43.7",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization, on WMT'14 EN-FR",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "f:36L-36L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "f:36L-36L & 43.7"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "12L-60L ADMIN"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "g:12L-60L & 43.1",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization, on WMT'14 EN-FR",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "g:12L-60L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "g:12L-60L & 43.1"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "pre-LN 60L-12L"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "achieves 29.3 BLEU in DE",
+        "locator": "footnote_main_result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "the pre-LN version does train successively on 60L-12L and achieves 29.3 BLEU in DE & 43.2 in FR.",
+        "quoted_span": "achieves 29.3 BLEU in DE"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "pre-LN 60L-12L"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "43.2 in FR",
+        "locator": "footnote_main_result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "the pre-LN version does train successively on 60L-12L and achieves 29.3 BLEU in DE & 43.2 in FR.",
+        "quoted_span": "BLEU in DE \\& 43.2 in FR"
+      },
+      "confidence": 0.72
+    },
+    {
+      "method": {
+        "name": "6L-6L Transformer-Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "improved from 43.2 to 43.6",
+        "locator": "section_ablation"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "The BLEU score on EN-FR improved from 43.2 to 43.6 (statistically significant, p<0.05).",
+        "quoted_span": "improved from 43.2 to 43.6"
+      },
+      "confidence": 0.72
+    },
+    {
+      "method": {
+        "name": "12L-12L Transformer-Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "improved from 43.2 to 43.6",
+        "locator": "section_ablation"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "The BLEU score on EN-FR improved from 43.2 to 43.6 (statistically significant, p<0.05).",
+        "quoted_span": "improved from 43.2 to 43.6"
+      },
+      "confidence": 0.72
+    },
+    {
+      "method": {
+        "name": "24L-12L Transformer (BERT-Base like)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 44.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "obtain \\textbf{44.0} BLEU score on WMT'14 EN-FR",
+        "locator": "section_ablation"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "A 24L-12L Transformer with BERT-Base like settings obtain 44.0 BLEU score on WMT'14 EN-FR.",
+        "quoted_span": "\\textbf{44.0} BLEU score"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "36L-12L-768D ADMIN + BT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 46.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test.wmt14",
+        "locator": "footnote_bt"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "36L-12L-768D ADMIN + BT & {\\bf 46.4}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "back-translation",
+          "quote": "generated additional 21.8M translation pairs for EN-FR",
+          "locator": "section_bt"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "36L-12L-768D ADMIN + BT",
+        "column_label": "FR (multi-bleu)",
+        "sentence": null,
+        "quoted_span": "36L-12L-768D ADMIN + BT & {\\bf 46.4}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN + BT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 46.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test.wmt14",
+        "locator": "footnote_bt"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "60L-12L ADMIN + BT & 46.0",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "back-translation",
+          "quote": "generated additional 21.8M translation pairs for EN-FR",
+          "locator": "section_bt"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "60L-12L ADMIN + BT",
+        "column_label": "FR (multi-bleu)",
+        "sentence": null,
+        "quoted_span": "60L-12L ADMIN + BT & 46.0"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "BT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 45.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Back-translation results on WMT'14 EN-FR.",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "edunov2018back-nmt",
+        "quote": "BT \\cite{edunov2018back-nmt} & 45.6",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "back-translation",
+          "quote": "Back-translation results on WMT'14 EN-FR.",
+          "locator": "caption_table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BT edunov2018back-nmt",
+        "column_label": "FR (multi-bleu)",
+        "sentence": null,
+        "quoted_span": "BT \\cite{edunov2018back-nmt} & 45.6"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "36L-12L-768D ADMIN + BT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sacreBLEU",
+          "value": 44.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test.wmt14",
+        "locator": "footnote_bt"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "46.4 BLEU and 44.4 sacreBLEU",
+        "locator": "section_bt"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "back-translation",
+          "quote": "generated additional 21.8M translation pairs for EN-FR",
+          "locator": "section_bt"
+        },
+        {
+          "name": "BLEU script",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "36L-12L-768D ADMIN + BT",
+        "column_label": "FR (sacreBLEU)",
+        "sentence": null,
+        "quoted_span": "36L-12L-768D ADMIN + BT & {\\bf 44.4}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN + BT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sacreBLEU",
+          "value": 44.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "test.wmt14",
+        "locator": "footnote_bt"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "60L-12L ADMIN + BT & 44.1",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "back-translation",
+          "quote": "generated additional 21.8M translation pairs for EN-FR",
+          "locator": "section_bt"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "60L-12L ADMIN + BT",
+        "column_label": "FR (sacreBLEU)",
+        "sentence": null,
+        "quoted_span": "60L-12L ADMIN + BT & 44.1"
+      },
+      "confidence": 0.86
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      51
+    ],
+    "tokens_in": 20246,
+    "tokens_out": 17943,
+    "cost_usd": 0.439844
+  }
+}

@@ -1,0 +1,3029 @@
+{
+  "paper_id": "2008.07772",
+  "tuples": [
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 42.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "TER ({\\bf T}$\\downarrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "a baseline Transformer Base",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "default",
+          "quote": "default initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L Default",
+        "column_label": "FR T",
+        "sentence": null,
+        "quoted_span": "67M & 42.2 & 60.5"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 60.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "METEOR ({\\bf M}$\\uparrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "a baseline Transformer Base",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "default",
+          "quote": "default initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L Default",
+        "column_label": "FR M",
+        "sentence": null,
+        "quoted_span": "42.2 & 60.5 & 41.3"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "and BLEU",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "a baseline Transformer Base",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L Default",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "60.5 & 41.3 & -"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 54.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "TER ({\\bf T}$\\downarrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "a baseline Transformer Base",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "default",
+          "quote": "default initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L Default",
+        "column_label": "DE T",
+        "sentence": null,
+        "quoted_span": "61M & 54.4 & 46.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 46.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "METEOR ({\\bf M}$\\uparrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "a baseline Transformer Base",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "default",
+          "quote": "default initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L Default",
+        "column_label": "DE M",
+        "sentence": null,
+        "quoted_span": "54.4 & 46.6 &  27.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L Default"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "and BLEU",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "a baseline Transformer Base",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L Default",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "46.6 &  27.6 & -"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 41.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "TER ({\\bf T}$\\downarrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we train with either default initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "FR T",
+        "sentence": null,
+        "quoted_span": "67M & 41.8 & 60.7"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 60.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "METEOR ({\\bf M}$\\uparrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "or ADMIN initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "FR M",
+        "sentence": null,
+        "quoted_span": "41.8 & 60.7 & 41.5"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "and BLEU",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "or ADMIN initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "60.7 & 41.5 & 0.2"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 54.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "TER ({\\bf T}$\\downarrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "or ADMIN initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "DE T",
+        "sentence": null,
+        "quoted_span": "61M & 54.1 & 46.7"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 46.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "METEOR ({\\bf M}$\\uparrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "or ADMIN initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "DE M",
+        "sentence": null,
+        "quoted_span": "54.1 & 46.7 &  27.7"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "and BLEU",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "or ADMIN initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "46.7 &  27.7 & 0.1"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 40.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "TER ({\\bf T}$\\downarrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR T",
+        "sentence": null,
+        "quoted_span": "262M & {\\bf 40.3}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 62.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "METEOR ({\\bf M}$\\uparrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR M",
+        "sentence": null,
+        "quoted_span": "{\\bf 40.3} & {\\bf 62.4}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "and BLEU",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "{\\bf 43.8} & 2.5"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "TER",
+          "value": 51.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "TER ({\\bf T}$\\downarrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE T",
+        "sentence": null,
+        "quoted_span": "256M & {\\bf 51.8}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 48.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "METEOR ({\\bf M}$\\uparrow$)",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "or ADMIN initialization",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE M",
+        "sentence": null,
+        "quoted_span": "{\\bf 51.8} & {\\bf 48.3}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "and BLEU",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU is computed by \\texttt{multi-bleu.perl}",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "{\\bf 30.1} & 2.5"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u0394",
+          "value": 0.2,
+          "unit": "BLEU"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "difference in BLEU score against baseline",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "or ADMIN initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "baseline",
+          "value": "6L-6L Default",
+          "quote": "against baseline 6L-6L Default",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "FR \u0394",
+        "sentence": null,
+        "quoted_span": "60.7 & 41.5 & 0.2"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "6L-6L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u0394",
+          "value": 0.1,
+          "unit": "BLEU"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "difference in BLEU score against baseline",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "or ADMIN initialization",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "baseline",
+          "value": "6L-6L Default",
+          "quote": "against baseline 6L-6L Default",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "6L-6L ADMIN",
+        "column_label": "DE \u0394",
+        "sentence": null,
+        "quoted_span": "46.7 &  27.7 & 0.1"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u0394",
+          "value": 2.5,
+          "unit": "BLEU"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "difference in BLEU score against baseline",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "baseline",
+          "value": "6L-6L Default",
+          "quote": "against baseline 6L-6L Default",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR \u0394",
+        "sentence": null,
+        "quoted_span": "{\\bf 43.8} & 2.5"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u0394",
+          "value": 2.5,
+          "unit": "BLEU"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test results on WMT'14 benchmarks",
+        "locator": "caption_tab:main_result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "difference in BLEU score against baseline",
+        "locator": "caption_tab:main_result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "baseline",
+          "value": "6L-6L Default",
+          "quote": "against baseline 6L-6L Default",
+          "locator": "caption_tab:main_result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main_result",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE \u0394",
+        "sentence": null,
+        "quoted_span": "{\\bf 30.1} & 2.5"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{sacreBLEU.py}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "sacreBLEU.py, tok.13a+version.1.2.10",
+          "quote": "version: tok.13a+version.1.2.10",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "FR sacreBLEU",
+        "sentence": null,
+        "quoted_span": "{\\bf 41.8}  & {\\bf 29.5}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{sacreBLEU.py}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the same deep model with ADMIN successfully trains",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "sacreBLEU.py, tok.13a+version.1.2.10",
+          "quote": "version: tok.13a+version.1.2.10",
+          "locator": "sec:exp_Main Result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "60L-12L ADMIN",
+        "column_label": "DE sacreBLEU",
+        "sentence": null,
+        "quoted_span": "{\\bf 41.8}  & {\\bf 29.5}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "wu2019depth"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019depth",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "wu2019depth",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "43.3 & 29.9"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "wu2019depth"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019depth",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "wu2019depth",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "43.3 & 29.9"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "wang2019preln"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2019preln",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "wang2019preln",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "} & - & 29.6"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "wu19dycnn"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu19dycnn",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "wu19dycnn",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "43.2 & 29.7"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "wu19dycnn"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu19dycnn",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "wu19dycnn",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "43.2 & 29.7"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "43.2 & 29.3"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "43.2 & 29.3"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "vaswani2017attention"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "vaswani2017attention",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "41.8 & 28.4"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "vaswani2017attention"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "vaswani2017attention",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "41.8 & 28.4"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "so19evolved"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so19evolved",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "so19evolved",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "41.3 & 29.8"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "so19evolved"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so19evolved",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "so19evolved",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "41.3 & 29.8"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "gehring2017"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "gehring2017",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "40.5 & 25.2"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "gehring2017"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "gehring2017",
+        "column_label": "DE BLEU",
+        "sentence": null,
+        "quoted_span": "40.5 & 25.2"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{sacreBLEU.py}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "FR sacreBLEU",
+        "sentence": null,
+        "quoted_span": "41.4 & 28.6"
+      },
+      "confidence": 0.86
+    },
+    {
+      "method": {
+        "name": "ott-etal-2018-scaling"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{sacreBLEU.py}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott-etal-2018-scaling",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "ott-etal-2018-scaling",
+        "column_label": "DE sacreBLEU",
+        "sentence": null,
+        "quoted_span": "41.4 & 28.6"
+      },
+      "confidence": 0.86
+    },
+    {
+      "method": {
+        "name": "so19evolved"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{sacreBLEU.py}",
+        "locator": "tab:sota"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so19evolved",
+        "quote": "top results in the literature",
+        "locator": "sec:exp_Main Result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "BLEU computation",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "tab:sota"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "so19evolved",
+        "column_label": "DE sacreBLEU",
+        "sentence": null,
+        "quoted_span": "n/a & 29.2"
+      },
+      "confidence": 0.86
+    },
+    {
+      "method": {
+        "name": "12L-12L"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 42.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU comparison",
+        "locator": "caption_tab:layer_ablation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We experimented with different number",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization",
+          "locator": "caption_tab:layer_ablation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:layer_ablation",
+        "row_label": "b:12L-12L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "b:12L-12L & 42.6"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "24L-12L"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU comparison",
+        "locator": "caption_tab:layer_ablation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We experimented with different number",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization",
+          "locator": "caption_tab:layer_ablation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:layer_ablation",
+        "row_label": "c:24L-12L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "c:24L-12L &  43.3"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "48L-12L"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU comparison",
+        "locator": "caption_tab:layer_ablation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We experimented with different number",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization",
+          "locator": "caption_tab:layer_ablation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:layer_ablation",
+        "row_label": "d:48L-12L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "d:48L-12L &  43.6"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "36L-36L"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU comparison",
+        "locator": "caption_tab:layer_ablation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We experimented with different number",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization",
+          "locator": "caption_tab:layer_ablation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:layer_ablation",
+        "row_label": "f:36L-36L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "f:36L-36L & 43.7"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "12L-60L"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU comparison",
+        "locator": "caption_tab:layer_ablation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We experimented with different number",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "ADMIN",
+          "quote": "using ADMIN initialization",
+          "locator": "caption_tab:layer_ablation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:layer_ablation",
+        "row_label": "g:12L-60L",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "g:12L-60L & 43.1"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "60L-12L pre-LN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest2014 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "29.3 BLEU in DE",
+        "locator": "sec:exp_Main Result_footnote"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2019preln",
+        "quote": "the pre-LN version does train",
+        "locator": "sec:exp_Main Result_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "normalization",
+          "value": "pre-LN",
+          "quote": "the pre-LN version",
+          "locator": "sec:exp_Main Result_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Note: the pre-LN version does train successively on 60L-12L and achieves 29.3 BLEU in DE & 43.2 in FR.",
+        "quoted_span": "29.3 BLEU in DE"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "60L-12L pre-LN"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English-French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "29.3 BLEU in DE \\& 43.2 in FR",
+        "locator": "sec:exp_Main Result_footnote"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2019preln",
+        "quote": "the pre-LN version does train",
+        "locator": "sec:exp_Main Result_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "normalization",
+          "value": "pre-LN",
+          "quote": "the pre-LN version",
+          "locator": "sec:exp_Main Result_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Note: the pre-LN version does train successively on 60L-12L and achieves 29.3 BLEU in DE & 43.2 in FR.",
+        "quoted_span": "43.2 in FR"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "6L-6L Transformer-Big"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU score on EN-FR",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "starting with a 6L-6L Transformer-Big",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model width",
+          "value": "1024-dim word embedding, 4096 feed-forward size, 16 heads",
+          "quote": "1024-dim word embedding, 4096 feed-forward size, 16 heads",
+          "locator": "sec:exp_Ablation Studies"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "The BLEU score on EN-FR improved from 43.2 to 43.6 (statistically significant, $p<0.05$).",
+        "quoted_span": "from 43.2 to 43.6"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "12L-12L Transformer-Big"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU score on EN-FR",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "doubling its layers to 12L-12L",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model width",
+          "value": "1024-dim word embedding, 4096 feed-forward size, 16 heads",
+          "quote": "1024-dim word embedding, 4096 feed-forward size, 16 heads",
+          "locator": "sec:exp_Ablation Studies"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "The BLEU score on EN-FR improved from 43.2 to 43.6 (statistically significant, $p<0.05$).",
+        "quoted_span": "from 43.2 to 43.6"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "24L-12L Transformer"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 44.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU score on WMT'14 EN-FR",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also experiment with wider networks",
+        "locator": "sec:exp_Ablation Studies"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model width",
+          "value": "BERT-Base like: 768-dim word embedding, 3072 feed-forward size, 12 heads",
+          "quote": "768-dim word embedding, 3072 feed-forward size, 12 heads",
+          "locator": "sec:exp_Ablation Studies"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "A 24L-12L Transformer with BERT-Base like settings (768-dim word embedding, 3072 feed-forward size, 12 heads) obtain 44.0 BLEU score on WMT'14 EN-FR.",
+        "quoted_span": "\\textbf{44.0} BLEU score"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "36L-12L-768D ADMIN + BT"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 46.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:admin-bt"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We investigate whether deeper models",
+        "locator": "sec:exp_Back-translation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "back-translation, additional 21.8M translation pairs",
+          "quote": "additional 21.8M translation pairs",
+          "locator": "sec:exp_Back-translation"
+        },
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:admin-bt"
+        },
+        {
+          "name": "model width",
+          "value": "768-dim word embedding, 3072 feed-forward size, 12 heads",
+          "quote": "768-dim word embedding, 3072 feed-froward size and 12 heads",
+          "locator": "sec:exp_Back-translation_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:admin-bt",
+        "row_label": "36L-12L-768D ADMIN + BT",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "+ BT & {\\bf 46.4}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN + BT"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 46.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:admin-bt"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We investigate whether deeper models",
+        "locator": "sec:exp_Back-translation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "back-translation, additional 21.8M translation pairs",
+          "quote": "additional 21.8M translation pairs",
+          "locator": "sec:exp_Back-translation"
+        },
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:admin-bt"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:admin-bt",
+        "row_label": "60L-12L ADMIN + BT",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "ADMIN + BT & 46.0"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BT"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 45.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{multi-bleu.perl}",
+        "locator": "tab:admin-bt"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "edunov2018back-nmt",
+        "quote": "default big transformer architecture (6L-6L) which obtains states-of-the-art results",
+        "locator": "sec:exp_Back-translation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "back-translation",
+          "quote": "Back-translation results",
+          "locator": "caption_tab:admin-bt"
+        },
+        {
+          "name": "BLEU computation",
+          "value": "multi-bleu.perl",
+          "quote": "BLEU via \\texttt{multi-bleu.perl}",
+          "locator": "tab:admin-bt"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:admin-bt",
+        "row_label": "BT edunov2018back-nmt",
+        "column_label": "FR BLEU",
+        "sentence": null,
+        "quoted_span": "edunov2018back-nmt} & 45.6"
+      },
+      "confidence": 0.84
+    },
+    {
+      "method": {
+        "name": "36L-12L-768D ADMIN + BT"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 44.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{sacreBLEU.py}",
+        "locator": "tab:admin-bt"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We investigate whether deeper models",
+        "locator": "sec:exp_Back-translation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "back-translation, additional 21.8M translation pairs",
+          "quote": "additional 21.8M translation pairs",
+          "locator": "sec:exp_Back-translation"
+        },
+        {
+          "name": "BLEU computation",
+          "value": "sacreBLEU.py, tok.13a+version.1.2.10",
+          "quote": "tok.13a+version.1.2.10",
+          "locator": "sec:exp_Back-translation_footnote"
+        },
+        {
+          "name": "model width",
+          "value": "768-dim word embedding, 3072 feed-forward size, 12 heads",
+          "quote": "768-dim word embedding, 3072 feed-froward size and 12 heads",
+          "locator": "sec:exp_Back-translation_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:admin-bt",
+        "row_label": "36L-12L-768D ADMIN + BT",
+        "column_label": "FR sacreBLEU",
+        "sentence": null,
+        "quoted_span": "+ BT & {\\bf 44.4}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "60L-12L ADMIN + BT"
+      },
+      "task": {
+        "name": "Neural Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 44.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "newstest14 for test",
+        "locator": "sec:exp_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU via \\texttt{sacreBLEU.py}",
+        "locator": "tab:admin-bt"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We investigate whether deeper models",
+        "locator": "sec:exp_Back-translation"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "back-translation, additional 21.8M translation pairs",
+          "quote": "additional 21.8M translation pairs",
+          "locator": "sec:exp_Back-translation"
+        },
+        {
+          "name": "BLEU computation",
+          "value": "sacreBLEU.py",
+          "quote": "BLEU via \\texttt{sacreBLEU.py}",
+          "locator": "tab:admin-bt"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:admin-bt",
+        "row_label": "60L-12L ADMIN + BT",
+        "column_label": "FR sacreBLEU",
+        "sentence": null,
+        "quoted_span": "ADMIN + BT & 44.1"
+      },
+      "confidence": 0.98
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      55
+    ],
+    "tokens_in": 76898,
+    "tokens_out": 34567,
+    "cost_usd": 0.249733
+  }
+}

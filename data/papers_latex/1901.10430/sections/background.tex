@@ -1,0 +1,30 @@
+We first outline sequence to sequence learning and self-attention. Our work builds on non-separable convolutions as well as depthwise separable convolutions.
+
+\paragraph{Sequence to sequence learning } maps a source sequence to a target sequence via two separate networks such as in machine translation \citep{sutskever2014sequence}.
+The encoder network computes representations for the source sequence such as an English sentence and the decoder network autoregressively generates a target sequence based on the encoder output. 
+
+
+\paragraph{The self-attention} module of \citet{vaswani2017transformer} applies three projections to the input $\emX \in \R^{n \times d}$ to obtain key (K), query (Q), and value (V) representations, where $n$ is the number of time steps, $d$ the input/output dimension (Figure~\ref{fig:sattn}). 
+It also defines a number of heads $H$ where each head can learn separate attention weights over $d_k$ features and attend to different positions.
+The module computes dot-products between key/query pairs, scales to stabilize training, and then softmax normalizes the result. 
+Finally, it computes a weighted sum using the output of the value projection (V):
+\[
+\mathrm{Attention}(Q,K,V) = \mathrm{softmax}(\frac{QK^T}{\sqrt{d_k}})V
+\]
+
+
+
+
+\paragraph{Depthwise convolutions} perform a convolution independently over every channel. The number of parameters can be reduced from $d^2k$ to $dk$ where $k$ is the kernel width.
+The output $\emO \in \R^{n \times d}$ of a depthwise convolution with weight $\emW \in \R^{d \times k}$ for element $i$ and output dimension $c$ is defined as:
+\[
+\emO_{i, c} = \text{DepthwiseConv}(X, \emW_{c,:}, i, c) = \sum_{j=1}^{k} \emW_{c, j} \cdot \emX_{(i + j - \ceil{\frac{k+1}{2}}), c} 
+\]
+
+
+
+% %% to show the font of each symbol
+% $\ra \rva \erva$\\
+% $\rmA \ermA \vzero \va$ \\
+% $\eva \mA \tA \gA $\\
+% $\sA \emA \etA $

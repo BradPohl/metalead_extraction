@@ -1,0 +1,5171 @@
+{
+  "paper_id": "1909.02188",
+  "tuples": [
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Our model",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "94.2*} &\\textbf{ 98.0*"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 98.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Our model",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "98.0*}\t&\\textbf{ 86.9*"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 86.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Our model",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "86.9*} &\\textbf{ 95.9*"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Our model",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "95.9*}\t& \\textbf{ 96.9*"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Our model",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "96.9*}\t&\\textbf{ 86.5*"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 86.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Our model",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "96.9*}\t&\\textbf{ 86.5*"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Oracle (Intent)"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our oracle experiments setting",
+        "locator": "section_4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "gold intent label distribution",
+          "quote": "we concatenate the gold intent \n\tlabel distribution",
+          "locator": "section_4.3_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Oracle (Intent)",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{96.1} &{-}\t&{-}&{96.0}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Oracle (Intent)"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our oracle experiments setting",
+        "locator": "section_4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "gold intent label distribution",
+          "quote": "we concatenate the gold intent \n\tlabel distribution",
+          "locator": "section_4.3_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Oracle (Intent)",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{96.1} &{-}\t&{-}&{96.0}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "gate-mechanism"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct experiments with the following ablations",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent detection",
+          "value": "token-level",
+          "quote": "we still perform the token-level intent detection",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "gate-mechanism",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&92.2\t&97.6\t&82.4"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "gate-mechanism"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct experiments with the following ablations",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent detection",
+          "value": "token-level",
+          "quote": "we still perform the token-level intent detection",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "gate-mechanism",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&92.2\t&97.6\t&82.4"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "gate-mechanism"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 82.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct experiments with the following ablations",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent detection",
+          "value": "token-level",
+          "quote": "we still perform the token-level intent detection",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "gate-mechanism",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&92.2\t&97.6\t&82.4"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "gate-mechanism"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct experiments with the following ablations",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent detection",
+          "value": "token-level",
+          "quote": "we still perform the token-level intent detection",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "gate-mechanism",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 95.3&  96.2 & 83.4"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "gate-mechanism"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct experiments with the following ablations",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent detection",
+          "value": "token-level",
+          "quote": "we still perform the token-level intent detection",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "gate-mechanism",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.3&  96.2 & 83.4"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "gate-mechanism"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 83.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct experiments with the following ablations",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent detection",
+          "value": "token-level",
+          "quote": "we still perform the token-level intent detection",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "gate-mechanism",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.3&  96.2 & 83.4"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "pipelined model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct experiments on the pipelined model",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "separate self-attentive encoders",
+          "quote": "their own self-attentive encoder separately",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "pipelined model",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&90.8\t&97.6\t&81.8"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "pipelined model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct experiments on the pipelined model",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "separate self-attentive encoders",
+          "quote": "their own self-attentive encoder separately",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "pipelined model",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&90.8\t&97.6\t&81.8"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "pipelined model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 81.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct experiments on the pipelined model",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "separate self-attentive encoders",
+          "quote": "their own self-attentive encoder separately",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "pipelined model",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&90.8\t&97.6\t&81.8"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "pipelined model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct experiments on the pipelined model",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "separate self-attentive encoders",
+          "quote": "their own self-attentive encoder separately",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "pipelined model",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&95.1 &96.1\t&82.3"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "pipelined model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct experiments on the pipelined model",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "separate self-attentive encoders",
+          "quote": "their own self-attentive encoder separately",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "pipelined model",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.1 &96.1\t&82.3"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "pipelined model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 82.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct experiments on the pipelined model",
+        "locator": "section_4.4.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "separate self-attentive encoders",
+          "quote": "their own self-attentive encoder separately",
+          "locator": "section_4.4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "pipelined model",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.1 &96.1\t&82.3"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "sentence intent augmented"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we study the effect of the proposed token-level intent",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "utterance-level",
+          "quote": "utterance-level intent information rather than token-level intent information",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "sentence intent augmented",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&93.7   &97.5\t&86.1"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "sentence intent augmented"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we study the effect of the proposed token-level intent",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "utterance-level",
+          "quote": "utterance-level intent information rather than token-level intent information",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "sentence intent augmented",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&93.7   &97.5\t&86.1"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "sentence intent augmented"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 86.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we study the effect of the proposed token-level intent",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "utterance-level",
+          "quote": "utterance-level intent information rather than token-level intent information",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "sentence intent augmented",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&93.7   &97.5\t&86.1"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "sentence intent augmented"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we study the effect of the proposed token-level intent",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "utterance-level",
+          "quote": "utterance-level intent information rather than token-level intent information",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "sentence intent augmented",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&95.5\t&96.7\t&85.8"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "sentence intent augmented"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we study the effect of the proposed token-level intent",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "utterance-level",
+          "quote": "utterance-level intent information rather than token-level intent information",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "sentence intent augmented",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.5\t&96.7\t&85.8"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "sentence intent augmented"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 85.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we study the effect of the proposed token-level intent",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "intent information",
+          "value": "utterance-level",
+          "quote": "utterance-level intent information rather than token-level intent information",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "sentence intent augmented",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.5\t&96.7\t&85.8"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "lstm+last-hidden"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct the sentence-level intent detection",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "intent detection separately",
+          "quote": "intent detection separately",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "lstm+last-hidden",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& - &  97.1  &-  & -"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "lstm+last-hidden"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 95.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct the sentence-level intent detection",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "intent detection separately",
+          "quote": "intent detection separately",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "lstm+last-hidden",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& -\t\t&95.2  \t& \t-"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "lstm+token-level"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our token-level intent detection without joint learning",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "without joint learning with slot filling",
+          "quote": "without joint learning with slot filling",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "lstm+token-level",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&- &  97.5  & - & -"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "lstm+token-level"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our token-level intent detection without joint learning",
+        "locator": "section_4.4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training",
+          "value": "without joint learning with slot filling",
+          "quote": "without joint learning with slot filling",
+          "locator": "section_4.4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "lstm+token-level",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& -\t\t&96.0\t& \t-"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "without self-attention"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "conduct the comparison experiments",
+        "locator": "section_4.4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "BiLSTM",
+          "quote": "self-attention encoder is\nreplaced with BiLSTM",
+          "locator": "section_4.4.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "without self-attention",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&94.1\t&97.8\t&86.6"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "without self-attention"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "conduct the comparison experiments",
+        "locator": "section_4.4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "BiLSTM",
+          "quote": "self-attention encoder is\nreplaced with BiLSTM",
+          "locator": "section_4.4.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "without self-attention",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.1\t&97.8\t&86.6"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "without self-attention"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 86.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "conduct the comparison experiments",
+        "locator": "section_4.4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "BiLSTM",
+          "quote": "self-attention encoder is\nreplaced with BiLSTM",
+          "locator": "section_4.4.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "without self-attention",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.1\t&97.8\t&86.6"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "without self-attention"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "conduct the comparison experiments",
+        "locator": "section_4.4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "BiLSTM",
+          "quote": "self-attention encoder is\nreplaced with BiLSTM",
+          "locator": "section_4.4.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "without self-attention",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&95.6   &96.6\t&86.2"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "without self-attention"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "conduct the comparison experiments",
+        "locator": "section_4.4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "BiLSTM",
+          "quote": "self-attention encoder is\nreplaced with BiLSTM",
+          "locator": "section_4.4.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "without self-attention",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.6   &96.6\t&86.2"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "without self-attention"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 86.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "conduct the comparison experiments",
+        "locator": "section_4.4.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "BiLSTM",
+          "quote": "self-attention encoder is\nreplaced with BiLSTM",
+          "locator": "section_4.4.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "without self-attention",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.6   &96.6\t&86.2"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Intent detection (BERT)"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also conduct experiments of intent detection task and slot filling separately",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "BERT base",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Intent detection (BERT)",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&{-} &{97.8}\t&{-}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Intent detection (BERT)"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also conduct experiments of intent detection task and slot filling separately",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "BERT base",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Intent detection (BERT)",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&{-}\t& {96.5}\t&{-}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot filling (BERT)"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also conduct experiments of intent detection task and slot filling separately",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "BERT base",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "subword handling",
+          "value": "first subword label",
+          "quote": "We only consider the first subword label",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Slot filling (BERT)",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{95.8} &{-}\t&{-}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot filling (BERT)"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also conduct experiments of intent detection task and slot filling separately",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "BERT base",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "subword handling",
+          "value": "first subword label",
+          "quote": "We only consider the first subword label",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Slot filling (BERT)",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{95.6}\t& {-}\t&{-}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BERT SLU"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERT SLU \\cite{chen2019bert}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BERT SLU",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{97.0} &{98.6}\t&{92.8}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERT SLU"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 98.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERT SLU \\cite{chen2019bert}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BERT SLU",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&{97.0} &{98.6}\t&{92.8}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERT SLU"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 92.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERT SLU \\cite{chen2019bert}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BERT SLU",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&{97.0} &{98.6}\t&{92.8}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERT SLU"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERT SLU \\cite{chen2019bert}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BERT SLU",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{96.1}\t& {97.5}\t&{88.2}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERT SLU"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERT SLU \\cite{chen2019bert}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BERT SLU",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&{96.1}\t& {97.5}\t&{88.2}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERT SLU"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 88.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "BERT SLU \\cite{chen2019bert}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BERT SLU",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&{96.1}\t& {97.5}\t&{88.2}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Our model + BERT"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our \\textit{model + BERT}",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "replace the self-attentive encoder by \\textit{BERT base}",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "training",
+          "value": "fine-tuning",
+          "quote": "fine-tuning approach",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Our model + BERT",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{97.0} &{99.0}\t&{92.9}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model + BERT"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 99.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our \\textit{model + BERT}",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "replace the self-attentive encoder by \\textit{BERT base}",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "training",
+          "value": "fine-tuning",
+          "quote": "fine-tuning approach",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Our model + BERT",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&{97.0} &{99.0}\t&{92.9}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model + BERT"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 92.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our \\textit{model + BERT}",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "replace the self-attentive encoder by \\textit{BERT base}",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "training",
+          "value": "fine-tuning",
+          "quote": "fine-tuning approach",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Our model + BERT",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&{97.0} &{99.0}\t&{92.9}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model + BERT"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our \\textit{model + BERT}",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "replace the self-attentive encoder by \\textit{BERT base}",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "training",
+          "value": "fine-tuning",
+          "quote": "fine-tuning approach",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Our model + BERT",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&{96.1}\t& {97.5}\t&{88.6}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model + BERT"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our \\textit{model + BERT}",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "replace the self-attentive encoder by \\textit{BERT base}",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "training",
+          "value": "fine-tuning",
+          "quote": "fine-tuning approach",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Our model + BERT",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&{96.1}\t& {97.5}\t&{88.6}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Our model + BERT"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 88.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our \\textit{model + BERT}",
+        "locator": "section_4.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "BERT base",
+          "quote": "replace the self-attentive encoder by \\textit{BERT base}",
+          "locator": "section_4.5"
+        },
+        {
+          "name": "training",
+          "value": "fine-tuning",
+          "quote": "fine-tuning approach",
+          "locator": "section_4.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Our model + BERT",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&{96.1}\t& {97.5}\t&{88.6}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Joint Seq"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Joint Seq",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&87.3\t&96.9\t&73.2"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Joint Seq"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Joint Seq",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&87.3\t&96.9\t&73.2"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Joint Seq"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 73.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Joint Seq",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&87.3\t&96.9\t&73.2"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Joint Seq"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Joint Seq",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&94.3   &92.6\t&80.7"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Joint Seq"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 92.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Joint Seq",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.3   &92.6\t&80.7"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Joint Seq"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 80.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Joint Seq",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.3   &92.6\t&80.7"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Attention BiRNN",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&87.8\t&96.7\t&74.1"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Attention BiRNN",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&87.8\t&96.7\t&74.1"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 74.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Attention BiRNN",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&87.8\t&96.7\t&74.1"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Attention BiRNN",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&94.2   &91.1\t&78.9"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 91.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Attention BiRNN",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.2   &91.1\t&78.9"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 78.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Attention BiRNN",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.2   &91.1\t&78.9"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Full Atten",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&88.8\t&97.0\t&75.5"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Full Atten",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&88.8\t&97.0\t&75.5"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 75.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Full Atten",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&88.8\t&97.0\t&75.5"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Full Atten",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&94.8   &93.6\t&82.2"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 93.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Full Atten",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.8   &93.6\t&82.2"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Full Atten"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 82.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Full Atten",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&94.8   &93.6\t&82.2"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Intent Atten"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Intent Atten",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&88.3   &96.8\t&74.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Intent Atten"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Intent Atten",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&88.3   &96.8\t&74.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Intent Atten"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 74.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Intent Atten",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&88.3   &96.8\t&74.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Intent Atten"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Intent Atten",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "&95.2\t&94.1\t&82.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Intent Atten"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 94.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Intent Atten",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.2\t&94.1\t&82.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Slot-Gated Intent Atten"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 82.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goo2018slot",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Slot-Gated Intent Atten",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "&95.2\t&94.1\t&82.6"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Self-Attentive Model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "li2018self",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Self-Attentive Model",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 90.0 &  97.5  & 81.0"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Self-Attentive Model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "li2018self",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Self-Attentive Model",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 90.0 &  97.5  & 81.0"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Self-Attentive Model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 81.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "li2018self",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Self-Attentive Model",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 90.0 &  97.5  & 81.0"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Self-Attentive Model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "li2018self",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Self-Attentive Model",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 95.1\t\t&96.8  \t& \t82.2"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Self-Attentive Model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "li2018self",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Self-Attentive Model",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.1\t\t&96.8  \t& \t82.2"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Self-Attentive Model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 82.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "li2018self",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Self-Attentive Model",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.1\t\t&96.8  \t& \t82.2"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Bi-Model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2018bi",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-Model",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 93.5 &  97.2  & 83.8"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Bi-Model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2018bi",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-Model",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 93.5 &  97.2  & 83.8"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Bi-Model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 83.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2018bi",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-Model",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 93.5 &  97.2  & 83.8"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Bi-Model"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2018bi",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-Model",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 95.5\t\t&96.4  \t& \t85.7"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Bi-Model"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2018bi",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-Model",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.5\t\t&96.4  \t& \t85.7"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Bi-Model"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 85.7,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2018bi",
+        "quote": "we re-implemented the models",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "preprocessing",
+          "value": "goo2018slot",
+          "quote": "datasets preprocessed by \\citet{goo2018slot}",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-Model",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.5\t\t&96.4  \t& \t85.7"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "CAPSULE-NLU"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang-etal-2019-joint",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CAPSULE-NLU",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 91.8 &  97.3  & 80.9"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "CAPSULE-NLU"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang-etal-2019-joint",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CAPSULE-NLU",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 91.8 &  97.3  & 80.9"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "CAPSULE-NLU"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 80.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang-etal-2019-joint",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CAPSULE-NLU",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 91.8 &  97.3  & 80.9"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "CAPSULE-NLU"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang-etal-2019-joint",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CAPSULE-NLU",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 95.2\t\t&95.0  \t& \t83.4"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "CAPSULE-NLU"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 95.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang-etal-2019-joint",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CAPSULE-NLU",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.2\t\t&95.0  \t& \t83.4"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "CAPSULE-NLU"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 83.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang-etal-2019-joint",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CAPSULE-NLU",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.2\t\t&95.0  \t& \t83.4"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "SF-ID Network"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "e-etal-2019-novel",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "CRF",
+          "value": "without CRF",
+          "quote": "best performance of \\textit{SF-ID Network} without CRF",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SF-ID Network",
+        "column_label": "SNIPS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 90.5 &  97.0  & 78.4"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "SF-ID Network"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 97.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "e-etal-2019-novel",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "CRF",
+          "value": "without CRF",
+          "quote": "best performance of \\textit{SF-ID Network} without CRF",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SF-ID Network",
+        "column_label": "SNIPS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 90.5 &  97.0  & 78.4"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "SF-ID Network"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "SNIPS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 78.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "e-etal-2019-novel",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "CRF",
+          "value": "without CRF",
+          "quote": "best performance of \\textit{SF-ID Network} without CRF",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SF-ID Network",
+        "column_label": "SNIPS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 90.5 &  97.0  & 78.4"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "SF-ID Network"
+      },
+      "task": {
+        "name": "slot filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Slot (F1)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "e-etal-2019-novel",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "CRF",
+          "value": "without CRF",
+          "quote": "best performance of \\textit{SF-ID Network} without CRF",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SF-ID Network",
+        "column_label": "ATIS Slot (F1)",
+        "sentence": null,
+        "quoted_span": "& 95.6\t\t&96.6  \t& \t86.0"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "SF-ID Network"
+      },
+      "task": {
+        "name": "intent detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 96.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Intent (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "e-etal-2019-novel",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "CRF",
+          "value": "without CRF",
+          "quote": "best performance of \\textit{SF-ID Network} without CRF",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SF-ID Network",
+        "column_label": "ATIS Intent (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.6\t\t&96.6  \t& \t86.0"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "SF-ID Network"
+      },
+      "task": {
+        "name": "sentence-level semantic frame parsing"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 86.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "evaluate it on the test set",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Overall (Acc)",
+        "locator": "table_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "e-etal-2019-novel",
+        "quote": "we adopt the reported results",
+        "locator": "section_4.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "CRF",
+          "value": "without CRF",
+          "quote": "best performance of \\textit{SF-ID Network} without CRF",
+          "locator": "section_4.2_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SF-ID Network",
+        "column_label": "ATIS Overall (Acc)",
+        "sentence": null,
+        "quoted_span": "& 95.6\t\t&96.6  \t& \t86.0"
+      },
+      "confidence": 0.98
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      100
+    ],
+    "tokens_in": 95244,
+    "tokens_out": 57081,
+    "cost_usd": 0.380649
+  }
+}

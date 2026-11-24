@@ -1,0 +1,854 @@
+% ICML 2020 Submission
+% Work in progress
+
+\documentclass{article}
+\usepackage[accepted]{icml2020}
+\usepackage{times}
+\usepackage{latexsym}
+% \renewcommand{\UrlFont}{\ttfamily\small}
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+\usepackage{makecell}
+\usepackage{amsmath}
+%\usepackage{algpseudocode}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{chngcntr}
+\usepackage{graphicx}
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{scrextend}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{xspace}
+\usepackage[explicit]{titlesec}
+%\titlespacing{\paragraph}{0pt}{0pt}{0.25em}[]
+\usepackage{sidecap}
+
+\definecolor{amaranth}{rgb}{0.7, 0.17, 0.31}
+\definecolor{airforceblue}{rgb}{0.30, 0.44, 0.56}
+\definecolor{darkgreen}{rgb}{0.13, 0.45, 0.13}
+\definecolor{bronze}{rgb}{0.8, 0.5, 0.2}
+
+\graphicspath{ {./figs/} }
+
+
+%\algnewcommand\algorithmicforeach{\textbf{for each}}
+%\algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
+%\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+%\renewcommand{\algorithmicensure}{\textbf{Output:}}
+\newcommand\todo[1]{\textcolor{red}{TODO(#1)}}
+\newcommand\pegasusbase{$\text{PEGASUS}_{\text{BASE}}$\xspace}
+\newcommand\transformerbase{$\text{Transformer}_{\text{BASE}}$\xspace}
+\newcommand\pegasuslarge{$\text{PEGASUS}_{\text{LARGE}}$\xspace}
+\newcommand\pegasuslargegnews{\makecell{\pegasuslarge\\(\gnews)}}
+\newcommand\largemodelsize{568M\xspace}
+\newcommand\basemodelsize{223M\xspace}
+\newcommand\gnews{HugeNews\xspace}
+\newcommand\pegasuscode{\url{https://github.com/google-research/pegasus}}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+% Prevent breaking PEGASUS
+\hyphenation{PEGASUS}
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+\newcommand\BibTeX{B\textsc{ib}\TeX}
+
+% for textboxes
+\usepackage[linewidth=1pt]{mdframed}
+
+\icmltitlerunning{PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization}
+
+\begin{document}
+
+% \title{PEGASUS: Pre-training with Extracted Gap-sentences for \\ Abstractive Summarization}
+\twocolumn[
+\icmltitle{PEGASUS: Pre-training with Extracted Gap-sentences for \\ Abstractive Summarization}
+
+
+\input{authors}
+
+% You may provide any keywords that you
+% find helpful for describing your paper; these are used to populate
+% the "keywords" metadata in the PDF but will not be shown in the document
+\icmlkeywords{Text Summarization, Natural Language Processing, Deep Learning, Pre-training,
+Self-supervised Learning}
+\vskip 0.3in
+]
+
+% This command actually creates the footnote in the first column
+% listing the affiliations and the copyright notice.
+% The command takes one argument, which is text to display at the start of the footnote.
+% The \icmlEqualContribution command is standard text for equal contribution.
+% Remove it (just {}) if you do not need this facility.
+
+% \printAffiliationsAndNotice{}  % leave blank if no need to mention equal contribution
+\printAffiliationsAndNotice{\icmlEqualContribution} % otherwise use the standard text.
+
+
+\begin{abstract}
+Recent work pre-training Transformers with self-supervised objectives on large text corpora has shown great success when fine-tuned on downstream NLP tasks including text summarization.
+However, pre-training objectives tailored for abstractive text summarization have not been explored. Furthermore there is a lack of systematic evaluation across diverse domains. 
+In this work, we propose pre-training large Transformer-based encoder-decoder models on massive text corpora with a new self-supervised objective.
+In PEGASUS, important sentences are removed/masked from an input document and
+are generated together as one output sequence from the remaining sentences, similar to an
+extractive summary.
+We evaluated our best PEGASUS model on 12 downstream summarization tasks spanning news, science, stories, instructions, emails, patents, and legislative bills. Experiments demonstrate it achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores.
+Our model 
+also shows surprising performance on low-resource summarization, surpassing previous  state-of-the-art results on 6 datasets with only 1000 examples. 
+ Finally we validated our results using human evaluation and show that our model
+ summaries achieve  human performance on multiple datasets.
+
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.45\textwidth, trim={5cm 5cm 10cm 5cm},clip]{architecture_3.pdf}
+\caption{
+The base architecture of PEGASUS is a standard Transformer encoder-decoder. 
+%The encoder bidirectionally encodes the input text and the decoder applies left-to-right decoding to generate the target text.
+Both GSG and MLM are applied simultaneously to this example as
+pre-training objectives. Originally there are three sentences. One sentence is masked with \texttt{[MASK1]} and used as target generation text (GSG). The other two sentences remain in the input, but some tokens are randomly masked by \texttt{[MASK2]} (MLM).
+% \todo{make it super clear that MLM is not used in final model}
+}
+\label{fig:architecture}
+\end{figure}
+
+\section{Introduction}
+\label{sec:intro}
+Text summarization aims at generating accurate and concise summaries from input document(s).  In contrast to extractive summarization which merely copies informative fragments from the input, abstractive summarization may generate novel words. A good abstractive summary covers principal information in the input  and is linguistically fluent. 
+
+In abstractive summarization, sequence-to-sequence \citep{seq2seq} has become a dominant framework using encoder-decoder architectures based on RNNs \citep{chung2014empirical,Hochreiter:1997:LSM:1246443.1246450} and more recently Transformers \citep{vaswani2017attention}. 
+Most prior work on neural abstractive summarization relied on large-scale, high-quality datasets of supervised document-summary pairs \citep{hermann2015cnndm}
+and achieved promising results \citep{rush-etal-2015-neural, nallapati-etal-2016-abstractive, see2017cnndm}. 
+In recent years, there has been increased interest in collecting new summarization datasets that have more abstractive summaries \citep{shashi-2018-xsum}, have longer documents,  \citep{cohan-etal-2018-discourse-scientificpapers,sharma-etal-2019-bigpatent}, utilize multiple documents \citep{fabbri-etal-2019-multinews}, and are
+sourced from diverse domains \citep{Grusky2018newsroom,koupaee2018wikihow,kim-etal-2019-reddittifu,kornilova-eidelman-2019-billsum,zhang-tetreault-2019-aeslc};
+however, there has been little work on systematic evaluation of models across these broad settings.
+
+Contemporaneously, the adoption of Transformer models \citep{vaswani2017attention} pre-trained using self-supervised
+objectives on large text corpora \citep{radford2018improving,devlin_2019} have improved performance on many NLP tasks \citep{Wang_2018,Rajpurkar_2016}.
+
+Recent work leveraging such pre-training for
+  Transformer-based sequence-to-sequence models \citep{unilm,song2019mass,rothe2019leveraging,lewis2019bart,raffel2019exploring} has extended the success to text generation, including abstractive summarization.
+  
+In this work, we study pre-training objectives specifically for abstractive text summarization and evaluate on 12 downstream datasets spanning news \citep{hermann2015cnndm,shashi-2018-xsum,Grusky2018newsroom,rush-etal-2015-neural,fabbri-etal-2019-multinews}, science  \citep{cohan-etal-2018-discourse-scientificpapers}, short stories \citep{kim-etal-2019-reddittifu}, instructions \citep{koupaee2018wikihow}, emails \citep{zhang-tetreault-2019-aeslc}, patents \citep{sharma-etal-2019-bigpatent}, and legislative bills \citep{kornilova-eidelman-2019-billsum}. 
+We find that masking whole sentences from a document
+and generating these gap-sentences from the rest of the document
+works well as a pre-training objective for downstream summarization tasks.
+In particular, choosing putatively important sentences outperforms
+lead or randomly selected ones.
+We hypothesize this objective is suitable for abstractive
+summarization as it closely resembles the
+downstream task, encouraging whole-document understanding and summary-like generation.
+We call this self-supervised objective Gap Sentences Generation (GSG).
+Using GSG to pre-train a Transformer encoder-decoder on large corpora of documents (Web and
+news articles) results in our method,
+Pre-training with Extracted Gap-sentences for Abstractive SUmmarization Sequence-to-sequence models, or \emph{PEGASUS}.
+
+With our best \largemodelsize parameter model trained
+on the recently introduced C4 \citep{raffel2019exploring} corpus we equal or exceed state-of-the-art on the 12 summarization
+tasks we consider. We further push forward the state-of-the-art using a newly collected text corpus comprised
+of news-like articles we call \gnews, 
+including the highly competitive XSum and CNN/DailyMail summarization datasets.
+
+
+Large-scale document-summary datasets are rare and in practice there is a mismatch
+between research datasets and real-world use-cases where collecting summaries is 
+expensive; the most common setting is that of low-resource summarization. We simulate
+this setting and show that our model is able to adapt very quickly when fine-tuning with small numbers
+of supervised pairs, obtaining state-of-the-art results in 6 datasets with only 1000 examples.
+
+Qualitatively we observed high quality outputs from our best models
+and validated this in human evaluation studies. We found that PEGASUS
+summaries are at least as good as reference summaries for the datasets
+we assessed -- XSum, CNN/DailyMail, and Reddit TIFU -- even at low-levels
+of supervision.
+
+To summarize our contributions:
+\begin{itemize}
+    \item 
+    We propose a new self-supervised pre-training objective for abstractive summarization, gap-sentences generation, and study strategies for selecting
+    those sentences.
+    \item We evaluate the proposed pre-training objective on a broad range of downstream summarization tasks, with careful
+    ablations to choose the best model settings, which we use to train a \largemodelsize parameter PEGASUS model that surpasses or is on-par with the state-of-the-art on all 12 downstream datasets considered.
+    
+    \item We show how good abstractive summarization performance can be achieved
+    across broad domains with very little supervision by fine-tuning
+    the PEGASUS model and surpassing previous state-of-the-art results on many tasks with
+    as little as 1000 examples.
+    
+    \item We conducted human evaluation studies to validate our
+    experimental design and demonstrate
+    human-level summarization performance on XSum, CNN/DailyMail, and Reddit TIFU.
+\end{itemize}
+
+
+% In the remainder of this paper, we first introduce related works in section \ref{sec:related_works}. We propose and explain the pre-training objectives for abstractive summarization in section \ref{sec:methodology}. Experiments are presented in section \ref{sec:experiments} and we finally conclude in section \ref{sec:conclusion}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Related Work}
+\label{sec:related_works}
+
+\citet{dai_2015, ramachandran-etal-2017-unsupervised} used
+LM and autoencoder pre-training on in-domain data to improve performance
+of RNN sequence models.
+However, the combination of pre-training with much larger
+external text corpora (such as Wikipedia, books, or Web-pages) and Transformer-based sequence models
+has led to a dramatic improvement in performance when
+fine-tuned for
+both natural language understanding and text generation tasks \citep{radford2018improving,devlin_2019,rothe2019leveraging,yang2019xlnet,joshi2019spanbert,song2019mass,unilm,lewis2019bart}.
+Most similar to our approach are Transformer encoder-decoder models pre-trained on some masked input pre-training objective.
+
+\paragraph{MASS} \citep{song2019mass} proposed masked sequence-to-sequence generation that reconstructs a sentence fragment given the remaining part of the sentence. A single sentence fragment was randomly selected.
+% MASS is pre-trained on News Crawl dataset and fine-tuned on text generation tasks.
+% In comparison, PEGASUS masks and generates multiple full sentences that are not randomly selected.
+
+\paragraph{UniLM} \citep{unilm} proposed jointly training on three types of language modeling tasks: unidirectional (left-to-right and right-to-left), bidirectional (word-level mask, with next sentence prediction), and sequence-to-sequence (word-level mask) prediction.
+% UniLM is pre-trained on Wikipedia/Book corpus and fine-tuned on NLU and NLG tasks
+% In comparison, PEGASUS trains sequence-to-sequence prediction with gap sentences generation rather than word-level masking.
+
+\paragraph{T5}\citep{raffel2019exploring} generalized the text-to-text framework to a variety of NLP tasks and showed the advantage of scaling up model size (to 11 billion parameters) and pre-training corpus, introducing C4,
+a massive text corpus derived from Common Crawl, which we also use in some of our 
+models. T5 was pre-trained with randomly corrupted text spans of varying mask ratios and sizes of spans.  
+% \todo{maybe add corpus and performance}
+
+\paragraph{BART} \citep{lewis2019bart} introduced a denoising autoencoder to pre-train sequence-to-sequence models. BART corrupted text with an arbitrary noising function and learned to reconstruct the original text. For generation tasks, the noising function was text infilling which used single mask tokens to mask random sampled spans of text. 
+% In comparison, PEGASUS does not reconstruct full input sequences and mask spans are selected as principal sentences.
+% \todo{maybe add corpus and performance}
+
+In contrast to MASS, UniLM, BART and T5, the proposed PEGASUS masks multiple whole sentences rather than smaller continuous text spans. In our final objective we deterministically
+choose sentences based on importance, rather than randomly. As in T5, PEGASUS does not reconstruct full input sequences, and only generates
+the masked sentences as a single output sequence.
+In this work we focus entirely on downstream summarization (generative) tasks and
+do not evaluate on NLU classification tasks.
+
+There has been some work on the low-resource, summarization setting using
+the CNN/DailyMail dataset.
+\citet{gpt2} showed that a large Transformer language model pre-trained on Web text
+could generate summaries if prompted with "TL;DR", achieving a ROUGE-2 of 8.27 
+on CNN/DailyMail. \citet{khandelwal2019sample}
+pre-trained a Transformer language model on Wikipedia, and fine-tuned
+using 3000 examples, achieving 13.1 ROUGE-2.
+
+%\todo{unsupervised summarization papers}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Pre-training Objectives}
+\label{sec:methodology}
+
+We propose a new pre-training objective, GSG,
+in this work, but
+for comparison, we also evaluate BERT's masked-language model objective, in isolation
+and in conjunction with GSG. 
+
+
+\subsection{Gap Sentences Generation (GSG)}
+\label{sec:gsg}
+We hypothesize that using a pre-training
+objective that more closely resembles
+the downstream task leads to better
+and faster fine-tuning performance.
+Given our intended use for abstractive summarization, our proposed pre-training
+objective involves
+generating summary-like text from
+an input document. In order to leverage
+massive text corpora for pre-training, 
+we design a sequence-to-sequence  self-supervised objective
+in the absence of abstactive summaries.
+A naive option
+would be to pre-train as an extractive
+summarizer; however, such a procedure would
+only train a model to copy sentences, thus not suitable for abstractive summarization.
+
+Inspired by recent success in masking
+words and contiguous spans \citep{joshi2019spanbert,raffel2019exploring}, 
+we select and mask whole sentences from
+documents, and concatenate the gap-sentences
+into a pseudo-summary. 
+ The corresponding position of each selected gap sentence is replaced by a mask token \texttt{[MASK1]} to inform the model. \emph{Gap sentences ratio}, or \emph{GSR},
+%  \todo{use a short hand, or symbol}
+ refers to the number of selected gap sentences to the total number of sentences in the document, which is similar to \emph{mask rate} in other works.
+ 
+ To even
+more closely approximate a summary,
+we select sentences that appear to be important/principal to the document.
+The resulting objective has both the
+empirically
+demonstrated benefits of masking, and
+anticipates the form of the downstream task.
+ 
+
+We consider 3 primary strategies for selecting  $m$ gap sentences without
+replacement from a document, $D=\{x_i\}_n$, comprised
+of $n$ sentences: 
+
+\paragraph{Random} Uniformly select $m$ sentences at random.
+
+\paragraph{Lead} Select the first $m$ sentences.
+
+\paragraph{Principal} Select top-$m$ scored
+sentences according to importance.  As a proxy
+for importance we compute ROUGE1-F1 \citep{lin-2004-rouge}  between
+the sentence and the rest of the document,
+% \begin{equation*}
+$
+    s_i=rouge(x_i, D \setminus \{x_i\}), \forall i
+$.
+% \end{equation*}
+
+In this formulation sentences are scored independently (\textbf{Ind}) and the top $m$ selected.
+We also consider selecting them sequentially (\textbf{Seq}) as in \citet{nallapati2017extractive}
+by greedily maximizing the ROUGE1-F1 between
+selected sentences, ${S \cup \{x_i\}}$, and  remaining sentences, ${D \setminus (S \cup \{x_i\})}$ as in Algorithm \ref{algo:seq}.
+
+\begin{algorithm} \caption{Sequential Sentence Selection}
+\label{algo:seq}
+\begin{algorithmic}[1]
+\STATE  $S:=\emptyset$
+\FOR{$j \gets 1$ to $m$}  
+    \STATE $s_i := rouge\Big(S \cup \{x_i\}, D \setminus (S \cup \{x_i\})\Big)$ \par
+    $\forall i~~s.t.~~x_i \notin S$
+    \STATE $k := \argmax_i \{s_i\}_n$
+    \STATE $S := S \cup \{x_k\}$ 
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+When calculating ROUGE1-F1, we also consider n-grams as a set (\textbf{Uniq}) instead of double-counting identical n-grams
+as in the original implementation (\textbf{Orig}). 
+This results in four variants of the principal sentence selection strategy, choosing Ind/Seq and Orig/Uniq options. 
+
+An example containing lead, random and principal gap sentence selection strategies are shown in Figure~\ref{fig:sentence_selection_example}. 
+
+\input{figs/gsg.tex}
+
+
+\subsection{Masked Language Model (MLM)}
+\label{sec:mlm}
+Following BERT, we select 15\% tokens in the input text, and the selected tokens are (1) 80\% of time replaced by a mask token \texttt{[MASK2]},
+or (2) 10\% of time replaced by a random token, or (3) 10\% of time unchanged. 
+We apply MLM to train the Transformer encoder as the sole pre-training objective or along with GSG. When MLM is the sole pre-training objective, the Transformer decoder shares all parameters with encoder when fine-tuning on downstream tasks following \citet{rothe2019leveraging}.
+
+
+Figure~\ref{fig:architecture}
+simultaneously shows how both
+GSG and MLM are applied to the same example
+when used in conjunction.
+However, we found that MLM does not improve downstream tasks at large number of pre-training steps (section \ref{sec:exp_mlm}), and chose not to include MLM in the final model \pegasuslarge (section \ref{sec:exp_large_model}).
+
+
+\section{Pre-training Corpus}
+For pre-training we considered two large text corpora:
+\begin{itemize}
+    \item \textbf{C4}, or the Colossal and Cleaned version of Common Crawl,   introduced in \citet{raffel2019exploring}; consists of text from  350M Web-pages (750GB).
+    \item  \textbf{\gnews}, a dataset of 1.5B articles (3.8TB) collected from news
+    and news-like websites from 2013-2019. A whitelist of domains
+    ranging from high-quality news publishers to lower-quality
+    sites such as high-school newspapers, and blogs was 
+    curated and used to seed a web-crawler. Heuristics were used to 
+    identify news-like articles, and only the main article
+    text was extracted as plain text.
+\end{itemize}
+
+
+\section{Downstream Tasks/Datasets}
+\label{sec:exp_downstream_datasets}
+
+% We fine-tune PEGASUS models on a broad range of summarization datasets.
+For downstream summarization, we only used
+public abstractive summarization datasets, and access
+them through TensorFlow Summarization Datasets \footnote{\url{https://www.tensorflow.org/datasets/catalog/overview}}, which
+provides publicly reproducible code for dataset processing and
+train/validation/test splits. We used train/validation/test ratio of 80/10/10 if no split was provided, and 10\% train split as validation if there was no validation split.
+
+\textbf{XSum} \citep{shashi-2018-xsum} consists of 227k
+BBC articles from 2010 to 2017 covering a wide variety of subjects along with professionally written single-sentence summaries.
+% 227k
+
+\textbf{CNN/DailyMail} \citep{hermann2015cnndm} dataset contains 93k articles from the CNN, and 220k articles the Daily Mail newspapers. Both publishers supplement their articles with bullet point summaries.
+We use the non-anonymized variant used in \citet{see2017cnndm}.
+% 93k  220k 
+
+\textbf{NEWSROOM} \citep{Grusky2018newsroom} is a large dataset containing 1.3M article-summary pairs written by authors and editors in the newsrooms of 38 major publications between 1998 and 2017.
+
+\textbf{Multi-News} \citep{fabbri-etal-2019-multinews} is a multi-document summarization dataset consisting of 56k pairs of news articles and their human-written summaries from the site newser.com. 
+
+\textbf{Gigaword} \citep{rush-etal-2015-neural} contains 4M
+examples  extracted from news articles (seven publishers) from the Gigaword corpus \citep{graff2003gigaword}. The task is to generate
+the headline from the first sentence.
+
+\textbf{arXiv, PubMed} \citep{cohan-etal-2018-discourse-scientificpapers} are two long document datasets of scientific publications from arXiv.org (113k) and PubMed (215k). The task is to generate the abstract from the paper body.
+
+\textbf{BIGPATENT} \citep{sharma-etal-2019-bigpatent} consists of 1.3 million  U.S. patents along with human summaries under nine patent classification categories.
+
+\textbf{WikiHow} \citep{koupaee2018wikihow} is a large-scale dataset of instructions from the online WikiHow.com website.
+% by different human authors.
+Each of 200k examples consists of multiple instruction-step paragraphs along with a summarizing sentence. The task is to generate the concatenated summary-sentences from the paragraphs.
+
+\textbf{Reddit TIFU} \citep{kim-etal-2019-reddittifu} contains  120K posts of informal stories from the online discussion forum Reddit, more specifically the TIFU sub-reddit from 2013-Jan to 2018-Mar. The sub-reddit posts strictly follow the rule of writing a descriptive "TL;DR" summary and has higher quality than \citep{volske-etal-2017-tl} (which used more subreddits) based on our manual inspection. We uses the TIFU-long subset (using TLDR as summaries) in the work.
+
+\textbf{AESLC} \citep{zhang-tetreault-2019-aeslc} consists of 18k email bodies and their subjects from the Enron corpus \citep{Klimt:2004:ECN:3108498.3108522}, a collection of email messages of employees in the Enron Corporation.
+
+\textbf{BillSum} \citep{kornilova-eidelman-2019-billsum} contains 23k US Congressional bills and human-written reference summaries from the 103rd-115th (1993-2018) sessions of Congress. We do not use the California test set
+which is out-of-distribution.
+
+Following \citeauthor{Grusky2018newsroom}, 
+the number of examples and extractive fragment coverage/density for all downstream datasets is illustrated
+% in Figure \ref{fig:exp_downstream} 
+in Appendix~\ref{appendix:dataset}. 
+% \todo{use A. numbering in appendix}
+
+\section{Experiments}
+\label{sec:experiments}
+In a similar strategy to \citet{raffel2019exploring}, to save time and computation we conducted pre-training ablation experiments using a reduced-size model with \basemodelsize parameters, \textbf{\pegasusbase},  smaller batch size, and only 4 of 12 datasets
+before scaling up pre-training with the best settings to the final \largemodelsize parameters, \textbf{\pegasuslarge}. The datasets (XSum, CNN/DailyMail, WikiHow and Reddit TIFU) were chosen for diversity in abstractiveness, writing style, and size.
+
+
+
+\pegasusbase had $L=12, H=768, F=3072, A=12$ and \pegasuslarge had $L=16, H=1024, F=4096, A=16$, where $L$ denotes the number of layers for encoder and decoder (i.e. Transformer blocks), $H$ for the hidden size, $F$ for the feed-forward layer size and $A$ for the number of self-attention heads. 
+We pre-trained \pegasusbase with a batch size of $256$ and \pegasuslarge with a batch size of $8192$. 
+We refer to \pegasusbase without pre-training as \textbf{\transformerbase}.
+
+
+We used sinusoidal positional encoding following ~\citet{vaswani2017attention}.
+For optimization, both pre-training and fine-tuning used Adafactor \citep{shazeer2018adafactor} with square root learning rate decay and dropout rate of 0.1.
+
+We used greedy-decoding for studies in Section \ref{sec:ablations}, and used beam-search with a length-penalty, $\alpha$, as in \citet{wu2016wordpiece} for
+the final large model.
+
+All experiments' hyper parameters can be found in Appendix~\ref{appendix:hparams}
+% Table~\ref{tab:hyperparamters}.
+and reported numbers are in Appendix~\ref{appendix:exps} and \ref{appendix:low_resource}.
+
+
+\subsection{Ablations on \pegasusbase}
+\label{sec:ablations}
+We used \pegasusbase to evaluate choices of pre-training corpus, pre-training objective, and vocabulary size.
+For reproducibility, we evaluated the latter two using the publicly available C4 corpus.
+
+Note that the y-axis in  Figures~\ref{fig:exp_copora},~\ref{fig:exp_gsg},~\ref{fig:exp_vocab} 
+are normalized by the left-most bar using 
+${\frac{1}{3}(\frac{R1}{R1_\text{base}} + \frac{R2}{R2_\text{base}} + \frac{RL}{RL_\text{base}})}$
+where $R1$, $R2$, $RL$ are ROUGE F1 scores and $R1_\text{base}$, $R2_\text{base}$, $RL_\text{base}$ are the scores of the configuration corresponding to the first bar.
+
+With more pre-training steps, the model observed more documents in the pre-training corpus. A \pegasusbase model trained for 500k (highest we tried) steps did not observe all training examples on C4 nor \gnews.   
+% Figure \ref{fig:exp_pre-training_steps} 
+Appendix~\ref{appendix:pre-train_steps} shows the number of pre-training steps had an unsurprisingly positive impact on downstream dataset performance.
+We used 500k steps for the ablation studies and the large model.
+
+
+\subsubsection{Pre-training Corpus}
+\label{sec:exp_pre-training_corpus}
+
+\begin{figure}[tbh]
+\centering
+\includegraphics[width=0.45\textwidth]{compare_corpus_42.pdf}
+\caption{Effect of pre-training corpus. \pegasusbase pre-trained on C4 (350M Web-pages) and \gnews (1.5B news-like documents).
+}
+\label{fig:exp_copora}
+\end{figure}
+
+
+% We evaluated the effect of different pre-training corpora on the downstream datasets. 
+
+Figure \ref{fig:exp_copora} shows that pre-training on \gnews was more effective than C4 on the two news downstream datasets, while the non-news informal datasets (WikiHow and Reddit TIFU) prefer the pre-training on C4. This suggests pre-training models transfer more effectively to downstream tasks when their domains are aligned better.
+
+
+ 
+\subsubsection{Effect of Pre-training Objectives}
+\label{sec:exp_pre-training_objectives}
+
+\begin{figure*}[tbh]
+\centering
+\begin{subfigure}[t]{0.48\textwidth}
+\includegraphics[width=\textwidth]{compare_objectives_42.pdf}
+\caption{Effect of pre-training objectives (30\% GSR). }
+\label{fig:exp_objectives}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{0.48\textwidth}
+\includegraphics[width=\textwidth]{compare_masking_rates_42.pdf}
+\caption{Effect of gap sentences ratio  with GSG (Ind-Orig). }
+\label{fig:exp_masking_rate}
+\end{subfigure}
+\caption{Effect of pre-training settings with \pegasusbase pre-trained on C4. }
+\label{fig:exp_gsg}
+\end{figure*}
+
+\paragraph{GSG}\label{sec:exp_gsg}
+We compared six variants of GSG (Lead, Random, Ind-Orig, Ind-Uniq, Seq-Orig, Seq-Uniq) while choosing 30\% sentences as gap sentences. As shown in Figure \ref{fig:exp_objectives},
+Ind-Orig achieved the best performance followed by Seq-Uniq. Ind-Orig and Seq-Uniq were consistently better (or similar) than Random and Lead across the four downstream datasets.
+Lead had decent performance on the two news datasets but was significantly worse on the two non-news datasets, which agrees findings of lead bias in news datasets \citep{see2017cnndm, Zhong_2019}. 
+The results suggest choosing principal sentences works best for
+downstream summarization tasks, and we chose Ind-Orig for the \pegasuslarge.
+
+\label{sec:exp_masking_rate}
+A significant hyper-parameter in GSG is the gap-sentences ratio (GSR). A low GSR makes the pre-training less challenging and computationally efficient. On the other hand, choosing gap sentences at a high GSR loses contextual information necessary to guide the generation. 
+% Therefore, an appropriate gap sentences ratio was essential.
+We compared GSRs from 15\% to 75\%. For a fair comparison, the original documents were truncated to have up to 400 words. The \emph{maximum input length}, $L_{input}$ in the encoder and the \emph{maximum target length}, $L_{target}$ in the decoder were set as 512 tokens.
+
+Figure \ref{fig:exp_masking_rate} shows that different downstream datasets had slightly different optima. The best performance always had GSR lower than 50\%. The model with 15\% gap sentences achieved the highest ROUGE scores on CNN/DailyMail, while XSum/Reddit TIFU and WikiHow did better with 30\% and 45\% respectively.
+When scaling up to \pegasuslarge (Section~\ref{sec:exp_large_model}), we chose an effective GSR of 30\%.  
+
+\paragraph{MLM}\label{sec:exp_mlm}
+As mentioned, the MLM objective can either be applied solely or together with GSG. 
+We jointly trained MLM with GSG Ind-Orig (MLM \& Ind-Orig), which masks 30\% sentences and extra 15\% tokens in unselected sentences, as shown in Figure \ref{fig:architecture}.
+Figure \ref{fig:exp_objectives} shows that the model pre-trained with MLM alone performed significantly worse  and MLM \& Ind-Orig had similar performance as Random. 
+Interestingly, when comparing MLM \& Ind-Orig to Ind-Orig, we empirically observed MLM improved fine-tuning performance at early pre-training checkpoints (100k - 200k steps), but inhibited further gains with more pre-training steps (500k). Therefore, we chose not to include MLM in \pegasuslarge.
+
+\subsubsection{Effect of Vocabulary}
+\label{sec:exp_vocab}
+
+
+\begin{figure}[tbh]
+\centering
+\includegraphics[width=0.45\textwidth]{compare_vocab_42.pdf}
+\caption{Effect of vocabulary with \pegasusbase trained on C4 (15\% GSR, Ind-Orig). 
+}
+\label{fig:exp_vocab}
+\end{figure}
+
+
+We compared two tokenization methods\footnote{Implemented in https://github.com/google/sentencepiece}: Byte-pair-encoding algorithm (\textbf{BPE}) \citep{wu2016wordpiece,sennrich-etal-2016-neural}, and SentencePiece Unigram algorithm (\textbf{Unigram}) proposed in \citet{kudo2018sentencepiece}. We evaluated Unigram with different vocabulary sizes ranging from 32k to 256k. In these experiments, models were pre-trained for 500k steps on the C4 corpus with the Ind-Orig objective and 15\% GSR. As shown in Figure \ref{fig:exp_vocab}, BPE and Unigram were comparable on news datasets while Unigram outperformed BPE on non-news datasets, especially WikiHow. 
+% Moreover, an appropriate vocabulary size was also important.
+On XSum and CNN/DailyMail, Unigram 96k achieved the highest ROUGE scores. On WikiHow and Reddit TIFU, the best configurations were Unigram 128k and 64k respectively. 
+Therefore, we used the overall best vocabulary option Unigram 96k in \pegasuslarge.
+% These indicated that a larger vocabulary had better generality across different scenarios but also made it difficult to train the model.
+
+%\subsubsection{Effect of Pre-training Steps}
+
+\input{tables/large_model_T.tex}
+\input{tables/large_model_selected.tex}
+
+\subsection{Larger Model Results}
+\label{sec:exp_large_model}
+
+Compared with \pegasusbase, the large model \pegasuslarge had increased capacity from larger hidden size ($H:768\rightarrow1024$, $F:3072\rightarrow4096$, $A: 12\rightarrow 16$), number of layers ($L:12\rightarrow16$) and traversed much more data, due to larger batch size ($B: 256\rightarrow8192$) (same number of pre-training steps, 500k).
+We adopted the best practices found in the \pegasusbase ablation studies using the GSG (Ind-Orig) pre-training objective without MLM and Unigram vocabulary size of 96k. In total, \pegasuslarge had \largemodelsize parameters. 
+
+To encourage the model to copy, which is an important aspect of the more extractive datasets, we 
+left 20\% of selected sentences unchanged in the input instead of replacing with \texttt{[MASK1]}.
+ We increased the GSR to 45\% to achieve a similar number of ``gaps'' as the optimal 30\% found above. We reported the performance of the models pre-trained on \gnews and C4 separately. We conducted a simple hyper-parameter sweep of learning rate
+ and length penalty, $\alpha$,  when fine-tuning \pegasuslarge on each downstream dataset.
+
+
+CNN/DailyMail, Multi-News, arXiv, PubMed, BIGPATENT datasets contain input documents longer than the maximum input length ($L_{input} = 512$ tokens) in pre-training. 
+This would present a problem for position embeddings which would never be
+updated for longer input lengths,
+but 
+we confirm
+the postulation that sinusoidal positional encodings \citep{vaswani2017attention} generalize well when fine-tuning \pegasuslarge beyond the input lengths observed in training up to $L_{input}=1024$ tokens. 
+Since average input length in BIGPATENT, arXiv, PubMed and Multi-News are well beyond 1024 tokens, further scaling up $L_{input}$ or applying a two-stage approach \citep{liu2018generating} may improve performance even more, although this is 
+outside the scope of this work.
+
+Tables \ref{tab:large_model} and \ref{tab:large_model_selected} show the performance improvements of \pegasusbase and \pegasuslarge on downstream datasets. 
+While \pegasusbase exceeded current state-of-the-art on many datasets, \pegasuslarge 
+achieved better than state-of-the-art results on all downstream datasets using \gnews,
+although C4 performed better on WikiHow.
+
+
+The improvement from a Transformer model without pre-training (\transformerbase) to \pegasuslarge was more significant on smaller datasets. For example, the ROUGE2-F1 scores nearly tripled on AESLC and quintupled on Reddit TIFU. The large jumps in performance suggest that small text summarization datasets benefit the most from pre-training. We further investigate low resource summarization in Section~\ref{sec:low_resource}. 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure*}[bthp!]
+\centering
+\includegraphics[trim=300 100 300 0,clip,width=\textwidth]{low_resource_42.pdf}
+\caption{Fine-tuning with limited supervised examples. The solid lines are \pegasuslarge fine-tuned on 0 (zero shot), 10, 100, 1k,10k examples. The dashed lines are \transformerbase models, equivalent in capacity as \pegasusbase and trained using the full supervised datasets, but with no pre-training. 
+All numbers are reported in Appendix~\ref{appendix:low_resource}.
+}
+\label{fig:low_resource}
+\end{figure*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Zero and Low-Resource Summarization}
+\label{sec:low_resource}
+In real-world practice, it is often difficult to collect a large number of supervised examples to train or fine-tune a summarization model. To simulate the low-resource summarization setting, we picked the first $10^k$ ($k=1,2,3,4$) training examples from each dataset to fine-tune \pegasuslarge (\gnews) .
+We fine-tuned the models up to 2000 steps with batch size 256, learning rate 0.0005, and picked the checkpoint with best validation performance.
+In Figure.~\ref{fig:low_resource}, in 8 out of 12 datasets, with just 100 examples  \pegasuslarge could be fine-tuned to generate summaries at comparable quality to \transformerbase trained on the full supervised datasets ranging from 20k to 200k examples. 
+\pegasuslarge also beat previous state-of-the-art results on 6 out of 12 datasets with only
+1000 fine-tuning examples.
+
+On CNN/DailyMail, 
+with half the number of parameters
+\pegasuslarge demonstrated much better zero-shot
+(ROUGE2-F=13.28)
+performance than GPT-2 (ROUGE2-F=8.27).
+Using only 1000 examples, \pegasuslarge achieved ROUGE2-F of 19.35,
+much higher than the 13.1 obtained in  
+\citet{khandelwal2019sample}  with 3000 examples.
+
+\subsection{Qualitative Observations and Human Evaluation}
+\input{tables/human_eval.tex}
+
+Overall, we observed high-linguistic quality (in terms of fluency and coherence), closely emulating 
+the style of ground-truth summaries.
+While some previous work suggested that maximum likelihood training 
+results in repetitive text in model outputs  \citep{welleck2019neural}
+we found this to be rare in our outputs and did not require additional
+counter-measures to mitigate dis-fluencies.
+
+
+Although ROUGE clearly has its draw-backs \citep{kryscinski-etal-2019-neural},
+over-penalizing abstractive approaches compared to extractive ones and having
+no sense of linguistic quality,
+we found that 
+choosing perplexity-optimized models using aggregated ROUGE (rather than directly 
+optimizing ROUGE as in \citet{paulus2017deep}) resulted in qualitatively 
+good models.
+Randomly sampled  (by a program) model decodes across all datasets and a broad range of
+ROUGE scores can be found in Appendix~\ref{appendix:model_ouputs}.We found that even low-ROUGE model summaries often were high-quality, Figure \ref{fig:qualitative_cnn_example}.
+
+To assess how close \pegasuslarge is to human performance we conducted human evaluation experiments 
+on Amazon Mechanical Turk
+comparing model summaries with (human) reference summaries given the input document. The examples were drawn from the XSum, CNN/DailyMail, and Reddit TIFU datasets; the first two were chosen due to their popularity in past work, and the third was chosen for its significant difference in style.
+Workers were asked to rate the summaries on a 1-5 scale, with higher
+being better (full experiment details provided in Appendix \ref{appendix:human})
+and a paired t-test was used to assess whether scores were significantly different from human. 
+
+In the first experiment,
+\pegasuslarge(\gnews), \pegasuslarge(C4), and \transformerbase were
+compared with reference summaries; in the second experiment,
+\pegasuslarge(\gnews) fine-tuned using 10, 100, 1000, and all 
+supervised examples were compared with references; the results are shown in Table \ref{tab:human_eval_models}.
+According to the significance level of $p<0.01$, both \pegasuslarge(\gnews) and \pegasuslarge(C4) outputs were at least as good as the reference summaries in all cases.
+Even at low-levels of supervision \pegasuslarge(\gnews) was not measurably worse than human summaries on XSum and CNN/DailyMail. 
+In the Reddit TIFU case, however, perhaps due to its diverse writing styles,
+human performance required full supervision.
+
+\subsection{Test-set Overlap with Pre-training Corpus}
+
+The pre-training corpora are a large collection of documents from the Internet and potentially have overlap with the downstream test sets. In this section, we measured the extent of overlap between the pre-training corpus and downstream datasets. We also studied if the pre-trained model was able to exploit memorization to achieve higher performance on the downstream datasets.
+
+To measure the overlap, we calculated similarities between all pairs of downstream test set targets and pre-training documents. We use the ROUGE-2 recall as a similarity measure (common 2-grams / test set targets 2-grams). It is not necessarily exact match even if the similarity score is 1.0. We filtered all test set examples that have similarity to any pre-training example above a threshold, and recalculated the ROUGE scores on the remaining test set. In Figure~\ref{fig:filter}, we conducted this study on the pre-training corpus C4 and test set of XSum, CNN/Dailymail, Reddit TIFU and WikiHow, with a similarity threshold of 1.0 and 0.8. Results show that only XSum has significant amount of overlap 15\% to 20\%, and filtering those examples does not change ROUGE scores more than 1\%.
+We also manually examined those overlapped examples with similarity of 1.0, and found that the models produce very different summaries compared to the human written ones, suggesting that there was no clear memorization.
+
+\begin{figure}[tbh]
+\centering
+\includegraphics[width=0.45\textwidth]{filter_similar_42.pdf}
+\caption{Percentage of overlap between C4 and downstream test sets, and ROUGE score changes after removing those overlapped examples in test sets. 
+}
+\label{fig:filter}
+\end{figure}
+
+\subsection{Additional \pegasuslarge Improvements}
+Following our experiments on \pegasuslarge pre-trained on C4 and \gnews, 
+we pre-trained a \pegasuslarge model on both corpora and stochastically sampled important sentences.
+The \pegasuslarge (mixed,stochastic) model includes the changes:
+(1) The model was pre-trained on the mixture of C4 and \gnews weighted by their number of examples.
+(2) The model dynamically chose gap sentences ratio uniformly between 15\%-45\%.
+(3) Importance sentences were stochastically sampled with 20\% uniform noise on their scores.
+(4) The model was pre-trained for 1.5M steps instead of 500k steps, as we observed slower convergence of pre-training perplexity.
+(5) The SentencePiece tokenizer was updated to encode the newline character.
+The \pegasuslarge (mixed, stochastic) model achieved best results on almost all downstream tasks, as shown in Table~\ref{tab:mixed}.
+\input{tables/large_model_mixed.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion}
+\label{sec:conclusion}
+In this work, we proposed PEGASUS, a sequence-to-sequence model with gap-sentences generation as a pre-training objective tailored for abstractive text summarization.
+% In the pre-training stage, the model was designed to predict extracted gap sentences as generative pre-training objectives and we studied various gap sentence extraction methods. 
+We studied several gap-sentence selection methods and identified principle sentence selection as the optimal strategy.
+% We demonstrated the effect of the pre-training corpus, pre-training objectives, gap sentences ratios and vocabulary in the pre-training stage.
+We demonstrated the effects of the pre-training corpora, gap-sentences ratios, vocabulary sizes and scaled up the best configuration to achieve state-of-the-art results
+on all 12 diverse downstream datasets considered.
+We also showed that our model was able to adapt to unseen
+summarization datasets very quickly, achieving strong results in as little as 1000 examples. We finally showed our model summaries achieved human performance on multiple datasets using human evaluation. 
+
+\section{Code and Model Checkpoints Release}
+The training code and instructions for using model checkpoints can be found at
+
+\pegasuscode
+ 
+
+
+% remove for anonmity
+\input{ack.tex}  
+
+\bibliography{icml2020}
+\bibliographystyle{icml2020}
+
+
+\clearpage
+\appendix
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+
+%\setcounter{table}{0}
+%\renewcommand{\thetable}{A\arabic{table}}
+\onecolumn
+
+
+\section{Datasets Statistics}
+\label{appendix:dataset}
+
+Following \citeauthor{Grusky2018newsroom}, we calculate extractive fragment coverage/density for all downstream datasets.
+They were defined as
+$$coverage=\frac{1}{S}\sum_{f\in F(A,S)}|f|$$ $$density=\frac{1}{S}\sum_{f\in F(A,S)}|f|^2$$
+% compression ratio $\frac{|A|}{|S|}$, 
+where $A$ is article, $S$ is summary, and $f \in F(A,S)$ are extractive fragments. High density indicates more extractive datasets and low coverage suggests more novel words in the summary.
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=0.75\textwidth]{figs/datasets_42.pdf}
+\caption{A comparison of extractive fragment coverage and density of downstream datasets. The darker blocks indicate higher percentages and the n is the number of examples in the dataset.}
+\label{fig:exp_downstream}
+\end{figure*}
+
+
+\section{Pre-training Steps}
+\label{appendix:pre-train_steps}
+\begin{figure*}[tbh]
+\begin{subfigure}[b]{\textwidth}
+\includegraphics[width=0.32\textwidth]{compare_pretraining_steps_r1_42.pdf}
+\includegraphics[width=0.32\textwidth]{compare_pretraining_steps_r2_42.pdf}
+\includegraphics[width=0.32\textwidth]{compare_pretraining_steps_rL_42.pdf}
+\end{subfigure}
+\caption{
+Performance increase on downstream datasets as \pegasusbase trains for more steps on C4.}
+\label{fig:exp_pre-training_steps}
+\end{figure*}
+
+\clearpage
+\section{PEGASUS Hyper Parameters}
+\label{appendix:hparams}
+\input{tables/hparams.tex}
+
+\clearpage
+\section{Experiment Figures' Numbers}
+\label{appendix:exps}
+\input{tables/raw_rouge_scores.tex}
+
+\clearpage
+\section{Low Resource Numbers}
+\label{appendix:low_resource}
+\input{tables/low_resource_scores.tex}
+
+\clearpage
+\section{Human Evaluation Details}
+\label{appendix:human}
+
+In all human evaluation experiments we used the same task template
+shown in Figure \ref{fig:mturk}, where workers were asked to rate
+4 summaries for a document on a scale of 1 (poor summary) to 5 (great summary). The order in which the summaries are presented for each task was random per example. Each task was independently done by 3 different workers and we retained the median score across workers for each summary. We paid 1 USD per task and used the following critieria for
+workers to ensure high-quality:
+\begin{itemize}
+    \item Location: US
+    \item Minimum approval rate: 95\%
+    \item Minimum HIITs: 1000
+\end{itemize}
+
+With this criteria we observed high reproducibility in the conclusions of the huamn evaluation. Multiple runs of the same experiment with different workers meeting this criteria yielded very similar results. The HITT template is provided at \pegasuscode.
+
+In experiment 1, the four summaries corresponded to 3 models (\pegasuslarge pre-trained on \gnews, C4, and \transformerbase) that were fine-tuned using all the supervised examples along with the reference (human) summary. We sampled 100 examples from each dataset (XSum, CNN/DailyMail, Reddit TIFU).
+
+In experiment 2, we evaluated 4 models  (\pegasuslarge pre-trained
+on \gnews fine-tuned using
+different amounts of supervision, 10, 100, 1000, and all examples)  alongside the human summary. To do this with the same template,
+for each example we randomly selected 4 out of the 5 summaries. This
+resulted in fewer ratings per model, but did not increase the
+work (and cost) of the task.
+
+We used a paired t-test to determine statistical significance
+when comparing the ratings of two sets of summaries.
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=1.0\textwidth]{figs/ratesummaries.png}
+\caption{A screenshot of the Amazon MTurk HIIT.}
+\label{fig:mturk}
+\end{figure*}
+
+\clearpage
+\section{Example of summary with relatively low ROUGE2-F but qualitatively good.}
+
+This figure shows an example
+model summary from the CNN/DailyMail dataset exhibiting high fluency,
+coherence, although highly abstractive, and only ROUGE2-F of 16. The model understood that 
+the football team "Chelsea" could be paraphrased as "Jose Mourinho's side" and
+"The Blues" and highlighted the same four matches to be played.
+
+\input{figs/qualitative_cnn_example}
+
+\clearpage
+\section{Abstractiveness of Summaries}
+
+We compared the abstractiveness of model generated summaries with the human-written ones for all downstream datasets. We measured abstractiveness of summaries using average values of extractive coverage and extractive density \citep{Grusky2018newsroom} on each dataset. More abstractive summaries have smaller extractive coverage (more novel words) and smaller extractive density (smaller spans copied from inputs). Figure~\ref{fig:abstractiveness} shows that the summaries generated by models were all less abstractive than the human-written counterparts. However, the models that were finetuned on more abstractive datasets, such as XSum and Reddit TIFU, could generate more abstractive summaries than human-written ones on other datasets.
+
+\begin{figure}[tbh]
+\centering
+\includegraphics[width=\textwidth]{abstractiveness_42.pdf}
+\caption{Comparison of abstractiveness of human written and model generated summaries.
+}
+\label{fig:abstractiveness}
+\end{figure}
+
+
+\section{Example Model Outputs}
+\label{appendix:model_ouputs}
+
+Model outputs were selected (and \LaTeX~ tables generated) automatically by a program
+in the following way: (1) pick first 300 examples of triplets (document, gold summary, model output) from the dataset test split; (2) rank the examples by ROUGE1-F1/ROUGE2-F1/ROUGEL-F1 metrics in descending order; (3) divide the examples into 2-10 buckets depending on the documents lengths; (4) randomly pick one example from each bucket.
+
+We filtered out examples that contain bad words from the link \footnote{
+\url{https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/blob/master/en}}. Input documents were truncated at 300 words for visualization. Each page shows examples from one dataset sampled by one ROUGE metric.
+
+\input{tables/examples/xsum-1.tex}
+\input{tables/examples/xsum-2.tex}
+\input{tables/examples/xsum-L.tex}
+\input{tables/examples/cnn_dailymail-1.tex}
+\input{tables/examples/cnn_dailymail-2.tex}
+\input{tables/examples/cnn_dailymail-L.tex}
+\input{tables/examples/newsroom-1.tex}
+\input{tables/examples/newsroom-2.tex}
+\input{tables/examples/newsroom-L.tex}
+\input{tables/examples/multi_news-1.tex}
+\input{tables/examples/multi_news-2.tex}
+\input{tables/examples/multi_news-L.tex}
+\input{tables/examples/gigaword-1.tex}
+\input{tables/examples/gigaword-2.tex}
+\input{tables/examples/gigaword-L.tex}
+\input{tables/examples/wikihow-1.tex}
+\input{tables/examples/wikihow-2.tex}
+\input{tables/examples/wikihow-L.tex}
+\input{tables/examples/reddit_tifu-1.tex}
+\input{tables/examples/reddit_tifu-2.tex}
+\input{tables/examples/reddit_tifu-L.tex}
+\input{tables/examples/bigpatent-1.tex}
+\input{tables/examples/bigpatent-2.tex}
+\input{tables/examples/bigpatent-L.tex}
+\input{tables/examples/arxiv-1.tex}
+\input{tables/examples/arxiv-2.tex}
+\input{tables/examples/arxiv-L.tex}
+\input{tables/examples/pubmed-1.tex}
+\input{tables/examples/pubmed-2.tex}
+\input{tables/examples/pubmed-L.tex}
+\input{tables/examples/aeslc-1.tex}
+\input{tables/examples/aeslc-2.tex}
+\input{tables/examples/aeslc-L.tex}
+\input{tables/examples/billsum-1.tex}
+\input{tables/examples/billsum-2.tex}
+\input{tables/examples/billsum-L.tex}
+
+
+
+\end{document}

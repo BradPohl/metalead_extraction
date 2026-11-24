@@ -1,0 +1,6598 @@
+{
+  "paper_id": "1811.09242",
+  "tuples": [
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 60.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goyal2014unsupervised",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "LDA",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "LDA   & 60.7  & 4.4"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 4.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goyal2014unsupervised",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "LDA",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "60.7  & 4.4   & 16.34"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 16.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "we do a geometric average",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "LDA",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "4.4   & 16.34 & 1.40"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 1.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "LDA",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "16.34 & 1.40"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "Spectral"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goyal2014unsupervised",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "Spectral",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "Spectral & 61.5  & 4.5"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Spectral"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 4.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "goyal2014unsupervised",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "Spectral",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "61.5  & 4.5   & 16.64"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Spectral"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 16.64,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "we do a geometric average",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "Spectral",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "4.5   & 16.64 & 1.98"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Spectral"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 1.98,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "Spectral",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "16.64 & 1.98"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 44.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2014inducing",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "HC    & 44.4  & 11.5"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 11.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2014inducing",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "44.4  & 11.5  & 22.62"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "we do a geometric average",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "11.5  & 22.62 & 1.15"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 1.15,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "22.62 & 1.15"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC+Zipf"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 35.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2014inducing",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC+Zipf",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "HC+Zipf & 35.1  & 15.2"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "HC+Zipf"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 15.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2014inducing",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC+Zipf",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "35.1  & 15.2  & 23.10"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "HC+Zipf"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 23.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "we do a geometric average",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC+Zipf",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "15.2  & 23.10 & 3.81"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "HC+Zipf"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 3.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "HC+Zipf",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "23.10 & 3.81"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 23.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2014inducing",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "BNP-HC",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "BNP-HC & 23.1  & \\textbf{21.4}"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 21.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2014inducing",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "BNP-HC",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "\\textbf{21.4} & 22.23"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "we do a geometric average",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "BNP-HC",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "21.4} & 22.23 & 11.77"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 11.77,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "BNP-HC",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "22.23 & 11.77"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "CRP-PPMI"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 57.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "CRP-PPMI",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "CRP-PPMI & 57.7  & 2.9"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "CRP-PPMI"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 2.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "CRP-PPMI",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "57.7  & 2.9   & 12.94"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "CRP-PPMI"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 12.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "we do a geometric average",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "CRP-PPMI",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "2.9   & 12.94 & 2.09"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "CRP-PPMI"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 2.09,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "CRP-PPMI",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "12.94 & 2.09"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 55.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "SE-WSI-fix",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "SE-WSI-fix & 55.1  & 9.8"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "SE-WSI-fix",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "55.1  & 9.8   & 23.24"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 23.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "we do a geometric average",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "SE-WSI-fix",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "9.8   & 23.24 & 1.35"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 1.35,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "as reported in",
+        "locator": "SemEval 2010"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "SE-WSI-fix",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "23.24 & 1.35"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-wp}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 59.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-wp}",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "59.3  & 9.2   & 23.36"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-wp}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-wp}",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "59.3  & 9.2   & 23.36"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-wp}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 23.36,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-wp}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "9.2   & 23.36 & 2.16"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-wp}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 2.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-wp}",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "23.36 & 2.16"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-sw}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-sw}",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "61.1  & 8.6   & 22.92"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-sw}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 8.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-sw}",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "61.1  & 8.6   & 22.92"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-sw}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.92,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-sw}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "8.6   & 22.92 & 1.42"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-sw}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 1.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{-sw}",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "22.92 & 1.42"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed model called",
+        "locator": "AutoSense Model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "61.7  & 9.8   & 24.59"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed model called",
+        "locator": "AutoSense Model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "61.7  & 9.8   & 24.59"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 24.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed model called",
+        "locator": "AutoSense Model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "9.8   & 24.59 & 0.33"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 0.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed model called",
+        "locator": "AutoSense Model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "24.59 & 0.33"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=5}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 62.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5; tuned on development set",
+          "quote": "tuned over a separate development set",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=5}",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "\\textbf{62.9} & 10.1"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=5}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 10.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5; tuned on development set",
+          "quote": "tuned over a separate development set",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=5}",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "62.9} & 10.1  & \\textbf{25.20}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=5}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5; tuned on development set",
+          "quote": "tuned over a separate development set",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=5}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "\\textbf{25.20} & \\textbf{0.32}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=5}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 0.32,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5; tuned on development set",
+          "quote": "tuned over a separate development set",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=5}",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "\\textbf{0.32}"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=100}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "paired F-score",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "overestimated and worst version",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "i.e. 100",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=100}",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "61.2  & 9.6   & 24.23"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=100}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "V-measure",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "overestimated and worst version",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "i.e. 100",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=100}",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "61.2  & 9.6   & 24.23"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=100}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 24.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "geometric average",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "overestimated and worst version",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "i.e. 100",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=100}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "9.6   & 24.23 & 0.78"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=100}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "\u03b4(#S)",
+          "value": 0.78,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2010 WSI dataset",
+        "locator": "tab:semeval2010"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "absolute difference",
+        "locator": "SemEval 2010"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "overestimated and worst version",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "i.e. 100",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2010",
+        "row_label": "AutoSense^{s=100}",
+        "column_label": "\u03b4(#S)",
+        "sentence": null,
+        "quoted_span": "24.23 & 0.78"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "AI-KU"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 39.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "jurgens2013semeval",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AI-KU",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "AI-KU & 39.0  & 6.50"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "AI-KU"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 6.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "jurgens2013semeval",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AI-KU",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "39.0  & 6.50  & 15.92"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "AI-KU"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 15.92,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "computing the",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AI-KU",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "6.50  & 15.92"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Unimelb"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 48.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "jurgens2013semeval",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "Unimelb",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "Unimelb & 48.3  & 6.00"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Unimelb"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 6.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "jurgens2013semeval",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "Unimelb",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "48.3  & 6.00  & 17.02"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Unimelb"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 17.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "computing the",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "Unimelb",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "6.00  & 17.02"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 53.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "STM   & 53.5  & 6.96"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 6.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "53.5  & 6.96  & 19.30"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 19.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "computing the",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "6.96  & 19.30"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "WG"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 58.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2018efficient",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "WG",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "WG    & 58.1  & 1.60"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "WG"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 1.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2018efficient",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "WG",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "58.1  & 1.60  & 9.64"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "WG"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 9.64,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "computing the",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "WG",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "1.60  & 9.64"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "DIVE"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 49.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2018efficient",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "DIVE",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "DIVE  & 49.9  & 3.50"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "DIVE"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 3.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chang2018efficient",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "DIVE",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "49.9  & 3.50  & 13.22"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "DIVE"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 13.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "computing the",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "DIVE",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "3.50  & 13.22"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "STM+w2v"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 55.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM+w2v",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "STM+w2v & 55.4  & 7.14"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "STM+w2v"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM+w2v",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "55.4  & 7.14  & 19.89"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "STM+w2v"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 19.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "computing the",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM+w2v",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "7.14  & 19.89"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "MCC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 55.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "komninos2016structured",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "MCC",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "MCC   & 55.6  & 7.62"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "MCC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "komninos2016structured",
+        "quote": "as reported in",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "MCC",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "55.6  & 7.62  & 20.58"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "MCC"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 20.58,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "computing the",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "MCC",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "7.62  & 20.58"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-wp}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 55.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{-wp}",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "55.7  & 7.69  & 20.69"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-wp}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{-wp}",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "55.7  & 7.69  & 20.69"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-wp}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 20.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{-wp}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "7.69  & 20.69"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-sw}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 61.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{-sw}",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "61.4  & 7.36  & 21.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-sw}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.36,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{-sw}",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "61.4  & 7.36  & 21.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{-sw}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 21.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "four other versions of our model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{-sw}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "7.36  & 21.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 61.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed model called",
+        "locator": "AutoSense Model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        },
+        {
+          "name": "runs",
+          "value": "5",
+          "quote": "average scores over 5 runs",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "\\textbf{61.7} & 7.96"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed model called",
+        "locator": "AutoSense Model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "7.96  & 22.16"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed model called",
+        "locator": "AutoSense Model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "7.96  & 22.16"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=7}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 61.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "7; tuned on development set",
+          "quote": "tuned over a separate development set",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{s=7}",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "\\textbf{61.7} & \\textbf{7.97}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=7}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.97,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "7; tuned on development set",
+          "quote": "tuned over a separate development set",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{s=7}",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "\\textbf{7.97} & \\textbf{22.17}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=7}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "tuned and best version of the model",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "7; tuned on development set",
+          "quote": "tuned over a separate development set",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{s=7}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "\\textbf{22.17}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=100}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 61.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "overestimated and worst version",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "i.e. 100",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{s=100}",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "61.0  & 7.25  & 21.03"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=100}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 7.25,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "overestimated and worst version",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "i.e. 100",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{s=100}",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "61.0  & 7.25  & 21.03"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "AutoSense^{s=100}"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 21.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "overestimated and worst version",
+        "locator": "Parameter setting"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "i.e. 100",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense^{s=100}",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "7.25  & 21.03"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 59.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "report STM with additional contexts",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "actual",
+          "quote": "actual additional contexts from the original data",
+          "locator": "SemEval 2013"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM +actual",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "+actual & {59.1}  & 9.39"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 9.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "report STM with additional contexts",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "actual",
+          "quote": "actual additional contexts from the original data",
+          "locator": "SemEval 2013"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM +actual",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "{59.1}  & 9.39  & {23.56}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 23.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "report STM with additional contexts",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "actual",
+          "quote": "actual additional contexts from the original data",
+          "locator": "SemEval 2013"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM +actual",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "9.39  & {23.56}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 54.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "report STM with additional contexts",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "ukWac",
+          "quote": "semantically similar contexts from ukWac",
+          "locator": "SemEval 2013"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM +ukWac",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "+ukWac & 54.5  & \\textbf{9.74}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 9.74,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "report STM with additional contexts",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "ukWac",
+          "quote": "semantically similar contexts from ukWac",
+          "locator": "SemEval 2013"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM +ukWac",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "\\textbf{9.74}  & 23.04"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 23.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "report STM with additional contexts",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "ukWac",
+          "quote": "semantically similar contexts from ukWac",
+          "locator": "SemEval 2013"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "STM +ukWac",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "9.74}  & 23.04"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-BC",
+          "value": 62.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy B-cubed",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We similarly apply the actual additional contexts to AutoSense",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "actual",
+          "quote": "actual additional contexts",
+          "locator": "SemEval 2013"
+        },
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense +actual",
+        "column_label": "F-BC",
+        "sentence": null,
+        "quoted_span": "\\textbf{62.2} & {9.55}"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-NMI",
+          "value": 9.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "fuzzy normalized mutual information",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We similarly apply the actual additional contexts to AutoSense",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "actual",
+          "quote": "actual additional contexts",
+          "locator": "SemEval 2013"
+        },
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense +actual",
+        "column_label": "F-NMI",
+        "sentence": null,
+        "quoted_span": "{9.55} & \\textbf{24.37}"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "word sense induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 24.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SemEval 2013 WSI dataset",
+        "locator": "tab:semeval2013"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "AVG of both metrics",
+        "locator": "SemEval 2013"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We similarly apply the actual additional contexts to AutoSense",
+        "locator": "SemEval 2013"
+      },
+      "evaluation_setting": [
+        {
+          "name": "additional contexts",
+          "value": "actual",
+          "quote": "actual additional contexts",
+          "locator": "SemEval 2013"
+        },
+        {
+          "name": "number of senses",
+          "value": "15",
+          "quote": "S=15",
+          "locator": "Parameter setting"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:semeval2013",
+        "row_label": "AutoSense +actual",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "\\textbf{24.37}"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 31.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "LDA & 31.5 & 13.4"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 13.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "31.5 & 13.4 & 9.8"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 9.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "13.4 & 9.8 & 8.2"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 8.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "9.8 & 8.2 \\\\"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 46.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "HC & 46.3 & 46.3 & 44.4"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 46.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "HC & 46.3 & 46.3 & 44.4"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 44.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "46.3 & 44.4 & 41.7"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 41.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "44.4 & 41.7"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 52.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "STM & 52.8 & 55.0"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 55.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "52.8 & 55.0 & 55.5"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 55.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "55.0 & 55.5 & 55.0"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 55.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "55.5 & 55.0"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 56.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "AutoSense & 56.2 & 56.4"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 56.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "56.2 & 56.4 & 57.9"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 57.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "56.4 & 57.9 & 58.8"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "Arnet"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 58.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Arnet Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "57.9 & 58.8"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 41.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "LDA & 41.4 & 13.3"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 13.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "41.4 & 13.3 & 8.9"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 8.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "13.3 & 8.9 & 9.0"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 9.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "blei2003latent",
+        "quote": "We use LDA",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "LDA",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "8.9 & 9.0 \\\\"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 42.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "HC & 42.5 & 44.1"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 44.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "42.5 & 44.1 & 41.6"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 41.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "44.1 & 41.6 & 41.3"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "HC"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "chang2014inducing",
+        "quote": "HC",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "HC",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "41.6 & 41.3"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 44.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "STM & 44.9 & 44.4"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 44.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "44.9 & 44.4 & 44.9"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 44.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "44.4 & 44.9 & 41.9"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "STM"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 41.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "wang2015sense",
+        "quote": "STM",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "STM",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "44.9 & 41.9"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 44.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "5",
+          "quote": "$S=5$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=5",
+        "sentence": null,
+        "quoted_span": "AutoSense & 44.4 & 45.5"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 45.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "25",
+          "quote": "$S=25$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=25",
+        "sentence": null,
+        "quoted_span": "44.4 & 45.5 & 46.6"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 46.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "50",
+          "quote": "$S=50$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=50",
+        "sentence": null,
+        "quoted_span": "45.5 & 46.6 & 46.5"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "unsupervised author name disambiguation"
+      },
+      "datasets": [
+        {
+          "name": "PubMed"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Paired F1",
+          "value": 46.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "PubMed Dataset",
+        "locator": "fig:andresults"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Paired F1 measures",
+        "locator": "fig:andresults"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For STM and AutoSense",
+        "locator": "UAND Experimental setup"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number of senses",
+          "value": "100",
+          "quote": "$S=100$",
+          "locator": "fig:andresults"
+        },
+        {
+          "name": "contexts",
+          "value": "title, venue and author names local; abstract global",
+          "quote": "the abstract is used as the global context",
+          "locator": "UAND Experimental setup"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "fig:andresults",
+        "row_label": "AutoSense",
+        "column_label": "S=100",
+        "sentence": null,
+        "quoted_span": "46.6 & 46.5"
+      },
+      "confidence": 0.97
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      125
+    ],
+    "tokens_in": 101596,
+    "tokens_out": 58889,
+    "cost_usd": 0.396041
+  }
+}

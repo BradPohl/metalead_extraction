@@ -1,0 +1,81 @@
+\begin{table*}[tb!]
+\centering
+\resizebox{1.0\textwidth}{!}{% <-
+\begin{tabular}{l|ccc|ccc}
+\hline
+\multirow{2}{*}{\textbf{Model}} & \multicolumn{3}{c|}{\textbf{SNIPS-NLU}} & \multicolumn{3}{c}{\textbf{ATIS}} \\ \cline{2-7} 
+                      & Slot (F1) &Intent (Acc) & Overall (Acc) 
+                      & Slot (F1) &Intent (Acc) & Overall (Acc)           \\ \hline
+CNN TriCRF \cite{xu2013convolutional} 	&-		&-		&-	&0.944   &-	&-	\\
+Joint Seq. \cite{hakkani2016multi}  	&0.873	&0.969	&0.732	&0.942   &0.926	&0.807	\\
+Attention BiRNN \cite{liu2016attention} &0.878	&0.967	&0.741	&0.942   &0.911	&0.789	\\
+Slot-Gated Full Atten. \cite{goo2018slot}	&0.888	&0.970	&0.755	&0.948   &0.936	&0.822	\\
+DR-AGG \cite{gong2018information}       & -		&0.966  	& -		& -   	 &0.914 & -	\\
+IntentCapsNet \cite{xia2018zero}  		& -		&0.974	& -		& -   	 &0.948 & -	\\
+\hline
+{\ModelName} &\textbf{0.918}&0.973 &\textbf{0.809}   &\textbf{0.952} &\textbf{0.950} & \textbf{0.834}\\
+{\ModelName} w/o Intent Detection &0.902	& -	& -	&{0.948} &-	& -	\\ 
+{\ModelName} w/o Joint Training     &0.902	& \textbf{0.977}	&0.804	&0.948  &0.847	&0.743\\ 
+\hline
+\end{tabular}
+}
+\vspace{0.15in}
+\caption{Slot filling and intention detection results using {\ModelName} on two datasets.}
+\label{tab::overall}
+\end{table*}
+\begin{figure*}[tb!]
+    \centering
+    \includegraphics[width=\linewidth]{figures/benchmark.pdf}
+    \vspace{0.05in}
+    \caption{Stratified 5-fold cross validation for benchmarking with existing NLU services on SNIPS-NLU dataset. Black bars indicate the standard deviation.}\label{fig::benchmark}
+\end{figure*}
+
+We use the validation data to choose hyperparameters.
+For both datasets, we randomly initialize word embeddings using Xavier initializer and let them train with the model.
+In the loss function, the down-weighting coefficient $\lambda$ is 0.5, margins $m^ +$ and $m^ -$ are set to 0.8 and 0.2 for all the existing intents. $\alpha$ is set as 0.1.
+RMSProp optimizer \citep{tieleman2012lecture} is used to minimize the loss.  To alleviate over-fitting, we add the dropout to the LSTM layer with a  dropout rate of 0.2.
+
+\section{Results}
+\noindent\textbf{Quantitative Evaluation} The intent detection results on two datasets are reported in Table \ref{tab::overall}, where the proposed capsule-based model performs consistently better than current learning schemes for joint slot filling and intent detection, as well as capsule-based neural network models that only focuses on intent detection. These results demonstrate the novelty of the proposed capsule-based model {\ModelName} in jointly modeling the hierarchical relationships among words, slots and intents via the dynamic routing between capsules.
+
+Also, we benchmark the intent detection performance of the proposed model with existing natural language understanding services\footnote{https://www.slideshare.net/KonstantinSavenkov/nlu-intent-detection-benchmark-by-intento-august-2017} in Figure \ref{fig::benchmark}.
+Since the original data split is not available, we report the results with stratified 5-fold cross validation. From Figure \ref{fig::benchmark} we can see that the proposed model {\ModelName} is highly competitive with off-the-shelf systems that are available to use. Note that, our model archieves the performance without using pre-trained word representations: the word embeddings are simply trained from scratch.
+
+\noindent\textbf{Ablation Study}
+To investigate the effectiveness of {\ModelName} in joint slot filling and intent detection, we also report ablation test results in Table \ref{tab::overall}. ``w/o Intent Detection'' is the model without intent detection: only a dynamic routing is performed between {\FirstCapsule} and {\SecondCapsule} for the slot filling task, where we minimize $\mathcal{L}_{slot}$ during training; ``w/o Joint Training'' adopts a two-stage training where the model is first trained for slot filling by minimizing $\mathcal{L}_{slot}$, and then use the fixed slot representations to train for the intent detection task which minimizes $\mathcal{L}_{intent}$. From the lower part of Table \ref{tab::overall} we can see that by using a capsule-based hierarchical modeling between words and slots, the model {\ModelName} w/o Intent Detection is already able to outperform current alternatives on slot filling that adopt a sequential labeling schema. The joint training of slot filling and intent detection is able to give each subtask further improvements when the model parameters are updated jointly.
+
+\noindent\textbf{Visualizing Agreement Values between Capsule Layers}
+Thanks to the dynamic routing-by-agreement schema, the dynamically learned agreement values between different capsule layers naturally reflect how low-level features are collectively aggregated into high-level ones for each input utterance. In this section, we harness the intepretability of the proposed capsule-based model via hierarchical modeling and provide case studies and visualizations.
+
+\textbf{Between WordCaps and SlotCaps}
+First we study the agreement value $c_{kt}$ between the $t$-th word in the WordCaps and the $k$-th slot capsule in SlotCaps.
+As shown in Figure \ref{fig:w2s_dist}, we observe that the dynamic routing-by-agreement is able to converge to an agreement quickly after the first iteration (shown in blue bars). It is able to assign a confident probability assignment close to 0 or 1. After the second iteration (shown in orange bars), the model is more certain about the routing decisions: probabilities are more leaning towards 0 or 1 as the model is confident about routing a word in WordCaps to its most appropriate slot in SlotCaps.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\linewidth]{figures/w2s_dist}
+    \caption{The distribution of all agreement values between WordCaps and SlotCaps on the test split of SNIPS-NLU dataset. Blue: the distribution of values after the first iteration. Yellow: the distribution after the second iteration.}
+    \label{fig:w2s_dist}
+\end{figure}
+
+However, we do find that when unseen slot values like new object names emerge in utterances like \texttt{show me the movie operetta for the theatre organ} with an intent of \texttt{SearchCreativeWork}, the iterative dynamic routing process would be even more appealing.
+Figure \ref{fig:w2s} shows the agreement values learned by dynamic routing-by-agreement. Since the dynamic routing-by-agreement is an iterative process controlled by the variable $iter_{slot}$, we show the agreement values after the first iteration in the left part of Figure \ref{fig:w2s}, and the values after the second iteration in the right part.
+ 
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=\linewidth]{figures/w2s.pdf}
+    \caption{The learned agreement values between WordCaps (x-axis) and SlotCaps (y-axis). A sample from the test split of SNIPS-NLU dataset is shown (Left: after the fist routing iteration. Right: after the second iteration). Due to space limitations, only part of slots (7/72) are shown on the y-axis.}
+    \label{fig:w2s}
+\end{figure}
+\begin{figure}[t!]
+    \centering
+    \includegraphics[width=\linewidth]{figures/s2i.pdf}
+    \caption{The learned agreement values between SlotCaps (y-axis) and IntentCaps (x-axis). Left: after the first iteration. Right: after the second iteration. The same sample utterance used in Figure 5 is used here.}
+    \label{fig:s2i}
+    \vspace{-0.3in}
+\end{figure}
+
+From the left part of Figure \ref{fig:w2s}, we can see that after the first iteration, the model considers the word \texttt{operetta} itself alone is likely to be an object name, probably because the following word \texttt{for} is usually a context word being annotated as \texttt{O}. Thus it tends to route word \texttt{for} to both the slot \texttt{O} and the slot \texttt{I-object\_name}. However, from the right part of Figure \ref{fig:w2s} we can see that after the second iteration, the dynamic routing found an agreement and is more certain to have \texttt{operetta for the theatre organ} as a whole for the slot \texttt{B-object\_name} and \texttt{I-object\_name}.
+
+\textbf{Between SlotCaps and IntentCaps} Similarly, we visualize the agreement values between each slot capsule in SlotCaps and each intent capsule in IntentCaps.
+The left part of Figure \ref{fig:s2i} shows that after the first iteration, since the model is not able to correctly recognize \texttt{operetta for the theatre organ} as a whole, only the context slot \texttt{O} (correspond to the word \texttt{show me the}) and \texttt{B-object\_name} (correspond to the word \texttt{operetta}) contribute significantly to the final intent capsule. From the right part of Figure \ref{fig:s2i}, we found that with the word  \texttt{operetta for the theatre organ} being recognized in the lower capsule, the slots \texttt{I-object\_name} and \texttt{B-object\_type} contribute more to the correct intent capsule \texttt{SearchCreativeWork}, when comparing with other routing alternatives to other intent capsules.

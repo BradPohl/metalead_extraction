@@ -1,0 +1,3314 @@
+{
+  "paper_id": "1908.08345",
+  "tuples": [
+    {
+      "method": {
+        "name": "BertSumExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 43.25,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We name this model",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_CNN_DailyMail"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "~43.25 & 20.24 & 39.63"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 20.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We name this model",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_CNN_DailyMail"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "~43.25 & 20.24 & 39.63"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 39.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We name this model",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_CNN_DailyMail"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "~43.25 & 20.24 & 39.63"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt w/o interval embeddings"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "one without interval embeddings",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "interval embeddings",
+          "value": "without",
+          "quote": "w/o interval embeddings",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt w/o interval embeddings",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "~43.20 & 20.22 & 39.59"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt w/o interval embeddings"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 20.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "one without interval embeddings",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "interval embeddings",
+          "value": "without",
+          "quote": "w/o interval embeddings",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt w/o interval embeddings",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "~43.20 & 20.22 & 39.59"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt w/o interval embeddings"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 39.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "one without interval embeddings",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "interval embeddings",
+          "value": "without",
+          "quote": "w/o interval embeddings",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt w/o interval embeddings",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "~43.20 & 20.22 & 39.59"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt (large)"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 43.85,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "one with the large version",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "Bert large",
+          "quote": "the large version of \\textsc{Bert}",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt (large)",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "~43.85 & 20.34 & 39.90"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt (large)"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 20.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "one with the large version",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "Bert large",
+          "quote": "the large version of \\textsc{Bert}",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt (large)",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "~43.85 & 20.34 & 39.90"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt (large)"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 39.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "one with the large version",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "Bert large",
+          "quote": "the large version of \\textsc{Bert}",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExt (large)",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "~43.85 & 20.34 & 39.90"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 41.72,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "bert-base-uncased",
+          "quote": "`bert-base-uncased'",
+          "locator": "section_4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "~41.72 & 19.39 & 38.76"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 19.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "bert-base-uncased",
+          "quote": "`bert-base-uncased'",
+          "locator": "section_4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "~41.72 & 19.39 & 38.76"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 38.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "bert-base-uncased",
+          "quote": "`bert-base-uncased'",
+          "locator": "section_4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "~41.72 & 19.39 & 38.76"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 42.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "fine-tuning",
+          "value": "two-stage extractive then abstractive",
+          "quote": "first fine-tune the encoder on the extractive summarization task",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExtAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "~42.13 & 19.60  & 39.18"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 19.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "fine-tuning",
+          "value": "two-stage extractive then abstractive",
+          "quote": "first fine-tune the encoder on the extractive summarization task",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExtAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "~42.13 & 19.60  & 39.18"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 39.18,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "fine-tuning",
+          "value": "two-stage extractive then abstractive",
+          "quote": "first fine-tune the encoder on the extractive summarization task",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BertSumExtAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "~42.13 & 19.60  & 39.18"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "TransformerExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 40.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also implemented a non-pretrained Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "random",
+          "quote": "It is randomly initialized",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TransformerExt",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "~40.90&18.02& 37.17"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 18.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also implemented a non-pretrained Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "random",
+          "quote": "It is randomly initialized",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TransformerExt",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "~40.90&18.02& 37.17"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 37.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we also implemented a non-pretrained Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "initialization",
+          "value": "random",
+          "quote": "It is randomly initialized",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TransformerExt",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "~40.90&18.02& 37.17"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 40.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TransformerAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "~40.21&17.76&37.09"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 17.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TransformerAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "~40.21&17.76&37.09"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 37.09,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TransformerAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "~40.21&17.76&37.09"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BertSumExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 46.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We name this model",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        },
+        {
+          "name": "input_length",
+          "value": "800 tokens",
+          "quote": "Input documents were truncated to~800 tokens",
+          "locator": "section_4.1_NYT"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumExt",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "46.66 &26.35& 42.62"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 26.35,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We name this model",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumExt",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "46.66 &26.35& 42.62"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 42.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We name this model",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumExt",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "46.66 &26.35& 42.62"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 48.92,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "48.92   &30.84  &45.41"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 30.84,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "48.92   &30.84  &45.41"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 45.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "48.92   &30.84  &45.41"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 49.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumExtAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "49.02 &31.02& 45.55"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 31.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumExtAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "49.02 &31.02& 45.55"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 45.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "BertSumExtAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "49.02 &31.02& 45.55"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "TransformerExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 41.95,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our own Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "TransformerExt",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "41.95 &22.68&38.51"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 22.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our own Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "TransformerExt",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "41.95 &22.68&38.51"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerExt"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 38.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our own Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "TransformerExt",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "41.95 &22.68&38.51"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 35.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "TransformerAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "35.75 &17.23&31.41"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 17.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "TransformerAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "35.75 &17.23&31.41"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "NYT"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 31.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "NYT test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE Recall results",
+        "locator": "caption_table_3"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "summary length",
+          "value": "truncated to gold summary length",
+          "quote": "predicted summaries are truncated to the length of the gold summaries",
+          "locator": "section_5.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "TransformerAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "35.75 &17.23&31.41"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 38.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_XSum"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BertSumAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "38.76    &16.33& 31.15"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 16.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_XSum"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BertSumAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "38.76    &16.33& 31.15"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 31.15,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the default abstractive model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_XSum"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BertSumAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "38.76    &16.33& 31.15"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 38.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_XSum"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BertSumExtAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "38.81&16.50&31.27"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 16.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_XSum"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BertSumExtAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "38.81&16.50&31.27"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BertSumExtAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 31.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the two-stage fine-tuned model",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512 tokens",
+          "quote": "Input documents were truncated to~512 tokens",
+          "locator": "section_4.1_XSum"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BertSumExtAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "38.81&16.50&31.27"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 29.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our own abstractive Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TransformerAbs",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "29.41&9.77&23.01"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 9.77,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our own abstractive Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TransformerAbs",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "29.41&9.77&23.01"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TransformerAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 23.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our own abstractive Transformer baseline",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TransformerAbs",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "29.41&9.77&23.01"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "TConvS2S"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 31.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TConvS2S",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "31.89&\n                11.54"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "TConvS2S"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 11.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TConvS2S",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "11.54& 25.75"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "TConvS2S"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 25.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TConvS2S",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "11.54& 25.75"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "PTGen"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "PTGen",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "29.70& 9.21 &23.24"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "PTGen"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 9.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "PTGen",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "29.70& 9.21 &23.24"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "PTGen"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 23.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "PTGen",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "29.70& 9.21 &23.24"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "PTGen+Cov"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 28.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "PTGen+Cov",
+        "column_label": "R1",
+        "sentence": null,
+        "quoted_span": "28.10& 8.02 &21.72"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "PTGen+Cov"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 8.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "PTGen+Cov",
+        "column_label": "R2",
+        "sentence": null,
+        "quoted_span": "28.10& 8.02 &21.72"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "PTGen+Cov"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 21.72,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "XSum test set",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE F1 results",
+        "locator": "caption_table_4"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xsum",
+        "quote": "various abstractive models taken from \\citet{xsum}",
+        "locator": "section_5.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "PTGen+Cov",
+        "column_label": "RL",
+        "sentence": null,
+        "quoted_span": "28.10& 8.02 &21.72"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 50.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-2",
+          "quote": "2e-2 & 50.69",
+          "locator": "table_5_row_1"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "1",
+          "quote": "1     & 0.1",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-2",
+        "column_label": "1",
+        "sentence": null,
+        "quoted_span": "2e-2 & 50.69"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 9.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-2",
+          "quote": "2e-2 & 50.69",
+          "locator": "table_5_row_1"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "0.1",
+          "quote": "1     & 0.1",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-2",
+        "column_label": "0.1",
+        "sentence": null,
+        "quoted_span": "50.69  &9.33"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 10.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-2",
+          "quote": "2e-2 & 50.69",
+          "locator": "table_5_row_1"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "0.01",
+          "quote": "0.1  & 0.01",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-2",
+        "column_label": "0.01",
+        "sentence": null,
+        "quoted_span": "9.33 &  10.13 & 19.26"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 19.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-2",
+          "quote": "2e-2 & 50.69",
+          "locator": "table_5_row_1"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "0.001",
+          "quote": "0.01 & 0.001",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-2",
+        "column_label": "0.001",
+        "sentence": null,
+        "quoted_span": "9.33 &  10.13 & 19.26"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 37.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-3",
+          "quote": "2e-3 & 37.21",
+          "locator": "table_5_row_2"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "1",
+          "quote": "1     & 0.1",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-3",
+        "column_label": "1",
+        "sentence": null,
+        "quoted_span": "2e-3 & 37.21"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 8.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-3",
+          "quote": "2e-3 & 37.21",
+          "locator": "table_5_row_2"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "0.1",
+          "quote": "1     & 0.1",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-3",
+        "column_label": "0.1",
+        "sentence": null,
+        "quoted_span": "37.21 & 8.73 & 9.52"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 9.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-3",
+          "quote": "2e-3 & 37.21",
+          "locator": "table_5_row_2"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "0.01",
+          "quote": "0.1  & 0.01",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-3",
+        "column_label": "0.01",
+        "sentence": null,
+        "quoted_span": "8.73 & 9.52 & 16.88"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "BertSumAbs"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Model perplexity",
+          "value": 16.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CNN/DailyMail; validation set",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Model perplexity",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our abstractive model",
+        "locator": "section_5.2_Learning_Rates"
+      },
+      "evaluation_setting": [
+        {
+          "name": "encoder learning rate",
+          "value": "2e-3",
+          "quote": "2e-3 & 37.21",
+          "locator": "table_5_row_2"
+        },
+        {
+          "name": "decoder learning rate",
+          "value": "0.001",
+          "quote": "0.01 & 0.001",
+          "locator": "table_5_header"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "2e-3",
+        "column_label": "0.001",
+        "sentence": null,
+        "quoted_span": "8.73 & 9.52 & 16.88"
+      },
+      "confidence": 0.91
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      62
+    ],
+    "tokens_in": 76855,
+    "tokens_out": 35848,
+    "cost_usd": 0.25609499999999996
+  }
+}

@@ -1,0 +1,40 @@
+\clearpage
+\newpage
+
+\appendix
+
+\section{Appendix}
+
+\subsection{Optimization and data pre-processing}
+Our models are trained end-to-end using backpropagation and mini-batched Adam \citep{kingma2014adam} SGD. We use dropout regularization \citep{srivastava2014dropout} on the input embeddings and final dilation layer of each block, along with the dropout regularizer described in \citet{ma2017dropout} using a single Monte Carlo sample for each training example. We also found word dropout \citep{dai2015semi,lample2016neural} crucial for learning a high-quality representation for out-of-vocabulary words. We used the modified version of identity initialization \citep{le2015simple} reported by \citet{yu2015multi} to initialize our dilated layers, which we found to perform the best in initial experiments compared to orthogonal and Xavier initialization \citep{glorot2010understanding}. Since our models use the same number of filters in each dilated layer, this initialization simplifies to setting the parameters corresponding to the central token to the identity matrix, and all other parameters (corresponding to left and right context) to zero. All other layers (embeddings, projections) were initialized using normally distributed Xavier initialization. 
+
+As in previous work, we found that initializing the word embedding lookup table with pre-trained embeddings was vital to achieve good performance. In initial experiments, we found the 100-dimensional skip-n-gram \citep{wang2015not} embeddings of \citet{lample2016neural} to outperform the 50-dimensional word embeddings of \citet{collobert2011natural}, and so we use these 100-dimensional embeddings in all experiments. We concatenate a 5-dimensional word shape vector based on whether the token was all capitalized, not capitalized, first-letter capitalized or contained a capital letter. We preprocessed the data by replacing all digits with 0, but did not lowercase thus our embeddings are case-sensitive.
+
+We use the parameters of the trained sentence models to initialize the parameters of the document models in order to significantly speed up the rate of convergence of the document models. 
+
+\subsection{Data details}
+Entities in the CoNLL-2003 corpus are labeled with one of four types: {\sc PER}, {\sc ORG}, {\sc LOC} or {\sc MISC}, with a fairly even distribution over the four entity types. OntoNotes contains a larger and more diverse set of 19 different entity types, adding: {\sc ORDINAL}, {\sc PRODUCT}, {\sc NORP}, {\sc WORK\_OF\_ART}, {\sc LANGUAGE}, {\sc MONEY}, {\sc PERCENT}, {\sc CARDINAL}, {\sc GPE}, {\sc TIME}, {\sc DATE}, {\sc FAC}, {\sc LAW}, {\sc EVENT} and {\sc QUANTITY}. The OntoNotes corpus also covers a wider range of text genres, including telephone conversations, web text, broadcast news and translated documents, whereas the CoNLL-2003 text covers only newswire. The combined entity types and boundary encodings result in 17 possible output labels in the CoNLL-2003 corpus and 74 labels in the OntoNotes corpus. The sizes of the two corpora in terms of documents, sentences, tokens and entities are given in Table \ref{data-table}. 
+
+\begin{table}
+\begin{tabular}{p{2.3cm}p{0.5cm}p{1.3cm}p{1cm}p{1cm}}
+Data & & Train & Dev & Test \\ \hline \hline
+CoNLL-2003 & 
+Tok \newline Sent \newline Doc \newline Ent &
+204,567 \newline 14,041 \newline 945 \newline 23,499 & 
+51,578 \newline 3,250 \newline 215 \newline 5,942 &
+46,666 \newline 3,453 \newline 230 \newline 5,648\\ \hline
+OntoNotes 5.0 & 
+Tok \newline Sent \newline Doc \newline Ent &
+1,088,503 \newline 59,924 \newline 2,483 \newline 81,828 & 
+147,724 \newline 8,528 \newline 319 \newline 11,066 & 
+152,728 \newline 8,262 \newline 322 \newline 11,257 \\
+\end{tabular}
+
+\caption{Statistics of NER datasets \label{data-table}}
+\end{table} 
+
+\subsection{Evaluation}
+
+To select hyperparameters, we iteratively perform grid search over increasingly fine-grained settings of dropout, learning rate, Adam $\beta_2$ and $\epsilon$ parameters, gradient clipping threshold, number of dilated layers, number of repeated blocks, regularizer penalty and batch size. Since we found the variance in score between runs to vary significantly, in the last iteration of grid search, we ran each setting of parameters three times and averaged their scores on the validation set. Of these, we ran the top ten settings ten times, and took the parameters which averaged the highest F1 on the development set, and report scores on the test set using these parameters. Note that we do not in the final stage include the development set as training data as has been done in some previous work, and so do not directly compare to results from other papers which do so.
+
+We evaluate test-time speed using our top-performing trained models. All timing experiments were run on a nVidia Titan X GPU with a 2.4GHz Intel Xeon CPU. We do not include data loading, preprocessing or feature hashing in our timing since this is exactly the same across all models. Reported is the time it takes for each model to produce a sequence of labels given a sequence of integers representing the words and their capitalization. After a burn-in run to account for caching and GPU data I/O, we run each model 20 times over the development set and average these times. We do this for batch sizes ranging from 1 to 10,000. 

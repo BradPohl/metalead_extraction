@@ -1,0 +1,1860 @@
+{
+  "paper_id": "1702.02098",
+  "tuples": [
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.93"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.37,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.37"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.61,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.61"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "4-layer D-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.64,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.64"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.34,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.34 $\\pm$ 0.28"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.97,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.97 $\\pm$ 0.20"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.43,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.43 $\\pm$ 0.12"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.23,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.23 $\\pm$ 0.16"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models observing sentence-level context",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "For models that we trained, we report F1 and standard deviation obtained by averaging over 10 random restarts.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 1.0,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 4.55,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "4.55$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 1.28,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1.28$\\times$ (32)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 1.01,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1.01$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 9.92,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.92$\\times$ (2048)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 6.56,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.56$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 12.38,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.38$\\times$ (2048)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 6.0,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.00$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative Speed",
+          "value": 14.1,
+          "unit": "x"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "14.10$\\times$ (128)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "relative decoding times",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 1.0,
+          "unit": "relative"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch_size",
+          "value": "fastest",
+          "quote": "using the fastest batch size for each method",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 9.92,
+          "unit": "relative"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.92$\\times$"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch_size",
+          "value": "fastest",
+          "quote": "using the fastest batch size for each method",
+          "locator": "referring_paragraph",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 1.28,
+          "unit": "relative"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1.28$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch_size",
+          "value": "fastest",
+          "quote": "using the fastest batch size for each method",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 12.38,
+          "unit": "relative"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.38$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch_size",
+          "value": "fastest",
+          "quote": "using the fastest batch size for each method",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 14.1,
+          "unit": "relative"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "14.10$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "decoding times on the CoNLL development set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Speed",
+        "locator": "row_5_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] lists relative decoding times",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch_size",
+          "value": "fastest",
+          "quote": "using the fastest batch size for each method",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 1.0,
+          "unit": "relative speed"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11",
+      "_context_miss": {
+        "method": false,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 4.6,
+          "unit": "relative speed"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "4.60$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Speed",
+          "value": 7.96,
+          "unit": "relative speed"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.96$\\times$"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Relative test-time speed",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_11",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.99,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.99 $\\pm$ 0.22"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of sentence and document models on OntoNotes",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-LSTM-CRF & 86.99 $\\pm$ 0.22",
+        "locator": "row_5_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1702.02098",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF-Doc"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.81,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.81 $\\pm$ 0.18"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of sentence and document models on OntoNotes",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-LSTM-CRF-Doc & 86.81 $\\pm$ 0.18",
+        "locator": "row_6_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1702.02098",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.76 $\\pm$ 0.10"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of sentence and document models on OntoNotes",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "Bi-LSTM & 83.76 $\\pm$ 0.10",
+        "locator": "row_7_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1702.02098",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.84,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.84 $\\pm$ 0.19"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of sentence and document models on OntoNotes",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN-CRF (1 block) & 86.84 $\\pm$ 0.19",
+        "locator": "row_8_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN-CRF (1 block)",
+          "locator": "row_8_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "1702.02098",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-Doc"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.76 $\\pm$ 0.13"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of sentence and document models on OntoNotes",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN-Doc (3 blocks) & 85.76 $\\pm$ 0.13",
+        "locator": "row_9_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "3",
+          "quote": "ID-CNN-Doc (3 blocks)",
+          "locator": "row_9_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "1702.02098",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.27,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.27 $\\pm$ 0.24"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of sentence and document models on OntoNotes",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN (3 blocks) & 85.27 $\\pm$ 0.24",
+        "locator": "row_10_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "3",
+          "quote": "ID-CNN (3 blocks)",
+          "locator": "row_10_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "1702.02098",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.28,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.28 $\\pm$ 0.10"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of sentence and document models on OntoNotes",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN (1 block) & 84.28 $\\pm$ 0.10",
+        "locator": "row_11_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN (1 block)",
+          "locator": "row_11_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "1702.02098",
+      "paper_version_confidence": 2.3333,
+      "source_table_id": "tab_12"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.81,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.81 $\\pm$ 0.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models trained to predict document-at-a-time without the use of character embeddings or lexicons.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score of models trained to predict document-at-a-time without the use of character embeddings or lexicons.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    },
+    {
+      "method": {
+        "name": "Iterated Dilated Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.76 $\\pm$ 0.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 score of models trained to predict document-at-a-time without the use of character embeddings or lexicons.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "F1 score of models trained to predict document-at-a-time without the use of character embeddings or lexicons.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_13"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 13,
+    "n_results_tables_loose": 13,
+    "tables_completed": 13,
+    "calls": 39,
+    "cost_usd": 0.5507202750000001,
+    "tokens_in": 76385,
+    "tokens_out": 135484,
+    "context_pass_cost": 0.00478819
+  }
+}

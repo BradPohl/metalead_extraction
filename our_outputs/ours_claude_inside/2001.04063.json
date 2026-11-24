@@ -1,0 +1,4698 @@
+{
+  "paper_id": "2001.04063",
+  "tuples": [
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 40.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LEAD-3~\\cite{nallapati2017summarunner} &40.42 &17.62 &36.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LEAD-3~\\cite{nallapati2017summarunner}",
+        "locator": "row_1_col_0",
+        "reference": "nallapati2017summarunner"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 17.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LEAD-3~\\cite{nallapati2017summarunner} &40.42 &17.62 &36.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LEAD-3~\\cite{nallapati2017summarunner}",
+        "locator": "row_1_col_0",
+        "reference": "nallapati2017summarunner"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LEAD-3~\\cite{nallapati2017summarunner} &40.42 &17.62 &36.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LEAD-3~\\cite{nallapati2017summarunner}",
+        "locator": "row_1_col_0",
+        "reference": "nallapati2017summarunner"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 36.44,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN~\\cite{see2017get}  & 36.44 & 15.66 & 33.42"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN~\\cite{see2017get}",
+        "locator": "row_2_col_0",
+        "reference": "see2017get"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 15.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN~\\cite{see2017get}  & 36.44 & 15.66 & 33.42"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN~\\cite{see2017get}",
+        "locator": "row_2_col_0",
+        "reference": "see2017get"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 33.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN~\\cite{see2017get}  & 36.44 & 15.66 & 33.42"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN~\\cite{see2017get}",
+        "locator": "row_2_col_0",
+        "reference": "see2017get"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "PTGEN+Coverage"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.53,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN+Coverage~\\cite{see2017get}  &39.53 &17.28 &36.38"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN+Coverage~\\cite{see2017get}",
+        "locator": "row_3_col_0",
+        "reference": "see2017get"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "PTGEN+Coverage"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 17.28,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN+Coverage~\\cite{see2017get}  &39.53 &17.28 &36.38"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN+Coverage~\\cite{see2017get}",
+        "locator": "row_3_col_0",
+        "reference": "see2017get"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "PTGEN+Coverage"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.38,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN+Coverage~\\cite{see2017get}  &39.53 &17.28 &36.38"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN+Coverage~\\cite{see2017get}",
+        "locator": "row_3_col_0",
+        "reference": "see2017get"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.56,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "S2S-ELMo~\\cite{edunov2019pre}  & 41.56 & 18.94 & 38.47"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "S2S-ELMo~\\cite{edunov2019pre}",
+        "locator": "row_4_col_0",
+        "reference": "edunov2019pre"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 18.94,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "S2S-ELMo~\\cite{edunov2019pre}  & 41.56 & 18.94 & 38.47"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "S2S-ELMo~\\cite{edunov2019pre}",
+        "locator": "row_4_col_0",
+        "reference": "edunov2019pre"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 38.47,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "S2S-ELMo~\\cite{edunov2019pre}  & 41.56 & 18.94 & 38.47"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "S2S-ELMo~\\cite{edunov2019pre}",
+        "locator": "row_4_col_0",
+        "reference": "edunov2019pre"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.22,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bottom-Up~\\cite{gehrmann2018bottom}  & 41.22 & 18.68 & 38.34"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Bottom-Up~\\cite{gehrmann2018bottom}",
+        "locator": "row_5_col_0",
+        "reference": "gehrmann2018bottom"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 18.68,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bottom-Up~\\cite{gehrmann2018bottom}  & 41.22 & 18.68 & 38.34"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Bottom-Up~\\cite{gehrmann2018bottom}",
+        "locator": "row_5_col_0",
+        "reference": "gehrmann2018bottom"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 38.34,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Bottom-Up~\\cite{gehrmann2018bottom}  & 41.22 & 18.68 & 38.34"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Bottom-Up~\\cite{gehrmann2018bottom}",
+        "locator": "row_5_col_0",
+        "reference": "gehrmann2018bottom"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 41.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMABS~\\cite{liu2019text} & 41.72 & 19.39 & 38.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMABS~\\cite{liu2019text}",
+        "locator": "row_6_col_0",
+        "reference": "liu2019text"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.39,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMABS~\\cite{liu2019text} & 41.72 & 19.39 & 38.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMABS~\\cite{liu2019text}",
+        "locator": "row_6_col_0",
+        "reference": "liu2019text"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 38.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMABS~\\cite{liu2019text} & 41.72 & 19.39 & 38.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMABS~\\cite{liu2019text}",
+        "locator": "row_6_col_0",
+        "reference": "liu2019text"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.13,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMEXTABS~\\cite{liu2019text} & 42.13 & 19.60 &39.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMEXTABS~\\cite{liu2019text}",
+        "locator": "row_7_col_0",
+        "reference": "liu2019text"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMEXTABS~\\cite{liu2019text} & 42.13 & 19.60 &39.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMEXTABS~\\cite{liu2019text}",
+        "locator": "row_7_col_0",
+        "reference": "liu2019text"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.18,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMEXTABS~\\cite{liu2019text} & 42.13 & 19.60 &39.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMEXTABS~\\cite{liu2019text}",
+        "locator": "row_7_col_0",
+        "reference": "liu2019text"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.12,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "42.12"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "base",
+          "quote": "MASS\\textsubscript{base}",
+          "locator": "row_1_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.50"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "base",
+          "quote": "MASS\\textsubscript{base}",
+          "locator": "row_1_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.01,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.01"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "base",
+          "quote": "MASS\\textsubscript{base}",
+          "locator": "row_1_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.33,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "UniLM~\\cite{dong2019unified} & 43.33  &20.21&   40.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_9_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "UniLM~\\cite{dong2019unified} & 43.33  &20.21&   40.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_9_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "UniLM~\\cite{dong2019unified} & 43.33  &20.21&   40.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_9_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.68,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ProphetNet &\\textbf{43.68} & \\textbf{20.64} &  \\textbf{40.72}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the ProphetNet achieves the best performances on all metrics",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.64,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ProphetNet &\\textbf{43.68} & \\textbf{20.64} &  \\textbf{40.72}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the ProphetNet achieves the best performances on all metrics",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ProphetNet &\\textbf{43.68} & \\textbf{20.64} &  \\textbf{40.72}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "we report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the ProphetNet achieves the best performances on all metrics",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 36.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.73"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "OpenNMT~\\cite{klein2017opennmt}",
+        "locator": "row_1_col_0",
+        "reference": "klein2017opennmt"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 17.86,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.86"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "OpenNMT~\\cite{klein2017opennmt}",
+        "locator": "row_1_col_0",
+        "reference": "klein2017opennmt"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 33.68,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "33.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "OpenNMT~\\cite{klein2017opennmt}",
+        "locator": "row_1_col_0",
+        "reference": "klein2017opennmt"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 37.04,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "37.04"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Re3Sum~\\cite{cao2018retrieve}",
+        "locator": "row_2_col_0",
+        "reference": "cao2018retrieve"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.03,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.03"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Re3Sum~\\cite{cao2018retrieve}",
+        "locator": "row_2_col_0",
+        "reference": "cao2018retrieve"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 34.46,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "34.46"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Re3Sum~\\cite{cao2018retrieve}",
+        "locator": "row_2_col_0",
+        "reference": "cao2018retrieve"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 38.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.73"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "row_3_col_0",
+        "reference": "song2019mass"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.71,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.71"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "row_3_col_0",
+        "reference": "song2019mass"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 35.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.96"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "row_3_col_0",
+        "reference": "song2019mass"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 38.45,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.45"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_4_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.45,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.45"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_4_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 35.75,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "35.75"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_4_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.55,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "It can be observed that ProphetNet outperforms previous models on all metrics.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.27,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "20.27"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "It can be observed that ProphetNet outperforms previous models on all metrics.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.57,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.57"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "It can be observed that ProphetNet outperforms previous models on all metrics.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CorefNQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 15.16,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "15.16 & 19.12"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "CorefNQG~\\cite{du2018harvesting}",
+        "locator": "row_1_col_0",
+        "reference": "du2018harvesting"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CorefNQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 19.12,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "15.16 & 19.12"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "CorefNQG~\\cite{du2018harvesting}",
+        "locator": "row_1_col_0",
+        "reference": "du2018harvesting"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 18.37,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "18.37 & 22.65 & 46.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "SemQG~\\cite{zhang2019addressing}",
+        "locator": "row_2_col_0",
+        "reference": "zhang2019addressing"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 22.65,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "18.37 & 22.65 & 46.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "SemQG~\\cite{zhang2019addressing}",
+        "locator": "row_2_col_0",
+        "reference": "zhang2019addressing"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "SemQG"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 46.68,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "18.37 & 22.65 & 46.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "SemQG~\\cite{zhang2019addressing}",
+        "locator": "row_2_col_0",
+        "reference": "zhang2019addressing"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 21.63,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.63    &25.04&   51.09"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_3_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 25.04,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.63    &25.04&   51.09"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_3_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 51.09,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.63    &25.04&   51.09"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "row_3_col_0",
+        "reference": "dong2019unified"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 23.91,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{23.91}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 26.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{26.60}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 52.26,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{52.26}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 1",
+          "quote": "The same model is used to evaluate on the two different data splits.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "MP-GSN"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 16.38,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.38 & 20.25 & 44.48"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "swapped dev and test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "B4 is short for BLEU-4",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "MP-GSN~\\cite{zhao2018paragraph}",
+        "locator": "row_5_col_0",
+        "reference": "zhao2018paragraph"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 2 (swapped dev and test)",
+          "quote": "two different data split with swapped dev and test set",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "MP-GSN"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 20.25,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.38 & 20.25 & 44.48"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "swapped dev and test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MTR is short for METEOR",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "MP-GSN~\\cite{zhao2018paragraph}",
+        "locator": "row_5_col_0",
+        "reference": "zhao2018paragraph"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 2 (swapped dev and test)",
+          "quote": "two different data split with swapped dev and test set",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "MP-GSN"
+      },
+      "task": {
+        "name": "answer-aware question generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 44.48,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.38 & 20.25 & 44.48"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "swapped dev and test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L is short for ROUGE-L",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "MP-GSN~\\cite{zhao2018paragraph}",
+        "locator": "row_5_col_0",
+        "reference": "zhao2018paragraph"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "split 2 (swapped dev and test)",
+          "quote": "two different data split with swapped dev and test set",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "T5"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.52,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "43.52"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "T5~\\cite{raffel2019exploring}",
+        "locator": "row_1_col_2",
+        "reference": "raffel2019exploring"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "750GB",
+          "quote": "750GB",
+          "locator": "row_1_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "T5"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.55,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "T5~\\cite{raffel2019exploring}",
+        "locator": "row_1_col_2",
+        "reference": "raffel2019exploring"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "750GB",
+          "quote": "750GB",
+          "locator": "row_1_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "T5"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.69,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.69"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "T5~\\cite{raffel2019exploring}",
+        "locator": "row_1_col_2",
+        "reference": "raffel2019exploring"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "750GB",
+          "quote": "750GB",
+          "locator": "row_1_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "43.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PEGASUSLARGE (C4)~\\cite{zhang2019pegasus}",
+        "locator": "row_2_col_2",
+        "reference": "zhang2019pegasus"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "750GB",
+          "quote": "750GB",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PEGASUSLARGE (C4)~\\cite{zhang2019pegasus}",
+        "locator": "row_2_col_2",
+        "reference": "zhang2019pegasus"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "750GB",
+          "quote": "750GB",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (C4)"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PEGASUSLARGE (C4)~\\cite{zhang2019pegasus}",
+        "locator": "row_2_col_2",
+        "reference": "zhang2019pegasus"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "750GB",
+          "quote": "750GB",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 44.17,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "44.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PEGASUSLARGE (HugeNews)~\\cite{zhang2019pegasus}",
+        "locator": "row_3_col_2",
+        "reference": "zhang2019pegasus"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "3800GB",
+          "quote": "3800GB",
+          "locator": "row_3_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.47,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.47"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PEGASUSLARGE (HugeNews)~\\cite{zhang2019pegasus}",
+        "locator": "row_3_col_2",
+        "reference": "zhang2019pegasus"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "3800GB",
+          "quote": "3800GB",
+          "locator": "row_3_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "PEGASUSLARGE (HugeNews)"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 41.11,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PEGASUSLARGE (HugeNews)~\\cite{zhang2019pegasus}",
+        "locator": "row_3_col_2",
+        "reference": "zhang2019pegasus"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "3800GB",
+          "quote": "3800GB",
+          "locator": "row_3_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 44.16,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "44.16"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BART~\\cite{lewis2019bart}",
+        "locator": "row_4_col_2",
+        "reference": "lewis2019bart"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "160GB",
+          "quote": "160GB",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.28,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BART~\\cite{lewis2019bart}",
+        "locator": "row_4_col_2",
+        "reference": "lewis2019bart"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "160GB",
+          "quote": "160GB",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BART~\\cite{lewis2019bart}",
+        "locator": "row_4_col_2",
+        "reference": "lewis2019bart"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "160GB",
+          "quote": "160GB",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 44.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "44.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The results on test set are shown in Table",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Our model achieves state-of-the-art performance on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "160GB",
+          "quote": "160GB",
+          "locator": "row_5_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.17,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "The results on test set are shown in Table",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R is short for ROUGE",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Our model achieves state-of-the-art performance on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus size",
+          "value": "160GB",
+          "quote": "160GB",
+          "locator": "row_5_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.19,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Transformer\\scriptsize{~\\cite{raffel2019exploring}}",
+        "locator": "row_1_col_0",
+        "reference": "raffel2019exploring"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "without pre-training",
+          "quote": "without pre-training",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 17.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.60"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-2",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Transformer\\scriptsize{~\\cite{raffel2019exploring}}",
+        "locator": "row_1_col_0",
+        "reference": "raffel2019exploring"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "without pre-training",
+          "quote": "without pre-training",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.69,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.69"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Transformer\\scriptsize{~\\cite{raffel2019exploring}}",
+        "locator": "row_1_col_0",
+        "reference": "raffel2019exploring"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "without pre-training",
+          "quote": "without pre-training",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{w/o pre-train}"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 40.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.66"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we evaluate the ProphetNet model without pre-training on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "without pre-training",
+          "quote": "without pre-training",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{w/o pre-train}"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 18.05,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "18.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-2",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we evaluate the ProphetNet model without pre-training on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "without pre-training",
+          "quote": "without pre-training",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{w/o pre-train}"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 37.79,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "37.79"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we evaluate the ProphetNet model without pre-training on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "without pre-training",
+          "quote": "without pre-training",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{base}-1gram"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "42.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "1",
+          "quote": "ProphetNet\\textsubscript{base}-1gram",
+          "locator": "row_2_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{base}-1gram"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.54,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.54"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "1",
+          "quote": "ProphetNet\\textsubscript{base}-1gram",
+          "locator": "row_2_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{base}-1gram"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.06,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.06"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "1",
+          "quote": "ProphetNet\\textsubscript{base}-1gram",
+          "locator": "row_2_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.52,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "42.52"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "2",
+          "quote": "ProphetNet\\textsubscript{base}-2gram",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.78,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.78"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "2",
+          "quote": "ProphetNet\\textsubscript{base}-2gram",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.59,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "2",
+          "quote": "ProphetNet\\textsubscript{base}-2gram",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{base}-3gram"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.61,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "42.61"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "3",
+          "quote": "ProphetNet\\textsubscript{base}-3gram",
+          "locator": "row_4_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{base}-3gram"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.83,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.83"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "3",
+          "quote": "ProphetNet\\textsubscript{base}-3gram",
+          "locator": "row_4_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "ProphetNet\\textsubscript{base}-3gram"
+      },
+      "task": {
+        "name": "abstractive text summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 39.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "CNN/DailyMail test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the F1 scores of ROUGE-1, ROUGE-2 and ROUGE-L",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The pre-trained models are then fine-tuned on CNN/DailyMail",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "future n-gram",
+          "value": "3",
+          "quote": "ProphetNet\\textsubscript{base}-3gram",
+          "locator": "row_4_col_0",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 6,
+    "n_results_tables_loose": 6,
+    "tables_completed": 6,
+    "calls": 18,
+    "cost_usd": 1.9815120000000002,
+    "tokens_in": 68523,
+    "tokens_out": 85371,
+    "context_pass_cost": 0.11109999999999999
+  }
+}

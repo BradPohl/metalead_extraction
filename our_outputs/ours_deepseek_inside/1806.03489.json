@@ -1,0 +1,1197 @@
+{
+  "paper_id": "1806.03489",
+  "tuples": [
+    {
+      "method": {
+        "name": "Lexical Similarity"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "Wikipedia"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": null,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "0.58"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "Table [ref] shows the topmost similar entity types for proper names (left column) and common words (right column).",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Sim",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows the topmost similar entity types for proper names (left column) and common words (right column).",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.03,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.03 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "results reported in [cite]",
+        "locator": "caption",
+        "reference": "chiu2015named"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 84.57,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.57 ($\\pm$ 0.27)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "results reported in [cite]",
+        "locator": "caption",
+        "reference": "chiu2015named"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Lexical Similarity"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.80 ($\\pm$ 0.10)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Our model",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Lexical Similarity"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.44,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.44 ($\\pm$ 0.14)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Our model",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Conditional Random Fields"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.86,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.86"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "finkel2005incorporating"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Conditional Random Fields"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.88,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.88"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "ratinov2009design"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Conditional Random Fields"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "lin2009phrase"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Conditional Random Fields"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_4_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "luo-2015"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Convolutional Neural Networks"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 89.56,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.56"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_5_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.10"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_6_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "huang2015bidirectional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.94,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.94"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_7_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "lample2016neural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_8_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "ma2016end"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.89,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.89"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_9_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "shen2017deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.54,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.54"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_10_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.69,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.69"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_11_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "tran2017named"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.71,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.71"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_12_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "the figures are those published by the authors",
+        "locator": "referring_paragraph",
+        "reference": "liu2017empower"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Lexical Similarity"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.73"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_13_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "This work",
+        "locator": "row_13_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 82.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.42"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "compared to the performance reported by others",
+        "locator": "referring_paragraph",
+        "reference": "finkel2009joint"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Sskip"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.52,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.52 ($\\pm$ 0.18)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Table [ref] reports our model's performance on the test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of differently trained systems",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we report in Table [ref], for each feature configuration, the average F1 score as well as the standard deviation over five runs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Sskip"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.57,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.57 ($\\pm$ 0.10)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Table [ref] reports our model's performance on the test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of differently trained systems",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we report in Table [ref], for each feature configuration, the average F1 score as well as the standard deviation over five runs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Lexical Similarity"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 89.94,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.94 ($\\pm$ 0.16)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Table [ref] reports our model's performance on the test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of differently trained systems",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we report in Table [ref], for each feature configuration, the average F1 score as well as the standard deviation over five runs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Lexical Similarity"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 85.92,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.92 ($\\pm$ 0.12)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Table [ref] reports our model's performance on the test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of differently trained systems",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we report in Table [ref], for each feature configuration, the average F1 score as well as the standard deviation over five runs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Lexical Similarity"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 87.95,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.95 ($\\pm$ 0.13)"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Table [ref] reports our model's performance on the test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores of differently trained systems",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we report in Table [ref], for each feature configuration, the average F1 score as well as the standard deviation over five runs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 7,
+    "n_results_tables_loose": 7,
+    "tables_completed": 7,
+    "calls": 21,
+    "cost_usd": 0.335032865,
+    "tokens_in": 46651,
+    "tokens_out": 82417,
+    "context_pass_cost": 0.0056012300000000004
+  }
+}

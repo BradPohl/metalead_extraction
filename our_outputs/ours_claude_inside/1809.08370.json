@@ -1,0 +1,4080 @@
+{
+  "paper_id": "1809.08370",
+  "tuples": [
+    {
+      "method": {
+        "name": "Shortcut LSTM"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Shortcut LSTM \\cite{wu2017shortcut}",
+        "locator": "row_1",
+        "reference": "wu2017shortcut"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Shortcut LSTM"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.53,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.53"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Shortcut LSTM \\cite{wu2017shortcut}",
+        "locator": "row_1",
+        "reference": "wu2017shortcut"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast}",
+        "locator": "row_2",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast}",
+        "locator": "row_2",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint}",
+        "locator": "row_3",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint}",
+        "locator": "row_3",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 94.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint}",
+        "locator": "row_3",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 92.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "LAS",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint}",
+        "locator": "row_3",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "TagLM* \\cite{peters2017semi}",
+        "locator": "row_4",
+        "reference": "peters2017semi"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "TagLM* \\cite{peters2017semi}",
+        "locator": "row_4",
+        "reference": "peters2017semi"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "ELMo* \\cite{peters2018deep}",
+        "locator": "row_5",
+        "reference": "peters2018deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Biaffine"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 95.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Biaffine \\cite{Dozat2017Deep}",
+        "locator": "row_6",
+        "reference": "Dozat2017Deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Biaffine"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "LAS",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Biaffine \\cite{Dozat2017Deep}",
+        "locator": "row_6",
+        "reference": "Dozat2017Deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Stack Pointer"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 95.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Stack Pointer \\cite{ma2018stack}",
+        "locator": "row_7",
+        "reference": "ma2018stack"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Stack Pointer"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "LAS",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Stack Pointer \\cite{ma2018stack}",
+        "locator": "row_7",
+        "reference": "ma2018stack"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Stanford"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT'15 En-Vi"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 23.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Stanford \\cite{Luong2015StanfordNM}",
+        "locator": "row_8",
+        "reference": "Luong2015StanfordNM"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CVT-MT & 95.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.7 & 97.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.4 & 96.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.0 & 86.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.74,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.7 & 97.74"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CVT + Multi-task"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.74 & 94.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CVT-MT w/out all-labeled"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "w/out all-labeled & 95.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model that only computes on one task at a time",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT-MT w/out all-labeled"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.4 & 97.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model that only computes on one task at a time",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT-MT w/out all-labeled"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.1 & 95.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model that only computes on one task at a time",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT-MT w/out all-labeled"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.6 & 86.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model that only computes on one task at a time",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT-MT w/out all-labeled"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.71,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.3 & 97.71"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model that only computes on one task at a time",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT-MT w/out all-labeled"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.71 & 94.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Dev set performance",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we trained a multi-task CVT model that only computes on one task at a time",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Supervised     &  94.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of single-task models on the dev sets",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.8 & 95.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.6 & 95.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of single-task models on the dev sets",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.0 & 86.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of single-task models on the dev sets",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.59,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.0 & 97.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of single-task models on the dev sets",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CVT & 95.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 97.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.6 & 97.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.0 & 95.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.9 & 87.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.66,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.3 & 97.66"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CVT no fwd/bwd"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": -0.1,
+          "unit": "delta vs CVT"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "no fwd/bwd & --0.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "remove forward/backward auxiliary modules; change relative to CVT",
+          "quote": "no fwd/bwd",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT no fwd/bwd"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": -0.2,
+          "unit": "delta vs CVT"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "--0.1 & --0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "remove forward/backward auxiliary modules; change relative to CVT",
+          "quote": "no fwd/bwd",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT no fwd/bwd"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": -0.1,
+          "unit": "delta vs CVT"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "--0.1 & --0.01"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "remove forward/backward auxiliary modules; change relative to CVT",
+          "quote": "no fwd/bwd",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT no fwd/bwd"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": -0.01,
+          "unit": "delta vs CVT"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "--0.01"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "remove forward/backward auxiliary modules; change relative to CVT",
+          "quote": "no fwd/bwd",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "CVT no future/past"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": -0.3,
+          "unit": "delta vs CVT"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "no future/past & --0.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation study on auxiliary prediction modules for sequence tagging.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "remove future/past auxiliary modules; change relative to CVT",
+          "quote": "no future/past",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.8 & 95.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of single-task models on the dev sets",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 92.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.59 & 92.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Comparison of single-task models on the dev sets",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CVT-MT frozen"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CVT-MT frozen & 95.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we pretrain a CVT + multi-task model on five tasks, and then train only the prediction module for the sixth",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CVT-MT frozen"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1 & 96.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we pretrain a CVT + multi-task model on five tasks",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CVT-MT frozen"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.6 & 94.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we pretrain a CVT + multi-task model on five tasks",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CVT-MT frozen"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.6 & 83.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we pretrain a CVT + multi-task model on five tasks",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CVT-MT frozen"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.66,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.2 & 97.66"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we pretrain a CVT + multi-task model on five tasks",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CVT-MT frozen"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 92.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.66 & 92.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we pretrain a CVT + multi-task model on five tasks",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ELMo frozen"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ELMo frozen & 94.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train prediction modules (but no LSTMs) on top of ELMo embeddings",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ELMo frozen"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.2 & 91.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train prediction modules (but no LSTMs) on top of ELMo embeddings",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ELMo frozen"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 80.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.3 & 80.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "on the dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train prediction modules (but no LSTMs) on top of ELMo embeddings",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LSTM-CNN-CRF \\cite{ma2016end}",
+        "locator": "row_1_col_0",
+        "reference": "ma2016end"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Part-of-Speech (POS) Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LSTM-CNN-CRF \\cite{ma2016end}",
+        "locator": "row_1_col_0",
+        "reference": "ma2016end"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.62"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LSTM-CNN \\cite{chiu2015named}",
+        "locator": "row_2_col_0",
+        "reference": "chiu2015named"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LSTM-CNN \\cite{chiu2015named}",
+        "locator": "row_2_col_0",
+        "reference": "chiu2015named"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.65,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.65"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast}",
+        "locator": "row_3_col_0",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Fine-Grained NER (FGN)"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.84,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.84"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast}",
+        "locator": "row_3_col_0",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Tri-Trained LSTM"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_1_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Tri-Trained LSTM \\cite{lewis2016lstm}",
+        "locator": "row_4_col_0",
+        "reference": "lewis2016lstm"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Shortcut LSTM"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar (CCG) Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.08,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.08"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_1_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Shortcut LSTM \\cite{wu2017shortcut}",
+        "locator": "row_5_col_0",
+        "reference": "wu2017shortcut"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.77,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.77"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "JMT* \\cite{hashimoto2016joint}",
+        "locator": "row_6_col_0",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "PTB-SD 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 94.67,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.67"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "JMT* \\cite{hashimoto2016joint}",
+        "locator": "row_6_col_0",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "GAN"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 18.63,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "18.63 $\\pm$ 2.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "GAN \\cite{salimans2016improved}",
+        "locator": "row_1_col_0",
+        "reference": "salimans2016improved"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Stochastic Transformations"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 11.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.29 $\\pm$ 0.24"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Stochastic Transformations \\cite{sajjadi2016regularization}",
+        "locator": "row_2_col_0",
+        "reference": "sajjadi2016regularization"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "\u03a0 model"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 16.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.55 $\\pm$ 0.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "$\\Pi$ model \\cite{laine2016temporal}",
+        "locator": "row_3_col_0",
+        "reference": "laine2016temporal"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "no",
+          "quote": "CIFAR-10",
+          "locator": "col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "\u03a0 model"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 12.36,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.36 $\\pm$ 0.31"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "$\\Pi$ model \\cite{laine2016temporal}",
+        "locator": "row_3_col_0",
+        "reference": "laine2016temporal"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Temporal Ensemble"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 12.16,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.16 $\\pm$ 0.24"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Temporal Ensemble \\cite{laine2016temporal}",
+        "locator": "row_4_col_0",
+        "reference": "laine2016temporal"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Mean Teacher"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 12.31,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.31 $\\pm$ 0.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Mean Teacher \\cite{tarvainen2017weight}",
+        "locator": "row_5_col_0",
+        "reference": "tarvainen2017weight"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Complement GAN"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 14.41,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "14.41 $\\pm$ 0.30"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Complement GAN \\cite{dai2017good}",
+        "locator": "row_6_col_0",
+        "reference": "dai2017good"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "no",
+          "quote": "CIFAR-10",
+          "locator": "col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Virtual Adversarial Training"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 13.15,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "13.15"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "VAT \\cite{miyato2017virtual}",
+        "locator": "row_7_col_0",
+        "reference": "miyato2017virtual"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "no",
+          "quote": "CIFAR-10",
+          "locator": "col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Virtual Adversarial Training"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 10.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "10.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "VAT \\cite{miyato2017virtual}",
+        "locator": "row_7_col_0",
+        "reference": "miyato2017virtual"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "VAdD"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 11.68,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.68 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "VAdD \\cite{park2017adversarial}",
+        "locator": "row_8_col_0",
+        "reference": "park2017adversarial"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "VAdD + VAT"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 10.07,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "10.07 $\\pm$ 0.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "VAdD + VAT \\cite{park2017adversarial}",
+        "locator": "row_9_col_0",
+        "reference": "park2017adversarial"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "yes",
+          "quote": "CIFAR-10+",
+          "locator": "col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "SNGT + \u03a0 model"
+      },
+      "task": {
+        "name": "Image Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error rate",
+          "value": 13.62,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "13.62 $\\pm$ 0.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Error rates on semi-supervised CIFAR-10",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "SNGT + $\\Pi$ model \\cite{luong17}",
+        "locator": "row_10_col_0",
+        "reference": "luong17"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labels",
+          "value": "4000",
+          "quote": "$4000$ labels",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "data augmentation",
+          "value": "no",
+          "quote": "CIFAR-10",
+          "locator": "col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 7,
+    "n_results_tables_loose": 7,
+    "tables_completed": 7,
+    "calls": 21,
+    "cost_usd": 2.410552,
+    "tokens_in": 87558,
+    "tokens_out": 103016,
+    "context_pass_cost": 0.110684
+  }
+}

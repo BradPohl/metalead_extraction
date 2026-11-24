@@ -1,0 +1,2476 @@
+{
+  "paper_id": "1703.06345",
+  "tuples": [
+    {
+      "method": {
+        "name": "T-A"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Twitter"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 83.65,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "PTB",
+          "quote": "PTB & Twitter/0.1 & T-A",
+          "locator": "table_tab:imp_row_1"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "table_tab:imp_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & Twitter/0.1 & T-A",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 83.65 & 74.80"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "No Transfer"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Twitter"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 74.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "labeling_rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "table_tab:imp_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & Twitter/0.1 & T-A",
+        "column_label": "No Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 83.65 & 74.80"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-A"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Twitter"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 43.24,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL03",
+          "quote": "CoNLL03 & Twitter/0.1 & T-A",
+          "locator": "table_tab:imp_row_2"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "table_tab:imp_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "CoNLL03 & Twitter/0.1 & T-A",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 43.24 & 34.65"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "No Transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Twitter"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 34.65,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "labeling_rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "table_tab:imp_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "CoNLL03 & Twitter/0.1 & T-A",
+        "column_label": "No Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 43.24 & 34.65"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 74.92,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "PTB",
+          "quote": "PTB & CoNLL03/0.01 & T-B",
+          "locator": "table_tab:imp_row_3"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.01",
+          "quote": "CoNLL03/0.01",
+          "locator": "table_tab:imp_row_3"
+        },
+        {
+          "name": "features",
+          "value": "one-hot gazetteer features",
+          "quote": "append one-hot gazetteer features",
+          "locator": "section_Datasets"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & CoNLL03/0.01 & T-B",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "app & 74.92 & 68.64"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "No Transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 68.64,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "labeling_rate",
+          "value": "0.01",
+          "quote": "CoNLL03/0.01",
+          "locator": "table_tab:imp_row_3"
+        },
+        {
+          "name": "features",
+          "value": "one-hot gazetteer features",
+          "quote": "append one-hot gazetteer features",
+          "locator": "section_Datasets"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & CoNLL03/0.01 & T-B",
+        "column_label": "No Transfer",
+        "sentence": null,
+        "quoted_span": "app & 74.92 & 68.64"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 86.73,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "PTB",
+          "quote": "PTB & CoNLL00/0.01 & T-B",
+          "locator": "table_tab:imp_row_4"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.01",
+          "quote": "CoNLL00/0.01",
+          "locator": "table_tab:imp_row_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & CoNLL00/0.01 & T-B",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "app & 86.73 & 83.49"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "No Transfer"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 83.49,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "labeling_rate",
+          "value": "0.01",
+          "quote": "CoNLL00/0.01",
+          "locator": "table_tab:imp_row_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & CoNLL00/0.01 & T-B",
+        "column_label": "No Transfer",
+        "sentence": null,
+        "quoted_span": "app & 86.73 & 83.49"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.47,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL03",
+          "quote": "CoNLL03 & PTB/0.001 & T-B",
+          "locator": "table_tab:imp_row_5"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "PTB/0.001",
+          "locator": "table_tab:imp_row_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "CoNLL03 & PTB/0.001 & T-B",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "app & 87.47 & 84.16"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "No Transfer"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 84.16,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "PTB/0.001",
+          "locator": "table_tab:imp_row_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "CoNLL03 & PTB/0.001 & T-B",
+        "column_label": "No Transfer",
+        "sentence": null,
+        "quoted_span": "app & 87.47 & 84.16"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-C"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 72.61,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "Spanish",
+          "quote": "Spanish & CoNLL03/0.01 & T-C",
+          "locator": "table_tab:imp_row_6"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.01",
+          "quote": "CoNLL03/0.01",
+          "locator": "table_tab:imp_row_6"
+        },
+        {
+          "name": "features",
+          "value": "one-hot gazetteer features",
+          "quote": "append one-hot gazetteer features",
+          "locator": "section_Datasets"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "Spanish & CoNLL03/0.01 & T-C",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "ling & 72.61 & 68.64"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-C"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 60.43,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL03",
+          "quote": "CoNLL03 & Spanish/0.01 & T-C",
+          "locator": "table_tab:imp_row_7"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.01",
+          "quote": "Spanish/0.01",
+          "locator": "table_tab:imp_row_7"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "CoNLL03 & Spanish/0.01 & T-C",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "ling & 60.43 & 59.84"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "No Transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 59.84,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "labeling_rate",
+          "value": "0.01",
+          "quote": "Spanish/0.01",
+          "locator": "table_tab:imp_row_7"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "CoNLL03 & Spanish/0.01 & T-C",
+        "column_label": "No Transfer",
+        "sentence": null,
+        "quoted_span": "ling & 60.43 & 59.84"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-A"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Genia"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 92.62,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "PTB",
+          "quote": "PTB & Genia/0.001 & T-A",
+          "locator": "table_tab:imp_row_8"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "Genia/0.001",
+          "locator": "table_tab:imp_row_8"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & Genia/0.001 & T-A",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 92.62 & 83.26"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "No Transfer"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Genia"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 83.26,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "Genia/0.001",
+          "locator": "table_tab:imp_row_8"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & Genia/0.001 & T-A",
+        "column_label": "No Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 92.62 & 83.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Genia"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.47,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL03",
+          "quote": "CoNLL03 & Genia/0.001 & T-B",
+          "locator": "table_tab:imp_row_9"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "Genia/0.001",
+          "locator": "table_tab:imp_row_9"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "CoNLL03 & Genia/0.001 & T-B",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "dom\\&app & 87.47 & 83.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-C"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Genia"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 84.39,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "Spanish",
+          "quote": "Spanish & Genia/0.001 & T-C",
+          "locator": "table_tab:imp_row_10"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "Genia/0.001",
+          "locator": "table_tab:imp_row_10"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "Spanish & Genia/0.001 & T-C",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "app\\&ling & 84.39 & 83.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Genia"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.77,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "PTB",
+          "quote": "PTB & Genia/0.001 & T-B",
+          "locator": "table_tab:imp_row_11"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "Genia/0.001",
+          "locator": "table_tab:imp_row_11"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & Genia/0.001 & T-B",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 89.77 & 83.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "T-C"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "Genia"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 84.65,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "The numbers are shown in Table \\ref{tab:imp}.",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "PTB",
+          "quote": "PTB & Genia/0.001 & T-C",
+          "locator": "table_tab:imp_row_12"
+        },
+        {
+          "name": "labeling_rate",
+          "value": "0.001",
+          "quote": "Genia/0.001",
+          "locator": "table_tab:imp_row_12"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:imp",
+        "row_label": "PTB & Genia/0.001 & T-C",
+        "column_label": "Transfer",
+        "sentence": null,
+        "quoted_span": "dom & 84.65 & 83.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "collobert2011natural"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 94.32,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{collobert2011natural}",
+        "locator": "table_tab:sota_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{collobert2011natural}",
+        "column_label": "CoNLL 2000",
+        "sentence": null,
+        "quoted_span": "94.32 & 89.59"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "collobert2011natural"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 89.59,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{collobert2011natural}",
+        "locator": "table_tab:sota_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{collobert2011natural}",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "94.32 & 89.59"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "collobert2011natural"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.29,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{collobert2011natural}",
+        "locator": "table_tab:sota_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{collobert2011natural}",
+        "column_label": "PTB 2003",
+        "sentence": null,
+        "quoted_span": "-- & -- & 97.29"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "passos2014lexicon"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{passos2014lexicon}",
+        "locator": "table_tab:sota_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{passos2014lexicon}",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "-- & 90.90 & --"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "luo2015joint"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 91.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{luo2015joint}",
+        "locator": "table_tab:sota_row_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{luo2015joint}",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "-- & 91.2 & --"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "huang2015bidirectional"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 94.46,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{huang2015bidirectional}",
+        "locator": "table_tab:sota_row_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{huang2015bidirectional}",
+        "column_label": "CoNLL 2000",
+        "sentence": null,
+        "quoted_span": "94.46 & 90.10"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "huang2015bidirectional"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 90.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{huang2015bidirectional}",
+        "locator": "table_tab:sota_row_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{huang2015bidirectional}",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "94.46 & 90.10"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "huang2015bidirectional"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{huang2015bidirectional}",
+        "locator": "table_tab:sota_row_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{huang2015bidirectional}",
+        "column_label": "PTB 2003",
+        "sentence": null,
+        "quoted_span": "-- & -- & 97.55"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "gillick2015multilingual"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 86.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{gillick2015multilingual}",
+        "locator": "table_tab:sota_row_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{gillick2015multilingual}",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "86.50 & 82.95"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "gillick2015multilingual"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 82.95,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{gillick2015multilingual}",
+        "locator": "table_tab:sota_row_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{gillick2015multilingual}",
+        "column_label": "Spanish",
+        "sentence": null,
+        "quoted_span": "86.50 & 82.95 & 82.84"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "gillick2015multilingual"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Dutch"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 82.84,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{gillick2015multilingual}",
+        "locator": "table_tab:sota_row_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{gillick2015multilingual}",
+        "column_label": "Dutch",
+        "sentence": null,
+        "quoted_span": "82.95 & 82.84"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "ling2015finding"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.78,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{ling2015finding}",
+        "locator": "table_tab:sota_row_6"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{ling2015finding}",
+        "column_label": "PTB 2003",
+        "sentence": null,
+        "quoted_span": "\\textbf{97.78}"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "lample2016neural"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 90.94,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{lample2016neural}",
+        "locator": "table_tab:sota_row_7"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{lample2016neural}",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "90.94 & 85.75"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "lample2016neural"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 85.75,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{lample2016neural}",
+        "locator": "table_tab:sota_row_7"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{lample2016neural}",
+        "column_label": "Spanish",
+        "sentence": null,
+        "quoted_span": "90.94 & 85.75 & 81.74"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "lample2016neural"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Dutch"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 81.74,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{lample2016neural}",
+        "locator": "table_tab:sota_row_7"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{lample2016neural}",
+        "column_label": "Dutch",
+        "sentence": null,
+        "quoted_span": "85.75 & 81.74"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "ma2016end"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 91.21,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{ma2016end}",
+        "locator": "table_tab:sota_row_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{ma2016end}",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "-- & 91.21 & --"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "ma2016end"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results",
+        "locator": "caption_tab:sota"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "\\cite{ma2016end}",
+        "locator": "table_tab:sota_row_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "\\cite{ma2016end}",
+        "column_label": "PTB 2003",
+        "sentence": null,
+        "quoted_span": "-- & -- & 97.55"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 94.66,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/o transfer",
+        "column_label": "CoNLL 2000",
+        "sentence": null,
+        "quoted_span": "94.66 & 91.20"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 91.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "one-hot gazetteer features",
+          "quote": "append one-hot gazetteer features",
+          "locator": "section_Datasets"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/o transfer",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "94.66 & 91.20 & 84.69"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 84.69,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "64-dimensional Polyglot",
+          "quote": "For Spanish and Dutch, we use the 64-dimensional Polyglot embeddings",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/o transfer",
+        "column_label": "Spanish",
+        "sentence": null,
+        "quoted_span": "84.69 & 85.00"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Dutch"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 85.0,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word_embeddings",
+          "value": "64-dimensional Polyglot",
+          "quote": "For Spanish and Dutch, we use the 64-dimensional Polyglot embeddings",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/o transfer",
+        "column_label": "Dutch",
+        "sentence": null,
+        "quoted_span": "85.00 & 97.55"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our base model (w/o transfer)",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/o transfer",
+        "column_label": "PTB 2003",
+        "sentence": null,
+        "quoted_span": "85.00 & 97.55"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 95.41,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source_tasks",
+          "value": "CoNLL 2003 NER and PTB POS tagging",
+          "quote": "transferring from two tasks to the other",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/ transfer",
+        "column_label": "CoNLL 2000",
+        "sentence": null,
+        "quoted_span": "\\textbf{95.41}"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 91.26,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source_tasks",
+          "value": "CoNLL 2000 chunking and PTB POS tagging",
+          "quote": "transferring from two tasks to the other",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        },
+        {
+          "name": "features",
+          "value": "one-hot gazetteer features",
+          "quote": "append one-hot gazetteer features",
+          "locator": "section_Datasets"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/ transfer",
+        "column_label": "CoNLL 2003",
+        "sentence": null,
+        "quoted_span": "\\textbf{91.26}"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 85.77,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source_languages",
+          "value": "English and Dutch",
+          "quote": "transfer learning between the NER datasets in three languages (English, Spanish, and Dutch)",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        },
+        {
+          "name": "word_embeddings",
+          "value": "64-dimensional Polyglot",
+          "quote": "For Spanish and Dutch, we use the 64-dimensional Polyglot embeddings",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/ transfer",
+        "column_label": "Spanish",
+        "sentence": null,
+        "quoted_span": "\\textbf{85.77}"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "Dutch"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1",
+          "value": 85.19,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "chunk-level F1 scores for chunking and NER",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source_languages",
+          "value": "English and Spanish",
+          "quote": "transfer learning between the NER datasets in three languages (English, Spanish, and Dutch)",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        },
+        {
+          "name": "word_embeddings",
+          "value": "64-dimensional Polyglot",
+          "quote": "For Spanish and Dutch, we use the 64-dimensional Polyglot embeddings",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/ transfer",
+        "column_label": "Dutch",
+        "sentence": null,
+        "quoted_span": "\\textbf{85.19}"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Ours w/ transfer"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "PTB 2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Our results are reported in Table \\ref{tab:sota}.",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "accuracies for POS tagging",
+        "locator": "section_Transfer_Learning_Performance"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our transfer learning approach",
+        "locator": "section_Comparison_with_State-of-the-Art_Results"
+      },
+      "evaluation_setting": [
+        {
+          "name": "source_tasks",
+          "value": "CoNLL 2000 chunking and CoNLL 2003 NER",
+          "quote": "transferring from two tasks to the other",
+          "locator": "section_Comparison_with_State-of-the-Art_Results"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:sota",
+        "row_label": "Ours w/ transfer",
+        "column_label": "PTB 2003",
+        "sentence": null,
+        "quoted_span": "{85.19} & 97.55"
+      },
+      "confidence": 0.93
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      46
+    ],
+    "tokens_in": 59188,
+    "tokens_out": 28591,
+    "cost_usd": 0.202143
+  }
+}

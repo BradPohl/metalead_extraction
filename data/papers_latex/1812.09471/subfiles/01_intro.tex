@@ -1,0 +1,44 @@
+\section{Introduction}
+With the ever-increasing accuracy in speech recognition and complexity in user-generated utterances, it becomes a critical issue for mobile phones or smart speaker devices to understand the natural language in order to give informative responses. Slot filling and intent detection play important roles in Natural Language Understanding (NLU) systems.
+For example, given an utterance from the user, the slot filling annotates the utterance on a word-level, indicating the slot type mentioned by a certain word such as the slot \texttt{artist} mentioned by the word \texttt{Sungmin}, while the intent detection works on the utterance-level to give categorical intent label(s) to the whole utterance. Figure \ref{fig::illustration} illustrates this idea.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{figures/illustration.pdf}
+    \vspace{0.01in}
+    \caption{An example of an utterance with BOI format annotation for slot filling, which indicates the slot of artist, play list owner, and play list name from an utterance with an intent AddToPlaylist.}\label{fig::illustration}
+\end{figure}
+
+\begin{figure*}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{figures/architecture.pdf}
+    \vspace{0.05in}
+    \caption{Illustration of the proposed {\ModelName} model for joint slot filling and intent detection. The model does slot filling by learning to assign each word in the {\FirstCapsule} to the most appropriate slot in {\SecondCapsule} via dynamic routing. The weights learned via dynamic routing indicate how strong each word in {\FirstCapsule} belongs to a certain slot type in {\SecondCapsule}. The dynamic routing also learns slot representations using {\FirstCapsule} and the learned weight. The learned slot representations in {\SecondCapsule} are further aggregated to predict the utterance-level intent of the utterance. Once the intent label of the utterance is determined, a novel re-routing process is proposed to help improve word-level slot filling by the inferred utterance-level intent label. The solid lines indicate the dynamic-routing process and dash lines indicate the re-routing process. 
+    }
+    \label{fig::overall}
+\end{figure*}
+
+To deal with diversely expressed utterances without additional feature engineering, deep neural network based user intent detection models \citep{hu2009understanding,xu2013convolutional,zhang2016mining,liu2016attention,zhang2017bringing,chen2016end,xia2018zero} are proposed to classify user intents given their utterances in the natural language. 
+
+Currently, the slot filling is usually treated as a sequential labeling task. A neural network such as a recurrent neural network (RNN) or a convolution neural network (CNN) is used to learn context-aware word representations, along with sequence tagging methods such as conditional random field (CRF) \citep{lafferty2001conditional} that infer the slot type for each word in the utterance.
+
+Word-level slot filling and utterance-level intent detection can be conducted simultaneously to achieve a synergistic effect.
+The recognized slots, which possess word-level signals, may give clues to the utterance-level intent of an utterance. For example, with a word \texttt{Sungmin} being recognized as a slot \texttt{artist}, the utterance is more likely to have an intent of \texttt{AddToPlayList} than other intents such as \texttt{GetWeather} or \texttt{BookRestaurant}. 
+
+Some existing works learn to fill slots while detecting the intent of the utterance \cite{xu2013convolutional,hakkani2016multi,liu2016attention,goo2018slot}: a convolution layer or a recurrent layer is adopted to sequentially label word with their slot types: the last hidden state of the recurrent neural network, or an attention-weighted sum of all convolution outputs are used to train an utterance-level classification module for intent detection. Such approaches achieve decent performances but do not explicitly consider the hierarchical relationship between words, slots, and intents: intents are sequentially summarized from the word sequence.
+As the sequence becomes longer, it is risky to simply rely on the gate function of RNN to compress all context information in a single vector \cite{cheng2016long}.
+
+In this work, we make the very first attempt to bridge the gap between word-level slot modeling and the utterance-level intent modeling via a hierarchical capsule neural network structure \citep{hinton2011transforming,sabour2017dynamic}.
+A capsule houses a vector representation of a group of neurons.
+The capsule model learns a hierarchy of feature detectors via a routing-by-agreement mechanism: capsules for detecting low-level features send their outputs to high-level capsules only when there is a strong agreement of their predictions to high-level capsules.
+
+The aforementioned properties of capsule models are appealing for natural language understanding from a hierarchical perspective: words such as \texttt{Sungmin} are routed to concept-level slots such as \texttt{artist}, by learning how each word matches the slot representation. Concept-level slot features such as \texttt{artist}, \texttt{playlist owner}, and \texttt{playlist} collectively contribute to an utterance-level intent \texttt{AddToPlaylist}. The dynamic routing-by-agreement assigns a larger weight from a lower-level capsule to a higher-level when the low-level feature is more predictive to one high-level feature, than other high-level features. Figure \ref{fig::overall} illustrates this idea.
+
+The inferred utterance-level intent is also helpful in refining the slot filling result. For example, once an \texttt{AddToPlaylist} intent representation is learned in {\ThirdCapsule}, the slot filling may capitalize on the inferred intent representation and recognize slots that are otherwise neglected previously.
+To achieve this, we propose a re-routing schema for capsule neural networks, which allows high-level features to be actively engaged in the dynamic routing between {\FirstCapsule} and {\SecondCapsule}, which improves the slot filling performance.
+
+To summarize, the contributions of this work are as follows:
+\begin{itemize}
+    \item Encapsulating the hierarchical relationship among word, slot, and intent in an utterance by a hierarchical capsule neural network structure.
+    \item Proposing a dynamic routing schema with re-routing that achieves synergistic effects for joint slot filling and intent detection.
+    \item Showing the effectiveness of our model on two real-world datasets, and comparing with existing models as well as commercial NLU services.
+\end{itemize}

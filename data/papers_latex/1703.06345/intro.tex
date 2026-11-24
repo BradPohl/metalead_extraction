@@ -1,0 +1,17 @@
+
+\section{Introduction}
+
+Sequence tagging is an important problem in natural language processing, which has wide applications including part-of-speech (POS) tagging, text chunking, and named entity recognition (NER).  Given a sequence of words, sequence tagging aims to predict a linguistic tag for each word such as the POS tag.
+
+An important challenge for sequence tagging is how to transfer knowledge from one task to another, which is often referred to as \textit{transfer learning} \citep{pan2010survey}.
+Transfer learning can be used in several settings, notably for low-resource languages \citep{zirikly2cross,wang2013cross} and low-resource domains such as biomedical corpora \citep{kim2003genia} and Twitter corpora \citep{ritter2011named}). In these cases, transfer learning can improve performance by taking advantage of more plentiful labels from related tasks. Even on datasets with relatively abundant labels, multi-task transfer can sometimes achieve improvement over state-of-the-art results \citep{collobert2011natural}.
+
+Recently, a number of approaches based on deep neural networks have addressed the problem of sequence tagging in an end-to-end manner \citep{collobert2011natural,lample2016neural,ling2015finding,ma2016end}. These neural networks consist of multiple layers of neurons organized in a hierarchy and can transform the input tokens to the output labels without explicit hand-engineered feature extraction. The aforementioned neural networks require minimal assumptions about the task at hand and thus demonstrate significant generality---one single model can be applied to multiple applications in multiple languages without changing the architecture. A natural question is whether the representation learned from one task can be useful for another task. In other words, is there a way we can exploit the generality of neural networks to improve task performance by sharing model parameters and feature representations with another task?
+
+To address the above question, we study the transfer learning setting, which aims to improve the performance on a \textit{target task} by joint training with a \textit{source task}. We present a transfer learning approach based on a deep hierarchical recurrent neural network, which shares the hidden feature representation and part of the model parameters between the source task and the target task. Our approach combines the objectives of the two tasks and uses gradient-based methods for efficient training.
+We study cross-domain, cross-application, and cross-lingual transfer, and present a parameter-sharing architecture for each case.
+%We empirically evaluate our approach on cross-domain, cross-application, and cross-lingual settings. 
+Experimental results show that our approach can significantly improve the performance of the target task when the the target task has few labels and is more related to the source task. Furthermore, we show that transfer learning can improve performance over state-of-the-art results even if the amount of labels is relatively abundant.
+
+We have novel contributions in two folds. First, our work is, to the best of our knowledge, the first that focuses on studying the transferability of different layers of representations for hierarchical RNNs. Second, different from previous transfer learning methods that usually focus on one specific transfer setting, our framework exploits different levels of representation sharing and provides a unified framework to handle cross-application, cross-lingual, and cross-domain transfer.
+

@@ -1,0 +1,21 @@
+% !TEX encoding = UTF-8
+% !TEX Root = Main.tex
+
+\section{Introduction}
+\label{sec:intro}
+
+The capacity of a neural network influences its ability to model complex functions. 
+In particular, it has been argued that \textit{deeper} models are conducive to more expressive features \cite{bengio09book}.
+Very deep neural network models have proved successful in computer vision \cite{he2016resnet,srivastava2015deepnn} and text classification \cite{conneau2017deepclassification,minaee2020deep}.
+In neural machine translation (NMT), however, current state-of-the-art models such as the Transformer typically employ only 6-12 layers \cite{wmt19edinburg, wmt19ms, wmt19fair}.
+
+Previous work has shown that it is difficult to train deep Transformers, such as those over 12 layers \cite{bapna2018training}.
+This is due to optimization challenges: the variance of the output at each layer compounds as they get deeper, leading to unstable gradients and ultimately diverged training runs.
+
+
+In this empirical study, we re-investigate whether deeper Transformer models are useful for NMT. 
+We apply a recent initialization technique called ADMIN \cite{liu2020deeptransformer}, which remedies the variance problem. This enables us train Transformers that are significantly deeper, e.g. with 60 encoder layers and 12 decoder layers.\footnote{We choose to focus on this layer size since it results in the maximum model size that can fit within a single GPU system. The purpose of this study is to show that it is feasible for most researchers to experiment with very deep models; access to massive GPU budgets is not a requirement.}
+
+
+In contrast to previous research, we show that it is indeed feasible to train the standard\footnote{Note there are architectural variants that enable deeper models \cite{wang2019preln,Nguyen2019fixnorm}, discussed in Sec \ref{sec:prelimiary}. We focus on the standard architecture here.} Transformer \cite{vaswani2017attention} with many layers. 
+These deep models significantly outperform their 6-layer baseline, with up to 2.5 BLEU improvement. Further, they obtain state-of-the-art on the WMT'14 EN-FR and WMT'14 EN-DE benchmarks.

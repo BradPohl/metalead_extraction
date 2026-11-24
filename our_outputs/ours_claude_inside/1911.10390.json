@@ -1,0 +1,2563 @@
+{
+  "paper_id": "1911.10390",
+  "tuples": [
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 98.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "98.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "n-gram",
+          "value": "1-gram",
+          "quote": "1-gram",
+          "locator": "row_1_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 55.92,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "55.92"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "n-gram",
+          "value": "2-gram",
+          "quote": "2-gram",
+          "locator": "row_1_col_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 33.85,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "33.85"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "n-gram",
+          "value": "3-gram",
+          "quote": "3-gram",
+          "locator": "row_1_col_4",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 20.32,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "20.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "n-gram",
+          "value": "4-gram",
+          "quote": "4-gram",
+          "locator": "row_1_col_5",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 52.25,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "52.25"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "n-gram",
+          "value": "Average",
+          "quote": "Average",
+          "locator": "row_1_col_6",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 14.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "14.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "ROUGE-2 F-scores",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 99.19,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "99.19"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "n-gram",
+          "value": "1-gram",
+          "quote": "1-gram",
+          "locator": "row_1_col_8",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 65.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "65.28"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "n-gram",
+          "value": "2-gram",
+          "quote": "2-gram",
+          "locator": "row_1_col_9",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 45.25,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "45.25"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "n-gram",
+          "value": "3-gram",
+          "quote": "3-gram",
+          "locator": "row_1_col_10",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 31.16,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "31.16"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "n-gram",
+          "value": "4-gram",
+          "quote": "4-gram",
+          "locator": "row_1_col_11",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "copy rate",
+          "value": 60.22,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "60.22"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "it only reuses source words during testing",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "We analyze the copy rate of various summarization models",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "training loss",
+          "value": "a. 4 seen summary token units",
+          "quote": "a.",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "n-gram",
+          "value": "Average",
+          "quote": "Average",
+          "locator": "row_1_col_12",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoding",
+          "value": "beam search (k=5) without reranking",
+          "quote": "decoded using beam search (k=5) without reranking",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.86,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.86"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PG Networks",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 19.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-2",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PG Networks",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.61,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.61"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PG Networks",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BERTScore",
+          "value": 62.01,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "62.01"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Bert-S",
+        "locator": "row_0_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PG Networks",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 40.54,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.54"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Struct+2Way+Rel.",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.44,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "20.44"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-2",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Struct+2Way+Rel.",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 37.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "37.40"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Struct+2Way+Rel.",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BERTScore",
+          "value": 62.05,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "62.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Bert-S",
+        "locator": "row_0_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Struct+2Way+Rel.",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "43.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (pure-ext)",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "variant",
+          "value": "pure-ext",
+          "quote": "Ours (pure-ext)",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.81,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.81"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-2",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (pure-ext)",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "variant",
+          "value": "pure-ext",
+          "quote": "Ours (pure-ext)",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.05,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (pure-ext)",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "variant",
+          "value": "pure-ext",
+          "quote": "Ours (pure-ext)",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BERTScore",
+          "value": 63.68,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "63.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Bert-S",
+        "locator": "row_0_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (pure-ext)",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "variant",
+          "value": "pure-ext",
+          "quote": "Ours (pure-ext)",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 45.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "45.93"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (best-abs)",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "variant",
+          "value": "best-abs",
+          "quote": "Ours (best-abs)",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 24.14,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24.14"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-2",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (best-abs)",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "variant",
+          "value": "best-abs",
+          "quote": "Ours (best-abs)",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CopyTrans"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 42.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "42.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Summarization results on the Newsroom test set",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "R-L",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours (best-abs)",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "variant",
+          "value": "best-abs",
+          "quote": "Ours (best-abs)",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "The top four systems are trained on Newsroom training data",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "informativeness",
+          "value": 2.801,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Human & 2.801"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5, 200 samples, 5 annotators",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "grammaticality",
+          "value": 2.831,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.801 & 2.831"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "truthfulness",
+          "value": 2.778,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.831 & 2.778"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "best-worst scaling",
+          "value": -0.001,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.778 & -0.001"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we perform Best-Worst Scaling",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "best-worst among six candidates",
+          "quote": "a human selects the best and worst summary among six candidates",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "informativeness",
+          "value": 2.768,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PG Networks & 2.768"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "grammaticality",
+          "value": 2.697,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.768 & 2.697"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "truthfulness",
+          "value": 2.678,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.697 & 2.678"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "best-worst scaling",
+          "value": -0.058,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.678 & -0.058"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we perform Best-Worst Scaling",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "best-worst among six candidates",
+          "quote": "a human selects the best and worst summary among six candidates",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "informativeness",
+          "value": 2.748,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "R3Sum & 2.748"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "grammaticality",
+          "value": 2.68,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.748 & 2.680"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "truthfulness",
+          "value": 2.709,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.680 & 2.709"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "best-worst scaling",
+          "value": -0.009,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.709 & -0.009"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we perform Best-Worst Scaling",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "best-worst among six candidates",
+          "quote": "a human selects the best and worst summary among six candidates",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "informativeness",
+          "value": 2.74,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BiSET & 2.740"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "grammaticality",
+          "value": 2.634,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.740 & 2.634"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "Sentence Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "truthfulness",
+          "value": 2.738,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2.634 & 2.738"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "We sample 200 instances from the Gigaword test set for evaluation.",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we ask human annotators to assess system outputs",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation",
+          "value": "human Likert 1-5",
+          "quote": "using a Likert scale from 1 (worst) to 5 (best)",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 6,
+    "n_results_tables_loose": 4,
+    "tables_completed": 4,
+    "calls": 12,
+    "cost_usd": 1.217244,
+    "tokens_in": 34311,
+    "tokens_out": 54000,
+    "context_pass_cost": 0.104716
+  }
+}

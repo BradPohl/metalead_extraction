@@ -1,0 +1,70 @@
+\begin{figure}[t]
+\centering
+\begin{subfigure}[b]{0.35\textwidth}
+\centering
+\includegraphics[width=1\textwidth]{fig/sattn.pdf}
+\caption{Self-attention}
+\label{fig:sattn}
+\end{subfigure}
+~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%(or a blank line to force the subfigure onto a new line)
+% \qquad
+\begin{subfigure}[b]{0.3\textwidth}
+\centering
+\includegraphics[width=0.34\textwidth]{fig/sdconv.pdf}
+\caption{\Sdconvfull{}}
+\label{fig:sdconv}
+\end{subfigure}
+~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+%(or a blank line to force the subfigure onto a new line)
+% \qquad
+\begin{subfigure}[b]{0.3\textwidth}
+\centering
+\includegraphics[width=0.86\textwidth]{fig/tvsdconv.pdf}
+\caption{Dynamic convolution}
+\label{fig:tvsdconv}
+\end{subfigure}
+\caption{Illustration of self-attention, \sdconvfull{}s and \tvsdconvfull{}s.}
+\label{fig:architectures}
+\end{figure}
+
+
+In this section, we introduce \newterm{\sdconv{}}, a depthwise convolution which shares certain output channels and whose weights are normalized across the temporal dimension using a softmax. 
+Compared to self-attention, \sdconv{} has a fixed context window and it determines the importance of context elements with a set of weights that do not change over time steps.
+We will show that models equipped with \sdconvfull{}s show better generalization compared to regular convolutions and that they can be competitive to state-of-the-art self-attention models (\textsection\ref{sec:results}). 
+This is surprising because the common belief is that content-based self-attention mechanisms are necessary to obtaining state-of-the-art results in natural language processing applications.
+Furthermore, the low computational profile of \sdconv{} enables us to formulate efficient \tvsdconvfull{}s (\textsection\ref{sec:tvsdconv}).
+
+\sdconv{} computes the following for the $i$-th element in the sequence and output channel $c$:
+\[
+\text{\sdconv{}}(X, \emW_{\ceil{\frac{cH}{d}},:}, i, c) = \text{DepthwiseConv}(X, \text{softmax}(\emW_{\ceil{\frac{cH}{d}},:}), i, c)
+\]
+
+
+\paragraph{Weight sharing.} 
+We tie the parameters of every subsequent number of $\frac{d}{H}$ channels, which reduces the number of parameters by a factor of $\frac{d}{H}$. 
+As illustration, a regular convolution requires 7,340,032 ($d^2 \times k$) weights for $d=1024$ and $k=7$, a depthwise separable convolution has 7,168 weights ($d \times k$), and with weight sharing, $H=16$, we have only 112 ($H \times k$) weights. 
+We will see that this vast reduction in the number of parameters is crucial to make dynamic convolutions possible on current hardware.
+\citet{wang2018smoothed} ties the weights of all channels (H = 1).
+
+\paragraph{Softmax-normalization.}
+We normalize the weights $\emW \in \R^{H \times k}$ across the temporal dimension $k$ using a softmax operation:
+\[
+\text{softmax}(\emW)_{h,j} = \frac{\exp{\emW_{h, j}}}{\sum_{j'=1}^k \exp{\emW_{h, j'}}}
+\]
+
+\paragraph{Module.} Figure~\ref{fig:sdconv} shows the architecture of the module where we integrate \sdconv{}. 
+We first apply an input projection mapping from dimension $d$ to $2d$, followed by a gated linear unit (GLU;  \citealt{dauphin2017convlm}), and the actual \sdconvfull{}.
+The GLU uses half of the inputs as gates by applying sigmoid units and then computes a pointwise product with the other inputs.
+We also apply an output projection of size $\emW^O \in \R^{d \times d}$ to the output of \sdconv{}.
+
+\paragraph{Regularization. }
+We found DropConnect to be a good regularizer for the \sdconv{} module \citep{wan2013regularization}.
+Specifically, we drop every entry of the normalized weights $softmax(\emW)$ with probability $p$ and divide it by $1-p$ during training. 
+This amounts to removing some of the temporal information within a channel.
+
+\paragraph{Implementation.}
+Existing CUDA primitives for convolutions did not perform very well to implement \sdconv{} and we found the following solution faster on short sequences:
+We copy and expand the normalized weights $\emW \in \mathbb{R}^{H \times k}$ to a band matrix of size $BH \times n \times n$, where $B$ is the batch size.
+We then reshape and transpose the inputs to size $BH \times n \times \frac{d}{H}$, and perform a batch matrix multiplication to get the outputs.
+We expect a dedicated CUDA kernel to be much more efficient.

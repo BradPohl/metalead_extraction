@@ -1,0 +1,3925 @@
+{
+  "paper_id": "1709.04109",
+  "tuples": [
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.71,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "official evaluation metric (micro-averaged F$_1$)",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "15) \\our$^\\dagger$$^\\ddagger$} & mean",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 91.71$\\pm$0.10",
+          "locator": "table_ner"
+        },
+        {
+          "name": "state_size",
+          "value": "300",
+          "quote": "we expand it from $200$ to $300$",
+          "locator": "section_network_training"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "15) LM-LSTM-CRF mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 91.71$\\pm$0.10"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.85,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "official evaluation metric (micro-averaged F$_1$)",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "15) \\our",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "& & max & 91.85",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "15) LM-LSTM-CRF max",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & max & 91.85"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 91.37$\\pm$0.17",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "14) Ma et al. 2016 mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 91.37$\\pm$0.17"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "max & 91.67",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "14) Ma et al. 2016 max",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & max & 91.67"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "reported & 91.21",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "14) Ma et al. 2016 reported",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & reported & 91.21"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 90.76$\\pm$0.08",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "13) Lample et al. 2016 mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 90.76$\\pm$0.08"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "max & 91.14",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "13) Lample et al. 2016 max",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & max & 91.14"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "2016naacl",
+        "quote": "reported & 90.94",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "13) Lample et al. 2016 reported",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & reported & 90.94"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 87.38$\\pm$0.36",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "12) Rei 2017 mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 87.38$\\pm$0.36"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "max & 87.94",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "12) Rei 2017 max",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & max & 87.94"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "rei2017semi",
+        "quote": "reported & 86.26",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "12) Rei 2017 reported",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & reported & 86.26"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Collobert2011NaturalLP",
+        "quote": "reported& 89.59",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "gazetteers",
+          "quote": "gazetteers",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "0) Collobert et al. 2011",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported& 89.59"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Chiu et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Chiu2016NamedER",
+        "quote": "reported & 91.62$\\pm$0.33",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "gazetteers",
+          "quote": "gazetteers",
+          "locator": "table_ner"
+        },
+        {
+          "name": "training_data_regime",
+          "value": "train+dev",
+          "quote": "trained on both training and development set",
+          "locator": "section_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "1) Chiu et al. 2016",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 91.62$\\pm$0.33"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Luo et al. 2015"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo2015joint",
+        "quote": "2) Luo et al. 2015 & reported& 91.20",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "AIDA dataset",
+          "quote": "AIDA dataset",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "2) Luo et al. 2015",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "Luo et al. 2015 & reported& 91.20"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "reported",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "CoNLL 2000 / PTB-POS dataset",
+          "quote": "PTB-POS dataset",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "3) Yang et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "\\multirow{2}{*}{91.26}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017 (TagLM, index 4)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.93,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "1B Word dataset & 4096-8192-1024",
+          "quote": "1B Word dataset \\&",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "4) Peters et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "91.93$\\pm$0.19"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017 (TagLM, index 5)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 91.62$\\pm$0.23",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "1B Word dataset (LSTM-2048-512)",
+          "quote": "1B Word dataset & 5) Peters",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "5) Peters et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 91.62$\\pm$0.23"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Collobert2011NaturalLP",
+        "quote": "reported& 88.67",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "6) Collobert et al. 2011",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported& 88.67"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Luo et al. 2015"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo2015joint",
+        "quote": "reported& 89.90",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "7) Luo et al. 2015",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported& 89.90"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Chiu et al. 2016"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.91,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Chiu2016NamedER",
+        "quote": "reported & 90.91$\\pm$0.20",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "8) Chiu et al. 2016",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 90.91$\\pm$0.20"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "reported & 91.20",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "9) Yang et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 91.20"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017 (TagLM, index 10)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.87,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 90.87$\\pm$0.13",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "10) Peters et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 90.87$\\pm$0.13"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017 (TagLM, index 11)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.79,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 90.79$\\pm$0.15",
+        "locator": "table_ner"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "11) Peters et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 90.79$\\pm$0.15"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.53,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy for the WSJ dataset.",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "15) \\our",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean$\\pm$std & 97.53$\\pm$0.03",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "15) LM-LSTM-CRF mean",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "97.53$\\pm$0.03"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.59,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy for the WSJ dataset.",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "15) \\our",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "maximum & 97.59",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "15) LM-LSTM-CRF maximum",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "maximum & 97.59"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.42,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean$\\pm$std & 97.42$\\pm$0.04",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "14) Ma et al. 2016 mean",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "97.42$\\pm$0.04"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.46,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "maximum & 97.46",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "14) Ma et al. 2016 maximum",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "maximum & 97.46"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "reported & 97.55",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "14) Ma et al. 2016 reported",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "reported & 97.55"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.35,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean$\\pm$std & 97.35$\\pm$0.09",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "13) Lample et al. 2016 mean",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "97.35$\\pm$0.09"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.51,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "maximum & 97.51",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "13) Lample et al. 2016 maximum",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "maximum & 97.51"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.97,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 96.97$\\pm$0.22",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "12) Rei 2017 mean",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "mean & 96.97$\\pm$0.22"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.14,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "max & 97.14",
+          "locator": "table_pos"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "12) Rei 2017 max",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "& max & 97.14"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.43,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "rei2017semi",
+        "quote": "reported & 97.43",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "12) Rei 2017 reported",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "& reported & 97.43"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.29,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Collobert2011NaturalLP",
+        "quote": "reported& 97.29",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "0) Collobert et al. 2011",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "reported& 97.29"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Manning 2011"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.28,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "manning2011part",
+        "quote": "reported & 97.28",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "16) Manning 2011",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "reported & 97.28"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard 2011"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sogaard2011semisupervised",
+        "quote": "reported& 97.50",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "17) S\u00f8gaard 2011",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "reported& 97.50"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Sun 2014"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.36,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sun2014structure",
+        "quote": "reported& 97.36",
+        "locator": "table_pos"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "18) Sun 2014",
+        "column_label": "Accuracy Value",
+        "sentence": null,
+        "quoted_span": "reported& 97.36"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "official evaluation metric (micro-averaged F$_1$)",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "15) \\our",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 95.96$\\pm$0.08",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "15) LM-LSTM-CRF mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 95.96$\\pm$0.08"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "15) \\our",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "maximum & 96.13",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "15) LM-LSTM-CRF maximum",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "maximum & 96.13"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 95.80$\\pm$0.13",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "14) Ma et al. 2016 mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 95.80$\\pm$0.13"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.93,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "maximum & 95.93",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "14) Ma et al. 2016 maximum",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "maximum & 95.93"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 94.37$\\pm$0.07",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "13) Lample et al. 2016 mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 94.37$\\pm$0.07"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.49,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "maximum & 94.49",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "13) Lample et al. 2016 maximum",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "maximum & 94.49"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "mean",
+          "quote": "mean & 94.24$\\pm$0.11",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "12) Rei 2017 mean",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "mean & 94.24$\\pm$0.11"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "aggregate",
+          "value": "max",
+          "quote": "max & 94.33",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "12) Rei 2017 max",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & max & 94.33"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "rei2017semi",
+        "quote": "reported & 93.88",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "12) Rei 2017 reported",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "& & reported & 93.88"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Hashimoto et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.77,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hashimoto2016joint",
+        "quote": "reported& 95.77",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "PTB-POS",
+          "quote": "PTB-POS",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "19) Hashimoto et al. 2016",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported& 95.77"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sogaard2016deep",
+        "quote": "reported & 95.56",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "PTB-POS",
+          "quote": "PTB-POS",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "20) S\u00f8gaard et al. 2016",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 95.56"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "reported",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "CoNLL 2000 / PTB-POS dataset",
+          "quote": "PTB-POS dataset",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "3) Yang et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "\\multirow{2}{*}{95.41}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017 (TagLM, index 4)"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 96.37$\\pm$0.05",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "1B Word dataset",
+          "quote": "1B Word dataset",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "4) Peters et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 96.37$\\pm$0.05"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Hashimoto et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hashimoto2016joint",
+        "quote": "reported& 95.02",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "21) Hashimoto et al. 2016",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported& 95.02"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard et al. 2016"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sogaard2016deep",
+        "quote": "reported & 95.28",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "22) S\u00f8gaard et al. 2016",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 95.28"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "reported & 94.66",
+        "locator": "table_chunking"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra_resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "table_chunking"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "9) Yang et al. 2017",
+        "column_label": "F1 Value",
+        "sentence": null,
+        "quoted_span": "reported & 94.66"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF*"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "Our re-implementations are marked with $^\\star$",
+        "locator": "caption_table_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "LSTM-CRF*",
+        "column_label": "CoNLL03 NER F1Score",
+        "sentence": null,
+        "quoted_span": "LSTM-CRF$^\\star$ & 4 & 91.19"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF*"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.44,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "Our re-implementations are marked with $^\\star$",
+        "locator": "caption_table_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "LSTM-CRF*",
+        "column_label": "WSJ POS Accuracy",
+        "sentence": null,
+        "quoted_span": "91.19 & 8 & 97.44"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF*"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.82,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "Our re-implementations are marked with $^\\star$",
+        "locator": "caption_table_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "LSTM-CRF*",
+        "column_label": "CoNLL00 Chunking F1Score",
+        "sentence": null,
+        "quoted_span": "97.44 & 2 & 95.82"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF*"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.98,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "Our re-implementations are marked with $^\\star$",
+        "locator": "caption_table_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "LSTM-CNN-CRF*",
+        "column_label": "CoNLL03 NER F1Score",
+        "sentence": null,
+        "quoted_span": "LSTM-CNN-CRF$^\\star$ & 3 & 90.98"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF*"
+      },
+      "task": {
+        "name": "POS Tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.98,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "We report the accuracy",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "Our re-implementations are marked with $^\\star$",
+        "locator": "caption_table_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "LSTM-CNN-CRF*",
+        "column_label": "WSJ POS Accuracy",
+        "sentence": null,
+        "quoted_span": "90.98 & 7 & 96.98"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF*"
+      },
+      "task": {
+        "name": "Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It only includes training and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "Our re-implementations are marked with $^\\star$",
+        "locator": "caption_table_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "LSTM-CNN-CRF*",
+        "column_label": "CoNLL00 Chunking F1Score",
+        "sentence": null,
+        "quoted_span": "96.98 & 2 & 95.51"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 92.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "300",
+          "quote": "& 300 &  91.71$\\pm$0.10",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LM-LSTM-CRF 300",
+        "column_label": "Recall\u00b1std",
+        "sentence": null,
+        "quoted_span": "92.14$\\pm$0.12"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 91.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "300",
+          "quote": "& 300 &  91.71$\\pm$0.10",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LM-LSTM-CRF 300",
+        "column_label": "Precision\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.30$\\pm$0.13"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "200",
+          "quote": "& 200 & 91.63$\\pm$0.23",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LM-LSTM-CRF 200",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "& 200 & 91.63$\\pm$0.23"
+      },
+      "confidence": 0.82
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "100",
+          "quote": "& 100 & 91.13$\\pm$0.32",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LM-LSTM-CRF 100",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "& 100 & 91.13$\\pm$0.32"
+      },
+      "confidence": 0.82
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF and LSTM-CNN-CRF",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "200",
+          "quote": "& 200 & 90.41$\\pm$0.07",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LSTM-CRF 200",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "& 200 & 90.41$\\pm$0.07"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.74,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF and LSTM-CNN-CRF",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "100",
+          "quote": "& 100 & 90.74$\\pm$0.22",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LSTM-CRF 100",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "& 100 & 90.74$\\pm$0.22"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF and LSTM-CNN-CRF",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "300",
+          "quote": "& 300  & 91.22$\\pm$0.19",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LSTM-CNN-CRF 300",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.22$\\pm$0.19"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.18,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF and LSTM-CNN-CRF",
+        "locator": "section_hidden_state_size"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "100",
+          "quote": "& 100 & 91.18$\\pm$0.10",
+          "locator": "table_size"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 9",
+        "row_label": "LSTM-CNN-CRF 100",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "& 100 & 91.18$\\pm$0.10"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare \\our with its two variants",
+        "locator": "section_highway_cotraining"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "table_hw"
+        },
+        {
+          "name": "objective",
+          "value": "J_CRF only, with highway",
+          "quote": "keeps highway units, but optimizes $\\mathcal{J}_{CRF}$ alone",
+          "locator": "section_highway_cotraining"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 10",
+        "row_label": "300 LM-LSTM-CRF_NL",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.43$\\pm$0.09"
+      },
+      "confidence": 0.82
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare \\our with its two variants",
+        "locator": "section_highway_cotraining"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "table_hw"
+        },
+        {
+          "name": "objective",
+          "value": "J_CRF + J_LM, no highway",
+          "quote": "but without highway units",
+          "locator": "section_highway_cotraining"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 10",
+        "row_label": "300 LM-LSTM-CRF_NH",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.16$\\pm$0.22"
+      },
+      "confidence": 0.82
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare \\our with its two variants",
+        "locator": "section_highway_cotraining"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "table_hw"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 10",
+        "row_label": "200 LM-LSTM-CRF_NL",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.44$\\pm$0.10"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare \\our with its two variants",
+        "locator": "section_highway_cotraining"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "table_hw"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 10",
+        "row_label": "200 LM-LSTM-CRF_NH",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.34$\\pm$0.28"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare \\our with its two variants",
+        "locator": "section_highway_cotraining"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "table_hw"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 10",
+        "row_label": "100 LM-LSTM-CRF_NL",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.17$\\pm$0.11"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare \\our with its two variants",
+        "locator": "section_highway_cotraining"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state_size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "table_hw"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 10",
+        "row_label": "100 LM-LSTM-CRF_NH",
+        "column_label": "F1score\u00b1std",
+        "sentence": null,
+        "quoted_span": "91.01$\\pm$0.19"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.83,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "It has been separated into training, development and test sets.",
+        "locator": "section_experiments_datasets"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments_paragraph_2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "when trained on CPU, LSTM-CNN-CRF only reaches 90.83",
+        "locator": "section_performance_comparison"
+      },
+      "evaluation_setting": [
+        {
+          "name": "device",
+          "value": "CPU",
+          "quote": "when trained on CPU",
+          "locator": "section_performance_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "During our experiments, we discover that, when trained on CPU, LSTM-CNN-CRF only reaches 90.83 F$_1$ score on the NER dataset, but gets 91.37 F$_1$ score when trained on GPU.",
+        "quoted_span": "only reaches 90.83 F$_1$ score"
+      },
+      "confidence": 0.7
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      74
+    ],
+    "tokens_in": 22934,
+    "tokens_out": 30879,
+    "cost_usd": 0.7093160000000001
+  }
+}

@@ -1,0 +1,1809 @@
+{
+  "paper_id": "1804.09849",
+  "tuples": [
+    {
+      "method": {
+        "name": "GNMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 38.95,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.95"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "GNMT & 38.95",
+        "locator": "row_1_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.49,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.49 $\\pm$ 0.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ConvS2S & 39.49 $\\pm$ 0.11",
+        "locator": "row_2_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.43,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.43 $\\pm$ 0.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Trans. Base & 39.43 $\\pm$ 0.17",
+        "locator": "row_3_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.73 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Trans. Big & 40.73 $\\pm$ 0.19",
+        "locator": "row_4_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12 & 41.00"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "12",
+          "quote": "12 & 41.00",
+          "locator": "row_2_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "GNMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 24.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "GNMT & 24.67",
+        "locator": "row_1_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.01,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "25.01 $\\pm$0.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ConvS2S &  25.01 $\\pm$0.17",
+        "locator": "row_2_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.26,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "27.26 $\\pm$ 0.15"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Trans. Base & 27.26 $\\pm$ 0.15",
+        "locator": "row_3_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.94,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "27.94 $\\pm$ 0.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Trans. Big & 27.94 $\\pm$ 0.18",
+        "locator": "row_4_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.49,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.49 $\\pm$ 0.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_5_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_5_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "RNMT+ &  28.49 $\\pm$ 0.05",
+        "locator": "row_5_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 80.0,
+          "unit": "examples/s"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80 & 15.7B & 263.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 15.7,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80 & 15.7B & 263.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 263.4,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80 & 15.7B & 263.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 160.0,
+          "unit": "examples/s"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "160 & 6.2B & 93.3M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 6.2,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "160 & 6.2B & 93.3M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 93.3,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "160 & 6.2B & 93.3M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 50.0,
+          "unit": "examples/s"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "50 & 31.2B & 375.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 31.2,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "50 & 31.2B & 375.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 375.4,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "50 & 31.2B & 375.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 30.0,
+          "unit": "examples/s"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "30 & 28.1B & 378.9M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 28.1,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "30 & 28.1B & 378.9M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 378.9,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "30 & 28.1B & 378.9M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table:perf"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Performance comparison",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.33,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.33"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "average BLEU scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "We report average BLEU scores on the test set.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.91,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "8 & 40.91"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "8",
+          "quote": "8 & 40.91",
+          "locator": "row_1_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16 & 40.96"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "16",
+          "quote": "16 & 40.96",
+          "locator": "row_3_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "20 & 40.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "20",
+          "quote": "20 & 40.90",
+          "locator": "row_4_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24 & 40.93"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_5_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_5_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "24",
+          "quote": "24 & 40.93",
+          "locator": "row_5_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.92,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "30 & 40.92"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_6_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_6_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "30",
+          "quote": "30 & 40.92",
+          "locator": "row_6_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.79,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40 & 40.79"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_7_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_7_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "40",
+          "quote": "40 & 40.79",
+          "locator": "row_7_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.58,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "50 & 40.58"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_8_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg. Test BLEU",
+        "locator": "row_8_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The effect of beam size on the results of RNMT+ on WMT14 En Fr.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "beam size",
+          "value": "50",
+          "quote": "50 & 40.58",
+          "locator": "row_8_col_1",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.92,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.92 $\\pm$ 0.21"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_4_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "39.92 $\\pm$ 0.21",
+        "locator": "row_4_col_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1804.09849",
+      "paper_version_confidence": 1.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cascaded Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.67 $\\pm$ 0.11"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "En$\\rightarrow$Fr BLEU",
+        "locator": "row_3_col_1"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$Fr BLEU",
+        "locator": "row_3_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Cascaded & \\textbf{41.67 $\\pm$ 0.11}",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Cascaded Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.62 $\\pm$ 0.06"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "En$\\rightarrow$De  BLEU",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$De  BLEU",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Cascaded & \\textbf{41.67 $\\pm$ 0.11} & 28.62 $\\pm$ 0.06",
+        "locator": "row_3_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Multi-Column Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.66 $\\pm$ 0.11"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "En$\\rightarrow$Fr BLEU",
+        "locator": "row_4_col_1"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$Fr BLEU",
+        "locator": "row_4_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "MultiCol & 41.66 $\\pm$ 0.11",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Multi-Column Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En\u2192De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.84,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.84 $\\pm$ 0.06"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "En$\\rightarrow$De  BLEU",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$De  BLEU",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "MultiCol & 41.66 $\\pm$ 0.11 & \\textbf{28.84 $\\pm$ 0.06}",
+        "locator": "row_4_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 7,
+    "n_results_tables_loose": 7,
+    "tables_completed": 7,
+    "calls": 21,
+    "cost_usd": 0.26207579,
+    "tokens_in": 44346,
+    "tokens_out": 64244,
+    "context_pass_cost": 0.005111545
+  }
+}

@@ -1,0 +1,3538 @@
+{
+  "paper_id": "1809.08370",
+  "tuples": [
+    {
+      "method": {
+        "name": "Shortcut LSTM"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Shortcut LSTM \\cite{wu2017shortcut} & 95.1",
+        "locator": "row_1_col_2",
+        "reference": "wu2017shortcut"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Shortcut LSTM"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.53,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.53"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Shortcut LSTM \\cite{wu2017shortcut} & 95.1 &  &   &  & 97.53",
+        "locator": "row_1_col_6",
+        "reference": "wu2017shortcut"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast} & &  & 90.7",
+        "locator": "row_2_col_4",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast} & &  & 90.7  & 86.8",
+        "locator": "row_2_col_5",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint} & & 95.8",
+        "locator": "row_3_col_3",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_3_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint} & & 95.8 & & & 97.55",
+        "locator": "row_3_col_6",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 94.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "row_3_col_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint} & & 95.8 & & & 97.55 & 94.7",
+        "locator": "row_3_col_7",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 92.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "LAS",
+        "locator": "row_3_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "JMT$^\\dagger$ \\cite{hashimoto2016joint} & & 95.8 & & & 97.55 & 94.7 & 92.9",
+        "locator": "row_3_col_8",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "TagLM* \\cite{peters2017semi} &  & 96.4",
+        "locator": "row_4_col_3",
+        "reference": "peters2017semi"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_4_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "TagLM* \\cite{peters2017semi} &  & 96.4  & 91.9",
+        "locator": "row_4_col_4",
+        "reference": "peters2017semi"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_5_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo* \\cite{peters2018deep} &  &   & 92.2",
+        "locator": "row_5_col_4",
+        "reference": "peters2018deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Biaffine"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 95.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "row_7_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Biaffine \\cite{Dozat2017Deep} &  &  & & & & 95.7",
+        "locator": "row_7_col_7",
+        "reference": "Dozat2017Deep"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Biaffine"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "LAS",
+        "locator": "row_7_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Biaffine \\cite{Dozat2017Deep} &  &  & & & & 95.7 & 94.1",
+        "locator": "row_7_col_8",
+        "reference": "Dozat2017Deep"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Stack Pointer"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 95.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "row_8_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Stack Pointer \\cite{ma2018stack} &  &  & & & & 95.9",
+        "locator": "row_8_col_7",
+        "reference": "ma2018stack"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Stack Pointer"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 94.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "LAS",
+        "locator": "row_8_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Stack Pointer \\cite{ma2018stack} &  &  & & & & 95.9 & 94.2",
+        "locator": "row_8_col_8",
+        "reference": "ma2018stack"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Stanford"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese translation dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 23.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_10_col_9"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Stanford \\cite{Luong2015StanfordNM} &  & & & &  &  &  & 23.3",
+        "locator": "row_10_col_9",
+        "reference": "Luong2015StanfordNM"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Google"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese translation dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "row_11_col_9"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Google \\cite{luong17} &  & & & &  &  &  & 26.1",
+        "locator": "row_11_col_9",
+        "reference": "luong17"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_13_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised & 94.9",
+        "locator": "row_13_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_13_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised & 94.9 & 95.1",
+        "locator": "row_13_col_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_13_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised & 94.9 & 95.1 & 91.2",
+        "locator": "row_13_col_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_13_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised & 94.9 & 95.1 & 91.2 & 87.5",
+        "locator": "row_13_col_5",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "1809.08370",
+      "paper_version_confidence": 7.0,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised & 94.8 & 95.5",
+        "locator": "row_1_col_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised & 94.8 & 95.5 & 95.0",
+        "locator": "row_1_col_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 86.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised & 94.8 & 95.5 & 95.0 & 86.0",
+        "locator": "row_1_col_5",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.59,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "CVT",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CVT & 95.6 & 97.0",
+        "locator": "row_2_col_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CVT & 95.6 & 97.0 & 95.9",
+        "locator": "row_2_col_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 87.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "referring_paragraph"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CVT & 95.6 & 97.0 & 95.9 & 87.3",
+        "locator": "row_2_col_5",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cross-View Training"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.66"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test set",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "CVT",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo frozen & 94.3",
+        "locator": "row_3_col_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.50"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "not stated",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo frozen & 94.3 & 92.2 & 91.3 & 80.6 & 97.50",
+        "locator": "row_3_col_6",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.21"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "LSTM-CNN-CRF \\cite{ma2016end}",
+        "locator": "row_1_col_1",
+        "reference": "ma2016end"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "LSTM-CNN-CRF \\cite{ma2016end}",
+        "locator": "row_1_col_1",
+        "reference": "ma2016end"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.62 $\\pm$ 0.33"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "LSTM-CNN \\cite{chiu2015named}",
+        "locator": "row_2_col_1",
+        "reference": "chiu2015named"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.28,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.28 $\\pm$ 0.26"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "LSTM-CNN \\cite{chiu2015named}",
+        "locator": "row_2_col_1",
+        "reference": "chiu2015named"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.65,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.65 $\\pm$ 0.15"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast}",
+        "locator": "row_3_col_1",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Fine-Grained NER"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.84,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.84 $\\pm$ 0.19"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ID-CNN-CRF \\cite{strubell2017fast}",
+        "locator": "row_3_col_1",
+        "reference": "strubell2017fast"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Shortcut LSTM"
+      },
+      "task": {
+        "name": "Combinatory Categorial Grammar Supertagging"
+      },
+      "datasets": [
+        {
+          "name": "CCGBank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.08,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.08"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_5_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Shortcut LSTM \\cite{wu2017shortcut}",
+        "locator": "row_5_col_1",
+        "reference": "wu2017shortcut"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.77,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.77"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_6_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "JMT* \\cite{hashimoto2016joint}",
+        "locator": "row_6_col_1",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "JMT"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 94.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.67"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "row_6_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "JMT* \\cite{hashimoto2016joint}",
+        "locator": "row_6_col_1",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.96 $\\pm$ 0.08"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_7_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "LM-LSTM-CNN-CRF \\cite{liu2017empower}",
+        "locator": "row_7_col_1",
+        "reference": "liu2017empower"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.71,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.71 $\\pm$ 0.10"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_7_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "LM-LSTM-CNN-CRF \\cite{liu2017empower}",
+        "locator": "row_7_col_1",
+        "reference": "liu2017empower"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "Part-of-Speech Tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.53,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.53 $\\pm$ 0.03"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Acc.",
+        "locator": "row_7_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "LM-LSTM-CNN-CRF \\cite{liu2017empower}",
+        "locator": "row_7_col_1",
+        "reference": "liu2017empower"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "Text Chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.37,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.37 $\\pm$ 0.05"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_8_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "TagLM$^\\dagger$ \\cite{peters2017semi}",
+        "locator": "row_8_col_1",
+        "reference": "peters2017semi"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.93 $\\pm$ 0.19"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_8_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "TagLM$^\\dagger$ \\cite{peters2017semi}",
+        "locator": "row_8_col_1",
+        "reference": "peters2017semi"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.22,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.22 $\\pm$ 0.10"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_9_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo$^\\dagger$ \\cite{peters2018deep}",
+        "locator": "row_9_col_1",
+        "reference": "peters2018deep"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "NPM"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "UAS",
+          "value": 94.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "UAS",
+        "locator": "row_10_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "NPM \\cite{ma2017neural}",
+        "locator": "row_10_col_1",
+        "reference": "ma2017neural"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NPM"
+      },
+      "task": {
+        "name": "Dependency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank converted to Stanford Dependencies version 3.3.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "LAS",
+          "value": 93.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Results on the test sets for all tasks",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "LAS",
+        "locator": "row_10_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "NPM \\cite{ma2017neural}",
+        "locator": "row_10_col_1",
+        "reference": "ma2017neural"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "GAN"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 18.63,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "18.63 $\\pm$ 2.32"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_2_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Stochastic Transformations"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 11.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.29 $\\pm$ 0.24"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_3_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "\u03a0 model"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 16.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.55 $\\pm$ 0.29"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "\u03a0 model"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 12.36,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.36 $\\pm$ 0.31"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_4_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Temporal Ensemble"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 12.16,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.16 $\\pm$ 0.24"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_5_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Mean Teacher"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 12.31,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.31 $\\pm$ 0.28"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_6_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Complement GAN"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 14.41,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "14.41 $\\pm$ 0.30"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10",
+        "locator": "row_7_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "VAT"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 13.15,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "13.15"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10",
+        "locator": "row_8_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "task": true,
+        "datasets": true,
+        "metrics": true,
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "VAT"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 10.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "10.55"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_8_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "task": true,
+        "datasets": true,
+        "metrics": true,
+        "method": false
+      }
+    },
+    {
+      "method": {
+        "name": "VAdD"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 11.68,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.68 $\\pm$ 0.19"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_9_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "VAdD + VAT"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 10.07,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "10.07 $\\pm$ 0.11"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_10_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "SNGT + \u03a0 model"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 13.62,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "13.62 $\\pm$ 0.17"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10",
+        "locator": "row_11_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "SNGT + \u03a0 model"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 11.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.00 $\\pm$ 0.36"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_11_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "SNGT + VAT"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 12.49,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.49 $\\pm$ 0.36"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10",
+        "locator": "row_12_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "SNGT + VAT"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 9.89,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.89 $\\pm$ 0.34"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_12_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Consistency + WGAN"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 9.98,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.98 $\\pm$ 0.21"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_13_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Manifold Mixup"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 10.26,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "10.26 $\\pm$ 0.32"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_14_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "conflict",
+        "quote": "",
+        "locator": "",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true,
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 23.61,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.61 $\\pm$ 0.60"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10",
+        "locator": "row_16_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised",
+        "locator": "row_16_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Supervised"
+      },
+      "task": {
+        "name": "Image Classification"
+      },
+      "datasets": [
+        {
+          "name": "CIFAR-10"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Error Rate",
+          "value": 19.61,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.61 $\\pm$ 0.56"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "CIFAR-10+",
+        "locator": "row_16_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Error rates",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Supervised",
+        "locator": "row_16_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "task": true,
+        "datasets": true,
+        "metrics": true
+      }
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 7,
+    "n_results_tables_loose": 7,
+    "tables_completed": 7,
+    "calls": 21,
+    "cost_usd": 0.39515252,
+    "tokens_in": 57848,
+    "tokens_out": 97125,
+    "context_pass_cost": 0.008490029999999999
+  }
+}

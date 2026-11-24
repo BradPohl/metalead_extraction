@@ -1,0 +1,113 @@
+\documentclass{article} % For LaTeX2e
+\usepackage{iclr2019_conference,times}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+\input{math_commands.tex}
+\input{macro.tex}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{subcaption}
+
+\usepackage{tablefootnote}
+
+\usepackage{pgfplotstable} %tikz plots data
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+
+\newcommand{\mamark}[1]{\textcolor{orange}{{#1}}}
+\newcommand{\macomment}[1]{\textcolor{orange}{{*MA*: #1}}}
+
+
+\title{Pay less attention\\ with Lightweight and Dynamic Convolutions}
+% \title{Pay less attention \\ with Time variant Softmax-normalized Convolutions}
+
+% Authors must not appear in the submitted version. They should be hidden
+% as long as the \iclrfinalcopy macro remains commented out below.
+% Non-anonymous submissions will be rejected without review.
+
+\author{Felix Wu\thanks{Work done during an internship at Facebook.} \\
+Cornell University\\
+% Ithaca, NY, USA \\
+\And
+Angela Fan, Alexei Baevski, Yann N. Dauphin, Michael Auli \\
+Facebook AI Research \\
+% Menlo Park, CA, USA \\
+}
+
+% The \author macro works with any number of authors. There are two commands
+% used to separate the names and addresses of multiple authors: \And and \AND.
+%
+% Using \And between authors leaves it to \LaTeX{} to determine where to break
+% the lines. Using \AND forces a linebreak at that point. So, if \LaTeX{}
+% puts 3 of 4 authors names on the first line, and the last on the second
+% line, try using \AND instead of \And before the third author name.
+
+\newcommand{\fix}{\marginpar{FIX}}
+\newcommand{\new}{\marginpar{NEW}}
+
+\iclrfinalcopy % Uncomment for camera-ready version, but NOT for submission.
+\begin{document}
+
+
+\maketitle
+
+\begin{abstract}
+Self-attention is a useful mechanism to build generative models for language and images. 
+It determines the importance of context elements by comparing each element to the current time step.
+In this paper, we show that a very lightweight convolution can perform competitively to the best reported self-attention results.
+Next, we introduce dynamic convolutions which are simpler and more efficient than self-attention.
+We predict separate convolution kernels based solely on the current time-step in order to determine the importance of context elements. 
+The number of operations required by this approach scales linearly in the input length, whereas self-attention is quadratic.
+Experiments on large-scale machine translation, language modeling and abstractive summarization show that dynamic convolutions improve over strong self-attention models. 
+On the WMT'14 English-German test set dynamic convolutions achieve a new state of the art of 29.7 BLEU.\footnote{Code and pre-trained models available at \url{http://github.com/pytorch/fairseq}} 
+\end{abstract}
+
+
+
+\section{Introduction}
+\input{sections/intro.tex}
+
+
+
+\section{Background}\label{sec:background}
+\input{sections/background.tex} 
+
+
+\section{Lightweight Convolutions}\label{sec:sdconv}
+\input{sections/sdconv.tex}
+
+
+\section{Dynamic convolutions}\label{sec:tvsdconv}
+\input{sections/tvsdconv.tex}
+
+
+\section{Experimental setup}\label{sec:setup}
+\input{sections/setup.tex}
+
+
+\section{Results}\label{sec:results}
+\input{sections/results.tex}
+
+
+\section{Conclusion}\label{sec:conclusion}
+\input{sections/conclusion.tex}
+
+% Use unnumbered third level headings for the acknowledgments. All
+% acknowledgments, including those to funding agencies, go at the end of the paper.
+
+\bibliography{master}
+\bibliographystyle{iclr2019_conference}
+
+\clearpage
+\appendix
+\section*{Supplementary Material}
+\input{sections/appendix.tex}
+
+
+
+
+
+\end{document}

@@ -1,0 +1,6480 @@
+{
+  "paper_id": "1910.13461",
+  "tuples": [
+    {
+      "method": {
+        "name": "BERT Base"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERT Base \\cite{bert}",
+        "locator": "row_1",
+        "reference": "bert"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BERT Base"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 84.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERT Base \\cite{bert}",
+        "locator": "row_1",
+        "reference": "bert"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 83.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 24.77,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24.77"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 7.87,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.87"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 12.59,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.59"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 7.06,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.06"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 82.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 23.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.40"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 6.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.80"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 11.43,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.43"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Masked Seq2seq"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 6.19,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.19"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "76.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 80.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 21.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.40"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 7.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.00"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 11.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "11.51"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 6.56,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.56"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 83.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 24.03,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "24.03"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 7.69,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.69"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 12.23,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.23"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Permuted Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 6.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.96"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Multitask Masked Language Model"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Multitask Masked Language Model"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 82.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Multitask Masked Language Model"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 23.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.73"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Multitask Masked Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 7.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7.50"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Multitask Masked Language Model"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 12.39,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.39"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Multitask Masked Language Model"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 6.74,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.74"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "w/ Token Masking"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Entries in the bottom two blocks are trained on identical data using the same code-base",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 84.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.1/90.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERT",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 79.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.0/81.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERT",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mcc",
+          "value": 60.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "60.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERT",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 80.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.5/83.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "UniLM",
+        "locator": "row_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mcc",
+          "value": 61.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "61.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "UniLM",
+        "locator": "row_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 89.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "XLNet",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 86.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.1/88.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "XLNet",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Mcc",
+          "value": 63.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "63.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "XLNet",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "RoBERTa"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 88.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "RoBERTa",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "RoBERTa"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 86.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.5/89.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "RoBERTa",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.1/90.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 81.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.0/81.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 86.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.6/-"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "mnli subset",
+          "value": "m",
+          "quote": "m/mm",
+          "locator": "header_MNLI",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SST"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 91.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 92.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 90.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 70.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "70.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 88.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 83.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.5/83.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.0/85.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "mnli subset",
+          "value": "m",
+          "quote": "m/mm",
+          "locator": "header_MNLI",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 85.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.0/85.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "mnli subset",
+          "value": "mm",
+          "quote": "m/mm",
+          "locator": "header_MNLI",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SST"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 94.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 92.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 70.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "70.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.0}/94.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Token Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 88.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.1/88.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.8/-"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "mnli subset",
+          "value": "m",
+          "quote": "m/mm",
+          "locator": "header_MNLI",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "SST"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 95.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 91.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 93.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 83.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "XLNet"
+      },
+      "task": {
+        "name": "Sequence Classification Tasks"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 89.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "",
+        "locator": "not stated",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "method": true,
+        "datasets": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 40.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Lead-3                    & 40.42"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Lead-3",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 17.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.42     & 17.62"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Lead-3",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 36.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.62     & 36.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Lead-3",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 16.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.67            & 16.30"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Lead-3",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 1.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.30  & 1.60"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Lead-3",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lead-3"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 11.95,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "1.60   & 11.95"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Lead-3",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 36.44,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN \\cite{see:2017}     & 36.44"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN \\cite{see:2017}",
+        "locator": "row_2",
+        "reference": "see:2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 15.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.44     & 15.66"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN \\cite{see:2017}",
+        "locator": "row_2",
+        "reference": "see:2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 33.42,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "15.66     & 33.42"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN \\cite{see:2017}",
+        "locator": "row_2",
+        "reference": "see:2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "33.42            & 29.70"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PTGEN \\cite{see:2017}",
+        "locator": "row_PTGEN",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 9.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "29.70  & 9.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PTGEN \\cite{see:2017}",
+        "locator": "row_PTGEN",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 23.24,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.21   & 23.24"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PTGEN \\cite{see:2017}",
+        "locator": "row_PTGEN",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 39.53,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "PTGEN+COV \\cite{see:2017} & 39.53"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN+COV \\cite{see:2017}",
+        "locator": "row_3",
+        "reference": "see:2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 17.28,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.53     & 17.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN+COV \\cite{see:2017}",
+        "locator": "row_3",
+        "reference": "see:2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 36.38,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.28     & 36.38"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "PTGEN+COV \\cite{see:2017}",
+        "locator": "row_3",
+        "reference": "see:2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 28.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "36.38            & 28.10"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PTGEN+COV \\cite{see:2017}",
+        "locator": "row_PTGEN+COV",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 8.02,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.10  & 8.02"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PTGEN+COV \\cite{see:2017}",
+        "locator": "row_PTGEN+COV",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "PTGEN+COV"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 21.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "8.02   & 21.72"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "PTGEN+COV \\cite{see:2017}",
+        "locator": "row_PTGEN+COV",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 43.33,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "UniLM                     &  43.33"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "UniLM",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 20.21,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "43.33    &  20.21"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "UniLM",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 40.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "20.21    & 40.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "UniLM",
+        "locator": "table",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 41.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMABS \\citep{bertsum}               & 41.72"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMABS \\citep{bertsum}",
+        "locator": "row_5",
+        "reference": "bertsum"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 19.39,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.72     & 19.39"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMABS \\citep{bertsum}",
+        "locator": "row_5",
+        "reference": "bertsum"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 38.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.39     & 38.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMABS \\citep{bertsum}",
+        "locator": "row_5",
+        "reference": "bertsum"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 38.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.76            &    38.76"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERTSUMABS \\citep{bertsum}",
+        "locator": "row_BERTSUMABS",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 16.33,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.76 & 16.33"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERTSUMABS \\citep{bertsum}",
+        "locator": "row_BERTSUMABS",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 31.15,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.33 & 31.15"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERTSUMABS \\citep{bertsum}",
+        "locator": "row_BERTSUMABS",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 42.13,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERTSUMEXTABS  \\citep{bertsum}            & 42.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMEXTABS  \\citep{bertsum}",
+        "locator": "row_6",
+        "reference": "bertsum"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 19.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "42.13     & 19.60"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMEXTABS  \\citep{bertsum}",
+        "locator": "row_6",
+        "reference": "bertsum"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 39.18,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.60     & 39.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "BERTSUMEXTABS  \\citep{bertsum}",
+        "locator": "row_6",
+        "reference": "bertsum"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 38.81,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.18            & 38.81"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERTSUMEXTABS  \\citep{bertsum}",
+        "locator": "row_BERTSUMEXTABS",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 16.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.81  & 16.50"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERTSUMEXTABS  \\citep{bertsum}",
+        "locator": "row_BERTSUMEXTABS",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 31.27,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.50  & 31.27"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "BERTSUMEXTABS  \\citep{bertsum}",
+        "locator": "row_BERTSUMEXTABS",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq + Attention"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 16.02,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Seq2Seq + Attention\t&   16.02"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Valid F1",
+        "locator": "header"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq + Attention",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq + Attention"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 35.07,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16.02            &       35.07"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Valid PPL",
+        "locator": "header"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid PPL",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Seq2Seq + Attention",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best System"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 19.09,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Best System         &   19.09"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Valid F1",
+        "locator": "header"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Best System",
+        "locator": "row_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best System"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 17.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.09            &       17.51"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Valid PPL",
+        "locator": "header"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid PPL",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "Best System",
+        "locator": "row_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bidirectional and Auto-Regressive Transformers"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 20.72,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BART                 &  \\textbf{20.72}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Valid F1",
+        "locator": "header"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid F1",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Bidirectional and Auto-Regressive Transformers"
+      },
+      "task": {
+        "name": "abstractive dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 11.85,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{20.72}            &     \\textbf{11.85}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "Valid PPL",
+        "locator": "header"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Valid PPL",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 23.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Best Extractive      &   23.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 3.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "23.5           &   3.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 17.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "3.1           &   17.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 27.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Language Model       &    27.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 4.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "27.8          &     4.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 23.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "4.7         &    23.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 28.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Seq2Seq              &    28.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 5.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.3          &     5.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 22.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5.1         &   22.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq Multitask"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 28.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Seq2Seq Multitask    &     28.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq Multitask"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 5.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.9         &        5.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Seq2Seq Multitask"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 23.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5.4      &     23.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Comparison models are from [cite].",
+        "locator": "caption",
+        "reference": "cite"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bidirectional and Auto-Regressive Transformers"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R1",
+          "value": 30.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{30.6}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART achieves state-of-the-art results",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bidirectional and Auto-Regressive Transformers"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R2",
+          "value": 6.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{ 6.2  }"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART achieves state-of-the-art results",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "Bidirectional and Auto-Regressive Transformers"
+      },
+      "task": {
+        "name": "abstractive question answering"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RL",
+          "value": 24.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{24.3 }"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "BART achieves state-of-the-art results",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8",
+      "_context_miss": {
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "back-translation MT baseline"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English benchmark"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Baseline& 36.80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our results against a baseline Transformer architecture [cite] with Transformer-large settings (the baseline row).",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data augmentation",
+          "value": "back-translation data",
+          "quote": "augmented with back-translation data",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "beam width",
+          "value": "5",
+          "quote": "We use a beam width of 5",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "length penalty",
+          "value": "1",
+          "quote": "a length penalty of $ = 1$",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "Fixed BART"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English benchmark"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.29,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Fixed BART & 36.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We show the performance of both steps of our model in the fixed BART and tuned BART rows.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data augmentation",
+          "value": "back-translation data",
+          "quote": "augmented with back-translation data",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "beam width",
+          "value": "5",
+          "quote": "We use a beam width of 5",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "length penalty",
+          "value": "1",
+          "quote": "a length penalty of $ = 1$",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Tuned BART"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT Romanian-English benchmark"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 37.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Tuned BART & \\textbf{37.96}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We show the performance of both steps of our model in the fixed BART and tuned BART rows.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "data augmentation",
+          "value": "back-translation data",
+          "quote": "augmented with back-translation data",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "beam width",
+          "value": "5",
+          "quote": "We use a beam width of 5",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "length penalty",
+          "value": "1",
+          "quote": "a length penalty of $ = 1$",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9",
+      "_context_miss": {
+        "method": true
+      }
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "openai",
+    "model": "openai/gpt-6.1-terra-pro",
+    "n_tables_all": 10,
+    "n_results_tables_loose": 9,
+    "tables_completed": 9,
+    "calls": 27,
+    "cost_usd": 1.1504630000000002,
+    "tokens_in": 370343,
+    "tokens_out": 156024,
+    "context_pass_cost": 0.05938
+  }
+}

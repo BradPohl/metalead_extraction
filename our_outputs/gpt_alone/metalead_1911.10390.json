@@ -1,0 +1,5074 @@
+{
+  "paper_id": "1911.10390",
+  "tuples": [
+    {
+      "method": {
+        "name": "Best-first Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.07,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Best-first Search",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.07 & 20.28 & 36.49"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Best-first Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Best-first Search",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "39.07 & 20.28 & 36.49"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Best-first Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.49,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Best-first Search",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "20.28 & 36.49 & 61.27"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Best-first Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Best-first Search",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "20.28 & 36.49 & 61.27"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 38.87,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam Search",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "38.87 & 20.37 & 36.52"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam Search",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "38.87 & 20.37 & 36.52"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam Search",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "20.37 & 36.52 & 61.47"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam Search"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam Search",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "20.37 & 36.52 & 61.47"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+LengthNorm"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+LengthNorm",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.10 & 20.25 & 36.55"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+LengthNorm"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.25,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+LengthNorm",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "39.10 & 20.25 & 36.55"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+LengthNorm"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+LengthNorm",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "20.25 & 36.55 & 61.41"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+LengthNorm"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+LengthNorm",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "20.25 & 36.55 & 61.41"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+BPNorm (c=0.55)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+BPNorm (c=0.55)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{39.19} & 20.38"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+BPNorm (c=0.55)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+BPNorm (c=0.55)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{39.19} & 20.38"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+BPNorm (c=0.55)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+BPNorm (c=0.55)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.69} & 61.46"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+BPNorm (c=0.55)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.46,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+BPNorm (c=0.55)",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.69} & 61.46"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+SBWR (r=0.25)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.08,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+SBWR (r=0.25)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.08 & \\textbf{20.47}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+SBWR (r=0.25)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+SBWR (r=0.25)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "39.08 & \\textbf{20.47}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+SBWR (r=0.25)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+SBWR (r=0.25)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "36.68 & \\textbf{61.51}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Beam+SBWR (r=0.25)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "results from our system",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training configuration",
+          "value": "case g",
+          "quote": "using case g.",
+          "locator": "section_system_comparison"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Beam+SBWR (r=0.25)",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "36.68 & \\textbf{61.51}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.86,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PG Networks",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "PG Networks",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.86 & 19.51 & 36.61"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PG Networks",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "PG Networks",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "39.86 & 19.51 & 36.61"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.61,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PG Networks",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "PG Networks",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.51 & 36.61 & 62.01"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 62.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PG Networks",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "PG Networks",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "19.51 & 36.61 & 62.01"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Rel."
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 40.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Struct+2Way+Rel.",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Struct+2Way+Rel.",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "40.54 & 20.44 & 37.40"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Rel."
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 20.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Struct+2Way+Rel.",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Struct+2Way+Rel.",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "40.54 & 20.44 & 37.40"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Rel."
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 37.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Struct+2Way+Rel.",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Struct+2Way+Rel.",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "20.44 & 37.40 & 62.05"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Rel."
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 62.05,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Struct+2Way+Rel.",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Struct+2Way+Rel.",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "20.44 & 37.40 & 62.05"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 43.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (pure-ext)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "43.21 & 21.81 & 40.05"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 21.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (pure-ext)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "43.21 & 21.81 & 40.05"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 40.05,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (pure-ext)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "21.81 & 40.05 & 63.68"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 63.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (pure-ext)",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "21.81 & 40.05 & 63.68"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 45.93,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (best-abs)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{45.93} & \\textbf{24.14}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 24.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (best-abs)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{45.93} & \\textbf{24.14}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 42.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (best-abs)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{42.51} & \\textbf{66.20}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 66.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Newsroom",
+          "quote": "top four systems are trained on Newsroom training data",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Newsroom / Ours (best-abs)",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "\\textbf{42.51} & \\textbf{66.20}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 39.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (pure-ext)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.44 & 17.32 & 36.10"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 17.32,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (pure-ext)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "39.44 & 17.32 & 36.10"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (pure-ext)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "17.32 & 36.10 & 61.00"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 61.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case e",
+          "quote": "pure-extract, case e.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (pure-ext)",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "17.32 & 36.10 & 61.00"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 40.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (best-abs)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{40.89} & \\textbf{19.11}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.11,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (best-abs)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{40.89} & \\textbf{19.11}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 37.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (best-abs)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{37.60} & \\textbf{62.74}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Newsroom"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 62.74,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Newsroom test set",
+        "locator": "caption_tab:results_newsroom"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:results_newsroom"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training data",
+          "value": "Gigaword",
+          "quote": "bottom two systems are trained on Gigaword",
+          "locator": "caption_tab:results_newsroom"
+        },
+        {
+          "name": "training configuration",
+          "value": "case f",
+          "quote": "best-abstract, case f.",
+          "locator": "section_domain_adaptation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_newsroom",
+        "row_label": "Giga / Ours (best-abs)",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "\\textbf{37.60} & \\textbf{62.74}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "lvt5k-1sent"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 35.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "lvt5k-1sent",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "lvt5k-1sent",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "35.30 & {16.64} & 32.62"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "lvt5k-1sent"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 16.64,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "lvt5k-1sent",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "lvt5k-1sent",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "35.30 & {16.64} & 32.62"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "lvt5k-1sent"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 32.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "lvt5k-1sent",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "lvt5k-1sent",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "35.30 & {16.64} & 32.62"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Multi-Task w/ Entailment"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 32.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Multi-Task w/ Entailment",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Multi-Task w/ Entailment",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "32.75 & {15.35} & 30.82"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Multi-Task w/ Entailment"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 15.35,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Multi-Task w/ Entailment",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Multi-Task w/ Entailment",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "32.75 & {15.35} & 30.82"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Multi-Task w/ Entailment"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 30.82,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Multi-Task w/ Entailment",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Multi-Task w/ Entailment",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "32.75 & {15.35} & 30.82"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "SEASS"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 36.15,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SEASS",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "SEASS",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "36.15 & 17.54 & 33.63"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "SEASS"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 17.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SEASS",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "SEASS",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "36.15 & 17.54 & 33.63"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "SEASS"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 33.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "SEASS",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "SEASS",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "36.15 & 17.54 & 33.63"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "DRGD"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 36.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "DRGD",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "DRGD",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "36.27 & 17.57 & 33.62"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "DRGD"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 17.57,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "DRGD",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "DRGD",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "36.27 & 17.57 & 33.62"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "DRGD"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 33.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "DRGD",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "DRGD",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "36.27 & 17.57 & 33.62"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "EntailGen+QuesGen"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 35.98,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "EntailGen+QuesGen",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "EntailGen+QuesGen",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "35.98 & 17.76 & 33.63"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "EntailGen+QuesGen"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 17.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "EntailGen+QuesGen",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "EntailGen+QuesGen",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "35.98 & 17.76 & 33.63"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "EntailGen+QuesGen"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 33.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "EntailGen+QuesGen",
+        "locator": "tab:results_gigaword"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "EntailGen+QuesGen",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "35.98 & 17.76 & 33.63"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 34.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "PG Networks",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "34.19 & 16.92 & 31.81"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 16.92,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "PG Networks",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "34.19 & 16.92 & 31.81"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 31.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "PG Networks",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "16.92 & 31.81 & 58.32"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 58.32,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "PG Networks",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "16.92 & 31.81 & 58.32"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 35.61,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Struct+2Way+Relation",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "35.61 & 18.02 & 33.45"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 18.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Struct+2Way+Relation",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "35.61 & 18.02 & 33.45"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 33.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Struct+2Way+Relation",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "18.02 & 33.45 & 58.84"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Struct+2Way+Relation"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 58.84,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "Struct+2Way+Relation",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "18.02 & 33.45 & 58.84"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 36.36,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "R3Sum",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "36.36 & 18.23 & 33.85"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 18.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "R3Sum",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "36.36 & 18.23 & 33.85"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 33.85,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "R3Sum",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "18.23 & 33.85 & 56.74"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 56.74,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "R3Sum",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "18.23 & 33.85 & 56.74"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-1",
+          "value": 38.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "BiSET",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "38.45 & 19.53 & 36.04"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-2",
+          "value": 19.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "BiSET",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "38.45 & 19.53 & 36.04"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "R-L",
+          "value": 36.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "BiSET",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "19.53 & 36.04 & 57.10"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bert-S",
+          "value": 57.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Gigaword test set",
+        "locator": "caption_tab:results_gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Output summaries from the last four systems are graciously provided to us by the authors.",
+        "locator": "section_system_comparison"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:results_gigaword",
+        "row_label": "BiSET",
+        "column_label": "Bert-S",
+        "sentence": null,
+        "quoted_span": "19.53 & 36.04 & 57.10"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inform.",
+          "value": 2.801,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Human",
+        "column_label": "Inform.",
+        "sentence": null,
+        "quoted_span": "2.801 & 2.831 & 2.778"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Gramm.",
+          "value": 2.831,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Human",
+        "column_label": "Gramm.",
+        "sentence": null,
+        "quoted_span": "2.801 & 2.831 & 2.778"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Truthful.",
+          "value": 2.778,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Human",
+        "column_label": "Truthful.",
+        "sentence": null,
+        "quoted_span": "2.831 & 2.778 & -0.001"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Human"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bst-Wst",
+          "value": -0.001,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Human",
+        "column_label": "Bst-Wst",
+        "sentence": null,
+        "quoted_span": "2.831 & 2.778 & -0.001"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inform.",
+          "value": 2.768,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "PG Networks",
+        "column_label": "Inform.",
+        "sentence": null,
+        "quoted_span": "2.768 & 2.697 & 2.678"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Gramm.",
+          "value": 2.697,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "PG Networks",
+        "column_label": "Gramm.",
+        "sentence": null,
+        "quoted_span": "2.768 & 2.697 & 2.678"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Truthful.",
+          "value": 2.678,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "PG Networks",
+        "column_label": "Truthful.",
+        "sentence": null,
+        "quoted_span": "2.697 & 2.678 & -0.058"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "PG Networks"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bst-Wst",
+          "value": -0.058,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "PG Networks",
+        "column_label": "Bst-Wst",
+        "sentence": null,
+        "quoted_span": "2.697 & 2.678 & -0.058"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inform.",
+          "value": 2.748,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "R3Sum",
+        "column_label": "Inform.",
+        "sentence": null,
+        "quoted_span": "2.748 & 2.680 & 2.709"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Gramm.",
+          "value": 2.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "R3Sum",
+        "column_label": "Gramm.",
+        "sentence": null,
+        "quoted_span": "2.748 & 2.680 & 2.709"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Truthful.",
+          "value": 2.709,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "R3Sum",
+        "column_label": "Truthful.",
+        "sentence": null,
+        "quoted_span": "2.680 & 2.709 & -0.009"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "R3Sum"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bst-Wst",
+          "value": -0.009,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "R3Sum",
+        "column_label": "Bst-Wst",
+        "sentence": null,
+        "quoted_span": "2.680 & 2.709 & -0.009"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inform.",
+          "value": 2.74,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "BiSET",
+        "column_label": "Inform.",
+        "sentence": null,
+        "quoted_span": "2.740 & 2.634 & 2.738"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Gramm.",
+          "value": 2.634,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "BiSET",
+        "column_label": "Gramm.",
+        "sentence": null,
+        "quoted_span": "2.740 & 2.634 & 2.738"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Truthful.",
+          "value": 2.738,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "BiSET",
+        "column_label": "Truthful.",
+        "sentence": null,
+        "quoted_span": "2.634 & 2.738 & -0.006"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "BiSET"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bst-Wst",
+          "value": -0.006,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Human assessment",
+        "locator": "caption_tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "BiSET",
+        "column_label": "Bst-Wst",
+        "sentence": null,
+        "quoted_span": "2.634 & 2.738 & -0.006"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inform.",
+          "value": 2.846,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (pure-ext)",
+        "column_label": "Inform.",
+        "sentence": null,
+        "quoted_span": "\\textbf{2.846} & 2.817"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Gramm.",
+          "value": 2.817,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (pure-ext)",
+        "column_label": "Gramm.",
+        "sentence": null,
+        "quoted_span": "2.817 & 2.785 & 0.032"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Truthful.",
+          "value": 2.785,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (pure-ext)",
+        "column_label": "Truthful.",
+        "sentence": null,
+        "quoted_span": "2.817 & 2.785 & 0.032"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (pure-ext)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bst-Wst",
+          "value": 0.032,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (pure-ext)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (pure-ext)",
+        "column_label": "Bst-Wst",
+        "sentence": null,
+        "quoted_span": "2.817 & 2.785 & 0.032"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inform.",
+          "value": 2.843,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (best-abs)",
+        "column_label": "Inform.",
+        "sentence": null,
+        "quoted_span": "2.843 & \\textbf{2.855}"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Gramm.",
+          "value": 2.855,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (best-abs)",
+        "column_label": "Gramm.",
+        "sentence": null,
+        "quoted_span": "2.843 & \\textbf{2.855}"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Truthful.",
+          "value": 2.865,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (best-abs)",
+        "column_label": "Truthful.",
+        "sentence": null,
+        "quoted_span": "\\textbf{2.865} & \\textbf{0.042}"
+      },
+      "confidence": 0.83
+    },
+    {
+      "method": {
+        "name": "Ours (best-abs)"
+      },
+      "task": {
+        "name": "sentence summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bst-Wst",
+          "value": 0.042,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Ours (best-abs)",
+        "locator": "tab:human_giga"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:human_giga",
+        "row_label": "Ours (best-abs)",
+        "column_label": "Bst-Wst",
+        "sentence": null,
+        "quoted_span": "\\textbf{2.865} & \\textbf{0.042}"
+      },
+      "confidence": 0.83
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      99
+    ],
+    "tokens_in": 77492,
+    "tokens_out": 32821,
+    "cost_usd": 0.241597
+  }
+}

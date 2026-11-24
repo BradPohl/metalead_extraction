@@ -1,0 +1,2916 @@
+{
+  "paper_id": "1806.03489",
+  "tuples": [
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption_table_tab.dev"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "compared to the results reported in \\cite{chiu2015named}",
+        "locator": "caption_table_tab.dev"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab.dev",
+        "row_label": "chiu2015named",
+        "column_label": "CoNLL",
+        "sentence": null,
+        "quoted_span": "94.03 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.57,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption_table_tab.dev"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "compared to the results reported in \\cite{chiu2015named}",
+        "locator": "caption_table_tab.dev"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab.dev",
+        "row_label": "chiu2015named",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "84.57 ($\\pm$ 0.27)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption_table_tab.dev"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our final models",
+        "locator": "section_5.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "mean as well as the standard deviation over five runs",
+          "locator": "section_5.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab.dev",
+        "row_label": "Our model",
+        "column_label": "CoNLL",
+        "sentence": null,
+        "quoted_span": "94.80 ($\\pm$ 0.10)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Our model"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 scores",
+        "locator": "caption_table_tab.dev"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our final models",
+        "locator": "section_5.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "mean as well as the standard deviation over five runs",
+          "locator": "section_5.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab.dev",
+        "row_label": "Our model",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.44 ($\\pm$ 0.14)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "finkel2005incorporating"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.86,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "finkel2005incorporating",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "finkel2005incorporating",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 86.86 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ratinov2009design"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ratinov2009design",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "ratinov2009design",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 90.88 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "lin2009phrase"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lin2009phrase",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "lin2009phrase",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 90.90\\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "luo-2015"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo-2015",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "luo-2015",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 91.20 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "collobert2011natural"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "collobert2011natural",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "collobert2011natural",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 89.56\\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "huang2015bidirectional"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "huang2015bidirectional",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "huang2015bidirectional",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 90.10\\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "lample2016neural"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lample2016neural",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "lample2016neural",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 90.94 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ma2016end"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ma2016end",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "ma2016end",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 91.21\\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "shen2017deep"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "shen2017deep",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "shen2017deep",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 90.89 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "strubell2017fast"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "strubell2017fast",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "strubell2017fast",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 90.54 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "tran2017named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "tran2017named",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "tran2017named",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 91.69 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "liu2017empower"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.71,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2017empower",
+        "quote": "the figures are those published by the authors",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "liu2017empower",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "&  91.71 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model's performance",
+        "locator": "section_5.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "GAZ(LS)+CAP+EMB(SSKIP)+CHE",
+          "quote": "In addition to the \\lr{} vector",
+          "locator": "section_4.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:conll.res",
+        "row_label": "This work",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& \\bf 91.73 \\\\"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "tran2017named (architecture similar to ours)"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\conll{} test set",
+        "locator": "caption_table_tab:conll.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "tran2017named",
+        "quote": "They report a performance of 90.43",
+        "locator": "section_5.4_paragraph_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "They report a performance of 90.43 when using an architecture similar to ours.",
+        "quoted_span": "report a performance of 90.43"
+      },
+      "confidence": 0.7
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "finkel2009joint",
+        "quote": "performance reported by others",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "finkel2009joint",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 82.42 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ratinov2009design"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "RedmanSaRo17",
+        "quote": "Results as reported in \\cite{RedmanSaRo17}",
+        "locator": "footnote_table_tab:onto.res"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "ratinov2009design",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 84.88 \\\\"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "passos2014lexicon"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "passos2014lexicon",
+        "quote": "performance reported by others",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "passos2014lexicon",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 82.24 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014joint",
+        "quote": "performance reported by others",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "durrett2014joint",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 84.04 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "performance reported by others",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "chiu2015named",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 86.28 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "shen2017deep"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "shen2017deep",
+        "quote": "performance reported by others",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "shen2017deep",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 86.52 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "strubell2017fast"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.99,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "strubell2017fast",
+        "quote": "performance reported by others",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "strubell2017fast",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& 86.99 \\\\"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.95,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "F1 scores on the \\onto{} test set",
+        "locator": "caption_table_tab:onto.res"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "F1 score of our system",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.res",
+        "row_label": "This work",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "& \\bf 87.95 \\\\"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 78.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast conversation",
+          "quote": "BC = broadcast conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "finkel2009joint",
+        "column_label": "BC",
+        "sentence": null,
+        "quoted_span": "& 78.66 & 87.29 & 82.45"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BN)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.29,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast news",
+          "quote": "BN = broadcast news",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "finkel2009joint",
+        "column_label": "BN",
+        "sentence": null,
+        "quoted_span": "& 78.66 & 87.29 & 82.45"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (MZ)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "magazine",
+          "quote": "MZ = magazine",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "finkel2009joint",
+        "column_label": "MZ",
+        "sentence": null,
+        "quoted_span": "& 82.45 & 85.50 & 67.27"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (NW)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "newswire",
+          "quote": "NW = newswire",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "finkel2009joint",
+        "column_label": "NW",
+        "sentence": null,
+        "quoted_span": "& 82.45 & 85.50 & 67.27"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (TC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 67.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "telephone conversation",
+          "quote": "TC = telephone conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "finkel2009joint",
+        "column_label": "TC",
+        "sentence": null,
+        "quoted_span": "& 85.50 & 67.27 & 72.56"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "finkel2009joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (WB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 72.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "blogs and newsgroups",
+          "quote": "WB = blogs and newsgroups",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "finkel2009joint",
+        "column_label": "WB",
+        "sentence": null,
+        "quoted_span": "& 85.50 & 67.27 & 72.56"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 78.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast conversation",
+          "quote": "BC = broadcast conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "durrett2014joint",
+        "column_label": "BC",
+        "sentence": null,
+        "quoted_span": "& 78.88 & 87.39 & 82.46"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BN)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast news",
+          "quote": "BN = broadcast news",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "durrett2014joint",
+        "column_label": "BN",
+        "sentence": null,
+        "quoted_span": "& 78.88 & 87.39 & 82.46"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (MZ)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.46,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "magazine",
+          "quote": "MZ = magazine",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "durrett2014joint",
+        "column_label": "MZ",
+        "sentence": null,
+        "quoted_span": "& 82.46 & 87.60 & 72.68"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (NW)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "newswire",
+          "quote": "NW = newswire",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "durrett2014joint",
+        "column_label": "NW",
+        "sentence": null,
+        "quoted_span": "& 82.46 & 87.60 & 72.68"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (TC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 72.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "telephone conversation",
+          "quote": "TC = telephone conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "durrett2014joint",
+        "column_label": "TC",
+        "sentence": null,
+        "quoted_span": "& 87.60 & 72.68 & 76.17"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "durrett2014joint"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (WB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "blogs and newsgroups",
+          "quote": "WB = blogs and newsgroups",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "durrett2014joint",
+        "column_label": "WB",
+        "sentence": null,
+        "quoted_span": "& 87.60 & 72.68 & 76.17"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast conversation",
+          "quote": "BC = broadcast conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "chiu2015named",
+        "column_label": "BC",
+        "sentence": null,
+        "quoted_span": "& 85.23 & 89.93 & 84.45"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BN)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.93,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast news",
+          "quote": "BN = broadcast news",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "chiu2015named",
+        "column_label": "BN",
+        "sentence": null,
+        "quoted_span": "& 85.23 & 89.93 & 84.45"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (MZ)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "magazine",
+          "quote": "MZ = magazine",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "chiu2015named",
+        "column_label": "MZ",
+        "sentence": null,
+        "quoted_span": "& 84.45 & 88.39 & 72.39"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (NW)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "newswire",
+          "quote": "NW = newswire",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "chiu2015named",
+        "column_label": "NW",
+        "sentence": null,
+        "quoted_span": "& 84.45 & 88.39 & 72.39"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (TC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 72.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "telephone conversation",
+          "quote": "TC = telephone conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "chiu2015named",
+        "column_label": "TC",
+        "sentence": null,
+        "quoted_span": "& 88.39 & 72.39 & 78.38"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "chiu2015named"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (WB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 78.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2015named",
+        "quote": "numbers taken from \\newcite{chiu2015named}",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "blogs and newsgroups",
+          "quote": "WB = blogs and newsgroups",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "chiu2015named",
+        "column_label": "WB",
+        "sentence": null,
+        "quoted_span": "& 88.39 & 72.39 & 78.38"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We further detail the gains we observed",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast conversation",
+          "quote": "BC = broadcast conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "This work",
+        "column_label": "BC",
+        "sentence": null,
+        "quoted_span": "\\bf 86.33 & \\bf 90.46"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (BN)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.46,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We further detail the gains we observed",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "broadcast news",
+          "quote": "BN = broadcast news",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "This work",
+        "column_label": "BN",
+        "sentence": null,
+        "quoted_span": "\\bf 90.46 & \\bf 85.91"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (MZ)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.91,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We further detail the gains we observed",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "magazine",
+          "quote": "MZ = magazine",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "This work",
+        "column_label": "MZ",
+        "sentence": null,
+        "quoted_span": "\\bf 85.91 & \\bf 89.75"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (NW)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We further detail the gains we observed",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "newswire",
+          "quote": "NW = newswire",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "This work",
+        "column_label": "NW",
+        "sentence": null,
+        "quoted_span": "\\bf 89.75 & \\bf 75.41"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (TC)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 75.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We further detail the gains we observed",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "telephone conversation",
+          "quote": "TC = telephone conversation",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "This work",
+        "column_label": "TC",
+        "sentence": null,
+        "quoted_span": "\\bf 75.41 & \\bf 80.39"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "This work"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0 (WB)"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 80.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "each sub-collection of texts in the test set",
+        "locator": "section_5.5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Per-genre F1 scores",
+        "locator": "caption_table_tab:onto.genre"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We further detail the gains we observed",
+        "locator": "section_5.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "genre",
+          "value": "blogs and newsgroups",
+          "quote": "WB = blogs and newsgroups",
+          "locator": "caption_table_tab:onto.genre"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:onto.genre",
+        "row_label": "This work",
+        "column_label": "WB",
+        "sentence": null,
+        "quoted_span": "\\bf 75.41 & \\bf 80.39"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "SSKIP"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Standard deviation on the test set is reported in Table",
+        "locator": "footnote_section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "for each feature configuration, the average F1 score",
+        "locator": "section_5.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "SSKIP + char + capitalization",
+          "quote": "both character and capitalization features are used in all configurations",
+          "locator": "section_5.6"
+        },
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "standard deviation over five runs",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ablation",
+        "row_label": "SSKIP",
+        "column_label": "CoNLL",
+        "sentence": null,
+        "quoted_span": "90.52 ($\\pm$ 0.18)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "SSKIP"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.57,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Standard deviation on the test set is reported in Table",
+        "locator": "footnote_section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "for each feature configuration, the average F1 score",
+        "locator": "section_5.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "SSKIP + char + capitalization",
+          "quote": "both character and capitalization features are used in all configurations",
+          "locator": "section_5.6"
+        },
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "standard deviation over five runs",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ablation",
+        "row_label": "SSKIP",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.57 ($\\pm$ 0.10)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LS"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Standard deviation on the test set is reported in Table",
+        "locator": "footnote_section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "for each feature configuration, the average F1 score",
+        "locator": "section_5.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "LS + char + capitalization",
+          "quote": "both character and capitalization features are used in all configurations",
+          "locator": "section_5.6"
+        },
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "standard deviation over five runs",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ablation",
+        "row_label": "LS",
+        "column_label": "CoNLL",
+        "sentence": null,
+        "quoted_span": "89.94 ($\\pm$ 0.16)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LS"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.92,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Standard deviation on the test set is reported in Table",
+        "locator": "footnote_section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "for each feature configuration, the average F1 score",
+        "locator": "section_5.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "LS + char + capitalization",
+          "quote": "both character and capitalization features are used in all configurations",
+          "locator": "section_5.6"
+        },
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "standard deviation over five runs",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ablation",
+        "row_label": "LS",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "85.92 ($\\pm$ 0.12)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "all"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Standard deviation on the test set is reported in Table",
+        "locator": "footnote_section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "for each feature configuration, the average F1 score",
+        "locator": "section_5.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "SSKIP + LS + char + capitalization",
+          "quote": "models that use both feature sets",
+          "locator": "section_5.6"
+        },
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "standard deviation over five runs",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ablation",
+        "row_label": "all",
+        "column_label": "CoNLL",
+        "sentence": null,
+        "quoted_span": "91.73  ($\\pm$ 0.10)"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "all"
+      },
+      "task": {
+        "name": "Named-Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.95,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Standard deviation on the test set is reported in Table",
+        "locator": "footnote_section_5.4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mention-level F1 score",
+        "locator": "section_5.1"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "for each feature configuration, the average F1 score",
+        "locator": "section_5.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "SSKIP + LS + char + capitalization",
+          "quote": "models that use both feature sets",
+          "locator": "section_5.6"
+        },
+        {
+          "name": "runs",
+          "value": "mean over 5 runs",
+          "quote": "standard deviation over five runs",
+          "locator": "section_5.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:ablation",
+        "row_label": "all",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "87.95 ($\\pm$ 0.13)"
+      },
+      "confidence": 0.85
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      56
+    ],
+    "tokens_in": 20498,
+    "tokens_out": 22361,
+    "cost_usd": 0.5292119999999999
+  }
+}

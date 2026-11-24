@@ -1,0 +1,1620 @@
+{
+  "paper_id": "2105.03654",
+  "tuples": [
+    {
+      "method": {
+        "name": "w/o Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-16"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 56.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "which is the baseline of our approaches",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/o Context}}",
+          "locator": "table_2"
+        },
+        {
+          "name": "backbone",
+          "value": "XLM-RoBERTa",
+          "quote": "use XLM-RoBERTa",
+          "locator": "section_3.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/o Context",
+        "column_label": "WNUT-16",
+        "sentence": null,
+        "quoted_span": "56.04 & 57.86 & 93.03"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "w/o Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-17"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 57.86,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "which is the baseline of our approaches",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/o Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/o Context",
+        "column_label": "WNUT-17",
+        "sentence": null,
+        "quoted_span": "56.04 & 57.86 & 93.03"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "w/o Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-03"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard dataset split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "which is the baseline of our approaches",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/o Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/o Context",
+        "column_label": "CoNLL-03",
+        "sentence": null,
+        "quoted_span": "56.04 & 57.86 & 93.03"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "w/o Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL++"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard dataset split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "which is the baseline of our approaches",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/o Context",
+        "column_label": "CoNLL++",
+        "sentence": null,
+        "quoted_span": "93.03 & 94.20 & 90.52"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "w/o Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "BC5CDR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We merge the training and development data as training set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "which is the baseline of our approaches",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "backbone",
+          "value": "Bio-BERT",
+          "quote": "we use pretrained Bio-BERT",
+          "locator": "section_3.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/o Context",
+        "column_label": "BC5CDR",
+        "sentence": null,
+        "quoted_span": "94.20 & 90.52 & 88.65"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "w/o Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "NCBI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.65,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We merge the training and development data as training set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "which is the baseline of our approaches",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/o Context",
+        "column_label": "NCBI",
+        "sentence": null,
+        "quoted_span": "90.52 & 88.65 & 81.47"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "w/o Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "E-commerce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "5,000 & 5,000",
+        "locator": "table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "which is the baseline of our approaches",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/o Context",
+        "column_label": "E-commerce",
+        "sentence": null,
+        "quoted_span": "88.65 & 81.47"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LUKE"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-16"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 54.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "yamada-etal-2020-luke",
+        "quote": "We use the same parameter setting as",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input",
+          "value": "single sentence",
+          "quote": "use a single sentence as the input",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LUKE",
+        "column_label": "WNUT-16",
+        "sentence": null,
+        "quoted_span": "54.04 & 55.22 & 92.42"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LUKE"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-17"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 55.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "yamada-etal-2020-luke",
+        "quote": "We use the same parameter setting as",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LUKE",
+        "column_label": "WNUT-17",
+        "sentence": null,
+        "quoted_span": "54.04 & 55.22 & 92.42"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LUKE"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-03"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard dataset split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "yamada-etal-2020-luke",
+        "quote": "We use the same parameter setting as",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LUKE",
+        "column_label": "CoNLL-03",
+        "sentence": null,
+        "quoted_span": "55.22 & 92.42 & 93.99"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LUKE"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL++"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.99,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard dataset split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "yamada-etal-2020-luke",
+        "quote": "We use the same parameter setting as",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LUKE",
+        "column_label": "CoNLL++",
+        "sentence": null,
+        "quoted_span": "92.42 & 93.99 & 89.18"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LUKE"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "BC5CDR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.18,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We merge the training and development data as training set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "yamada-etal-2020-luke",
+        "quote": "We use the same parameter setting as",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LUKE",
+        "column_label": "BC5CDR",
+        "sentence": null,
+        "quoted_span": "93.99 & 89.18 & 87.62"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LUKE"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "NCBI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We merge the training and development data as training set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "yamada-etal-2020-luke",
+        "quote": "We use the same parameter setting as",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LUKE",
+        "column_label": "NCBI",
+        "sentence": null,
+        "quoted_span": "89.18 & 87.62 & 77.64"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "LUKE"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "E-commerce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 77.64,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "5,000 & 5,000",
+        "locator": "table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "yamada-etal-2020-luke",
+        "quote": "We use the same parameter setting as",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LUKE",
+        "column_label": "E-commerce",
+        "sentence": null,
+        "quoted_span": "87.62 & 77.64"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/o Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-16"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 58.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/o Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/o Context)",
+        "column_label": "WNUT-16",
+        "sentence": null,
+        "quoted_span": "58.14"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/o Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-17"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 59.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/o Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/o Context)",
+        "column_label": "WNUT-17",
+        "sentence": null,
+        "quoted_span": "59.33"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/o Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "NCBI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We merge the training and development data as training set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/o Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/o Context)",
+        "column_label": "NCBI",
+        "sentence": null,
+        "quoted_span": "\\textbf{89.24}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "w/ Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-17"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 60.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "training the NER model with external contexts",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/ Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "w/ Context",
+        "column_label": "WNUT-17",
+        "sentence": null,
+        "quoted_span": "60.20"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/ Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-16"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 58.98,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/ Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/ Context)",
+        "column_label": "WNUT-16",
+        "sentence": null,
+        "quoted_span": "\\textbf{58.98}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/ Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-17"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 60.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/ Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/ Context)",
+        "column_label": "WNUT-17",
+        "sentence": null,
+        "quoted_span": "\\textbf{60.45}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/ Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-03"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard dataset split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/ Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/ Context)",
+        "column_label": "CoNLL-03",
+        "sentence": null,
+        "quoted_span": "\\textbf{93.56}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/ Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL++"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard dataset split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/ Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/ Context)",
+        "column_label": "CoNLL++",
+        "sentence": null,
+        "quoted_span": "\\textbf{94.81}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-L2 (w/ Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "BC5CDR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.99,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We merge the training and development data as training set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/ Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-L2 (w/ Context)",
+        "column_label": "BC5CDR",
+        "sentence": null,
+        "quoted_span": "\\textbf{90.99}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL (w/ Context eval)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "E-commerce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.99,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "5,000 & 5,000",
+        "locator": "table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We propose two approaches for CL.",
+        "locator": "section_2.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "Evaluation: {\\sc \\textbf{w/ Context}}",
+          "locator": "table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "CL-KL (w/ Context)",
+        "column_label": "E-commerce",
+        "sentence": null,
+        "quoted_span": "\\textbf{83.99}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL"
+      },
+      "task": {
+        "name": "Cross-domain NER"
+      },
+      "datasets": [
+        {
+          "name": "CBS SciTech News"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The dataset only contains the test set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "The models are trained on the CoNLL-03 dataset.",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Approach & {\\sc \\textbf{w/o Context}}",
+          "locator": "table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "CL-KL",
+        "column_label": "w/o Context",
+        "sentence": null,
+        "quoted_span": "\\textbf{76.37}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL"
+      },
+      "task": {
+        "name": "Cross-domain NER"
+      },
+      "datasets": [
+        {
+          "name": "CBS SciTech News"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The dataset only contains the test set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "The models are trained on the CoNLL-03 dataset.",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "{\\sc \\textbf{w/ Context}}",
+          "locator": "table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "CL-KL",
+        "column_label": "w/ Context",
+        "sentence": null,
+        "quoted_span": "\\textbf{76.38}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL--L2+Semi"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "E-commerce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "5,000 & 5,000",
+        "locator": "table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Semi represents the approaches with semi-supervised learning",
+        "locator": "caption_table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/o Context",
+          "quote": "Approach & {\\sc \\textbf{w/o Context}}",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "CL--L2+Semi",
+        "column_label": "w/o Context",
+        "sentence": null,
+        "quoted_span": "\\textbf{82.88}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "CL-KL+Semi"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "E-commerce"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "5,000 & 5,000",
+        "locator": "table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Semi represents the approaches with semi-supervised learning",
+        "locator": "caption_table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "evaluation input",
+          "value": "w/ Context",
+          "quote": "{\\sc \\textbf{w/ Context}}",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "CL-KL+Semi",
+        "column_label": "w/ Context",
+        "sentence": null,
+        "quoted_span": "\\textbf{84.10}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "w/ Context (Random Data)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-17"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 47.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "A comparison among different contexts types.",
+        "locator": "caption_table_6"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "w/ Context (Random Data)",
+        "column_label": "WNUT-17",
+        "sentence": null,
+        "quoted_span": "(Random Data)} & 47.69"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "BS (BERTScore re-ranking)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "WNUT-17"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 (Best)",
+          "value": 62.29,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "by the F1 scores on WNUT-17",
+        "locator": "caption_table_5"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our results show that re-ranking with BERTScore performs the best",
+        "locator": "section_4.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "Best",
+        "column_label": "BS",
+        "sentence": null,
+        "quoted_span": "\\textbf{62.29}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "w/ Doc Context"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-03"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 94.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use the standard dataset split for these datasets.",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "entity-level F1 scores",
+        "locator": "section_3.2"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We conduct a comparison with these approaches in Appendix",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document-level",
+          "quote": "w/ Doc Context",
+          "locator": "appendix_table"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Appendix table",
+        "row_label": "w/ Doc Context",
+        "column_label": "CoNLL-03",
+        "sentence": null,
+        "quoted_span": "Doc Context}} & 94.12"
+      },
+      "confidence": 0.7
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      31
+    ],
+    "tokens_in": 21988,
+    "tokens_out": 11156,
+    "cost_usd": 0.311072
+  }
+}

@@ -1,0 +1,2256 @@
+{
+  "paper_id": "1905.12598",
+  "tuples": [
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 21.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We report our mean (STD) scores over 10 runs.",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "runs",
+          "value": "mean over 10 runs",
+          "quote": "mean (STD) scores over 10 runs",
+          "locator": "caption_table_1"
+        },
+        {
+          "name": "LM",
+          "value": "BERT with dynamic patterns",
+          "quote": "The addition of dynamic patterns contribute almost 2 additional points",
+          "locator": "section_3.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Ours",
+        "column_label": "FNMI",
+        "sentence": null,
+        "quoted_span": "21.4 \\small (0.5)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 64.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We report our mean (STD) scores over 10 runs.",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "runs",
+          "value": "mean over 10 runs",
+          "quote": "mean (STD) scores over 10 runs",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Ours",
+        "column_label": "FBC",
+        "sentence": null,
+        "quoted_span": "64.0 \\small  (0.5)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 37.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We report our mean (STD) scores over 10 runs.",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "runs",
+          "value": "mean over 10 runs",
+          "quote": "mean (STD) scores over 10 runs",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Ours",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "37.0 \\small (0.5)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Ours:ND"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 19.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ND: no dynamic patterns",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dynamic_patterns",
+          "value": "none",
+          "quote": "ND: no dynamic patterns",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Ours:ND",
+        "column_label": "FNMI",
+        "sentence": null,
+        "quoted_span": "19.3  \\small (0.7)"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ours:ND"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 63.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ND: no dynamic patterns",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dynamic_patterns",
+          "value": "none",
+          "quote": "ND: no dynamic patterns",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Ours:ND",
+        "column_label": "FBC",
+        "sentence": null,
+        "quoted_span": "63.6 \\small (0.2)"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ours:ND"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 35.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ND: no dynamic patterns",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dynamic_patterns",
+          "value": "none",
+          "quote": "ND: no dynamic patterns",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Ours:ND",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "35.1 \\small (0.6)"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "LSDP"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 11.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "amrami2018word",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "LSDP",
+        "column_label": "FNMI",
+        "sentence": null,
+        "quoted_span": "LSDP & 11.3  & 57.5 & 25.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LSDP"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 57.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "amrami2018word",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "LSDP",
+        "column_label": "FBC",
+        "sentence": null,
+        "quoted_span": "LSDP & 11.3  & 57.5 & 25.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LSDP"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 25.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "amrami2018word",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "LSDP",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "LSDP & 11.3  & 57.5 & 25.4"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 7.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hwang2019autosense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "AutoSense",
+        "column_label": "FNMI",
+        "sentence": null,
+        "quoted_span": "AutoSense & 7.96 &  61.7 & 22.16"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 61.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hwang2019autosense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "AutoSense",
+        "column_label": "FBC",
+        "sentence": null,
+        "quoted_span": "AutoSense & 7.96 &  61.7 & 22.16"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hwang2019autosense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "AutoSense",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "AutoSense & 7.96 &  61.7 & 22.16"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "MCC-S"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 7.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "komninos2016structured",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MCC-S",
+        "column_label": "FNMI",
+        "sentence": null,
+        "quoted_span": "MCC-S & 7.62 & 55.6 & 20.58"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "MCC-S"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 55.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "komninos2016structured",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MCC-S",
+        "column_label": "FBC",
+        "sentence": null,
+        "quoted_span": "MCC-S & 7.62 & 55.6 & 20.58"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "MCC-S"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 20.58,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "komninos2016structured",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MCC-S",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "MCC-S & 7.62 & 55.6 & 20.58"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ST(SW)"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 7.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ST(SW)",
+        "column_label": "FNMI",
+        "sentence": null,
+        "quoted_span": "ST(SW)& 7.14 & 55.4 & 19.89"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ST(SW)"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 55.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ST(SW)",
+        "column_label": "FBC",
+        "sentence": null,
+        "quoted_span": "ST(SW)& 7.14 & 55.4 & 19.89"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ST(SW)"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 19.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wang2015sense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ST(SW)",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "ST(SW)& 7.14 & 55.4 & 19.89"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AI-KU"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 6.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "baskaya2013ai",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "AI-KU",
+        "column_label": "FNMI",
+        "sentence": null,
+        "quoted_span": "AI-KU  & 6.5 & 39.0 & 15.92"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AI-KU"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 39.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "baskaya2013ai",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "AI-KU",
+        "column_label": "FBC",
+        "sentence": null,
+        "quoted_span": "AI-KU  & 6.5 & 39.0 & 15.92"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AI-KU"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013 Task 13"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 15.92,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2013 Task 13 Dataset",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "baskaya2013ai",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "AI-KU",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "AI-KU  & 6.5 & 39.0 & 15.92"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 71.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We report our mean (STD) scores over 10 runs.",
+        "locator": "caption_table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "clustering",
+          "value": "hard clustering via most probable sense",
+          "quote": "take the most probable sense for each instance",
+          "locator": "section_3.1_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Ours",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "71.3 \\small (0.1)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 40.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We report our mean (STD) scores over 10 runs.",
+        "locator": "caption_table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "clustering",
+          "value": "hard clustering via most probable sense",
+          "quote": "take the most probable sense for each instance",
+          "locator": "section_3.1_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Ours",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "40.4 \\small (1.8)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 53.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We report our mean (STD) scores over 10 runs.",
+        "locator": "caption_table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Ours",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "53.6 \\small (1.2)"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Ours:ND"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 70.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ND: no dynamic patterns",
+        "locator": "caption_table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dynamic_patterns",
+          "value": "none",
+          "quote": "ND: no dynamic patterns",
+          "locator": "caption_table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Ours:ND",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "70.9 \\small (0.4)"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ours:ND"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 37.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ND: no dynamic patterns",
+        "locator": "caption_table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dynamic_patterns",
+          "value": "none",
+          "quote": "ND: no dynamic patterns",
+          "locator": "caption_table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Ours:ND",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "37.8 \\small (1.5)"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ours:ND"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 51.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ND: no dynamic patterns",
+        "locator": "caption_table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dynamic_patterns",
+          "value": "none",
+          "quote": "ND: no dynamic patterns",
+          "locator": "caption_table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Ours:ND",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "51.7 \\small (1.2)"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 61.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hwang2019autosense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "AutoSense",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "AutoSense & 61.7 &  9.8 & 24.59"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hwang2019autosense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "AutoSense",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "AutoSense & 61.7 &  9.8 & 24.59"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "AutoSense"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 24.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hwang2019autosense",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "AutoSense",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "AutoSense & 61.7 &  9.8 & 24.59"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 55.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SE-WSI-fix",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "SE-WSI-fix &  55.1 & 9.8 & 23.24"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 9.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SE-WSI-fix",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "SE-WSI-fix &  55.1 & 9.8 & 23.24"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "SE-WSI-fix"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 23.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2016word",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SE-WSI-fix",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "SE-WSI-fix &  55.1 & 9.8 & 23.24"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 23.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "teh2005sharing",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BNP-HC",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "BNP-HC & 23.1 & 21.4 & 22.23"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 21.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "teh2005sharing",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BNP-HC",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "BNP-HC & 23.1 & 21.4 & 22.23"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BNP-HC"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 22.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "teh2005sharing",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "BNP-HC",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "BNP-HC & 23.1 & 21.4 & 22.23"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F-S",
+          "value": 60.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "blei2003latent",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LDA",
+        "column_label": "F-S",
+        "sentence": null,
+        "quoted_span": "LDA  & 60.7 & 4.4 & 16.34"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "V-M",
+          "value": 4.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "blei2003latent",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LDA",
+        "column_label": "V-M",
+        "sentence": null,
+        "quoted_span": "LDA  & 60.7 & 4.4 & 16.34"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "LDA"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2010 Task 14"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 16.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Evaluation Results on the SemEval 2010 Task 14 Dataset",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "blei2003latent",
+        "quote": "Numbers taken from the corresponding publications.",
+        "locator": "section_3.1_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "LDA",
+        "column_label": "AVG",
+        "sentence": null,
+        "quoted_span": "LDA  & 60.7 & 4.4 & 16.34"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Sense number prediction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "spearman rank correlation",
+          "value": 0.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our system results in a spearman rank correlation of 0.43",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "number_of_senses",
+          "value": "dynamic, upper bound 10",
+          "quote": "we use 10",
+          "locator": "section_3.2"
+        },
+        {
+          "name": "reference",
+          "value": "gold number of senses",
+          "quote": "with the gold number of senses on SemEval 2013",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Our system results in a spearman rank correlation of 0.43$\\pm$0.05 (all p-values $<$ 0.03) with the gold number of senses on SemEval 2013.",
+        "quoted_span": "spearman rank correlation of 0.43"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "Ours"
+      },
+      "task": {
+        "name": "Sense number prediction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "spearman rank correlation",
+          "value": 0.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our method spearman rank correlation to the number of senses in the NOAD labels is 0.44.",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "reference",
+          "value": "NOAD sense labels",
+          "quote": "number of senses in the NOAD labels",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Our method spearman rank correlation to the number of senses in the \\emph{NOAD} labels is 0.44.",
+        "quoted_span": "labels is 0.44"
+      },
+      "confidence": 0.7
+    },
+    {
+      "method": {
+        "name": "NOAD oracle mapping"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FNMI",
+          "value": 52.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "comparing the solution obtained by this oracle mapping",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "oracle",
+          "value": "WordNet to NOAD mapping",
+          "quote": "oracle mapping",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "As expected, comparing the solution obtained by this oracle mapping to the SemEval 2013 gold labels result in very high WSI scores (FNMI 52.1, FBC 84.7, AVG 66.4).",
+        "quoted_span": "FNMI 52.1, FBC 84.7"
+      },
+      "confidence": 0.7
+    },
+    {
+      "method": {
+        "name": "NOAD oracle mapping"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FBC",
+          "value": 84.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "comparing the solution obtained by this oracle mapping",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "oracle",
+          "value": "WordNet to NOAD mapping",
+          "quote": "oracle mapping",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "As expected, comparing the solution obtained by this oracle mapping to the SemEval 2013 gold labels result in very high WSI scores (FNMI 52.1, FBC 84.7, AVG 66.4).",
+        "quoted_span": "FBC 84.7,\nAVG 66.4"
+      },
+      "confidence": 0.65
+    },
+    {
+      "method": {
+        "name": "NOAD oracle mapping"
+      },
+      "task": {
+        "name": "Word Sense Induction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "AVG",
+          "value": 66.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "comparing the solution obtained by this oracle mapping",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "oracle",
+          "value": "WordNet to NOAD mapping",
+          "quote": "oracle mapping",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "As expected, comparing the solution obtained by this oracle mapping to the SemEval 2013 gold labels result in very high WSI scores (FNMI 52.1, FBC 84.7, AVG 66.4).",
+        "quoted_span": "AVG 66.4"
+      },
+      "confidence": 0.7
+    },
+    {
+      "method": {
+        "name": "NOAD oracle mapping"
+      },
+      "task": {
+        "name": "Sense number prediction"
+      },
+      "datasets": [
+        {
+          "name": "SemEval 2013"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "spearman rank correlation",
+          "value": 0.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "More interesting is the correlation of sense numbers: 0.47",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "More interesting is the correlation of sense numbers: 0.47, compared to 0.43 obtained by our method.",
+        "quoted_span": "correlation of sense numbers: 0.47"
+      },
+      "confidence": 0.6
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      45
+    ],
+    "tokens_in": 15886,
+    "tokens_out": 16644,
+    "cost_usd": 0.39642399999999994
+  }
+}

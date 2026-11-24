@@ -1,0 +1,19 @@
+\section{Related Works}
+\noindent\textbf{Intent Detection}
+With recent developments in deep neural networks, user intent detection models \citep{hu2009understanding,xu2013convolutional,zhang2016mining,liu2016attention,zhang2017bringing,chen2016end,xia2018zero} are proposed to classify user intents given their diversely expressed utterances in the natural language. As a text classification task, the decent performance on utterance-level intent detection usually relies on hidden representations that are learned in the intermediate layers via multiple non-linear transformations. 
+
+Recently, various capsule based text classification models are proposed that aggregate word-level features for utterance-level classification via dynamic routing-by-agreement \citep{gong2018information,zhao2018investigating,xia2018zero}. Among them, \citet{xia2018zero} adopts self-attention to extract intermediate semantic features and uses a capsule-based neural network for intent detection. 
+However, existing works do not study word-level supervisions for the slot filling task. In this work, we explicitly model the hierarchical relationship between words and slots on the word-level, as well as intents on the utterance-level via dynamic routing-by-agreement.
+
+\noindent\textbf{Slot Filling}
+Slot filling annotates the utterance with finer granularity: it associates certain parts of the utterance, usually named entities, with pre-defined slot tags. Currently, the slot filling is usually treated as a sequential labeling task. A recurrent neural network such as Gated Recurrent Unit (GRU) or Long Short-term Memory Network (LSTM) is used to learn context-aware word representations, and Conditional Random Fields (CRF) are used to annotate each word based on its slot type. Recently, \citet{shen2017disan, tan2017deep} introduce the self-attention mechanism for CRF-free sequential labeling.
+
+\noindent\textbf{Joint Modeling via Sequence Labeling}
+To overcome the error propagation in the word-level slot filling task and the utterance-level intent detection task in a pipeline, joint models are proposed to solve two tasks simultaneously in a unified framework.
+\citet{xu2013convolutional} propose a Convolution Neural Network (CNN) based sequential labeling model for slot filling. The hidden states corresponding to each word are summed up in a classification module to predict the utterance intent. A Conditional Random Field module ensures the best slot tag sequence of the utterance from all possible tag sequences.
+\citet{hakkani2016multi} adopt a Recurrent Neural Network (RNN) for slot filling and the last hidden state of the RNN is used to predict the utterance intent. 
+\citet{liu2016attention} further introduce an RNN based encoder-decoder model for joint slot filling and intent detection. An attention weighted sum of all encoded hidden states is used to predict the utterance intent.
+Some specific mechanisms are designed for RNNs to explicitly encode the slot from the utterance. For example, \citet{goo2018slot} utilize a slot-gated mechanism as a special gate function in Long Short-term Memory Network (LSTM) to improve slot filling by the learned intent context vector.
+However, as the sequence becomes longer, it is risky to simply rely on the gate function to sequentially summarize and compress all slots and context information in a single vector \cite{cheng2016long}.
+
+In this paper, we harness the capsule neural network to learn a hierarchy of feature detectors and explicitly model the hierarchical relationships among word-level slots and utterance-level intent. Also, instead of doing sequence labeling for slot filling, we use a dynamic routing-by-agreement schema between capsule layers to route each word in the utterance to its most appropriate slot type. And we further route slot representations, which are learned dynamically from words, to the most appropriate intent capsule for intent detection.

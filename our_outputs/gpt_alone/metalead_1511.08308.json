@@ -1,0 +1,4704 @@
+{
+  "paper_id": "1511.08308",
+  "tuples": [
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 89.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "collobert2011",
+        "quote": "We re-implemented the FFNN model of Collobert et al.",
+        "locator": "section_Comparison_with_FFNNs"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "emb~=~Collobert word embeddings, caps~=~capitalization feature, lex~=~lexicon features from both SENNA and DBpedia lexicons",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "FFNN + emb + caps + lex",
+        "column_label": "CoNLL-2003 Prec.",
+        "sentence": null,
+        "quoted_span": "89.54 & 89.80"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 89.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "collobert2011",
+        "quote": "We re-implemented the FFNN model of Collobert et al.",
+        "locator": "section_Comparison_with_FFNNs"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "table_main-result_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "FFNN + emb + caps + lex",
+        "column_label": "CoNLL-2003 Recall",
+        "sentence": null,
+        "quoted_span": "89.54 & 89.80 & 89.67"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "collobert2011",
+        "quote": "We re-implemented the FFNN model of Collobert et al.",
+        "locator": "section_Comparison_with_FFNNs"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "table_main-result_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "FFNN + emb + caps + lex",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "89.67 ($\\pm$ 0.24)"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 74.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "collobert2011",
+        "quote": "We re-implemented the FFNN model of Collobert et al.",
+        "locator": "section_Comparison_with_FFNNs"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "table_main-result_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "FFNN + emb + caps + lex",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "74.28 & 73.61"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 73.61,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "collobert2011",
+        "quote": "We re-implemented the FFNN model of Collobert et al.",
+        "locator": "section_Comparison_with_FFNNs"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "table_main-result_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "FFNN + emb + caps + lex",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "74.28 & 73.61 & 73.94"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "FFNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 73.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "collobert2011",
+        "quote": "We re-implemented the FFNN model of Collobert et al.",
+        "locator": "section_Comparison_with_FFNNs"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "FFNN + emb + caps + lex",
+          "locator": "table_main-result_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "FFNN + emb + caps + lex",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "73.94 ($\\pm$ 0.43)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 80.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none & 76.29",
+          "locator": "table_res-feat-no-cnn_row_none"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM",
+        "column_label": "CoNLL-2003 Prec.",
+        "sentence": null,
+        "quoted_span": "80.14 & 72.81"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 72.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none & 76.29",
+          "locator": "table_res-feat-no-cnn_row_none"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM",
+        "column_label": "CoNLL-2003 Recall",
+        "sentence": null,
+        "quoted_span": "80.14 & 72.81 & 76.29"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.29,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none & 76.29",
+          "locator": "table_res-feat-no-cnn_row_none"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "76.29 ($\\pm$ 0.29)"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 79.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none & 76.29",
+          "locator": "table_res-feat-no-cnn_row_none"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "79.68 & 75.97"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 75.97,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none & 76.29",
+          "locator": "table_res-feat-no-cnn_row_none"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "79.68 & 75.97 & 77.77"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 77.77,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "none & 76.29",
+          "locator": "table_res-feat-no-cnn_row_none"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "77.77 ($\\pm$ 0.37)"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 83.48,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "CoNLL-2003 Prec.",
+        "sentence": null,
+        "quoted_span": "83.48 & 83.28"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 83.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "CoNLL-2003 Recall",
+        "sentence": null,
+        "quoted_span": "83.48 & 83.28 & 83.38"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "83.38 ($\\pm$ 0.20)"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 82.58,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "82.58 & 82.49"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 82.49,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "82.58 & 82.49 & 82.53"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "none",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "82.53 ($\\pm$ 0.40)"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 90.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Collobert word embeddings",
+          "quote": "emb~=~Collobert word embeddings",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb",
+        "column_label": "CoNLL-2003 Prec.",
+        "sentence": null,
+        "quoted_span": "90.75 & 91.08"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.08,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Collobert word embeddings",
+          "quote": "emb~=~Collobert word embeddings",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb",
+        "column_label": "CoNLL-2003 Recall",
+        "sentence": null,
+        "quoted_span": "90.75 & 91.08 & 90.91"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.91,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Collobert word embeddings",
+          "quote": "emb~=~Collobert word embeddings",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "90.91 ($\\pm$ 0.20)"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 85.99,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Collobert word embeddings",
+          "quote": "emb~=~Collobert word embeddings",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "85.99 & 86.36"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 86.36,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Collobert word embeddings",
+          "quote": "emb~=~Collobert word embeddings",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "85.99 & 86.36 & 86.17"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Collobert word embeddings",
+          "quote": "emb~=~Collobert word embeddings",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "86.17 ($\\pm$ 0.22)"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 91.39,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "Collobert word embeddings; SENNA and DBpedia lexicons",
+          "quote": "emb~=~Collobert word embeddings",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb + lex",
+        "column_label": "CoNLL-2003 Prec.",
+        "sentence": null,
+        "quoted_span": "91.39 & \\bf 91.85"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.85,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "Collobert word embeddings; SENNA and DBpedia lexicons",
+          "quote": "lex~=~lexicon features from both SENNA and DBpedia lexicons",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb + lex",
+        "column_label": "CoNLL-2003 Recall",
+        "sentence": null,
+        "quoted_span": "91.39 & \\bf 91.85"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "Collobert word embeddings; SENNA and DBpedia lexicons",
+          "quote": "lex~=~lexicon features from both SENNA and DBpedia lexicons",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb + lex",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "91.62} ($\\pm$ 0.33)"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 86.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "Collobert word embeddings; SENNA and DBpedia lexicons",
+          "quote": "lex~=~lexicon features from both SENNA and DBpedia lexicons",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb + lex",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "86.04 & \\bf 86.53"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 86.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "Collobert word embeddings; SENNA and DBpedia lexicons",
+          "quote": "lex~=~lexicon features from both SENNA and DBpedia lexicons",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb + lex",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "86.04 & \\bf 86.53"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our models, published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "Collobert word embeddings; SENNA and DBpedia lexicons",
+          "quote": "lex~=~lexicon features from both SENNA and DBpedia lexicons",
+          "locator": "caption_table_main-result"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "BLSTM-CNN + emb + lex",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "86.28} ($\\pm$ 0.26)"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Collobert et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "collobert2011",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Collobert et al.",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "- & - & 88.67"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Collobert et al. + lexicon"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "collobert2011",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "lexicon",
+          "value": "lexicon",
+          "quote": "+ lexicon & - & - & 89.59",
+          "locator": "table_main-result_row_Collobert_lexicon"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Collobert et al. + lexicon",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "- & - & 89.59"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Huang et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "huang2015",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Huang et al.",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "- & - & 90.10"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ratinov and Roth"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ratinov2009",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Ratinov and Roth",
+        "column_label": "CoNLL-2003 Prec.",
+        "sentence": null,
+        "quoted_span": "91.20 & 90.50 & 90.80"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Ratinov and Roth"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 90.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ratinov2009",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Ratinov and Roth",
+        "column_label": "CoNLL-2003 Recall",
+        "sentence": null,
+        "quoted_span": "91.20 & 90.50 & 90.80"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Ratinov and Roth"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ratinov2009",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Ratinov and Roth",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "91.20 & 90.50 & 90.80"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ratinov and Roth"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 82.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "OntoNotes results taken from \\cite{durrett2014}",
+        "locator": "table_main-result_row_Ratinov_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014",
+        "quote": "OntoNotes results taken from \\cite{durrett2014}",
+        "locator": "table_main-result_row_Ratinov_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Ratinov and Roth",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "82.00 & 84.95 & 83.45"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ratinov and Roth"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 84.95,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "OntoNotes results taken from \\cite{durrett2014}",
+        "locator": "table_main-result_row_Ratinov_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014",
+        "quote": "OntoNotes results taken from \\cite{durrett2014}",
+        "locator": "table_main-result_row_Ratinov_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Ratinov and Roth",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "82.00 & 84.95 & 83.45"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ratinov and Roth"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "OntoNotes results taken from \\cite{durrett2014}",
+        "locator": "table_main-result_row_Ratinov_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014",
+        "quote": "OntoNotes results taken from \\cite{durrett2014}",
+        "locator": "table_main-result_row_Ratinov_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Ratinov and Roth",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "82.00 & 84.95 & 83.45"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Lin and Wu"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lin2009",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Lin and Wu",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "- & - & 90.90"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 84.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation on OntoNotes 5.0 done by Pradhan et al.",
+        "locator": "table_main-result_row_Finkel_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "pradhan2013",
+        "quote": "Evaluation on OntoNotes 5.0 done by Pradhan et al.",
+        "locator": "table_main-result_row_Finkel_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Finkel and Manning",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "84.04 & 80.86 & 82.42"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 80.86,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation on OntoNotes 5.0 done by Pradhan et al.",
+        "locator": "table_main-result_row_Finkel_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "pradhan2013",
+        "quote": "Evaluation on OntoNotes 5.0 done by Pradhan et al.",
+        "locator": "table_main-result_row_Finkel_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Finkel and Manning",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "84.04 & 80.86 & 82.42"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Finkel and Manning"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation on OntoNotes 5.0 done by Pradhan et al.",
+        "locator": "table_main-result_row_Finkel_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "pradhan2013",
+        "quote": "Evaluation on OntoNotes 5.0 done by Pradhan et al.",
+        "locator": "table_main-result_row_Finkel_footnote"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Finkel and Manning",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "84.04 & 80.86 & 82.42"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Suzuki et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "suzuki2011",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Suzuki et al.",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "- & - & 91.02"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Passos et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "passos2014",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Passos et al.",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "- & - & 90.90"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Passos et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "earlier version of the corpus with a different data split",
+        "locator": "table_main-result_row_Passos_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "passos2014",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "earlier corpus version with different split",
+          "quote": "earlier version of the corpus with a different data split",
+          "locator": "table_main-result_row_Passos_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Passos et al.",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "- & - & 82.24"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 85.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Durrett and Klein",
+        "column_label": "OntoNotes 5.0 Prec.",
+        "sentence": null,
+        "quoted_span": "85.22 & 82.89 & 84.04"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 82.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Durrett and Klein",
+        "column_label": "OntoNotes 5.0 Recall",
+        "sentence": null,
+        "quoted_span": "85.22 & 82.89 & 84.04"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014",
+        "quote": "compared to other published results",
+        "locator": "caption_table_main-result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Durrett and Klein",
+        "column_label": "OntoNotes 5.0 F1",
+        "sentence": null,
+        "quoted_span": "85.22 & 82.89 & 84.04"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Luo et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Prec.",
+          "value": 91.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo2015",
+        "quote": "Numbers taken from the original paper",
+        "locator": "table_main-result_row_Luo_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "reported inconsistency",
+          "value": "precision, recall, and F1 scores are inconsistent",
+          "quote": "the precision, recall, and F1 scores are clearly inconsistent",
+          "locator": "table_main-result_row_Luo_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Luo et al.",
+        "column_label": "CoNLL-2003 Prec.",
+        "sentence": null,
+        "quoted_span": "91.50 & 91.40 & 91.20"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Luo et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo2015",
+        "quote": "Numbers taken from the original paper",
+        "locator": "table_main-result_row_Luo_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "reported inconsistency",
+          "value": "precision, recall, and F1 scores are inconsistent",
+          "quote": "the precision, recall, and F1 scores are clearly inconsistent",
+          "locator": "table_main-result_row_Luo_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Luo et al.",
+        "column_label": "CoNLL-2003 Recall",
+        "sentence": null,
+        "quoted_span": "91.50 & 91.40 & 91.20"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Luo et al."
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "published non-neural network models",
+        "locator": "caption_table_main-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Prec. & \\bf Recall & \\bf F1",
+        "locator": "table_main-result_header"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo2015",
+        "quote": "Numbers taken from the original paper",
+        "locator": "table_main-result_row_Luo_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "reported inconsistency",
+          "value": "precision, recall, and F1 scores are inconsistent",
+          "quote": "the precision, recall, and F1 scores are clearly inconsistent",
+          "locator": "table_main-result_row_Luo_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:main-result",
+        "row_label": "Luo et al.",
+        "column_label": "CoNLL-2003 F1",
+        "sentence": null,
+        "quoted_span": "91.50 & 91.40 & 91.20"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 93.82,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Hyper-parameter optimization was done with the BLSTM-CNN + emb + lex feature set",
+        "locator": "section_Hyper-parameter_Optimization_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "optimization round",
+          "value": "1",
+          "quote": "1 & 93.82",
+          "locator": "table_hyperopt-result_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:hyperopt-result",
+        "row_label": "1",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "93.82 ($\\pm$ 0.15)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Hyper-parameter optimization was done with the BLSTM-CNN + emb + lex feature set",
+        "locator": "section_Hyper-parameter_Optimization_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "optimization round",
+          "value": "2",
+          "quote": "2 & {\\bf 94.03}",
+          "locator": "table_hyperopt-result_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:hyperopt-result",
+        "row_label": "2",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "94.03} ($\\pm$ 0.23)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 84.57,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Hyper-parameter optimization was done with the BLSTM-CNN + emb + lex feature set",
+        "locator": "section_Hyper-parameter_Optimization_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "optimization round",
+          "value": "1",
+          "quote": "1 & 93.82",
+          "locator": "table_hyperopt-result_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:hyperopt-result",
+        "row_label": "1",
+        "column_label": "OntoNotes 5.0",
+        "sentence": null,
+        "quoted_span": "84.57} ($\\pm$ 0.27)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 84.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Development set F1 score performance",
+        "locator": "caption_table_hyperopt-result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Hyper-parameter optimization was done with the BLSTM-CNN + emb + lex feature set",
+        "locator": "section_Hyper-parameter_Optimization_footnote"
+      },
+      "evaluation_setting": [
+        {
+          "name": "optimization round",
+          "value": "2",
+          "quote": "2 & {\\bf 94.03}",
+          "locator": "table_hyperopt-result_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:hyperopt-result",
+        "row_label": "2",
+        "column_label": "OntoNotes 5.0",
+        "sentence": null,
+        "quoted_span": "84.47 ($\\pm$ 0.29)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "on the OntoNotes dev set",
+        "locator": "section_Hyper-parameter_Optimization_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "selected the best settings based on development set performance",
+        "locator": "section_Hyper-parameter_Optimization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also tried tuning the CoNLL-2003 hyper-parameters from round 2 for OntoNotes",
+        "locator": "section_Hyper-parameter_Optimization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "hyperparameters",
+          "value": "CoNLL-2003 round 2 tuned for OntoNotes",
+          "quote": "tuning the CoNLL-2003 hyper-parameters from round 2 for OntoNotes",
+          "locator": "section_Hyper-parameter_Optimization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "The result is 84.41 ($\\pm$ 0.33) on the OntoNotes dev set.",
+        "quoted_span": "84.41 ($\\pm$ 0.33)"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "BLSTM + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 88.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb = Collobert word embeddings",
+          "locator": "caption_table_res-feat-no-cnn"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb",
+        "column_label": "BLSTM CoNLL",
+        "sentence": null,
+        "quoted_span": "88.23 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM + emb"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 82.72,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb",
+          "quote": "emb = Collobert word embeddings",
+          "locator": "caption_table_res-feat-no-cnn"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb",
+        "column_label": "BLSTM OntoNotes",
+        "sentence": null,
+        "quoted_span": "82.72 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM + emb + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps",
+          "quote": "emb + caps       & 90.67",
+          "locator": "table_res-feat-no-cnn_row_emb_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps",
+        "column_label": "BLSTM CoNLL",
+        "sentence": null,
+        "quoted_span": "90.67 ($\\pm$ 0.16)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM + emb + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps",
+          "quote": "emb + caps       & 90.67",
+          "locator": "table_res-feat-no-cnn_row_emb_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps",
+        "column_label": "BLSTM OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.19 ($\\pm$ 0.25)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "emb + caps + lex",
+          "locator": "table_res-feat-no-cnn_row_emb_caps_lex"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps + lex",
+        "column_label": "BLSTM CoNLL",
+        "sentence": null,
+        "quoted_span": "91.43} ($\\pm$ 0.17)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "emb + caps + lex",
+          "locator": "table_res-feat-no-cnn_row_emb_caps_lex"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps + lex",
+        "column_label": "BLSTM OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.21} ($\\pm$ 0.16)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.98,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps",
+          "quote": "emb + caps       & 90.67",
+          "locator": "table_res-feat-no-cnn_row_emb_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps",
+        "column_label": "BLSTM-CNN CoNLL",
+        "sentence": null,
+        "quoted_span": "90.98 ($\\pm$ 0.18)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.35,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps",
+          "quote": "emb + caps       & 90.67",
+          "locator": "table_res-feat-no-cnn_row_emb_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps",
+        "column_label": "BLSTM-CNN OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.35 ($\\pm$ 0.28)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "emb + caps + lex",
+          "locator": "table_res-feat-no-cnn_row_emb_caps_lex"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps + lex",
+        "column_label": "BLSTM-CNN CoNLL",
+        "sentence": null,
+        "quoted_span": "91.55} ($\\pm$ 0.19)*"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + caps + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + caps + lex",
+          "quote": "emb + caps + lex",
+          "locator": "table_res-feat-no-cnn_row_emb_caps_lex"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + caps + lex",
+        "column_label": "BLSTM-CNN OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.28 ($\\pm$ 0.32)*"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + char"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + char",
+          "quote": "emb + char & \\-- & \\--",
+          "locator": "table_res-feat-no-cnn_row_emb_char"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char",
+        "column_label": "BLSTM-CNN CoNLL",
+        "sentence": null,
+        "quoted_span": "90.88 ($\\pm$ 0.48)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + char"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.08,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + char",
+          "quote": "emb + char & \\-- & \\--",
+          "locator": "table_res-feat-no-cnn_row_emb_char"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char",
+        "column_label": "BLSTM-CNN OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.08 ($\\pm$ 0.40)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + char + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + char + caps",
+          "quote": "emb + char + caps",
+          "locator": "table_res-feat-no-cnn_row_emb_char_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char + caps",
+        "column_label": "BLSTM-CNN CoNLL",
+        "sentence": null,
+        "quoted_span": "90.88 ($\\pm$ 0.31)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + char + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "emb + char + caps",
+          "quote": "emb + char + caps",
+          "locator": "table_res-feat-no-cnn_row_emb_char_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char + caps",
+        "column_label": "BLSTM-CNN OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.41} ($\\pm$ 0.22)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 87.77,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "lex; random embeddings",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "none",
+        "column_label": "BLSTM-CNN + lex CoNLL",
+        "sentence": null,
+        "quoted_span": "87.77 ($\\pm$ 0.29)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 83.82,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "lex; random embeddings",
+          "quote": "BLSTM-CNN model employing random embeddings and no other features",
+          "locator": "caption_table_lexicon-res"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "none",
+        "column_label": "BLSTM-CNN + lex OntoNotes",
+        "sentence": null,
+        "quoted_span": "83.82 ($\\pm$ 0.19)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + lex + emb + char"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "lex + emb + char",
+          "quote": "emb + char & \\-- & \\--",
+          "locator": "table_res-feat-no-cnn_row_emb_char"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char",
+        "column_label": "BLSTM-CNN + lex CoNLL",
+        "sentence": null,
+        "quoted_span": "91.44 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + lex + emb + char"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "lex + emb + char",
+          "quote": "emb + char & \\-- & \\--",
+          "locator": "table_res-feat-no-cnn_row_emb_char"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char",
+        "column_label": "BLSTM-CNN + lex OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.34} ($\\pm$ 0.18)"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + lex + emb + char + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.48,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "lex + emb + char + caps",
+          "quote": "emb + char + caps",
+          "locator": "table_res-feat-no-cnn_row_emb_char_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char + caps",
+        "column_label": "BLSTM-CNN + lex CoNLL",
+        "sentence": null,
+        "quoted_span": "91.48 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + lex + emb + char + caps"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 score results of BLSTM and BLSTM-CNN models",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BLSTM and BLSTM-CNN models with various additional features",
+        "locator": "caption_table_res-feat-no-cnn"
+      },
+      "evaluation_setting": [
+        {
+          "name": "features",
+          "value": "lex + emb + char + caps",
+          "quote": "emb + char + caps",
+          "locator": "table_res-feat-no-cnn_row_emb_char_caps"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:res-feat-no-cnn",
+        "row_label": "emb + char + caps",
+        "column_label": "BLSTM-CNN + lex OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.33 ($\\pm$ 0.26)"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.84,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Random 300d",
+          "quote": "Random 300d      & 87.84",
+          "locator": "table_wordvec-res_row_Random_300d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Random 300d",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "87.84 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Random 300d",
+          "quote": "Random 300d      & 87.84",
+          "locator": "table_wordvec-res_row_Random_300d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Random 300d",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "83.76 ($\\pm$ 0.37)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.09,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 6B 50d",
+          "quote": "GloVe 6B 50d     & 91.09",
+          "locator": "table_wordvec-res_row_GloVe_6B_50d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "GloVe 6B 50d",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "91.09 ($\\pm$ 0.15)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.25,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 6B 50d",
+          "quote": "GloVe 6B 50d     & 91.09",
+          "locator": "table_wordvec-res_row_GloVe_6B_50d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "GloVe 6B 50d",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.25 ($\\pm$ 0.24)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.71,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 6B 300d",
+          "quote": "GloVe 6B 300d    & 90.71",
+          "locator": "table_wordvec-res_row_GloVe_6B_300d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "GloVe 6B 300d",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "90.71 ($\\pm$ 0.21)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "GloVe 6B 300d",
+          "quote": "GloVe 6B 300d    & 90.71",
+          "locator": "table_wordvec-res_row_GloVe_6B_300d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "GloVe 6B 300d",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.26 ($\\pm$ 0.30)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Google 100B 300d",
+          "quote": "Google 100B 300d & 90.60",
+          "locator": "table_wordvec-res_row_Google_100B_300d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Google 100B 300d",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "90.60 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Google 100B 300d",
+          "quote": "Google 100B 300d & 90.60",
+          "locator": "table_wordvec-res_row_Google_100B_300d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Google 100B 300d",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "85.34 ($\\pm$ 0.25)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 91.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Our GloVe 50d",
+          "quote": "Our GloVe 50d    & 91.41",
+          "locator": "table_wordvec-res_row_Our_GloVe_50d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Our GloVe 50d",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "91.41 ($\\pm$ 0.21)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Our GloVe 50d",
+          "quote": "Our GloVe 50d    & 91.41",
+          "locator": "table_wordvec-res_row_Our_GloVe_50d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Our GloVe 50d",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "86.24 ($\\pm$ 0.35)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "trained the model on both the training and development sets",
+        "locator": "section_CoNLL_2003_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Our Skip-gram 50d",
+          "quote": "Our Skip-gram 50d & 90.76",
+          "locator": "table_wordvec-res_row_Our_Skip-gram_50d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Our Skip-gram 50d",
+        "column_label": "CoNLL-2003",
+        "sentence": null,
+        "quoted_span": "90.76 ($\\pm$ 0.23)"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BLSTM-CNN + emb + lex"
+      },
+      "task": {
+        "name": "Named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "standard train/dev/test split, which we use for our evaluation",
+        "locator": "section_OntoNotes_5.0_Dataset"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 scores when the Collobert word vectors are replaced",
+        "locator": "caption_table_wordvec-res"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "different word embeddings in our best model",
+        "locator": "section_Word_Embeddings"
+      },
+      "evaluation_setting": [
+        {
+          "name": "word embeddings",
+          "value": "Our Skip-gram 50d",
+          "quote": "Our Skip-gram 50d & 90.76",
+          "locator": "table_wordvec-res_row_Our_Skip-gram_50d"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tab:wordvec-res",
+        "row_label": "Our Skip-gram 50d",
+        "column_label": "OntoNotes",
+        "sentence": null,
+        "quoted_span": "85.70 ($\\pm$ 0.29)"
+      },
+      "confidence": 0.96
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      89
+    ],
+    "tokens_in": 91359,
+    "tokens_out": 46071,
+    "cost_usd": 0.321714
+  }
+}

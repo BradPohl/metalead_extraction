@@ -1,0 +1,2268 @@
+{
+  "paper_id": "1911.09483",
+  "tuples": [
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE-large outperforms all previous models",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_size",
+          "value": "MUSE-large",
+          "quote": "MUSE-large outperforms all previous models",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "\\textbf{29.9}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE-large outperforms all previous models",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_size",
+          "value": "MUSE-large",
+          "quote": "MUSE-large outperforms all previous models",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "\\textbf{43.5}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE-simple",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "\\textbf{MUSE-simple} & 29.8 & 43.2"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_3.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE-simple",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "\\textbf{MUSE-simple} & 29.8 & 43.2"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "ConvSeq2seq"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017convolutional",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ConvSeq2seq",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "& 25.2  & 40.5"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ConvSeq2seq"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017convolutional",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ConvSeq2seq",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "& 25.2  & 40.5"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "SliceNet"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "kaiser2017depthwise",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "SliceNet",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "& 26.1 &-"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (vaswani2017attention)",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "&28.4  & 41.0"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (vaswani2017attention)",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "&28.4  & 41.0"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Weighted Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ahmed2017weighted",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Weighted Transformer",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "& 28.9 & 41.4"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Weighted Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ahmed2017weighted",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Weighted Transformer",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "& 28.9 & 41.4"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Layer-wise Coordination"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "NIPS2018_8019",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Layer-wise Coordination",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "& 29.1 & -"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Transformer (relative position)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Shaw_2018",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (relative position)",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "& 29.2 & 41.5"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Transformer (relative position)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Shaw_2018",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (relative position)",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "& 29.2 & 41.5"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott2018scaling",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (ott2018scaling)",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "& 29.3 & 43.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott2018scaling",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (ott2018scaling)",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "& 29.3 & 43.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Evolved Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so2019evolved",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Evolved Transformer",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "&  29.8 & 41.3"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Evolved Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so2019evolved",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Evolved Transformer",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "&  29.8 & 41.3"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "DynamicConv"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "DynamicConv",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "& 29.7 & 43.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "DynamicConv"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "DynamicConv",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "& 29.7 & 43.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Local Joint Self-attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "fonollosa2019joint",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Local Joint Self-attention",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "&29.7  & 43.3"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Local Joint Self-attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "fonollosa2019joint",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Local Joint Self-attention",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "&29.7  & 43.3"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT En-Vi"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 31.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE-base outperforms previous state-of-the-art models",
+        "locator": "caption_table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_size",
+          "value": "MUSE-base",
+          "quote": "MUSE-base outperforms previous state-of-the-art models",
+          "locator": "caption_table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "\\textbf{31.3}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE-base pushes the state-of-the-art from 35.7 to 36.3",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_size",
+          "value": "MUSE-base",
+          "quote": "MUSE-base outperforms previous state-of-the-art models",
+          "locator": "caption_table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.3}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT En-Vi"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE-simple",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "\\textbf{MUSE-simple} & 30.7 & 35.8"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE-simple",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "\\textbf{MUSE-simple} & 30.7 & 35.8"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "NBMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT En-Vi"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "NBMT",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NBMT",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "& 28.1 & 30.1"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "NBMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "NBMT",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NBMT",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "& 28.1 & 30.1"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "SACT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT En-Vi"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "SACT",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SACT",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "& 29.1 &-"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "NP2MT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT En-Vi"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "feng2018neural",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NP2MT",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "&30.6 & 31.7"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "NP2MT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 31.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "feng2018neural",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NP2MT",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "&30.6 & 31.7"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "Fixup"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang2019fixup",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Fixup",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "& -  & 34.5"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DynamicConv"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "DynamicConv",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "& - & 35.2"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "Macaron"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lu2019understanding",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Macaron",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "& - &35.4"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "Local Joint Self-attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "fonollosa2019joint",
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Local Joint Self-attention",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "&- &35.7"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=3)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "substitute DepthConv with Convolution (k=3)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "Convolution (k=3) & 35.2"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=5)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "substitute DepthConv with Convolution (k=5)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "Convolution (k=5) & 35.0"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=7)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "substitute DepthConv with Convolution (k=7)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "Convolution (k=7) & 34.5"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DepthConv without shared projection"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv without shared projection",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "without shared projection &34.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=3)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=3)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "single kernel (k=3) & 36.2"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=7)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=7)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "single kernel (k=7) & 36.2"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=15)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=15)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "single kernel (k=15) & 36.0"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=31)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=31)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "single kernel (k=31) & 35.8"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (grow kernels among layers:3,7,15,31)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (grow kernels among layers:3,7,15,31)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "layers:3,7,15,31) & 35.9"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "DepthConv dynamically selected kernel (k=3,15)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv dynamically selected kernel (k=3,15)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "selected kernel (k=3,15) & 36.3"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "not stated"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inference Speed",
+          "value": 132,
+          "unit": "tokens/s"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "Transformer with $6$ base blocks",
+        "locator": "section_3.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "batch_size",
+          "value": "1",
+          "quote": "the batch size is set to one sample per batch",
+          "locator": "section_3.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Transformer",
+        "column_label": "Inference Speed (tokens/s)",
+        "sentence": null,
+        "quoted_span": "Transformer  &  132"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "not stated"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Inference Speed",
+          "value": 173,
+          "unit": "tokens/s"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [
+        {
+          "name": "batch_size",
+          "value": "1",
+          "quote": "the batch size is set to one sample per batch",
+          "locator": "section_3.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "MUSE",
+        "column_label": "Inference Speed (tokens/s)",
+        "sentence": null,
+        "quoted_span": "MUSE  & 173"
+      },
+      "confidence": 0.75
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      47
+    ],
+    "tokens_in": 23326,
+    "tokens_out": 13518,
+    "cost_usd": 0.363664
+  }
+}

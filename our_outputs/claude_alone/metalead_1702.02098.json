@@ -1,0 +1,2556 @@
+{
+  "paper_id": "1702.02098",
+  "tuples": [
+    {
+      "method": {
+        "name": "Ratinov and Roth (2009)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.82,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set using these parameters",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ratinov2009design",
+        "quote": "\\citet{ratinov2009design} & 86.82",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "decoding",
+          "value": "greedy",
+          "quote": "Top models are greedy",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Ratinov and Roth 2009",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "86.82"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Collobert et al. (2011)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "collobert2011natural",
+        "quote": "\\citet{collobert2011natural} & 86.96",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "decoding",
+          "value": "greedy",
+          "quote": "Top models are greedy",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Collobert et al. 2011 (greedy)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "86.96"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Lample et al. (2016)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lample2016neural",
+        "quote": "\\citet{lample2016neural} & 90.33",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "decoding",
+          "value": "greedy",
+          "quote": "Top models are greedy",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Lample et al. 2016 (greedy)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.33"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "For models that we trained, we report F1 and standard deviation",
+        "locator": "section_sentence-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "models observing sentence-level context",
+          "locator": "caption_table_sentence-summary"
+        },
+        {
+          "name": "regularization",
+          "value": "expectation-linear dropout",
+          "quote": "All of our best reported results include such regularization",
+          "locator": "section_training"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Bi-LSTM",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "Bi-LSTM & 89.34 $\\pm$ 0.28"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.97,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For models that we trained",
+        "locator": "section_sentence-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "models observing sentence-level context",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "4-layer CNN",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "4-layer CNN & 89.97 $\\pm$ 0.20"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For models that we trained",
+        "locator": "section_sentence-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "models observing sentence-level context",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "5-layer CNN",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "5-layer CNN & 90.23 $\\pm$ 0.16"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.32,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For models that we trained",
+        "locator": "section_sentence-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "models observing sentence-level context",
+          "locator": "caption_table_sentence-summary"
+        },
+        {
+          "name": "decoding",
+          "value": "greedy",
+          "quote": "Top models are greedy",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ID-CNN",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "ID-CNN & 90.32 $\\pm$ 0.26"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Collobert et al. (2011)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "collobert2011natural",
+        "quote": "\\citet{collobert2011natural} & 88.67",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "decoding",
+          "value": "Viterbi",
+          "quote": "bottom models use Viterbi inference",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Collobert et al. 2011 (Viterbi)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "88.67"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Passos et al. (2014)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.05,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "passos2014lexicon",
+        "quote": "\\citet{passos2014lexicon} & 90.05",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "decoding",
+          "value": "Viterbi",
+          "quote": "bottom models use Viterbi inference",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Passos et al. 2014",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.05"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Lample et al. (2016)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lample2016neural",
+        "quote": "\\citet{lample2016neural} & 90.20",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "decoding",
+          "value": "Viterbi",
+          "quote": "bottom models use Viterbi inference",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Lample et al. 2016 (Viterbi)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.20"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF (re-impl)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "lample2016neural",
+        "quote": "Bi-LSTM-CRF (re-impl)",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "models observing sentence-level context",
+          "locator": "caption_table_sentence-summary"
+        },
+        {
+          "name": "decoding",
+          "value": "Viterbi",
+          "quote": "bottom models use Viterbi inference",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Bi-LSTM-CRF (re-impl)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.43 $\\pm$ 0.12"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "For models that we trained",
+        "locator": "section_sentence-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "models observing sentence-level context",
+          "locator": "caption_table_sentence-summary"
+        },
+        {
+          "name": "decoding",
+          "value": "Viterbi",
+          "quote": "bottom models use Viterbi inference",
+          "locator": "caption_table_sentence-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ID-CNN-CRF",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.54 $\\pm$ 0.18"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "section_sentence-level"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "lample2016neural",
+        "quote": "Bi-LSTM-CRF (re-impl)",
+        "locator": "table_sentence-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "Relative test-time speed of sentence models",
+          "locator": "caption_table_sentence-speed"
+        },
+        {
+          "name": "batch_size",
+          "value": "fastest per model",
+          "quote": "using the fastest batch size for each model",
+          "locator": "caption_table_sentence-speed"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-LSTM-CRF",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "Bi-LSTM-CRF & 1$\\times$"
+      },
+      "confidence": 0.7
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 9.92,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "section_sentence-level"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "We compare our ID-CNN against strong LSTM and CNN baselines",
+        "locator": "section_baselines"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "Relative test-time speed of sentence models",
+          "locator": "caption_table_sentence-speed"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Bi-LSTM",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "Bi-LSTM & 9.92$\\times$"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.28,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "section_sentence-level"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the ID-CNN-CRF still comes out ahead",
+        "locator": "section_sentence-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "Relative test-time speed of sentence models",
+          "locator": "caption_table_sentence-speed"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ID-CNN-CRF",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "ID-CNN-CRF & 1.28$\\times$"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 12.38,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "section_sentence-level"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also compare against a non-dilated CNN architecture",
+        "locator": "section_baselines"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "Relative test-time speed of sentence models",
+          "locator": "caption_table_sentence-speed"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "5-layer CNN",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "5-layer CNN & 12.38$\\times$"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 14.1,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "relative decoding times on the CoNLL development set",
+        "locator": "section_sentence-level"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our ID-CNN is more than 14 times faster",
+        "locator": "section_sentence-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "Relative test-time speed of sentence models",
+          "locator": "caption_table_sentence-speed"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ID-CNN",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "ID-CNN & 14.10$\\times$"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "Comparison of models trained with and without",
+        "locator": "caption_table_dr"
+      },
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "without expectation-linear dropout regularization (DR)",
+          "locator": "caption_table_dr"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "Bi-LSTM",
+        "column_label": "w/o DR",
+        "sentence": null,
+        "quoted_span": "88.89 $\\pm$ 0.30"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "4-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.74,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Comparison of models trained with and without",
+        "locator": "caption_table_dr"
+      },
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "without expectation-linear dropout regularization (DR)",
+          "locator": "caption_table_dr"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "4-layer CNN",
+        "column_label": "w/o DR",
+        "sentence": null,
+        "quoted_span": "89.74 $\\pm$ 0.23"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "5-layer CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.93,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Comparison of models trained with and without",
+        "locator": "caption_table_dr"
+      },
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "without expectation-linear dropout regularization (DR)",
+          "locator": "caption_table_dr"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "5-layer CNN",
+        "column_label": "w/o DR",
+        "sentence": null,
+        "quoted_span": "89.93 $\\pm$ 0.32"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "Comparison of models trained with and without",
+        "locator": "caption_table_dr"
+      },
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "without expectation-linear dropout regularization (DR)",
+          "locator": "caption_table_dr"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "Bi-LSTM-CRF",
+        "column_label": "w/o DR",
+        "sentence": null,
+        "quoted_span": "90.01 $\\pm$ 0.23"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "4-layer ID-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.65,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Comparison of models trained with and without",
+        "locator": "caption_table_dr"
+      },
+      "evaluation_setting": [
+        {
+          "name": "regularization",
+          "value": "w/o DR",
+          "quote": "without expectation-linear dropout regularization (DR)",
+          "locator": "caption_table_dr"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "4-layer ID-CNN",
+        "column_label": "w/o DR",
+        "sentence": null,
+        "quoted_span": "89.65 $\\pm$ 0.30"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "4-layer CNN \u00d7 3"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.32,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption_table_doc-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained to predict document-at-a-time",
+          "locator": "caption_table_doc-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "4-layer CNN \u00d7 3",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.32 $\\pm$ 0.32"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "5-layer CNN \u00d7 3"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption_table_doc-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained to predict document-at-a-time",
+          "locator": "caption_table_doc-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "5-layer CNN \u00d7 3",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.45 $\\pm$ 0.21"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.09,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption_table_doc-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained to predict document-at-a-time",
+          "locator": "caption_table_doc-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Bi-LSTM",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "89.09 $\\pm$ 0.19"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "F1 score of models trained to predict document-at-a-time",
+        "locator": "caption_table_doc-summary"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained to predict document-at-a-time",
+          "locator": "caption_table_doc-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Bi-LSTM-CRF",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.60 $\\pm$ 0.19"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.65,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our greedy ID-CNN model, attaining 90.65 average F1",
+        "locator": "section_document-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained to predict document-at-a-time",
+          "locator": "caption_table_doc-summary"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ID-CNN",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.65 $\\pm$ 0.15"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "ID-CNN noshare"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 89.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "untied parameters across blocks",
+        "locator": "caption_table_doc-loss"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "models trained to incorporate entire document context",
+          "locator": "section_document-level"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "ID-CNN noshare",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "89.81 $\\pm$ 0.19"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN 1-loss"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.06,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "back-propagating loss only from the final layer",
+        "locator": "caption_table_doc-loss"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "models trained to incorporate entire document context",
+          "locator": "section_document-level"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "ID-CNN 1-loss",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "90.06 $\\pm$ 0.19"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 4.6,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "Relative test-time speed of document models",
+        "locator": "caption_table_doc-speed"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "Relative test-time speed of document models",
+          "locator": "caption_table_doc-speed"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "Bi-LSTM",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "Bi-LSTM & 4.60$\\times$"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 7.96,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "decoding at almost 8 times the speed",
+        "locator": "section_document-level"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "Relative test-time speed of document models",
+          "locator": "caption_table_doc-speed"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ID-CNN",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "ID-CNN & 7.96$\\times$"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Ratinov and Roth (2009)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014joint",
+        "quote": "Results as reported in \\citet{durrett2014joint}",
+        "locator": "footnote_table_onto"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Ratinov and Roth 2009",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "83.45"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Durrett and Klein (2014)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "durrett2014joint",
+        "quote": "\\citet{durrett2014joint} & 84.04",
+        "locator": "table_onto"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Durrett and Klein 2014",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "84.04"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Chiu and Nichols (2016)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "chiu2016named",
+        "quote": "the Bi-LSTM-CRF reported in \\citet{chiu2016named}",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Chiu and Nichols 2016",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "86.19 $\\pm$ 0.25"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.99,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "as well as our own re-implementation",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "sentence",
+          "quote": "F1 score of sentence and document models on OntoNotes",
+          "locator": "caption_table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Bi-LSTM-CRF",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "86.99 $\\pm$ 0.22"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF-Doc"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "the Bi-LSTM-CRF model trained on entire document context",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained on entire document context",
+          "locator": "section_ontonotes"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Bi-LSTM-CRF-Doc",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "86.81 $\\pm$ 0.18"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM-CRF-Doc"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.32,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "the Bi-LSTM-CRF model trained on entire document context",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained on entire document context",
+          "locator": "section_ontonotes"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Bi-LSTM-CRF-Doc",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "0.18  & 1.32$\\times$"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "The greedy Bi-LSTM out-performs",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Bi-LSTM",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "83.76 $\\pm$ 0.10"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-LSTM"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 24.44,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": null,
+        "quote": "The greedy Bi-LSTM out-performs",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "Bi-LSTM",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "24.44$\\times$"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF (1 block)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.84,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "lists overall F1 scores of our models",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN-CRF (1 block)",
+          "locator": "table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN-CRF (1 block)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "86.84 $\\pm$ 0.19"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN-CRF (1 block)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 1.83,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "lists overall F1 scores of our models",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN-CRF (1 block)",
+          "locator": "table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN-CRF (1 block)",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "1.83$\\times$"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ID-CNN-Doc (3 blocks)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the F1 of our ID-CNN model",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained on entire document context",
+          "locator": "section_ontonotes"
+        },
+        {
+          "name": "blocks",
+          "value": "3",
+          "quote": "ID-CNN-Doc (3 blocks)",
+          "locator": "table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN-Doc (3 blocks)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "85.76 $\\pm$ 0.13"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN-Doc (3 blocks)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 21.19,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the F1 of our ID-CNN model",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "context",
+          "value": "document",
+          "quote": "trained on entire document context",
+          "locator": "section_ontonotes"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN-Doc (3 blocks)",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "21.19$\\times$"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ID-CNN (3 blocks)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "lists overall F1 scores of our models",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "3",
+          "quote": "ID-CNN (3 blocks)",
+          "locator": "table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN (3 blocks)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "85.27 $\\pm$ 0.24"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN (3 blocks)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 13.21,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "lists overall F1 scores of our models",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "3",
+          "quote": "ID-CNN (3 blocks)",
+          "locator": "table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN (3 blocks)",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "13.21$\\times$"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ID-CNN (1 block)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report scores on the test set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "segment-level micro-averaged F1 score",
+        "locator": "section_data_and_evaluation"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "lists overall F1 scores of our models",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN (1 block)",
+          "locator": "table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN (1 block)",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "84.28 $\\pm$ 0.10"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ID-CNN (1 block)"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "OntoNotes 5.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Relative test-time speed",
+          "value": 26.01,
+          "unit": "x"
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "run each model 20 times over the development set",
+        "locator": "appendix_evaluation"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "lists overall F1 scores of our models",
+        "locator": "section_ontonotes"
+      },
+      "evaluation_setting": [
+        {
+          "name": "blocks",
+          "value": "1",
+          "quote": "ID-CNN (1 block)",
+          "locator": "table_onto"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 7",
+        "row_label": "ID-CNN (1 block)",
+        "column_label": "Speed",
+        "sentence": null,
+        "quoted_span": "26.01$\\times$"
+      },
+      "confidence": 0.8
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      47
+    ],
+    "tokens_in": 19401,
+    "tokens_out": 18815,
+    "cost_usd": 0.453904
+  }
+}

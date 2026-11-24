@@ -1,0 +1,460 @@
+\section{Convolutional Sequence-to-Sequence Learning for Summarization}
+\label{sec:topicconvabssum}
+
+
+\begin{figure}[t!]
+  \center{\footnotesize
+    \begin{tikzpicture}[scale=0.45]
+      
+      \begin{scope}[shift={(0,0)}] 
+        \draw [rounded corners=5pt] (-2.5,1.75) rectangle (15,-21.5);
+        
+        \draw [fill=sepia,opacity=0.1] (0,0) rectangle (1.5,-0.5);
+        \draw [fill=sepia,opacity=0.3] (1.5,0) rectangle (6,-0.5);
+        \draw [fill=sepia,opacity=0.1] (6,0) rectangle (7.5,-0.5);
+        \draw [fill=orangered,opacity=0.1] (0,-0.5) rectangle (1.5,-1);
+        \draw [fill=orangered,opacity=0.3] (1.5,-0.5) rectangle (6,-1);
+        \draw [fill=orangered,opacity=0.1] (6,-0.5) rectangle (7.5,-1);
+        
+        \draw [gray] (0,-0.5) -- (7.5,-0.5);
+        \draw [gray] (1.5,0) -- (1.5,-1);
+        \draw [gray] (3,0) -- (3,-1);
+        \draw [gray] (4.5,0) -- (4.5,-1);
+        \draw [gray] (6,0) -- (6,-1);
+        \node at (8.5,-0.75) {\tiny $x_i+p_i$};
+        \node at (8.5,-0.25) {\tiny $t'_i \otimes t_D$};  
+        \node at (-0.5,-0.5) {$\mathbf{e}$};
+
+        \node at (1,0.75) {\tiny \rotatebox{45}{[PAD]}}; 
+        \node at (2.5,0.75) {\tiny \rotatebox{45}{England}}; 
+        \node at (4,0.75) {\tiny \rotatebox{45}{won}}; 
+        \node at (5.25,0.75) {\tiny \rotatebox{45}{.}}; 
+        \node at (7,0.75) {\tiny \rotatebox{45}{[PAD]}}; 
+        
+        % Convolution Part
+        
+        \node at (0,-2.5) {\tiny Convolutions};
+        
+        \draw [fill=midnightblue,opacity=0.2] (3.75,-1.5) -- (6.75, -1.5) -- (5.25, -3.5) -- (3.75,-1.5);
+        \draw [fill=midnightblue,opacity=0.2] (2.25,-1.5) -- (5.25, -1.5) -- (3.75, -3.5) -- (2.25,-1.5);
+        \draw [fill=midnightblue,opacity=0.2] (0.75,-1.5) -- (3.75, -1.5) -- (2.25, -3.5) -- (0.75,-1.5);
+        
+        \draw [fill=white,opacity=1] (1.75,-3.25) rectangle (2.75,-3.75);
+        \draw [fill=white,opacity=1] (3.25,-3.25) rectangle (4.25,-3.75);
+        \draw [fill=white,opacity=1] (4.75,-3.25) rectangle (5.75,-3.75);
+        
+        \draw (2.25,-3.25) -- (2.25,-3.75);
+        \draw (3.75,-3.25) -- (3.75,-3.75);
+        \draw (5.25,-3.25) -- (5.25,-3.75);
+        
+        % Gated Linear Unit
+
+        \node at (0,-4.45) {\tiny GLU};
+        
+        \draw [->] (2,-3.75) -- (2,-4.25);
+        \draw [gray] (2,-4.45) circle (0.2cm);
+        \node at (2, -4.45) {\tiny $f$};
+        \draw [->] (2.5,-3.75) -- (2.5,-5);
+        \node at (2.5, -5.2) {$\otimes$};
+        \draw [->] (2, -4.65) -- (2, -5.2) -- (2.25,-5.2);
+        \draw [->] (2.5,-5.4) -- (2.5,-6);
+
+        \draw [->] (3.5,-3.75) -- (3.5,-4.25);
+        \draw [gray] (3.5, -4.45) circle (0.2cm);
+        \node at (3.5, -4.45) {\tiny $f$};
+        \draw [->] (4,-3.75) -- (4,-5);
+        \node at (4,-5.2) {$\otimes$};
+        \draw [->] (3.5,-4.65) -- (3.5,-5.2) -- (3.75,-5.2);
+        \draw [->] (4,-5.4) -- (4,-6);
+
+        \draw [->] (5,-3.75) -- (5,-4.25);
+        \draw [gray] (5, -4.45) circle (0.2cm);
+        \node at (5, -4.45) {\tiny $f$};
+        \draw [->] (5.5,-3.75) -- (5.5,-5);
+        \node at (5.5, -5.2) {$\otimes$};
+        \draw [->] (5, -4.65) -- (5,-5.2) -- (5.25,-5.2);
+        \draw [->] (5.5,-5.4) -- (5.5,-6);
+
+        \draw [fill=midnightblue,opacity=0.2] (1.75,-6) rectangle (3.25,-7);
+        \draw [fill=midnightblue,opacity=0.2] (3.25,-6) rectangle (4.75,-7);
+        \draw [fill=midnightblue,opacity=0.2] (4.75,-6) rectangle (6.25,-7);
+        \node at (1.25,-6.5) {$\mathbf{z^u}$};
+
+        % Attention Part
+        \node at (-1,-8.75) {\scriptsize \rotatebox{90}{Attention}}; 
+
+        \draw [->] (2.5,-7) -- (2.5,-8);
+        \draw [->] (4,-7) -- (4,-8);
+        \draw [->] (5.5,-7) -- (5.5,-8);
+        
+        
+        \draw [fill=forestgreen,opacity=0.2] (1.75,-8) rectangle (3.25,-8.5);
+        \draw [fill=forestgreen,opacity=0.8] (3.25,-8) rectangle (4.75,-8.5);
+        \draw [fill=forestgreen,opacity=0.7] (4.75,-8) rectangle (6.25,-8.5);
+        \draw [fill=forestgreen,opacity=0.4] (1.75,-8.5) rectangle (3.25,-9);
+        \draw [fill=forestgreen,opacity=0.8] (3.25,-8.5) rectangle (4.75,-9);
+        \draw [fill=forestgreen,opacity=0.2] (4.75,-8.5) rectangle (6.25,-9);
+        \draw [fill=forestgreen,opacity=0.1] (1.75,-9) rectangle (3.25,-9.5);
+        \draw [fill=forestgreen,opacity=0.2] (3.25,-9) rectangle (4.75,-9.5);
+        \draw [fill=forestgreen,opacity=0.3] (4.75,-9) rectangle (6.25,-9.5);
+
+        % 
+        \draw [fill=sepia,opacity=0.3] (10,-6) rectangle (14.5,-6.5);
+        \draw [fill=orangered,opacity=0.3] (10,-6.5) rectangle (14.5,-7);
+        \draw [gray] (11.5,-6) -- (11.5,-7);
+        \draw [gray] (13,-6) -- (13,-7);
+        \draw [fill=midnightblue,opacity=0.2] (10,-6) rectangle (14.5,-7);
+        
+        \draw [rounded corners=5pt,->] (9.5,-0.5) -- (12.25, -0.5) -- (12.25, -5.75);
+        \draw [->] (6.25,-6.5) -- (9.4, -6.5);
+        \node at (9.7,-6.5) {$\oplus$};
+        % \node at (9.7,-6.5) {$\oplus$};
+      \end{scope}
+
+      \begin{scope}[shift={(-1.5,-19.5)}] 
+        
+        \draw [fill=sepia,opacity=0.1] (0,0) rectangle (4.5,0.5);
+        \draw [fill=sepia,opacity=0.3] (4.5,0) rectangle (7.5,0.5);        
+        \draw [fill=orangered,opacity=0.1] (0,0.5) rectangle (4.5,1);
+        \draw [fill=orangered,opacity=0.3] (4.5,0.5) rectangle (7.5,1);
+
+        \node at (0.75,-0.75) {\tiny \rotatebox{45}{[PAD]}}; 
+        \node at (2.25,-0.75) {\tiny \rotatebox{45}{[PAD]}}; 
+        \node at (3.75,-0.75) {\tiny \rotatebox{45}{[PAD]}}; 
+        \node at (5.25,-0.75) {\tiny \rotatebox{45}{Match}}; 
+        \node at (6.75,-0.75) {\tiny \rotatebox{45}{report}}; 
+        
+
+        \draw [gray] (0,0.5) -- (7.5,0.5);
+        \draw [gray] (1.5,0) -- (1.5,1);
+        \draw [gray] (3,0) -- (3,1);
+        \draw [gray] (4.5,0) -- (4.5,1);
+        \draw [gray] (6,0) -- (6,1);
+        \node at (8.5,0.75) {\tiny $x'_i+p'_i$};
+        \node at (8.5,0.25) {\tiny $t_D$};        
+        \node at (-0.5,0.5) {$\mathbf{g}$};
+
+        % Convolution Part
+        
+        \node at (1,3) {\tiny Convolutions};
+
+        \draw [fill=midnightblue,opacity=0.3] (3.75,1.5) -- (6.75, 1.5) -- (6.75, 3.5) -- (3.75,1.5);
+        \draw [fill=midnightblue,opacity=0.2] (2.25,1.5) -- (5.25, 1.5) -- (5.25, 3.5) -- (2.25,1.5);
+        \draw [fill=midnightblue,opacity=0.1] (0.75,1.5) -- (3.75, 1.5) -- (3.75, 3.5) -- (0.75,1.5);
+        
+        \draw [fill=white,opacity=1] (3,3.25) rectangle (4,3.75);
+        \draw [fill=white,opacity=1] (4.5,3.25) rectangle (5.5,3.75);
+        \draw [fill=white,opacity=1] (6,3.25) rectangle (7,3.75);
+        
+        \draw (3.5,3.25) -- (3.5,3.75);
+        \draw (5,3.25) -- (5,3.75);
+        \draw (6.5,3.25) -- (6.5,3.75);
+        
+        % Gated Linear Unit
+        \node at (1,4.45) {\tiny GLU};
+
+        \draw [->] (3.25,3.75) -- (3.25,4.25);
+        \draw [gray] (3.25, 4.45) circle (0.2cm);
+        \node at (3.25, 4.45) {\tiny $f$};
+        \draw [->] (3.75,3.75) -- (3.75,5);
+        \node at (3.75, 5.2) {$\otimes$};
+        \draw [->] (3.25, 4.65) -- (3.25, 5.2) -- (3.5,5.2);
+        \draw [->] (3.75,5.4) -- (3.75,6);
+
+        \draw [->] (4.75,3.75) -- (4.75,4.25);
+        \draw [gray] (4.75, 4.45) circle (0.2cm);
+        \node at (4.75, 4.45) {\tiny $f$};
+        \draw [->] (5.25,3.75) -- (5.25,5);
+        \node at (5.25, 5.2) {$\otimes$};
+        \draw [->] (4.75, 4.65) -- (4.75,5.2) -- (5,5.2);
+        \draw [->] (5.25,5.4) -- (5.25,6);
+
+        \draw [->] (6.25,3.75) -- (6.25,4.25);
+        \draw [gray] (6.25, 4.45) circle (0.2cm);
+        \node at (6.25, 4.45) {\tiny $f$};
+        \draw [->] (6.75,3.75) -- (6.75,5);
+        \node at (6.75, 5.2) {$\otimes$};
+        \draw [->] (6.25, 4.65) -- (6.25,5.2) -- (6.5,5.2);
+        \draw [->] (6.75,5.4) -- (6.75,6);
+
+        \draw [fill=midnightblue,opacity=0.1] (3,6) rectangle (4.5,7);
+        \draw [fill=midnightblue,opacity=0.2] (4.5,6) rectangle (6,7);
+        \draw [fill=midnightblue,opacity=0.3] (6,6) rectangle (7.5,7);
+        
+        \node at (2.5,6.5) {$\mathbf{h^{\ell}}$};
+
+        % After Attention weights
+        \draw [fill=forestgreen,opacity=0.3] (11.5,8) rectangle (13,9);
+        \draw [fill=forestgreen,opacity=0.2] (13,8) rectangle (14.5,9);
+        \draw [fill=forestgreen,opacity=0.3] (14.5,8) rectangle (16,9);     
+        \draw [->] (12.25,8) -- (12.25,7);     
+        \draw [->] (13.75,8) -- (13.75,7);     
+        \draw [->] (15.25,8) -- (15.25,7); 
+        \node at (11,8.5) {$\mathbf{c^{\ell}}$};
+
+        \draw [fill=midnightblue!20!forestgreen,opacity=0.3] (11.5,6) rectangle (13,7);
+        \draw [fill=midnightblue!60!forestgreen,opacity=0.2] (13,6) rectangle (14.5,7);
+        \draw [fill=midnightblue!80!forestgreen,opacity=0.3] (14.5,6) rectangle (16,7);        
+        \draw [->] (7.5,6.5) -- (10.9, 6.5);
+        \node at (11.2,6.5) {$\oplus$}; 
+        \node at (10.5,7) {$\mathbf{h^L}$};
+        
+        % Predict
+        \draw [->] (12.25,6) -- (12.25,1); 
+        \draw [fill=gray,opacity=0.3] (11.5,0) rectangle (13,1);
+        \draw [->] (13.75,6) -- (13.75,1);     
+        \draw [fill=gray,opacity=0.3] (13,0) rectangle (14.5,1);
+        \draw [->] (15.25,6) -- (15.25,1);     
+        \draw [fill=gray,opacity=0.3] (14.5,0) rectangle (16,1);
+        
+        \node at (12.25,-0.75) {\tiny \rotatebox{45}{Match}}; 
+        \node at (13.75,-0.75) {\tiny \rotatebox{45}{report}}; 
+        \node at (15.25,-0.75) {\tiny \rotatebox{45}{.}}; 
+        
+
+        % Connect to Attention
+        \draw [rounded corners=5pt,->] (3.75,7) -- (3.75,7.5) -- (1.5, 7.5) -- (1.5, 11.25) -- (3.25, 11.25);
+        \draw [rounded corners=5pt,->] (5.25,7) -- (5.25,8) -- (2, 8) -- (2, 10.75) -- (3.25, 10.75);
+        \draw [rounded corners=5pt,->] (6.75,7) -- (6.75,8.5) -- (2.5, 8.5) -- (2.5, 10.25) -- (3.25, 10.25);
+        % Predict using attention
+        \draw [gray] (12.25,11.25) circle (0.2cm);
+        \node at (12.25,11.25) {\fontsize{3}{5}\selectfont $\sum$};
+        \draw [->] (7.75, 11.25) -- (12.05,11.25);
+        \draw [->] (12.25, 11.05) -- (12.25,9);
+
+        \draw [gray] (13.75,10.75) circle (0.2cm);
+        \node at (13.75,10.75) {\fontsize{3}{5}\selectfont $\sum$};
+        \draw [->] (7.75, 10.75) -- (13.5,10.75);
+        \draw [->] (13.75, 10.5) -- (13.75,9);
+        
+        \draw [gray] (15.25,10.25) circle (0.2cm);
+        \node at (15.25,10.25) {\fontsize{3}{5}\selectfont $\sum$};
+        \draw [->] (7.75, 10.25) -- (15.05,10.25);
+        \draw [->] (15.25, 10.05) -- (15.25,9);
+        
+        \node at (15,11.75) {$\Big\Downarrow$};
+      \end{scope}
+    \end{tikzpicture}
+  }
+  \vspace{-0.5cm}
+  \caption{Topic-conditioned convolutional model for extreme
+    summarization.}\label{fig:architecture}
+\end{figure}
+
+Unlike tasks like machine translation and paraphrase generation where
+there is often a one-to-one semantic correspondence between source and
+target words, document summarization must distill the content of the
+document into a few important facts. This is even more challenging for
+our task, where the compression ratio is extremely high, and pertinent
+content can be easily missed.
+
+
+%to distinguish content which is relevant for the
+%summary from content which isn't. As such the challenges for extreme
+%summarization are primarily in modeling long-range dependencies and
+%recognizing pertinent content in the document.
+
+Recently, a convolutional alternative to sequence modeling has been
+proposed showing promise for machine translation
+\cite{convenc_mt,convseq2seq} and story generation
+\cite{fan-hier-gen}. We believe that convolutional architectures are
+attractive for our summarization task for at least two
+reasons. Firstly, contrary to recurrent networks which view the input
+as a chain structure, convolutional networks can be stacked to
+represent large context sizes. Secondly, hierarchical features can be
+extracted over larger and larger contents, allowing to represent
+long-range dependencies efficiently through shorter paths.
+
+Our model builds on the work of \newcite{convseq2seq} who develop an
+encoder-decoder architecture for machine translation with an attention
+mechanism \cite{NIPS2015_5846} based exclusively on deep convolutional
+networks. We adapt this model to our summarization task by allowing it
+to recognize pertinent content (i.e.,~by foregrounding salient words
+in the document).  In particular, we improve the convolutional encoder
+by associating each word with a vector representing topic salience,
+and the convolutional decoder by conditioning each word prediction on
+the document topic vector.
+
+
+% uses information about topical words in the document and the topic
+% of the document to calibrate the modeling of long-range dependencies
+% with the important content in the document for abstractive summary
+% generation.
+
+\paragraph{Model Overview}
+
+At the core of our model is a simple convolutional block structure
+that computes intermediate states based on a fixed number of input
+elements. Our convolutional encoder (shown at the top of Figure
+\ref{fig:architecture}) applies this unit across the document. We
+repeat these operations in a stacked fashion to get a multi-layer
+hierarchical representation over the input document where words at
+closer distances interact at lower layers while distant words interact
+at higher layers. The interaction between words through hierarchical
+layers effectively captures long-range dependencies. 
+% between distant
+%words.% than when
+%they are modelled with recurrent neural networks.
+
+Analogously, our convolutional decoder (shown at the bottom of
+Figure~\ref{fig:architecture}) uses the multi-layer convolutional
+structure to build a hierarchical representation over what has been
+predicted so far. Each layer on the decoder side determines useful
+source context by attending to the encoder representation before it
+passes its output to the next layer. This way the model remembers
+which words it previously attended to and applies multi-hop attention
+(shown at the middle of Figure \ref{fig:architecture}) per time
+step. The output of the top layer is passed to a softmax classifier to
+predict a distribution over the target vocabulary.
+
+
+Our model assumes access to word and document topic
+distributions. These can be obtained by any topic model, however we
+use Latent Dirichlet Allocation (LDA; \citealt{Blei:2003:LDA}) in our
+experiments; we pass the distributions obtained from LDA directly to
+the network as additional input. This allows us to take advantage of
+topic modeling without interfering with the computational advantages
+of the convolutional architecture. The idea of capturing
+document-level semantic information has been previously explored for
+recurrent neural networks
+\cite{mikolovZ12,Ghosh2016ContextualL,dieng-iclr17}, however, we are
+not aware of any existing convolutional models.
+
+
+\paragraph{Topic Sensitive Embeddings}
+
+Let~$D$ denote a document consisting of a sequence of words $(w_1,
+\ldots, w_m)$; we embed~$D$ into a distributional space $\mathbf{x} =
+(x_1, \ldots, x_m)$ where $x_i \in \mathbb{R}^f$ is a column in
+embedding matrix $M \in \mathbb{R}^{V\times f}$ (where $V$ is the
+vocabulary size). We also embed the absolute word positions in the
+document \mbox{$\mathbf{p} = (p_1, \ldots, p_m)$} where $p_i \in
+\mathbb{R}^f$ is a column in position matrix $P \in
+\mathbb{R}^{N\times f}$, and $N$ is the maximum number of
+positions. Position embeddings have proved useful for convolutional
+sequence modeling \cite{convseq2seq}, because, in contrast to RNNs,
+they do not observe the temporal positions of words
+\cite{D16-1248}. Let $t_D \in \mathbb{R}^{f'}$ be the topic
+distribution of document~$D$ and $\mathbf{t'} = (t'_1, \ldots, t'_m)$
+the topic distributions of words in the document (where $t'_i \in
+\mathbb{R}^{f'}$). During encoding, we represent document~$D$ via
+$\mathbf{e} = (e_1, \ldots, e_m)$, where~$e_i$ is:
+\begin{align}
+e_i = [(x_i+p_i);(t'_i\otimes t_D)] \in \mathbb{R}^{f+f'}, \label{eq:encoder}
+\end{align}
+\noindent and $\otimes$ denotes point-wise multiplication. The topic
+distribution $t'_i$ of word $w_i$ essentially captures how topical the
+word is in itself (local context), whereas the topic
+distribution~$t_D$ represents the overall theme of the document
+(global context). The encoder essentially enriches the context of the
+word with its topical relevance to the document.
+
+
+For every output prediction, the decoder estimates representation
+$\mathbf{g} = (g_1, \ldots, g_n)$ for previously predicted words
+$(w'_1, \ldots, w'_n)$ where $g_i$ is:
+\begin{align}
+g_i = [(x'_i+p'_i);t_D] \in \mathbb{R}^{f+f'}, \label{eq:decoder}
+\end{align}
+\noindent $x'_i$ and $p'_i$ are word and position embeddings of
+previously predicted word~$w'_i$, and $t_D$ is the topic distribution
+of the input document. Note that the decoder does not use the topic
+distribution of~$w'_i$ as computing it on the fly would be
+expensive. However, every word prediction is conditioned on the topic
+of the document, enforcing the summary to have the same theme as the
+document.
+
+% We propose to use word topic information for local context and
+% document topic to model global context.
+
+\paragraph{Multi-layer Convolutional Structure}
+
+Each convolution block, parametrized by $W \in \mathbb{R}^{2d\times
+  kd}$ and $b_w \in \mathbb{R}^{2d}$, takes as input $X \in
+\mathbb{R}^{k\times d}$ which is the concatenation of $k$ adjacent
+elements embedded in a~$d$ dimensional space, applies one dimensional
+convolution and returns an output element $Y \in \mathbb{R}^{2d}$. We
+apply Gated Linear Units (GLU, $v:\mathbb{R}^{2d} \rightarrow
+\mathbb{R}^{d}$, \citeauthor{pmlr-v70-dauphin17a}
+\citeyear{pmlr-v70-dauphin17a}) on the output of the convolution
+$Y$. Subsequent layers operate over the $k$ output elements of the
+previous layer and are connected through residual connections
+\cite{He2016DeepRL} to allow for deeper hierarchical
+representation. We denote the output of the $\ell$th layer as
+$\mathbf{h^{\ell}} = (h^{\ell}_1, \ldots, h^{\ell}_n)$ for the decoder
+network, and $\mathbf{z^{\ell}} = (z^{\ell}_1, \ldots, z^{\ell}_m)$
+for the encoder network.
+
+\paragraph{Multi-hop Attention}
+
+Our encoder and decoder are tied to each other through a multi-hop
+attention mechanism. For each decoder layer $\ell$, we compute the
+attention $a^{\ell}_{ij}$ of state $i$ and source element $j$ as:
+\begin{align}
+a^{\ell}_{ij} = \frac{\mbox{exp}(d^{\ell}_i \cdot z^u_j)}{\sum^m_{t=1} \mbox{exp}(d^{\ell}_i \cdot z^u_t)}, \label{eq:attention}
+\end{align}
+\noindent where $d^{\ell}_i = W^{\ell}_dh^{\ell}_i+b^{\ell}_i+g_i$ is
+the decoder state summary combining the current decoder state
+$h^{\ell}_i$ and the previous output element embedding $g_i$. The
+vector $\mathbf{z^u}$ is the output from the last encoder layer
+$u$. The conditional input $c^{\ell}_i$ to the current decoder layer
+is a weighted sum of the encoder outputs as well as the input element
+embeddings $e_j$:
+\begin{align}
+c^{\ell}_i = \sum^m_{j=1} a^{\ell}_{ij}(z^u_j+e_j). \label{eq:decinput}
+\end{align}
+
+The attention mechanism described here performs multiple attention
+``hops'' per time step and considers which words have been previously
+attended to. It is therefore different from single-step attention in
+recurrent neural networks \cite{bahdanau-arxiv14}, where the attention
+and weighted sum are computed over $\mathbf{z^u}$ only.
+
+Our network uses multiple linear layers to project between the
+embedding size $(f+f')$ and the convolution output size $2d$. They are
+applied to~$\mathbf{e}$ before feeding it to the encoder, to the final
+encoder output $\mathbf{z^u}$, to all decoder layers~$\mathbf{h^{\ell}}$
+for the attention score computation, and to the final decoder output
+$\mathbf{h^L}$ before the softmax.  We pad the input with~$k-1$ zero
+vectors on both left and right side to ensure that the output of the
+convolutional layers matches the input length. During decoding, we
+ensure that the decoder does not have access to future information; we
+start with $k$~zero vectors and shift the covolutional block to the
+right after every prediction. The final decoder output $\mathbf{h^L}$
+is used to compute the distribution over the target vocabulary $T$ as:
+%
+\begin{align}
+  p(y_{i+1}|y_1,\ldots,y_i,D,t_D,\mathbf{t'}) = & \\
+& \hspace*{-2cm}\mbox{softmax}(W_oh^L_i+b_o) \in \mathbb{R}^T. \label{eq:prediction}
+\end{align}
+%
+We use layer normalization and weight initialization to
+stabilize learning. 
+
+
+Our topic-enhanced model calibrates long-range dependencies with
+globally salient content. As a result, it provides a better
+alternative to vanilla convolutional sequence models
+\cite{convseq2seq} and RNN-based summarization models \cite{see-acl17}
+for capturing cross-document inferences and paraphrasing.  At the same
+time it retains the computational advantages of convolutional
+models. Each convolution block operates over a fixed-size window of
+the input sequence, allowing for simultaneous encoding of the input,
+ease in learning due to the fixed number of non-linearities and
+transformations for words in the input sequence.
+%In
+%contrast, RNNs are constrained by temporal dependencies in modeling
+%long-range dependencies. Figure \ref{fig:architecture} gives an
+%overview of our model.
+
+
+
+% We refer the reader to \newcite{convseq2seq} for
+% convolutional sequence modeling. Figure \ref{fig:architecture} gives
+% an overview of our model.
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "extreme-sum"
+%%% End:
+

@@ -1,0 +1,5484 @@
+{
+  "paper_id": "1901.10430",
+  "tuples": [
+    {
+      "method": {
+        "name": "$\\emW$ (No normalization)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$\\emW$ (No normalization) &  diverges"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "outcome",
+          "value": "diverges",
+          "quote": "diverges",
+          "locator": "row_1_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "$\\softmax (\\emW)$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$\\softmax (\\emW)$ & 26.9 $\\pm$ 0.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "mean over three seeds",
+          "quote": "we use three seeds and report the mean and the standard deviation",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "standard deviation",
+          "value": "0.2",
+          "quote": "26.9 $\\pm$ 0.2",
+          "locator": "row_2_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "$\\sigmoid (\\emW)$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$\\sigmoid (\\emW)$ & 26.6 $\\pm$ 0.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "mean over three seeds",
+          "quote": "we use three seeds and report the mean and the standard deviation",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "standard deviation",
+          "value": "0.3",
+          "quote": "26.6 $\\pm$ 0.3",
+          "locator": "row_3_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "$\\tanh (\\emW)$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$\\tanh (\\emW)$ & 25.6 $\\pm$ 0.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "mean over three seeds",
+          "quote": "we use three seeds and report the mean and the standard deviation",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "standard deviation",
+          "value": "0.2",
+          "quote": "25.6 $\\pm$ 0.2",
+          "locator": "row_4_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "$\\frac{\\emW}{\\lVert \\emW \\rVert_1 + \\epsilon}$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$\\frac{\\emW}{\\lVert \\emW \\rVert_1 + \\epsilon}$ & diverges"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "outcome",
+          "value": "diverges",
+          "quote": "diverges",
+          "locator": "row_5_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "$\\frac{\\emW}{\\lVert \\emW \\rVert_2 + \\epsilon}$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$\\frac{\\emW}{\\lVert \\emW \\rVert_2 + \\epsilon}$ & 26.8 $\\pm$ 0.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "mean over three seeds",
+          "quote": "we use three seeds and report the mean and the standard deviation",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "standard deviation",
+          "value": "0.2",
+          "quote": "26.8 $\\pm$ 0.2",
+          "locator": "row_6_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "$ \\text{power} (\\emW, 2) $"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": null,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$ \\text{power} (\\emW, 2) $ & diverges"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "outcome",
+          "value": "diverges",
+          "quote": "diverges",
+          "locator": "row_7_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "$\\frac{\\text{abs} (\\emW)}{\\lVert \\emW \\rVert_2 + \\epsilon}$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "$\\frac{\\text{abs} (\\emW)}{\\lVert \\emW \\rVert_2 + \\epsilon}$ & 26.7 $\\pm$ 0.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "newstest2013",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We compare our proposed softmax-normalization of weights to other alternatives",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "newstest2013",
+          "locator": "caption",
+          "confidence": 0.6667
+        },
+        {
+          "name": "aggregation",
+          "value": "mean over three seeds",
+          "quote": "we use three seeds and report the mean and the standard deviation",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        },
+        {
+          "name": "standard deviation",
+          "value": "0.2",
+          "quote": "26.7 $\\pm$ 0.2",
+          "locator": "row_10_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NAT (+ FT)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 17.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{gu2018nonautoregressive}",
+        "locator": "row_1",
+        "reference": "gu2018nonautoregressive"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NAT (+ FT)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 25.6,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "25.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{gu2018nonautoregressive}",
+        "locator": "row_1",
+        "reference": "gu2018nonautoregressive"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NAT (+ FT + NPD=10)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 18.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "18.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{gu2018nonautoregressive}",
+        "locator": "row_2",
+        "reference": "gu2018nonautoregressive"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NAT (+ FT + NPD=10)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 12.7,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "12.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{gu2018nonautoregressive}",
+        "locator": "row_2",
+        "reference": "gu2018nonautoregressive"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NAT (+ FT + NPD=100)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 19.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{gu2018nonautoregressive}",
+        "locator": "row_3",
+        "reference": "gu2018nonautoregressive"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NAT (+ FT + NPD=100)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 3.9,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.2 & 3.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{gu2018nonautoregressive}",
+        "locator": "row_3",
+        "reference": "gu2018nonautoregressive"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LT, Improved Semhash"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 19.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "19.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{kaiser2018fastdecoding}",
+        "locator": "row_4",
+        "reference": "kaiser2018fastdecoding"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "LT, Improved Semhash"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 9.5,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{kaiser2018fastdecoding}",
+        "locator": "row_4",
+        "reference": "kaiser2018fastdecoding"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 1$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 13.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "13.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_5",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 1$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Tok/sec",
+          "value": 511.4,
+          "unit": "tokens/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "511.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_5",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 2$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 17.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_6",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 2$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Tok/sec",
+          "value": 393.6,
+          "unit": "tokens/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "393.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_6",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 5$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 20.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "20.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_7",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 5$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Tok/sec",
+          "value": 139.7,
+          "unit": "tokens/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "139.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_7",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 10$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 21.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_8",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR $i_{dec} = 10$"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Tok/sec",
+          "value": 90.4,
+          "unit": "tokens/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_8",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR Adaptive"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 21.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_9",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "IR Adaptive"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Tok/sec",
+          "value": 107.2,
+          "unit": "tokens/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "107.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{lee2018deterministic}",
+        "locator": "row_9",
+        "reference": "lee2018deterministic"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true,
+        "metrics": true
+      }
+    },
+    {
+      "method": {
+        "name": "NART w/ hints"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 21.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{li2019hintbased}",
+        "locator": "row_10",
+        "reference": "li2019hintbased"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NART w/ hints"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 38.5,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{li2019hintbased}",
+        "locator": "row_10",
+        "reference": "li2019hintbased"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "beam size",
+          "value": "1",
+          "quote": "beam size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NART w/ hints ($B=4$, 9 candidates)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "25.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{li2019hintbased}",
+        "locator": "row_11",
+        "reference": "li2019hintbased"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        },
+        {
+          "name": "b",
+          "value": "4",
+          "quote": "$B=4$",
+          "locator": "row_11",
+          "confidence": 1.0
+        },
+        {
+          "name": "candidates",
+          "value": "9",
+          "quote": "9 candidates",
+          "locator": "row_11",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "NART w/ hints ($B=4$, 9 candidates)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 22.7,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "25.2 & 22.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "not stated"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citep{li2019hintbased}",
+        "locator": "row_11",
+        "reference": "li2019hintbased"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size = 1",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{gehring2017convs2s}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "216M & 25.2 & 40.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{gehring2017convs2s}",
+        "locator": "row_1",
+        "reference": "gehring2017convs2s"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{gehring2017convs2s}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 40.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "216M & 25.2 & 40.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{gehring2017convs2s}",
+        "locator": "row_1",
+        "reference": "gehring2017convs2s"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{vaswani2017transformer}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 28.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "213M & 28.4 & 41.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{vaswani2017transformer}",
+        "locator": "row_2",
+        "reference": "vaswani2017transformer"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{vaswani2017transformer}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 41.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "213M & 28.4 & 41.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{vaswani2017transformer}",
+        "locator": "row_2",
+        "reference": "vaswani2017transformer"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{ahmed2017WeightedTN}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 28.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "213M & 28.9 & 41.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{ahmed2017WeightedTN}",
+        "locator": "row_3",
+        "reference": "ahmed2017WeightedTN"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{ahmed2017WeightedTN}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 41.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "213M & 28.9 & 41.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{ahmed2017WeightedTN}",
+        "locator": "row_3",
+        "reference": "ahmed2017WeightedTN"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{chen2018arxiv}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 28.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "379M & 28.5 & 41.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{chen2018arxiv}",
+        "locator": "row_4",
+        "reference": "chen2018arxiv"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{shaw2018relpos}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 29.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "- & 29.2 & 41.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{shaw2018relpos}",
+        "locator": "row_5",
+        "reference": "shaw2018relpos"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{shaw2018relpos}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 41.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "- & 29.2 & 41.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{shaw2018relpos}",
+        "locator": "row_5",
+        "reference": "shaw2018relpos"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{ott2018scaling}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 29.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "210M & 29.3 & \\textbf{43.2}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{ott2018scaling}",
+        "locator": "row_6",
+        "reference": "ott2018scaling"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\citet{ott2018scaling}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "29.3 & \\textbf{43.2}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{ott2018scaling}",
+        "locator": "row_6",
+        "reference": "ott2018scaling"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 28.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\sdconv{} & 202M & 28.9 & 43.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\sdconv{} & 202M & 28.9 & 43.1",
+        "locator": "row_7",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 43.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\sdconv{} & 202M & 28.9 & 43.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\sdconv{} & 202M & 28.9 & 43.1",
+        "locator": "row_7",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\tvsdconv{} & 213M & \\textbf{29.7}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv{} & 213M & \\textbf{29.7} & \\textbf{43.2}",
+        "locator": "row_8",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-FR"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{29.7} & \\textbf{43.2}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "newstest2014",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv{} & 213M & \\textbf{29.7} & \\textbf{43.2}",
+        "locator": "row_8",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "\\citet{deng2018latent}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT'14 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 33.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\citet{deng2018latent} & - & 33.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{deng2018latent} & - & 33.1",
+        "locator": "row_1",
+        "reference": "deng2018latent"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "\\cite{hassan2018parity}"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'17 Chinese-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 24.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\cite{hassan2018parity} & - & - & 24.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{hassan2018parity} & - & - & 24.2",
+        "locator": "row_2",
+        "reference": "hassan2018parity"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4",
+      "_context_miss": {
+        "method": true
+      }
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT'14 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Self-attention baseline & 292M & 34.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Self-attention baseline & 292M & 34.4",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'17 Chinese-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 23.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Self-attention baseline & 292M & 34.4 & 23.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Self-attention baseline & 292M & 34.4 & 23.8",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT'14 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\sdconv{} & 285M & 34.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\sdconv{} & 285M & 34.8",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'17 Chinese-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 24.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\sdconv{} & 285M & 34.8 & 24.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\sdconv{} & 285M & 34.8 & 24.3",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT'14 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\tvsdconv{} & 296M & \\textbf{35.2}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv{} & 296M & \\textbf{35.2}",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'17 Chinese-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 24.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\tvsdconv{} & 296M & \\textbf{35.2} & \\textbf{24.4}"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv{} & 296M & \\textbf{35.2} & \\textbf{24.4}",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 26.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "213M & 26.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\citet{vaswani2017transformer} & 213M & 26.4",
+        "locator": "row_1",
+        "reference": "vaswani2017transformer"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 26.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26.9 $\\pm$ 0.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "our baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "model configuration",
+          "value": "k=\u221e, H=16",
+          "quote": "Self-attention baseline (k=$\\inf$, H=16)",
+          "locator": "row_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 52.1,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "52.1 $\\pm$ 0.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "our baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "model configuration",
+          "value": "k=\u221e, H=16",
+          "quote": "Self-attention baseline (k=$\\inf$, H=16)",
+          "locator": "row_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "speed measurement",
+          "value": "beam size 4, batch size 256, NVIDIA P100 GPU",
+          "quote": "Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 54.9,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "54.9 $\\pm$ 0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "our baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "model configuration",
+          "value": "k=3,7,15,31x3, H=16",
+          "quote": "Self-attention baseline (k=3,7,15,31x3, H=16)",
+          "locator": "row_3",
+          "confidence": 1.0
+        },
+        {
+          "name": "speed measurement",
+          "value": "beam size 4, batch size 256, NVIDIA P100 GPU",
+          "quote": "Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "non-separable convolutions"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 25.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "25.9 $\\pm$ 0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we replace self-attention blocks with non-separable convolutions (CNN)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "model configuration",
+          "value": "k=3",
+          "quote": "CNN (k=3)",
+          "locator": "row_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "non-separable convolutions"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 68.1,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "68.1 $\\pm$ 0.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we replace self-attention blocks with non-separable convolutions (CNN)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "model configuration",
+          "value": "k=3",
+          "quote": "CNN (k=3)",
+          "locator": "row_4",
+          "confidence": 1.0
+        },
+        {
+          "name": "speed measurement",
+          "value": "beam size 4, batch size 256, NVIDIA P100 GPU",
+          "quote": "Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "depthwise separable convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 26.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26.1 $\\pm$ 0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "model configuration",
+          "value": "k=3, H=1024",
+          "quote": "CNN Depthwise (k=3, H=1024)",
+          "locator": "row_5",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "depthwise separable convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 67.1,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "67.1 $\\pm$ 1.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "model configuration",
+          "value": "k=3, H=1024",
+          "quote": "CNN Depthwise (k=3, H=1024)",
+          "locator": "row_5",
+          "confidence": 1.0
+        },
+        {
+          "name": "speed measurement",
+          "value": "beam size 4, batch size 256, NVIDIA P100 GPU",
+          "quote": "Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "depthwise separable convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 26.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26.4 $\\pm$ 0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "depthwise separable convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 63.3,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "63.3 $\\pm$ 0.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "speed measurement",
+          "value": "beam size 4, batch size 256, NVIDIA P100 GPU",
+          "quote": "Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "depthwise separable convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 26.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26.5 $\\pm$ 0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "depthwise separable convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 63.7,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "63.7 $\\pm$ 0.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "speed measurement",
+          "value": "beam size 4, batch size 256, NVIDIA P100 GPU",
+          "quote": "Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 26.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26.6 $\\pm$ 0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "sentences per second",
+          "value": 63.6,
+          "unit": "sentences/sec"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "63.6 $\\pm$ 0.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "speed measurement",
+          "value": "beam size 4, batch size 256, NVIDIA P100 GPU",
+          "quote": "Speed results based on beam size 4, batch size 256 on an NVIDIA P100 GPU.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 EN-DE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Bilingual Evaluation Understudy",
+          "value": 26.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26.9 $\\pm$ 0.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "validation accuracy",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation on WMT English-German newstest2013.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "evaluation set",
+          "value": "newstest2013",
+          "quote": "WMT English-German newstest2013",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "2-layer LSTM-8192-1024"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 30.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "30.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "table_header"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "2-layer LSTM-8192-1024 \\citep{jozefowicz2016lm}",
+        "locator": "row_1",
+        "reference": "jozefowicz2016lm"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Gated Convolutional Model"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 31.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "31.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "table_header"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Gated Convolutional Model \\citep{dauphin2017convlm}",
+        "locator": "row_2",
+        "reference": "dauphin2017convlm"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Mixture of Experts"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 28.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "table_header"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Mixture of Experts \\citep{shazeer2017outrageously}",
+        "locator": "row_3",
+        "reference": "shazeer2017outrageously"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 26.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "331M & 26.67 & 26.73"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Valid",
+        "locator": "table_header"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "our self-attention baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 26.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "331M & 26.67 & 26.73"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "table_header"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "our self-attention baseline",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 26.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "339M & 26.60 & \\textbf{26.67}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "Valid",
+        "locator": "table_header"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv{}",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "Google Billion Word"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexity",
+          "value": 26.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "339M & 26.60 & \\textbf{26.67}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test",
+        "locator": "table_header"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv{}",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 38.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.30 & 14.81 &  35.49"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LSTM \\citep{paulus17intra}",
+        "locator": "row_1",
+        "reference": "paulus17intra"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "LSTM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 14.81,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.30 & 14.81 &  35.49"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LSTM \\citep{paulus17intra}",
+        "locator": "row_1",
+        "reference": "paulus17intra"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "LSTM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 35.49,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "38.30 & 14.81 &  35.49"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "LSTM \\citep{paulus17intra}",
+        "locator": "row_1",
+        "reference": "paulus17intra"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "non-separable convolutions"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 39.06,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.06 & 15.38 & 35.77"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "CNN \\citep{fan17}",
+        "locator": "row_2",
+        "reference": "fan17"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "non-separable convolutions"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 15.38,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.06 & 15.38 & 35.77"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "CNN \\citep{fan17}",
+        "locator": "row_2",
+        "reference": "fan17"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "non-separable convolutions"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 35.77,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.06 & 15.38 & 35.77"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "CNN \\citep{fan17}",
+        "locator": "row_2",
+        "reference": "fan17"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 39.26,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.26 & 15.98 & 36.35"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Self-attention baseline",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 15.98,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.26 & 15.98 & 36.35"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Self-attention baseline",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Self-attention baseline"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 36.35,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.26 & 15.98 & 36.35"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Self-attention baseline",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 39.52,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.52 & 15.97 & 36.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\sdconv & 86M",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 15.97,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.52 & 15.97 & 36.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\sdconv & 86M",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Lightweight convolution"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 36.51,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.52 & 15.97 & 36.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\sdconv & 86M",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 39.84,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{39.84}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv & 87M",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 16.25,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{16.25}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv & 87M",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Dynamic convolution"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 36.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{36.73}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\tvsdconv & 87M",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "dataset version",
+          "value": "entity-anonymized",
+          "quote": "we use the more common entity-anonymized version",
+          "locator": "referring_paragraph",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "reinforcement learning approach"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 41.69,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{41.69}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "RL \\citep{celikyilmaz2018deep}",
+        "locator": "row_6",
+        "reference": "celikyilmaz2018deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "reinforcement learning approach"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 19.47,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{19.47}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "RL \\citep{celikyilmaz2018deep}",
+        "locator": "row_6",
+        "reference": "celikyilmaz2018deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "reinforcement learning approach"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 37.92,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\textbf{37.92}"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "tab_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "RL \\citep{celikyilmaz2018deep}",
+        "locator": "row_6",
+        "reference": "celikyilmaz2018deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "openai",
+    "model": "openai/gpt-6.1-terra-pro",
+    "n_tables_all": 7,
+    "n_results_tables_loose": 7,
+    "tables_completed": 7,
+    "calls": 21,
+    "cost_usd": 1.300586,
+    "tokens_in": 378316,
+    "tokens_out": 184454,
+    "context_pass_cost": 0.080591
+  }
+}

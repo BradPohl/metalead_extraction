@@ -1,0 +1,19 @@
+
+A dynamic convolution has kernels that vary over time as a learned function of the individual time steps.
+A dynamic version of standard convolutions would be impractical for current GPUs due to their large memory requirements.
+We address this problem by building on \sdconv{} which drastically reduces the number of parameters (\textsection\ref{sec:sdconv}). 
+
+\newterm{\tvsdconv{}} takes the same form as \sdconv{} but uses a time-step dependent kernel that is computed using a function $f:\mathbb{R}^{d}\to \R^{H \times k}$:
+\[
+\text{\tvsdconv{}}(X, i, c) = \text{\sdconv{}}(X, f(\emX_i)_{h,:}, i, c)
+\]
+we model $f$ with a simple linear module with learned weights $\emW^Q \in \R^{H \times k \times d}$, i.e.,
+$ f(\emX_i) = \sum_{c=1}^d \emW^Q_{h, j, c} \emX_{i, c}$. 
+
+Similar to self-attention, \tvsdconv{} changes the weights assigned to context elements over time.
+However, the weights of \tvsdconv{} do not depend on the entire context, they are a function of the current time-step only.
+Self-attention requires a quadratic number of operations in the sentence length to compute attention weights, while the computation of dynamic kernels for \tvsdconv{} scales linearly in the sequence length. 
+
+Our experiments (\textsection\ref{sec:results}) show that models using \tvsdconv{} match or exceed the performance of state-of-the-art models that use context-based self-attention. 
+This challenges the typical intuitions about the importance of content-based self-attention in natural language processing applications.
+

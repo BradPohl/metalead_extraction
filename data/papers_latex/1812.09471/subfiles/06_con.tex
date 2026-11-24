@@ -1,0 +1,4 @@
+\section{Conclusions}
+In this paper, a capsule-based model, namely {\ModelName}, is introduced to harness the hierarchical relationships among words, slots, and intents in the utterance for joint slot filling and intent detection.
+Unlike treating slot filling as a sequential prediction problem, the proposed model assigns each word to its most appropriate slots in {\SecondCapsule} by a dynamic routing-by-agreement schema. The learned word-level slot representations are futher aggregated to get the utterance-level intent representations via dynamic routing-by-agreement. A re-routing schema is proposed to further synergize the slot filling performance using the inferred intent representation.
+Experiments on two real-world datasets show the effectiveness of the proposed models when compared with other alternatives as well as existing NLU services.

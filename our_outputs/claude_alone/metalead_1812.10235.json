@@ -1,0 +1,2004 @@
+{
+  "paper_id": "1812.10235",
+  "tuples": [
+    {
+      "method": {
+        "name": "Recursive NN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 93.96,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "guo2014joint",
+        "quote": "Recursive NN \\cite{guo2014joint}",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Recursive NN",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "Recursive NN  & 93.96\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Recursive NN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 95.4,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "guo2014joint",
+        "quote": "Recursive NN \\cite{guo2014joint}",
+        "locator": "table_1_row_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Recursive NN",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "93.96\\% & 95.4\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent intent and slot label context"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 94.47,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016joint",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Joint model with recurrent intent and slot label context",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "&94.47\\% & 98.43\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent intent and slot label context"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.43,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016joint",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "table_1_row_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Joint model with recurrent intent and slot label context",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "&94.47\\% & 98.43\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent slot label context"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 94.64,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016joint",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "table_1_row_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Joint model with recurrent slot label context",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "&94.64\\% & 98.21\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Joint model with recurrent slot label context"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.21,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016joint",
+        "quote": "\\cite{liu2016joint}",
+        "locator": "table_1_row_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Joint model with recurrent slot label context",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "&94.64\\% & 98.21\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "RNN with Label Sampling"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 94.89,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2015recurrent",
+        "quote": "\\cite{liu2015recurrent}",
+        "locator": "table_1_row_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "RNN with Label Sampling",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "RNN with Label Sampling  & 94.89\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Hybrid RNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.06,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "mesnil2015using",
+        "quote": "\\cite{mesnil2015using}",
+        "locator": "table_1_row_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Hybrid RNN",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "Hybrid RNN & 95.06\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "RNN-EM"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.25,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peng2015recurrent",
+        "quote": "\\cite{peng2015recurrent}",
+        "locator": "table_1_row_6"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "RNN-EM",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "RNN-EM  & 95.25\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "CNN CRF"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.35,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "xu2013convolutional",
+        "quote": "\\cite{xu2013convolutional}",
+        "locator": "table_1_row_7"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "CNN CRF",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "CNN CRF & 95.35\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Encoder-labeler Deep LSTM"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.66,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "kurata2016leveraging",
+        "quote": "\\cite{kurata2016leveraging}",
+        "locator": "table_1_row_8"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Encoder-labeler Deep LSTM",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "Encoder-labeler Deep LSTM & 95.66\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Joint GRU Model (W)"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.49,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang2016joint",
+        "quote": "\\cite{zhang2016joint}",
+        "locator": "table_1_row_9"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Joint GRU Model (W)",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "Joint GRU Model (W) &95.49\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Joint GRU Model (W)"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang2016joint",
+        "quote": "\\cite{zhang2016joint}",
+        "locator": "table_1_row_9"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Joint GRU Model (W)",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "&95.49\\%&98.10\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Attention Encoder-Decoder NN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.87,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016attention",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "table_1_row_10"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Attention Encoder-Decoder NN",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "&95.87\\% & 98.43\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Attention Encoder-Decoder NN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.43,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016attention",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "table_1_row_10"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Attention Encoder-Decoder NN",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "&95.87\\% & 98.43\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.98,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016attention",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "table_1_row_11"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Attention BiRNN",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "Attention BiRNN & 95.98\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.21,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2016attention",
+        "quote": "\\cite{liu2016attention}",
+        "locator": "table_1_row_11"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Attention BiRNN",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "95.98\\% & 98.21\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 96.65,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our new proposed Bi-model structures",
+        "locator": "section_4_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "layer_size",
+          "value": "200",
+          "quote": "LSTM and BLSTM networks in our model are chosen as 200",
+          "locator": "section_4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Bi-model without a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "\\textbf{96.65\\%}"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.76,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our new proposed Bi-model structures",
+        "locator": "section_4_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "layer_size",
+          "value": "200",
+          "quote": "LSTM and BLSTM networks in our model are chosen as 200",
+          "locator": "section_4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Bi-model without a decoder",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "\\textbf{98.76}\\%"
+      },
+      "confidence": 0.92
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 96.89,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our new proposed Bi-model structures",
+        "locator": "section_4_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "layer_size",
+          "value": "200",
+          "quote": "LSTM and BLSTM networks in our model are chosen as 200",
+          "locator": "section_4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Bi-model with a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "\\textbf{96.89\\%}"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "ATIS"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Intent Accuracy",
+          "value": 98.99,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "the test set contains 893 utterance",
+        "locator": "section_4_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our new proposed Bi-model structures",
+        "locator": "section_4_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "layer_size",
+          "value": "200",
+          "quote": "LSTM and BLSTM networks in our model are chosen as 200",
+          "locator": "section_4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Bi-model with a decoder",
+        "column_label": "Intent Accuracy",
+        "sentence": null,
+        "quoted_span": "\\textbf{98.99}\\%"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 92.1,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "liu2016attention",
+        "quote": "attention based BiRNN \\cite{liu2016attention} is used for comparison",
+        "locator": "section_4.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Movie / Attention BiRNN",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "979 & 92.1\\%& 92.86\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 92.86,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "liu2016attention",
+        "quote": "attention based BiRNN \\cite{liu2016attention} is used for comparison",
+        "locator": "section_4.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Movie / Attention BiRNN",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "979 & 92.1\\%& 92.86\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 93.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Movie / Bi-model without a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "979  & 93.3\\%& 94.89\\%"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.89,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Movie / Bi-model without a decoder",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "979  & 93.3\\%& 94.89\\%"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 93.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Movie / Bi-model with a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "\\textbf{93.8\\%}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Movie"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 95.91,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Movie",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Movie / Bi-model with a decoder",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "\\textbf{95.91\\%}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 92.3,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "liu2016attention",
+        "quote": "attention based BiRNN \\cite{liu2016attention} is used for comparison",
+        "locator": "section_4.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Food / Attention BiRNN",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "983 & 92.3\\%& 98.48\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 98.48,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "liu2016attention",
+        "quote": "attention based BiRNN \\cite{liu2016attention} is used for comparison",
+        "locator": "section_4.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Food / Attention BiRNN",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "983 & 92.3\\%& 98.48\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 93.6,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Food / Bi-model without a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "983  & 93.6\\%& 98.98\\%"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 98.98,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Food / Bi-model without a decoder",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "983  & 93.6\\%& 98.98\\%"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 95.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Food / Bi-model with a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "\\textbf{95.8\\%}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Food"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 99.49,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Food",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Food / Bi-model with a decoder",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "\\textbf{99.49\\%}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 96.5,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "liu2016attention",
+        "quote": "attention based BiRNN \\cite{liu2016attention} is used for comparison",
+        "locator": "section_4.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Home / Attention BiRNN",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "689 & 96.5\\%& 97.83\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Attention BiRNN"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.83,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "liu2016attention",
+        "quote": "attention based BiRNN \\cite{liu2016attention} is used for comparison",
+        "locator": "section_4.3_paragraph_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Home / Attention BiRNN",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "689 & 96.5\\%& 97.83\\%"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 97.8,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Home / Bi-model without a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "689  & 97.8\\%& 98.55\\%"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model without a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 98.55,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Home / Bi-model without a decoder",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "689  & 97.8\\%& 98.55\\%"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Slot Filling"
+      },
+      "datasets": [
+        {
+          "name": "Home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 Score",
+          "value": 98.2,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Home / Bi-model with a decoder",
+        "column_label": "F1 Score",
+        "sentence": null,
+        "quoted_span": "\\textbf{98.2\\%}"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Bi-model with a decoder"
+      },
+      "task": {
+        "name": "Intent Detection"
+      },
+      "datasets": [
+        {
+          "name": "Home"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 99.27,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "20$\\%$ for test",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "the Bi-model structures are further tested",
+        "locator": "section_4.3_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "domain",
+          "value": "Home",
+          "quote": "three domains: food, home and movie",
+          "locator": "section_4.3_paragraph_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Home / Bi-model with a decoder",
+        "column_label": "Accuracy",
+        "sentence": null,
+        "quoted_span": "\\textbf{99.27\\%}"
+      },
+      "confidence": 0.88
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      39
+    ],
+    "tokens_in": 11800,
+    "tokens_out": 14417,
+    "cost_usd": 0.33554
+  }
+}

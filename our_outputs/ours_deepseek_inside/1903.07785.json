@@ -1,0 +1,3399 @@
+{
+  "paper_id": "1903.07785",
+  "tuples": [
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 45.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "45.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 91.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Regression"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 80.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "70.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.1/81.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.1/81.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 88.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 56.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "56.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_9"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "OpenAI GPT",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 53.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "53.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Regression"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 82.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "70.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.5/82.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.5/82.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 89.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 64.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "64.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_9"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Base",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 52.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "52.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 94.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Regression"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 83.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc",
+        "locator": "row_3_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 71.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "71.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server.",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo$_{BASE}$",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_1_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo$_{BASE}$",
+        "locator": "row_1_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + ELMo",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_2_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + ELMo",
+        "locator": "row_2_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + fine-tune",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_3_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + fine-tune",
+        "locator": "row_3_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_4_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BERT$_{BASE}$",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_4_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_4_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BERT$_{BASE}$",
+        "locator": "row_4_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_5_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_5_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BERT$_{LARGE}$",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.8"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_5_col_3"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_5_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "BERT$_{LARGE}$",
+        "locator": "row_5_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.3333,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_1_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo$_{BASE}$ &  95.2 & 95.1",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ELMo"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "conflict",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "ELMo$_{BASE}$ &  95.2 & 95.1",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + ELMo & 95.1 & 95.2",
+        "locator": "row_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "conflict",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + ELMo & 95.1 & 95.2",
+        "locator": "row_2",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + fine-tune & 95.5 &95.6",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "conflict",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "CNN Large + fine-tune & 95.5 &95.6",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 55.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "55.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_1_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 92.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Regression"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 88.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc",
+        "locator": "row_1_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 86.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 66.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "66.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 50.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "50.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_2_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 92.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Regression"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 87.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 84.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.0"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 66.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "66.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "cloze + bilm"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 52.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "52.6"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_3_col_1"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "cloze + bilm"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.2"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_3_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "cloze + bilm"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 52.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "52.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_1_col_7"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 85.7,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.7"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_9"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 63.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "63.3"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_1_col_10"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 55.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "55.5"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Sentence Similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Regression"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 88.4,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.4"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc",
+        "locator": "row_2_col_6"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cloze-driven Pretraining of Self-attention Networks"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.9"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc",
+        "locator": "row_2_col_8"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "deepseek_v4pro",
+    "model": "deepseek/deepseek-v4-pro-0813",
+    "n_tables_all": 6,
+    "n_results_tables_loose": 6,
+    "tables_completed": 6,
+    "calls": 18,
+    "cost_usd": 0.30751175,
+    "tokens_in": 45250,
+    "tokens_out": 75577,
+    "context_pass_cost": 0.0065701349999999995
+  }
+}

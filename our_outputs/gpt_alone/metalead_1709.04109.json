@@ -1,0 +1,4429 @@
+{
+  "paper_id": "1709.04109",
+  "tuples": [
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 89.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Collobert2011NaturalLP",
+        "quote": "reported& 89.59",
+        "locator": "tbl:ner_row_0"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "gazetteers",
+          "quote": "gazetteers",
+          "locator": "tbl:ner_row_0"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "0) Collobert et al. 2011",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 89.59"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Chiu et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Chiu2016NamedER",
+        "quote": "reported & 91.62",
+        "locator": "tbl:ner_row_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "gazetteers",
+          "quote": "gazetteers",
+          "locator": "tbl:ner_row_1"
+        },
+        {
+          "name": "training data",
+          "value": "training and development set",
+          "quote": "index 1, 4, 8, 10 and 11",
+          "locator": "section_performance_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "1) Chiu et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 91.62$\\pm$0.33"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Luo et al. 2015"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo2015joint",
+        "quote": "reported& 91.20",
+        "locator": "tbl:ner_row_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "AIDA dataset",
+          "quote": "AIDA dataset",
+          "locator": "tbl:ner_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "2) Luo et al. 2015",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 91.20"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "{reported} & \\multirow{2}{*}{91.26}",
+        "locator": "tbl:ner_row_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "CoNLL 2000 / PTB-POS dataset",
+          "quote": "PTB-POS dataset",
+          "locator": "tbl:ner_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "3) Yang et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "\\multirow{2}{*}{91.26}"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.93,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "{reported} & \\multirow{2}{*}{91.93",
+        "locator": "tbl:ner_row_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "1B Word dataset",
+          "quote": "1B Word dataset",
+          "locator": "tbl:ner_row_4"
+        },
+        {
+          "name": "forward language model",
+          "value": "4096-8192-1024",
+          "quote": "4096-8192-1024",
+          "locator": "tbl:ner_row_4"
+        },
+        {
+          "name": "training data",
+          "value": "training and development set",
+          "quote": "index 1, 4, 8, 10 and 11",
+          "locator": "section_performance_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "4) Peters et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "91.93$\\pm$0.19"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 91.62",
+        "locator": "tbl:ner_row_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "1B Word dataset",
+          "quote": "1B Word dataset",
+          "locator": "tbl:ner_row_5"
+        },
+        {
+          "name": "forward language model",
+          "value": "LSTM-2048-512",
+          "quote": "to \\texttt{LSTM-2048-512}",
+          "locator": "section_performance_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "5) Peters et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 91.62$\\pm$0.23"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 88.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Collobert2011NaturalLP",
+        "quote": "reported& 88.67",
+        "locator": "tbl:ner_row_6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "{None}",
+          "locator": "tbl:ner_row_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "6) Collobert et al. 2011",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 88.67"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Luo et al. 2015"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 89.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "luo2015joint",
+        "quote": "reported& 89.90",
+        "locator": "tbl:ner_row_7"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "{None}",
+          "locator": "tbl:ner_row_7"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "7) Luo et al. 2015",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 89.90"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Chiu et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.91,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Chiu2016NamedER",
+        "quote": "reported & 90.91",
+        "locator": "tbl:ner_row_8"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "{None}",
+          "locator": "tbl:ner_row_8"
+        },
+        {
+          "name": "training data",
+          "value": "training and development set",
+          "quote": "index 1, 4, 8, 10 and 11",
+          "locator": "section_performance_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "8) Chiu et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 90.91$\\pm$0.20"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "reported & 91.20",
+        "locator": "tbl:ner_row_9"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "{None}",
+          "locator": "tbl:ner_row_9"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "9) Yang et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 91.20"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.87,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 90.87",
+        "locator": "tbl:ner_row_10"
+      },
+      "evaluation_setting": [
+        {
+          "name": "language model",
+          "value": "not used",
+          "quote": "index 11 utilizes language model and index 10 doesn't",
+          "locator": "section_performance_ner"
+        },
+        {
+          "name": "training data",
+          "value": "training and development set",
+          "quote": "index 1, 4, 8, 10 and 11",
+          "locator": "section_performance_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "10) Peters et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 90.87$\\pm$0.13"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.79,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 90.79",
+        "locator": "tbl:ner_row_11"
+      },
+      "evaluation_setting": [
+        {
+          "name": "language model",
+          "value": "used",
+          "quote": "index 11 utilizes language model",
+          "locator": "section_performance_ner"
+        },
+        {
+          "name": "training data",
+          "value": "training and development set",
+          "quote": "index 1, 4, 8, 10 and 11",
+          "locator": "section_performance_ner"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "11) Peters et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 90.79$\\pm$0.15"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 87.38,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 87.38",
+          "locator": "tbl:ner_row_12"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "12) Rei 2017",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 87.38$\\pm$0.36"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 87.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "max",
+          "quote": "max & 87.94",
+          "locator": "tbl:ner_row_12"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "12) Rei 2017",
+        "column_label": "max",
+        "sentence": null,
+        "quoted_span": "max & 87.94"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 86.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "rei2017semi",
+        "quote": "reported & 86.26",
+        "locator": "tbl:ner_row_12"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "12) Rei 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 86.26"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.76,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 90.76",
+          "locator": "tbl:ner_row_13"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "13) Lample et al. 2016",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 90.76$\\pm$0.08"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "max",
+          "quote": "max & 91.14",
+          "locator": "tbl:ner_row_13"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "13) Lample et al. 2016",
+        "column_label": "max",
+        "sentence": null,
+        "quoted_span": "max & 91.14"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 90.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "2016naacl",
+        "quote": "reported & 90.94",
+        "locator": "tbl:ner_row_13"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "13) Lample et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 90.94"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 91.37",
+          "locator": "tbl:ner_row_14"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 91.37$\\pm$0.17"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "max",
+          "quote": "max & 91.67",
+          "locator": "tbl:ner_row_14"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "max",
+        "sentence": null,
+        "quoted_span": "max & 91.67"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "reported & 91.21",
+        "locator": "tbl:ner_row_14"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 91.21"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.71,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 91.71",
+          "locator": "tbl:ner_row_15"
+        },
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300 &  91.71",
+          "locator": "tbl:size_row_1"
+        },
+        {
+          "name": "training data",
+          "value": "training set",
+          "quote": "our model is trained purely on the training set",
+          "locator": "section_network_training"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "15) LM-LSTM-CRF",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 91.71$\\pm$0.10"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.85,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption_tbl:ner"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "max",
+          "quote": "max & 91.85",
+          "locator": "tbl:ner_row_15"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:ner",
+        "row_label": "15) LM-LSTM-CRF",
+        "column_label": "max",
+        "sentence": null,
+        "quoted_span": "max & 91.85"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.29,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Collobert2011NaturalLP",
+        "quote": "reported& 97.29",
+        "locator": "tbl:pos_row_0"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "0) Collobert et al. 2011",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 97.29"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Manning 2011"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "manning2011part",
+        "quote": "reported & 97.28",
+        "locator": "tbl:pos_row_16"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "16) Manning 2011",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 97.28"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard 2011"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sogaard2011semisupervised",
+        "quote": "reported& 97.50",
+        "locator": "tbl:pos_row_17"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "17) S\u00f8gaard 2011",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 97.50"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Sun 2014"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.36,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sun2014structure",
+        "quote": "reported& 97.36",
+        "locator": "tbl:pos_row_18"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "18) Sun 2014",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 97.36"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.97,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 96.97",
+          "locator": "tbl:pos_row_12"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "12) Rei 2017",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 96.97$\\pm$0.22"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "max",
+          "quote": "max & 97.14",
+          "locator": "tbl:pos_row_12"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "12) Rei 2017",
+        "column_label": "max",
+        "sentence": null,
+        "quoted_span": "max & 97.14"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "rei2017semi",
+        "quote": "reported & 97.43",
+        "locator": "tbl:pos_row_12"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "12) Rei 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 97.43"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.35,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean$\\pm$std & 97.35",
+          "locator": "tbl:pos_row_13"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "13) Lample et al. 2016",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "97.35$\\pm$0.09"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "maximum",
+          "quote": "maximum & 97.51",
+          "locator": "tbl:pos_row_13"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "13) Lample et al. 2016",
+        "column_label": "maximum",
+        "sentence": null,
+        "quoted_span": "maximum & 97.51"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean$\\pm$std & 97.42",
+          "locator": "tbl:pos_row_14"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "97.42$\\pm$0.04"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.46,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "maximum",
+          "quote": "maximum & 97.46",
+          "locator": "tbl:pos_row_14"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "maximum",
+        "sentence": null,
+        "quoted_span": "maximum & 97.46"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "reported & 97.55",
+        "locator": "tbl:pos_row_14"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 97.55"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean$\\pm$std & 97.53",
+          "locator": "tbl:pos_row_15"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "15) LM-LSTM-CRF",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "97.53$\\pm$0.03"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "POS tagging"
+      },
+      "datasets": [
+        {
+          "name": "WSJ"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "sections 22-24 as test data",
+        "locator": "section_experiments_wsj"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset",
+        "locator": "caption_tbl:pos"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "maximum",
+          "quote": "maximum & 97.59",
+          "locator": "tbl:pos_row_15"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:pos",
+        "row_label": "15) LM-LSTM-CRF",
+        "column_label": "maximum",
+        "sentence": null,
+        "quoted_span": "maximum & 97.59"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "Hashimoto et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.77,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hashimoto2016joint",
+        "quote": "reported& 95.77",
+        "locator": "tbl:chunking_row_19"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "PTB-POS",
+          "quote": "PTB-POS",
+          "locator": "tbl:chunking_row_19"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "19) Hashimoto et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 95.77"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sogaard2016deep",
+        "quote": "reported & 95.56",
+        "locator": "tbl:chunking_row_20"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "PTB-POS",
+          "quote": "PTB-POS",
+          "locator": "tbl:chunking_row_20"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "20) S\u00f8gaard et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 95.56"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "{reported} & \\multirow{2}{*}{95.41}",
+        "locator": "tbl:chunking_row_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "CoNLL 2000 / PTB-POS dataset",
+          "quote": "PTB-POS dataset",
+          "locator": "tbl:chunking_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "3) Yang et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "\\multirow{2}{*}{95.41}"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "Peters et al. 2017"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 96.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "peters2017semi",
+        "quote": "reported & 96.37",
+        "locator": "tbl:chunking_row_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "1B Word dataset",
+          "quote": "1B Word dataset",
+          "locator": "tbl:chunking_row_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "4) Peters et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 96.37$\\pm$0.05"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Hashimoto et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.02,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "hashimoto2016joint",
+        "quote": "reported& 95.02",
+        "locator": "tbl:chunking_row_21"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "{None}",
+          "locator": "tbl:chunking_row_21"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "21) Hashimoto et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 95.02"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "sogaard2016deep",
+        "quote": "reported& 95.28",
+        "locator": "tbl:chunking_row_22"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "{None}",
+          "locator": "tbl:chunking_row_22"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "22) S\u00f8gaard et al. 2016",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported& 95.28"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "yang2017transfer",
+        "quote": "reported & 94.66",
+        "locator": "tbl:chunking_row_9"
+      },
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "{None}",
+          "locator": "tbl:chunking_row_9"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "9) Yang et al. 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 94.66"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 94.24",
+          "locator": "tbl:chunking_row_12"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "12) Rei 2017",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 94.24$\\pm$0.11"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "rei2017semi",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "max",
+          "quote": "max & 94.33",
+          "locator": "tbl:chunking_row_12"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "12) Rei 2017",
+        "column_label": "max",
+        "sentence": null,
+        "quoted_span": "max & 94.33"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 93.88,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "rei2017semi",
+        "quote": "reported & 93.88",
+        "locator": "tbl:chunking_row_12"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "12) Rei 2017",
+        "column_label": "reported",
+        "sentence": null,
+        "quoted_span": "reported & 93.88"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.37,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 94.37",
+          "locator": "tbl:chunking_row_13"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "13) Lample et al. 2016",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 94.37$\\pm$0.07"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Lample et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 94.49,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "2016naacl",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "maximum",
+          "quote": "maximum & 94.49",
+          "locator": "tbl:chunking_row_13"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "13) Lample et al. 2016",
+        "column_label": "maximum",
+        "sentence": null,
+        "quoted_span": "maximum & 94.49"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 95.80",
+          "locator": "tbl:chunking_row_14"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 95.80$\\pm$0.13"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "Ma et al. 2016"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.93,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "ma-hovy:2016:P16-1",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "section_compared_methods"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "maximum",
+          "quote": "maximum & 95.93",
+          "locator": "tbl:chunking_row_14"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "14) Ma et al. 2016",
+        "column_label": "maximum",
+        "sentence": null,
+        "quoted_span": "maximum & 95.93"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 95.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "mean",
+          "quote": "mean & 95.96",
+          "locator": "tbl:chunking_row_15"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "15) LM-LSTM-CRF",
+        "column_label": "mean",
+        "sentence": null,
+        "quoted_span": "mean & 95.96$\\pm$0.08"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL00 chunking"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 96.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption_tbl:chunking"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "statistic",
+          "value": "maximum",
+          "quote": "maximum & 96.13",
+          "locator": "tbl:chunking_row_15"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:chunking",
+        "row_label": "15) LM-LSTM-CRF",
+        "column_label": "maximum",
+        "sentence": null,
+        "quoted_span": "maximum & 96.13"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 92.14,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:size_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300 &  91.71",
+          "locator": "tbl:size_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 300",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "92.14$\\pm$0.12"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 91.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:size_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300 &  91.71",
+          "locator": "tbl:size_row_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 300",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "91.30$\\pm$0.13"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200 & 91.63",
+          "locator": "tbl:size_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 200",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "200 & 91.63$\\pm$0.23"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 92.07,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:size_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200 & 91.63",
+          "locator": "tbl:size_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 200",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "92.07$\\pm$0.22"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 91.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:size_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200 & 91.63",
+          "locator": "tbl:size_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 200",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "91.19$\\pm$0.30"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "100 & 91.13",
+          "locator": "tbl:size_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 100",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "100 & 91.13$\\pm$0.32"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:size_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "100 & 91.13",
+          "locator": "tbl:size_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 100",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "91.60$\\pm$0.37"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:size_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our proposed framework, \\our",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "100 & 91.13",
+          "locator": "tbl:size_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:size",
+        "row_label": "LM-LSTM-CRF, 100",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "90.67$\\pm$0.32"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.43,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "tbl:hw_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "300, LM-LSTM-CRF_NL",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "91.43$\\pm$0.09"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.85,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "tbl:hw_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "300, LM-LSTM-CRF_NL",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "91.85$\\pm$0.18"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 91.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "tbl:hw_row_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "300, LM-LSTM-CRF_NL",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "91.01$\\pm$0.19"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "tbl:hw_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "300, LM-LSTM-CRF_NH",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "91.16$\\pm$0.22"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "tbl:hw_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "300, LM-LSTM-CRF_NH",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "91.67$\\pm$0.28"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "\\multirow{3}{*}{300}",
+          "locator": "tbl:hw_row_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "300, LM-LSTM-CRF_NH",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "90.66$\\pm$0.23"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.44,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "tbl:hw_row_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "200, LM-LSTM-CRF_NL",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "91.44$\\pm$0.10"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.95,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "tbl:hw_row_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "200, LM-LSTM-CRF_NL",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "91.95$\\pm$0.16"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "tbl:hw_row_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "200, LM-LSTM-CRF_NL",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "90.94$\\pm$0.16"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "tbl:hw_row_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "200, LM-LSTM-CRF_NH",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "91.34$\\pm$0.28"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.79,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "tbl:hw_row_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "200, LM-LSTM-CRF_NH",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "91.79$\\pm$0.18"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "\\multirow{3}{*}{200}",
+          "locator": "tbl:hw_row_6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "200, LM-LSTM-CRF_NH",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "90.89$\\pm$0.30"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "tbl:hw_row_8"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "100, LM-LSTM-CRF_NL",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "91.17$\\pm$0.11"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.72,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "tbl:hw_row_8"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "100, LM-LSTM-CRF_NL",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "91.72$\\pm$0.14"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.61,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "tbl:hw_row_8"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "100, LM-LSTM-CRF_NL",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "90.61$\\pm$0.21"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1 score",
+          "value": 91.01,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "micro",
+        "quote": "micro-averaged F$_1$",
+        "locator": "section_experiments"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "tbl:hw_row_9"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "100, LM-LSTM-CRF_NH",
+        "column_label": "F1 score",
+        "sentence": null,
+        "quoted_span": "91.01$\\pm$0.19"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "tbl:hw_row_9"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "100, LM-LSTM-CRF_NH",
+        "column_label": "Recall",
+        "sentence": null,
+        "quoted_span": "91.50$\\pm$0.21"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "NER"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "additional experiments on the CoNLL03 NER dataset",
+        "locator": "section_analysis"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "tbl:hw_header"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "its two variants, \\ournl and \\ournh",
+        "locator": "section_highway"
+      },
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "\\multirow{3}{*}{100}",
+          "locator": "tbl:hw_row_9"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:hw",
+        "row_label": "100, LM-LSTM-CRF_NH",
+        "column_label": "Precision",
+        "sentence": null,
+        "quoted_span": "90.53$\\pm$0.30"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "language model"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexities",
+          "value": 52.87,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "train",
+        "quote": "training / development / test sets are 52.87 / 55.03 / 50.22",
+        "locator": "section_highway_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "perplexities of the forward language model",
+        "locator": "section_highway_footnote"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our language model",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "direction",
+          "value": "forward",
+          "quote": "forward language model",
+          "locator": "section_highway_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "the perplexities of the forward language model on CoNLL03 NER's training / development / test sets are 52.87 / 55.03 / 50.22.",
+        "quoted_span": "52.87 / 55.03 / 50.22"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "language model"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexities",
+          "value": 55.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "training / development / test sets are 52.87 / 55.03 / 50.22",
+        "locator": "section_highway_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "perplexities of the forward language model",
+        "locator": "section_highway_footnote"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our language model",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "direction",
+          "value": "forward",
+          "quote": "forward language model",
+          "locator": "section_highway_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "the perplexities of the forward language model on CoNLL03 NER's training / development / test sets are 52.87 / 55.03 / 50.22.",
+        "quoted_span": "52.87 / 55.03 / 50.22"
+      },
+      "confidence": 0.93
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "language model"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL03 NER"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "perplexities",
+          "value": 50.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "training / development / test sets are 52.87 / 55.03 / 50.22",
+        "locator": "section_highway_footnote"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "perplexities of the forward language model",
+        "locator": "section_highway_footnote"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our language model",
+        "locator": "section_model"
+      },
+      "evaluation_setting": [
+        {
+          "name": "direction",
+          "value": "forward",
+          "quote": "forward language model",
+          "locator": "section_highway_footnote"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "the perplexities of the forward language model on CoNLL03 NER's training / development / test sets are 52.87 / 55.03 / 50.22.",
+        "quoted_span": "52.87 / 55.03 / 50.22"
+      },
+      "confidence": 0.93
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      82
+    ],
+    "tokens_in": 99061,
+    "tokens_out": 50477,
+    "cost_usd": 0.35144600000000004
+  }
+}

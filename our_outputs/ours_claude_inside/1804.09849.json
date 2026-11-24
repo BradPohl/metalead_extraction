@@ -1,0 +1,2250 @@
+{
+  "paper_id": "1804.09849",
+  "tuples": [
+    {
+      "method": {
+        "name": "Google-NMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 38.95,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "GNMT & 38.95"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "GNMT & 38.95 & - & -",
+        "locator": "row_1",
+        "reference": "wu2016google"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.49,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.49 $\\pm$ 0.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "ConvS2S \\footnotemark[7] & 39.49 $\\pm$ 0.11",
+        "locator": "row_2",
+        "reference": "gehring2017convolutional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean over evaluation window",
+          "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 438.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "438h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "62.2 & 438h",
+        "locator": "row_2",
+        "reference": "gehring2017convolutional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Transformer Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.43,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.43 $\\pm$ 0.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Trans. Base & 39.43 $\\pm$ 0.17",
+        "locator": "row_3",
+        "reference": "vaswani2017attention"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean over evaluation window",
+          "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Transformer Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 90.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "20.7 & 90h",
+        "locator": "row_3",
+        "reference": "vaswani2017attention"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.73,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.73 $\\pm$ 0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Trans. Big \\footnotemark[8] & 40.73 $\\pm$ 0.19",
+        "locator": "row_4",
+        "reference": "vaswani2017attention"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean over evaluation window",
+          "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 120.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "8.3 & 120h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "8.3 & 120h",
+        "locator": "row_4",
+        "reference": "vaswani2017attention"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.00 $\\pm$ 0.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "RNMT+ & 41.00 $\\pm$ 0.05",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean over evaluation window",
+          "quote": "mean and standard deviation of test BLEU score over an evaluation window",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 120.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "8.5 & 120h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "8.5 & 120h",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_1"
+    },
+    {
+      "method": {
+        "name": "Google-NMT"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 24.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "GNMT & 24.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "GNMT & 24.67 & - & -",
+        "locator": "row_1",
+        "reference": "Wu et al., 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.01,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "25.01 $\\pm$0.17"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "ConvS2S &  25.01 $\\pm$0.17 & 38 & 20h",
+        "locator": "row_2",
+        "reference": "Gehring et al., 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean \u00b1 std over runs",
+          "quote": "averaged value",
+          "locator": "referring_paragraph",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Transformer Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.26,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "27.26 $\\pm$ 0.15"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Trans. Base & 27.26 $\\pm$ 0.15 & 38 & 17h",
+        "locator": "row_3",
+        "reference": "Vaswani et al., 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean \u00b1 std over runs",
+          "quote": "averaged value",
+          "locator": "referring_paragraph",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 27.94,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "27.94 $\\pm$ 0.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Trans. Big & 27.94 $\\pm$ 0.18 & 26.9 & 48h",
+        "locator": "row_4",
+        "reference": "Vaswani et al., 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean \u00b1 std over runs",
+          "quote": "averaged value",
+          "locator": "referring_paragraph",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.49,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.49 $\\pm$ 0.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "establishes a new state of the art with an averaged value of 28.49",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean \u00b1 std over runs",
+          "quote": "averaged value of 28.49",
+          "locator": "referring_paragraph",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 20.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "20h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "ConvS2S &  25.01 $\\pm$0.17 & 38 & 20h",
+        "locator": "row_2",
+        "reference": "Gehring et al., 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Transformer Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 17.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "17h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Trans. Base & 27.26 $\\pm$ 0.15 & 38 & 17h",
+        "locator": "row_3",
+        "reference": "Vaswani et al., 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 48.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "48h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "Trans. Big & 27.94 $\\pm$ 0.18 & 26.9 & 48h",
+        "locator": "row_4",
+        "reference": "Vaswani et al., 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Training Time",
+          "value": 40.0,
+          "unit": "hours"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40h"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Training Time",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "RNMT+ &  28.49 $\\pm$ 0.05 & 24.6 & 40h",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 80.0,
+          "unit": "examples/s per GPU"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ConvS2S & 80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] summarizes training performance and model statistics.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "normalization",
+          "value": "per GPU",
+          "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 15.7,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "15.7B"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We also computed the number of floating point operations (FLOPs)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "sequence length",
+          "value": "source and target length 50",
+          "quote": "FLOPs are computed assuming that source and target sequence length are both 50",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ConvS2S"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 263.4,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "263.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the number of total parameters for all architectures",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 160.0,
+          "unit": "examples/s per GPU"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Trans. Base & 160"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "The Transformer Base model is the fastest model in terms of training speed.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "normalization",
+          "value": "per GPU",
+          "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 6.2,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6.2B"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "We also computed the number of floating point operations (FLOPs)",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "sequence length",
+          "value": "source and target length 50",
+          "quote": "FLOPs are computed assuming that source and target sequence length are both 50",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer Base"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 93.3,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.3M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the number of total parameters for all architectures",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 50.0,
+          "unit": "examples/s per GPU"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "Trans. Big &  50"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] summarizes training performance and model statistics.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "normalization",
+          "value": "per GPU",
+          "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 31.2,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "31.2B"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "RNMT+ requires fewer FLOPs than the Transformer Big model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "sequence length",
+          "value": "source and target length 50",
+          "quote": "FLOPs are computed assuming that source and target sequence length are both 50",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 375.4,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "375.4M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "both models have a comparable number of parameters",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Examples/s",
+          "value": 30.0,
+          "unit": "examples/s per GPU"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "RNMT+ & 30"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "RNMT+ is slower to train than the Transformer Big model on a per-GPU basis.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "normalization",
+          "value": "per GPU",
+          "quote": "Examples/s are normalized by the number of GPUs used in the training job",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "FLOPs",
+          "value": 28.1,
+          "unit": "B"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.1B"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "RNMT+ requires fewer FLOPs than the Transformer Big model",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "sequence length",
+          "value": "source and target length 50",
+          "quote": "FLOPs are computed assuming that source and target sequence length are both 50",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": ""
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Params",
+          "value": 378.9,
+          "unit": "M"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "378.9M"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "both models have a comparable number of parameters",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.33,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "- Label Smoothing & 40.33"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "average BLEU scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation results of RNMT+ and the Transformer Big model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "- Label Smoothing",
+          "quote": "- Label Smoothing",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.49,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "40.49"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "average BLEU scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation results of RNMT+ and the Transformer Big model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "- Label Smoothing",
+          "quote": "- Label Smoothing",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.44,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "- Multi-head Attention & 40.44"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "average BLEU scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation results of RNMT+ and the Transformer Big model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "- Multi-head Attention",
+          "quote": "- Multi-head Attention",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Transformer Big"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.83,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.83"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "average BLEU scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation results of RNMT+ and the Transformer Big model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "- Multi-head Attention",
+          "quote": "- Multi-head Attention",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "RNMT+"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.68,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "- Sync. Training & 39.68"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "average BLEU scores",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ablation results of RNMT+ and the Transformer Big model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "ablation",
+          "value": "- Sync. Training",
+          "quote": "- Sync. Training",
+          "locator": "row_5_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Transformer encoder with RNMT+ decoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.12,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.12 $\\pm$ 0.16"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results for encoder-decoder hybrids.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "Trans. Big",
+          "quote": "Trans. Big",
+          "locator": "row_3_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoder",
+          "value": "RNMT+",
+          "quote": "RNMT+",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "std",
+          "value": "0.16",
+          "quote": "41.12 $\\pm$ 0.16",
+          "locator": "row_3_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "RNMT+ encoder with Transformer decoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 39.92,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "39.92 $\\pm$ 0.21"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Test BLEU",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results for encoder-decoder hybrids.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "encoder",
+          "value": "RNMT+",
+          "quote": "RNMT+",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "decoder",
+          "value": "Trans. Big",
+          "quote": "Trans. Big",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "std",
+          "value": "0.21",
+          "quote": "39.92 $\\pm$ 0.21",
+          "locator": "row_4_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Cascaded Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English\u2192French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.67 $\\pm$ 0.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "newstest 2014",
+        "locator": "context"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$Fr BLEU",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the cascaded encoder improves over the Transformer encoder by more than 0.5 BLEU points",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Cascaded Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English\u2192German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.62 $\\pm$ 0.06"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "newstest 2014",
+        "locator": "context"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$De  BLEU",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results for hybrids with cascaded encoder and multi-column encoder.",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Multi-Column Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English\u2192French"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "41.66 $\\pm$ 0.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "newstest 2014",
+        "locator": "context"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$Fr BLEU",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the multi-column encoder followed by an RNMT+ decoder achieves better results",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Multi-Column Encoder"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT'14 English\u2192German"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.84,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "28.84 $\\pm$ 0.06"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "newstest 2014",
+        "locator": "context"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "En$\\rightarrow$De  BLEU",
+        "locator": "table"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "the multi-column encoder followed by an RNMT+ decoder achieves better results",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    }
+  ],
+  "per_table_voted_count": {
+    "tab_1": 9,
+    "tab_2": 9,
+    "tab_3": 12,
+    "tab_4": 7,
+    "tab_5": 0,
+    "tab_6": 4,
+    "tab_7": 8
+  },
+  "_meta": {
+    "runner": "v6b_pertable_context",
+    "model": "anthropic/claude-opus-5.5",
+    "merge": "pertable_sc_vote_2of3+cross_table_dedupe",
+    "n_tables_all": 7,
+    "n_results_tables_loose": 7,
+    "tables_completed": 7,
+    "tables_skipped_budget": 0,
+    "calls": 21,
+    "cost_usd": 1.50542,
+    "tokens_in": 70365,
+    "tokens_out": 61198,
+    "context_miss_count": 0,
+    "context_pass_cost": 0.10046
+  }
+}

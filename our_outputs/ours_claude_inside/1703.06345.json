@@ -1,0 +1,1739 @@
+{
+  "paper_id": "1703.06345",
+  "tuples": [
+    {
+      "method": {
+        "name": "T-A"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Twitter corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 83.65,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.65"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTB & Twitter/0.1 & T-A & dom & 83.65",
+        "locator": "row_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "PTB",
+          "quote": "PTB & Twitter/0.1",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "labeling rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "row_1_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "transfer setting",
+          "value": "cross-domain transfer",
+          "quote": "dom",
+          "locator": "row_1_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Twitter corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 74.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "74.80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "No Transfer 74.80",
+        "locator": "row_1_col_6",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labeling rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "row_1_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "T-A"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "Twitter corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 43.24,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "43.24"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "CoNLL03 & Twitter/0.1 & T-A & dom & 43.24",
+        "locator": "row_2",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL-2003",
+          "quote": "CoNLL03 & Twitter/0.1",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "labeling rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "row_2_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "transfer setting",
+          "value": "cross-domain transfer",
+          "quote": "dom",
+          "locator": "row_2_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "Twitter corpus"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 34.65,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "34.65"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "34.65",
+        "locator": "row_2_col_6",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labeling rate",
+          "value": "0.1",
+          "quote": "Twitter/0.1",
+          "locator": "row_2_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 74.92,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "74.92"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTB & CoNLL03/0.01 & T-B & app & 74.92",
+        "locator": "row_3",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "Penn Treebank",
+          "quote": "PTB & CoNLL03/0.01",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "labeling rate",
+          "value": "0.01",
+          "quote": "CoNLL03/0.01",
+          "locator": "row_3_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "transfer setting",
+          "value": "cross-application transfer",
+          "quote": "app",
+          "locator": "row_3_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 68.64,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "68.64"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "68.64",
+        "locator": "row_3_col_6",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labeling rate",
+          "value": "0.01",
+          "quote": "CoNLL03/0.01",
+          "locator": "row_3_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "text chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 86.73,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.73"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "PTB & CoNLL00/0.01 & T-B & app & 86.73",
+        "locator": "row_4",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "Penn Treebank",
+          "quote": "PTB & CoNLL00/0.01",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "labeling rate",
+          "value": "0.01",
+          "quote": "CoNLL00/0.01",
+          "locator": "row_4_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "transfer setting",
+          "value": "cross-application transfer",
+          "quote": "app",
+          "locator": "row_4_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "text chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 83.49,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "83.49"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "83.49",
+        "locator": "row_4_col_6",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labeling rate",
+          "value": "0.01",
+          "quote": "CoNLL00/0.01",
+          "locator": "row_4_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "T-B"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 87.47,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.47"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "CoNLL03 & PTB/0.001 & T-B & app & 87.47",
+        "locator": "row_5",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL-2003",
+          "quote": "CoNLL03 & PTB/0.001",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "labeling rate",
+          "value": "0.001",
+          "quote": "PTB/0.001",
+          "locator": "row_5_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "transfer setting",
+          "value": "cross-application transfer",
+          "quote": "app",
+          "locator": "row_5_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 84.16,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "84.16"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "84.16",
+        "locator": "row_5_col_6",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labeling rate",
+          "value": "0.001",
+          "quote": "PTB/0.001",
+          "locator": "row_5_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "T-C"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 72.61,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "72.61"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Spanish & CoNLL03/0.01 & T-C & ling & 72.61",
+        "locator": "row_6",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL-2002 Spanish",
+          "quote": "Spanish & CoNLL03/0.01",
+          "locator": "row_6_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "labeling rate",
+          "value": "0.01",
+          "quote": "CoNLL03/0.01",
+          "locator": "row_6_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "transfer setting",
+          "value": "cross-lingual transfer",
+          "quote": "ling",
+          "locator": "row_6_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "T-C"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2002 Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 60.43,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "60.43"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "CoNLL03 & Spanish/0.01 & T-C & ling & 60.43",
+        "locator": "row_7",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "source",
+          "value": "CoNLL-2003",
+          "quote": "CoNLL03 & Spanish/0.01",
+          "locator": "row_7_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "labeling rate",
+          "value": "0.01",
+          "quote": "Spanish/0.01",
+          "locator": "row_7_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "transfer setting",
+          "value": "cross-lingual transfer",
+          "quote": "ling",
+          "locator": "row_7_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2002 Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 59.84,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "59.84"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "59.84",
+        "locator": "row_7_col_6",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "labeling rate",
+          "value": "0.01",
+          "quote": "Spanish/0.01",
+          "locator": "row_7_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "collobert2011natural"
+      },
+      "task": {
+        "name": "text chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 94.32,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{collobert2011natural} & 94.32",
+        "locator": "row_1_col_1",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "collobert2011natural"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 89.59,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "89.59",
+        "locator": "row_1_col_2",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "collobert2011natural"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "97.29",
+        "locator": "row_1_col_5",
+        "reference": "collobert2011natural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "passos2014lexicon"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 90.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{passos2014lexicon} & -- & 90.90",
+        "locator": "row_2_col_2",
+        "reference": "passos2014lexicon"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "luo2015joint"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 91.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\cite{luo2015joint} & -- & 91.2",
+        "locator": "row_3_col_2",
+        "reference": "luo2015joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "huang2015bidirectional"
+      },
+      "task": {
+        "name": "text chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 94.46,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.46"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "94.46",
+        "locator": "row_4_col_1",
+        "reference": "huang2015bidirectional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "huang2015bidirectional"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 90.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.10"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "90.10",
+        "locator": "row_4_col_2",
+        "reference": "huang2015bidirectional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "huang2015bidirectional"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "97.55",
+        "locator": "row_4_col_5",
+        "reference": "huang2015bidirectional"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "gillick2015multilingual"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 86.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.50"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "86.50",
+        "locator": "row_5_col_2",
+        "reference": "gillick2015multilingual"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "gillick2015multilingual"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2002 Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 82.95,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.95"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "82.95",
+        "locator": "row_5_col_3",
+        "reference": "gillick2015multilingual"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "gillick2015multilingual"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2002 Dutch"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 82.84,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.84"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "82.84",
+        "locator": "row_5_col_4",
+        "reference": "gillick2015multilingual"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ling2015finding"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.78,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.78"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "\\textbf{97.78}",
+        "locator": "row_6_col_5",
+        "reference": "ling2015finding"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "lample2016neural"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 90.94,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.94"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "90.94",
+        "locator": "row_7_col_2",
+        "reference": "lample2016neural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "lample2016neural"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2002 Spanish"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 85.75,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.75"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "85.75",
+        "locator": "row_7_col_3",
+        "reference": "lample2016neural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "lample2016neural"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2002 Dutch"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 81.74,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.74"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Comparison with state-of-the-art results ( %).",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "81.74",
+        "locator": "row_7_col_4",
+        "reference": "lample2016neural"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ma2016end"
+      },
+      "task": {
+        "name": "named entity recognition (NER)"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 91.21,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.21"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "91.21",
+        "locator": "row_8_col_2",
+        "reference": "ma2016end"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ma2016end"
+      },
+      "task": {
+        "name": "part-of-speech (POS) tagging"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "97.55",
+        "locator": "row_8_col_5",
+        "reference": "ma2016end"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "Ours w/o transfer"
+      },
+      "task": {
+        "name": "text chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "chunk-level F1 scores",
+          "value": 94.66,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.66"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Ours w/o transfer & 94.66",
+        "locator": "row_9_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 3,
+    "n_results_tables_loose": 3,
+    "tables_completed": 3,
+    "calls": 9,
+    "cost_usd": 0.865956,
+    "tokens_in": 36339,
+    "tokens_out": 36030,
+    "context_pass_cost": 0.08422
+  }
+}

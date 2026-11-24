@@ -1,0 +1,2702 @@
+{
+  "paper_id": "1911.09483",
+  "tuples": [
+    {
+      "method": {
+        "name": "ConvSeq2seq"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 25.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017convolutional",
+        "quote": "ConvSeq2seq~\\citep{gehring2017convolutional}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ConvSeq2seq",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "25.2  & 40.5"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "ConvSeq2seq"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 40.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "gehring2017convolutional",
+        "quote": "ConvSeq2seq~\\citep{gehring2017convolutional}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ConvSeq2seq",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "25.2  & 40.5"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "SliceNet"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 26.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "kaiser2017depthwise",
+        "quote": "SliceNet~\\citep{kaiser2017depthwise}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "SliceNet",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "26.1 &- \\\\"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "Transformer~\\citep{vaswani2017attention}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (vaswani2017attention)",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "28.4  & 41.0"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "Transformer~\\citep{vaswani2017attention}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (vaswani2017attention)",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "28.4  & 41.0"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "Weighted Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ahmed2017weighted",
+        "quote": "Weighted Transformer~\\citep{ahmed2017weighted}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Weighted Transformer",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "28.9 & 41.4"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Weighted Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ahmed2017weighted",
+        "quote": "Weighted Transformer~\\citep{ahmed2017weighted}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Weighted Transformer",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "28.9 & 41.4"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Layer-wise Coordination"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "NIPS2018_8019",
+        "quote": "Layer-wise Coordination~\\citep{NIPS2018_8019}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Layer-wise Coordination",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "29.1 & - \\\\"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Transformer (relative position)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Shaw_2018",
+        "quote": "Transformer (relative position)~\\citep{Shaw_2018}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (relative position)",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "29.2 & 41.5"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Transformer (relative position)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "Shaw_2018",
+        "quote": "Transformer (relative position)~\\citep{Shaw_2018}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (relative position)",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "29.2 & 41.5"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott2018scaling",
+        "quote": "Transformer~\\citep{ott2018scaling}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (ott2018scaling)",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "29.3 & 43.2"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "ott2018scaling",
+        "quote": "Transformer~\\citep{ott2018scaling}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Transformer (ott2018scaling)",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "29.3 & 43.2"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Evolved Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so2019evolved",
+        "quote": "Evolved Transformer~\\citep{so2019evolved}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Evolved Transformer",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "29.8 & 41.3"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Evolved Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "so2019evolved",
+        "quote": "Evolved Transformer~\\citep{so2019evolved}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Evolved Transformer",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "29.8 & 41.3"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "DynamicConv"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "DynamicConv~\\citep{wu2019pay}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "DynamicConv",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "29.7 & 43.2"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "DynamicConv"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "DynamicConv~\\citep{wu2019pay}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "DynamicConv",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "29.7 & 43.2"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Local Joint Self-attention"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "fonollosa2019joint",
+        "quote": "Local Joint Self-attention~\\citep{fonollosa2019joint}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Local Joint Self-attention",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "29.7  & 43.3"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Local Joint Self-attention"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "fonollosa2019joint",
+        "quote": "Local Joint Self-attention~\\citep{fonollosa2019joint}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Local Joint Self-attention",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "29.7  & 43.3"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also propose MUSE-simple",
+        "locator": "section_MUSE"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "large",
+          "quote": "MUSE-large outperforms all previous models",
+          "locator": "caption_table_1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE-simple",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "29.8 & 43.2"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also propose MUSE-simple",
+        "locator": "section_MUSE"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "large",
+          "quote": "MUSE-large outperforms all previous models",
+          "locator": "caption_table_1"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size of $5$ for De-En, En-Fr and  En-Vi",
+          "locator": "section_Evaluation"
+        },
+        {
+          "name": "length penalty",
+          "value": "0.8",
+          "quote": "length penalty is set to 0.8 for En-Fr",
+          "locator": "section_Evaluation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE-simple",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "29.8 & 43.2"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "The test and validation datasets we used are the same as \\citet{vaswani2017attention}.",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose the Parallel",
+        "locator": "abstract"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "large",
+          "quote": "MUSE-large outperforms all previous models",
+          "locator": "caption_table_1"
+        },
+        {
+          "name": "dropout",
+          "value": "0.3",
+          "quote": "${0.3}$ for En-De",
+          "locator": "section_Training_MUSE-large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE",
+        "column_label": "En-De",
+        "sentence": null,
+        "quoted_span": "\\textbf{29.9}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT14 En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We use \\textit{newstest2014} as the test set",
+        "locator": "section_Datasets"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose the Parallel",
+        "locator": "abstract"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "large",
+          "quote": "MUSE-large outperforms all previous models",
+          "locator": "caption_table_1"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size of $5$ for De-En, En-Fr and  En-Vi",
+          "locator": "section_Evaluation"
+        },
+        {
+          "name": "length penalty",
+          "value": "0.8",
+          "quote": "length penalty is set to 0.8 for En-Fr",
+          "locator": "section_Evaluation"
+        },
+        {
+          "name": "checkpoint",
+          "value": "final single checkpoint",
+          "quote": "use the final single checkpoint",
+          "locator": "section_Training_MUSE-large"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MUSE",
+        "column_label": "En-Fr",
+        "sentence": null,
+        "quoted_span": "\\textbf{43.5}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "NBMT"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "NBMT",
+        "quote": "NBMT~\\citep{NBMT}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NBMT",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "28.1 & 30.1"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "NBMT"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "NBMT",
+        "quote": "NBMT~\\citep{NBMT}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NBMT",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "28.1 & 30.1"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "SACT"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "SACT",
+        "quote": "SACT~\\citep{SACT}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "SACT",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "29.1 &-  \\\\"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "NP2MT"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "feng2018neural",
+        "quote": "NP2MT~\\citep{feng2018neural}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NP2MT",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "30.6 & 31.7"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "NP2MT"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 31.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "feng2018neural",
+        "quote": "NP2MT~\\citep{feng2018neural}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "NP2MT",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "30.6 & 31.7"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Fixup"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "zhang2019fixup",
+        "quote": "Fixup~\\citep{zhang2019fixup}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Fixup",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "-  & 34.5\\\\"
+      },
+      "confidence": 0.87
+    },
+    {
+      "method": {
+        "name": "DynamicConv"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "DynamicConv~\\citep{wu2019pay}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "DynamicConv",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "- & 35.2 \\\\"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Macaron"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lu2019understanding",
+        "quote": "Macaron~\\citep{lu2019understanding}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Macaron",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "- &35.4 \\\\"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "Local Joint Self-attention"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "fonollosa2019joint",
+        "quote": "Local Joint Self-attention~\\citep{fonollosa2019joint}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "Local Joint Self-attention",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "- &35.7 \\\\"
+      },
+      "confidence": 0.88
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 30.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We train and test MUSE-base on two small datasets",
+        "locator": "section_Training_MUSE-base"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also propose MUSE-simple",
+        "locator": "section_MUSE"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "base",
+          "quote": "MUSE-base outperforms previous",
+          "locator": "caption_table_2"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size of $5$ for De-En, En-Fr and  En-Vi",
+          "locator": "section_Evaluation"
+        },
+        {
+          "name": "preprocessing",
+          "value": "without BPE",
+          "quote": "without BPE processing on IWSLT  En-Vi",
+          "locator": "caption_table_2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE-simple",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "30.7 & 35.8"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "MUSE-simple"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We train and test MUSE-base on two small datasets",
+        "locator": "section_Training_MUSE-base"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "We also propose MUSE-simple",
+        "locator": "section_MUSE"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "base",
+          "quote": "MUSE-base outperforms previous",
+          "locator": "caption_table_2"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size of $5$ for De-En, En-Fr and  En-Vi",
+          "locator": "section_Evaluation"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE-simple",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "30.7 & 35.8"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 English-Vietnamese"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 31.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We train and test MUSE-base on two small datasets",
+        "locator": "section_Training_MUSE-base"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose the Parallel",
+        "locator": "abstract"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "base",
+          "quote": "MUSE-base outperforms previous",
+          "locator": "caption_table_2"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size of $5$ for De-En, En-Fr and  En-Vi",
+          "locator": "section_Evaluation"
+        },
+        {
+          "name": "preprocessing",
+          "value": "without BPE",
+          "quote": "without BPE processing on IWSLT  En-Vi",
+          "locator": "caption_table_2"
+        },
+        {
+          "name": "dropout",
+          "value": "0.3",
+          "quote": "For the En-Vi dataset",
+          "locator": "section_Training_MUSE-base"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE",
+        "column_label": "En-Vi",
+        "sentence": null,
+        "quoted_span": "\\textbf{31.3}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2014 German-English"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "We train and test MUSE-base on two small datasets",
+        "locator": "section_Training_MUSE-base"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we propose the Parallel",
+        "locator": "abstract"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model size",
+          "value": "base",
+          "quote": "MUSE-base outperforms previous",
+          "locator": "caption_table_2"
+        },
+        {
+          "name": "beam size",
+          "value": "5",
+          "quote": "beam size of $5$ for De-En, En-Fr and  En-Vi",
+          "locator": "section_Evaluation"
+        },
+        {
+          "name": "dropout",
+          "value": "0.4",
+          "quote": "The dropout rate is set to $0.4$.",
+          "locator": "section_Training_MUSE-base"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MUSE",
+        "column_label": "De-En",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.3}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "MUSE",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "MUSE & 36.3"
+      },
+      "confidence": 0.76
+    },
+    {
+      "method": {
+        "name": "MUSE-simple (without DepthConv)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "MUSE-simple (without DepthConv)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "DepthConv) & 35.8"
+      },
+      "confidence": 0.76
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=3)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "3",
+          "quote": "Convolution (k=3)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "substitute DepthConv with Convolution (k=3)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=3) & 35.2"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=5)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "5",
+          "quote": "Convolution (k=5)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "substitute DepthConv with Convolution (k=5)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=5) & 35.0"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "substitute DepthConv with Convolution (k=7)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "7",
+          "quote": "Convolution (k=7)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "substitute DepthConv with Convolution (k=7)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=7) & 34.5"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DepthConv without shared projection"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 34.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "projection",
+          "value": "without shared projection",
+          "quote": "DepthConv without shared projection",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv without shared projection",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "projection &34.9"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=3)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "3",
+          "quote": "single kernel (k=3)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=3)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=3) & 36.2"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=7)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "7",
+          "quote": "single kernel (k=7)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=7)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=7) & 36.2"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=15)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "15",
+          "quote": "single kernel (k=15)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=15)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=15) & 36.0"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (k=31)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel size",
+          "value": "31",
+          "quote": "single kernel (k=31)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (k=31)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=31) & 35.8"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DepthConv single kernel (grow kernels among layers:3,7,15,31)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel sizes",
+          "value": "3,7,15,31",
+          "quote": "grow kernels among layers:3,7,15,31",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv single kernel (grow kernels among layers:3,7,15,31)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "3,7,15,31) & 35.9"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "DepthConv dynamically selected kernel (k=3,15)"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT 2015 De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 36.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "MUSE and its variants",
+        "locator": "caption_table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "kernel sizes",
+          "value": "3,15",
+          "quote": "dynamically selected kernel (k=3,15)",
+          "locator": "table_3"
+        },
+        {
+          "name": "dataset label caveat",
+          "value": "Table 3 says IWSLT 2015 De-En; datasets section says IWSLT 2014 German-English",
+          "quote": "IWSLT 2015 De-En translation task",
+          "locator": "caption_table_3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "DepthConv dynamically selected kernel (k=3,15)",
+        "column_label": "BLEU",
+        "sentence": null,
+        "quoted_span": "(k=3,15) & 36.3"
+      },
+      "confidence": 0.78
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "Inference Speed",
+          "value": 132,
+          "unit": "tokens/s"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "vaswani2017attention",
+        "quote": "we conduct comparisons to show the speed gains",
+        "locator": "section_Further_Analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size is set to one sample per batch",
+          "locator": "section_Further_Analysis"
+        },
+        {
+          "name": "architecture",
+          "value": "6 base blocks, hidden size 512",
+          "quote": "Transformer with $6$ base blocks. The hidden size is set to $512$.",
+          "locator": "section_Further_Analysis"
+        },
+        {
+          "name": "hardware",
+          "value": "GPUs",
+          "quote": "time efficiency on GPUs",
+          "locator": "section_Further_Analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Transformer",
+        "column_label": "Inference Speed (tokens/s)",
+        "sentence": null,
+        "quoted_span": "Transformer  &  132"
+      },
+      "confidence": 0.89
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "Inference Speed",
+          "value": 173,
+          "unit": "tokens/s"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct comparisons to show the speed gains",
+        "locator": "section_Further_Analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size is set to one sample per batch",
+          "locator": "section_Further_Analysis"
+        },
+        {
+          "name": "architecture",
+          "value": "6 MUSE-simple modules, hidden size 512",
+          "quote": "MUSE with $6$ MUSE-simple modules",
+          "locator": "section_Further_Analysis"
+        },
+        {
+          "name": "hardware",
+          "value": "GPUs",
+          "quote": "time efficiency on GPUs",
+          "locator": "section_Further_Analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "MUSE",
+        "column_label": "Inference Speed (tokens/s)",
+        "sentence": null,
+        "quoted_span": "MUSE  & 173"
+      },
+      "confidence": 0.91
+    },
+    {
+      "method": {
+        "name": "MUSE"
+      },
+      "task": {
+        "name": "machine translation"
+      },
+      "datasets": [],
+      "metrics": [
+        {
+          "name": "Acceleration",
+          "value": 31,
+          "unit": "%"
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we conduct comparisons to show the speed gains",
+        "locator": "section_Further_Analysis"
+      },
+      "evaluation_setting": [
+        {
+          "name": "comparison",
+          "value": "Transformer",
+          "quote": "comparison between the inference speed  of  MUSE and Transformer",
+          "locator": "caption_table_4"
+        },
+        {
+          "name": "batch size",
+          "value": "1",
+          "quote": "batch size is set to one sample per batch",
+          "locator": "section_Further_Analysis"
+        },
+        {
+          "name": "architecture",
+          "value": "6 MUSE-simple modules, hidden size 512",
+          "quote": "MUSE with $6$ MUSE-simple modules",
+          "locator": "section_Further_Analysis"
+        },
+        {
+          "name": "hardware",
+          "value": "GPUs",
+          "quote": "time efficiency on GPUs",
+          "locator": "section_Further_Analysis"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Acceleration",
+        "column_label": "Inference Speed (tokens/s)",
+        "sentence": null,
+        "quoted_span": "Acceleration & 31\\%"
+      },
+      "confidence": 0.89
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      50
+    ],
+    "tokens_in": 77946,
+    "tokens_out": 30135,
+    "cost_usd": 0.22862100000000002
+  }
+}

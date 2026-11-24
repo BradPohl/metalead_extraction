@@ -1,0 +1,783 @@
+{
+  "paper_id": "2002.03184",
+  "tuples": [
+    {
+      "method": {
+        "name": "TaLK Convolution (Ours)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "tested on newstest2014",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Ours)",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "beam_width",
+          "value": "5",
+          "quote": "beam search with beam width 5",
+          "locator": "section_4.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TaLK Convolution (Ours)",
+        "column_label": "WMT En-De",
+        "sentence": null,
+        "quoted_span": "209M & 29.6"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Ours)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT En-Fr"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 43.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "tested on newstest2014",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Ours)",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "TaLK Convolution (Ours)",
+        "column_label": "WMT En-Fr",
+        "sentence": null,
+        "quoted_span": "29.6 & \\textbf{43.2}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "wu2019pay"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 29.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "on newstest2014",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "\\citet{wu2019pay} & 213M",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "wu2019pay",
+        "column_label": "WMT En-De",
+        "sentence": null,
+        "quoted_span": "213M & \\textbf{29.7}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "vaswani2017attention"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "WMT En-De"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 28.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "on newstest2014",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "vaswani2017attention",
+        "quote": "\\citet{vaswani2017attention} & 213M",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "vaswani2017attention",
+        "column_label": "WMT En-De",
+        "sentence": null,
+        "quoted_span": "213M & 28.4 & 41.0"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Ours)"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report test accuracy",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Ours)",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "TaLK Convolution (Ours)",
+        "column_label": "IWSLT De-En",
+        "sentence": null,
+        "quoted_span": "42M & \\textbf{35.5}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "wu2019pay"
+      },
+      "task": {
+        "name": "Machine Translation"
+      },
+      "datasets": [
+        {
+          "name": "IWSLT De-En"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU",
+          "value": 35.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "report test accuracy",
+        "locator": "section_4.1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "\\citet{wu2019pay} & 43M",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "wu2019pay",
+        "column_label": "IWSLT De-En",
+        "sentence": null,
+        "quoted_span": "43M & 35.2"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Deep)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 40.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Deep)",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TaLK Convolution (Deep)",
+        "column_label": "Rouge-1",
+        "sentence": null,
+        "quoted_span": "83M & \\textbf{40.59}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Deep)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 18.97,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Deep)",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TaLK Convolution (Deep)",
+        "column_label": "Rouge-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{18.97}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Deep)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 36.81,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Deep)",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TaLK Convolution (Deep)",
+        "column_label": "Rouge-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.81}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Standard)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 40.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Standard)",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TaLK Convolution (Standard)",
+        "column_label": "Rouge-1",
+        "sentence": null,
+        "quoted_span": "59M & 40.03 & 18.45 & 36.13"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Standard)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-2",
+          "value": 18.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Standard)",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TaLK Convolution (Standard)",
+        "column_label": "Rouge-2",
+        "sentence": null,
+        "quoted_span": "59M & 40.03 & 18.45 & 36.13"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Standard)"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-L",
+          "value": 36.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Standard)",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "TaLK Convolution (Standard)",
+        "column_label": "Rouge-L",
+        "sentence": null,
+        "quoted_span": "59M & 40.03 & 18.45 & 36.13"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Dynamic Convolution"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN-DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Rouge-1",
+          "value": 39.84,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "wu2019pay",
+        "quote": "Dynamic Convolution \\cite{wu2019pay}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "Dynamic Convolution",
+        "column_label": "Rouge-1",
+        "sentence": null,
+        "quoted_span": "87M & 39.84 & 16.25 & 36.73"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "TaLK Convolution (Ours)"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "WikiText-103"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 23.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test perplexity on",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "TaLK Convolution (Ours)",
+        "locator": "table_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_representation",
+          "value": "adaptive inputs",
+          "quote": "We used adaptive inputs",
+          "locator": "caption_table_5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "TaLK Convolution (Ours)",
+        "column_label": "Test",
+        "sentence": null,
+        "quoted_span": "240M & 23.3"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "Dynamic Convolutions"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "WikiText-103"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 25.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test perplexity on",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Dynamic Convolutions & 255M",
+        "locator": "table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "Dynamic Convolutions",
+        "column_label": "Test",
+        "sentence": null,
+        "quoted_span": "255M & 25.0"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "DBLP:journals/corr/abs-1809-10853"
+      },
+      "task": {
+        "name": "Language Modeling"
+      },
+      "datasets": [
+        {
+          "name": "WikiText-103"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Perplexity",
+          "value": 20.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Test perplexity on",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "DBLP:journals/corr/abs-1809-10853",
+        "quote": "247M & \\textbf{20.5}",
+        "locator": "table_5"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "DBLP:journals/corr/abs-1809-10853",
+        "column_label": "Test",
+        "sentence": null,
+        "quoted_span": "247M & \\textbf{20.5}"
+      },
+      "confidence": 0.8
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      16
+    ],
+    "tokens_in": 24797,
+    "tokens_out": 5073,
+    "cost_usd": 0.200648
+  }
+}

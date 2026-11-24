@@ -1,0 +1,4439 @@
+{
+  "paper_id": "1709.04109",
+  "tuples": [
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 89.59,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_0_col_3",
+        "reference": "Collobert et al. 2011"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "gazetteers",
+          "quote": "gazetteers",
+          "locator": "row_0_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BiLSTM-CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.62$\\pm$0.33"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_1_col_3",
+        "reference": "Chiu et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "gazetteers",
+          "quote": "gazetteers",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Luo et al. 2015"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "2) Luo et al. 2015 & reported& 91.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_2_col_3",
+        "reference": "Luo et al. 2015"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "AIDA dataset",
+          "quote": "AIDA dataset",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.26,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.26"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_3_col_3",
+        "reference": "Yang et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "CoNLL 2000 / PTB-POS dataset",
+          "quote": "CoNLL 2000 / PTB-POS dataset",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.93,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.93$\\pm$0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_4_col_3",
+        "reference": "Peters et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "1B Word dataset & 4096-8192-1024",
+          "quote": "1B Word dataset \\& \\texttt{4096-8192-1024}",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.62,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.62$\\pm$0.23"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_5_col_3",
+        "reference": "Peters et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "1B Word dataset",
+          "quote": "1B Word dataset",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 88.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.67"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_6_col_3",
+        "reference": "Collobert et al. 2011"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_6_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Luo et al. 2015"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 89.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "89.90"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_7_col_3",
+        "reference": "Luo et al. 2015"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_7_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "BiLSTM-CNN"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 90.91,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.91$\\pm$0.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_8_col_3",
+        "reference": "Chiu et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_8_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "9) Yang et al. 2017$^\\dagger$ & reported & 91.20"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_9_col_3",
+        "reference": "Yang et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_9_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 90.87,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.87$\\pm$0.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_10_col_3",
+        "reference": "Peters et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_10_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 90.79,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.79$\\pm$0.15"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_11_col_3",
+        "reference": "Peters et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_11_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 87.38,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.38$\\pm$0.36"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL03 NER dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Rei 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_12_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "Collobert et al. 2011"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.29,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.29"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_1_col_2",
+        "reference": "Collobert et al. 2011"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_1_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Manning 2011"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.28,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_2_col_2",
+        "reference": "Manning 2011"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_2_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard 2011"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.50"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_3_col_2",
+        "reference": "sogaard2011semisupervised"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_3_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Sun 2014"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.36,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.36"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_4_col_2",
+        "reference": "sun2014structure"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_4_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 96.97,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.97$\\pm$0.22"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Rei 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean",
+          "quote": "mean",
+          "locator": "row_5_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.14,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.14"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Rei 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "max",
+          "quote": "max",
+          "locator": "row_6_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.43,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.43"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_7_col_2",
+        "reference": "Rei 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_7_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.35,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.35$\\pm$0.09"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean",
+          "quote": "mean$\\pm$std",
+          "locator": "row_8_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.51,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.51"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "maximum",
+          "quote": "maximum",
+          "locator": "row_9_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.42,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.42$\\pm$0.04"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Ma et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean",
+          "quote": "mean$\\pm$std",
+          "locator": "row_10_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.46,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.46"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Ma et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "maximum",
+          "quote": "maximum",
+          "locator": "row_11_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.55,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.55"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_12_col_2",
+        "reference": "Ma et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_12_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.53,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.53$\\pm$0.03"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "15) \\our",
+        "locator": "row_13_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "mean",
+          "quote": "mean$\\pm$std",
+          "locator": "row_13_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 97.59,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "97.59"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "Accuracy on the WSJ dataset.",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "15) \\our",
+        "locator": "row_14_col_1",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "aggregation",
+          "value": "maximum",
+          "quote": "maximum",
+          "locator": "row_14_col_2",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 46.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LSTM-CRF & 46"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_1_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "LSTM-CRF",
+        "locator": "row_1_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 90.76,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.76$\\pm$0.08"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score$\\pm$std",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 37.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "37 & 97.35"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_1_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "LSTM-CRF",
+        "locator": "row_1_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 26.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "26 & 94.37"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_1_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "LSTM-CRF",
+        "locator": "row_1_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 94.37,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.37$\\pm$0.07"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "mean",
+          "quote": "mean",
+          "locator": "row_11_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 7.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "LSTM-CNN-CRF & 7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_2_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "LSTM-CNN-CRF",
+        "locator": "row_2_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.22,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "7 & 91.22"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$Score",
+        "locator": "row_2_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "LSTM-CNN-CRF",
+        "locator": "row_2_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 21.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "21 & 97.42"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_2_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "LSTM-CNN-CRF",
+        "locator": "row_2_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 6.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6 & 95.80"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_2_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "LSTM-CNN-CRF",
+        "locator": "row_2_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LSTM-CNN-CRF"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 95.8,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.80$\\pm$0.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Ma et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "mean",
+          "quote": "mean",
+          "locator": "row_13_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003 NER dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 6.0,
+          "unit": "h\u00b7GTX 1080"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "6 &h$\\cdot$GTX 1080"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "train",
+        "quote": "Models has been trained on one GeForce GTX 1080 GPU, with training time recorded",
+        "locator": "referring_paragraph"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "15) \\our",
+        "locator": "row_1_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "module",
+          "value": "total",
+          "quote": "total",
+          "locator": "row_1_col_2",
+          "confidence": 1.0
+        },
+        {
+          "name": "device",
+          "value": "GTX 1080",
+          "quote": "h$\\cdot$GTX 1080",
+          "locator": "row_1_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL 2003 NER dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.71,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.71"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "15) \\our",
+        "locator": "row_1_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "module",
+          "value": "total",
+          "quote": "total",
+          "locator": "row_1_col_2",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "part-of-speech tagging"
+      },
+      "datasets": [
+        {
+          "name": "Wall Street Journal portion of Penn Treebank dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 16.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "16 & 97.53"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_3_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\our",
+        "locator": "row_3_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 5.0,
+          "unit": "h"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5 & 95.96"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "h",
+        "locator": "row_3_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\our",
+        "locator": "row_3_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 95.96,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "5 & 95.96"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "micro",
+        "quote": "F$_1$Score",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.3333,
+      "result_origin": {
+        "value": "original",
+        "quote": "\\our",
+        "locator": "row_3_col_0",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "Hashimoto et al. 2016"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 95.77,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.77"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_1_col_3",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "PTB-POS",
+          "quote": "PTB-POS",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_1_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard et al. 2016"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 95.56,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.56"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_2_col_3",
+        "reference": "sogaard2016deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "PTB-POS",
+          "quote": "PTB-POS",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_2_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 95.41,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.41"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_3_col_3",
+        "reference": "Yang et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "CoNLL 2000 / PTB-POS dataset",
+          "quote": "CoNLL 2000 / PTB-POS dataset",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_3_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "TagLM"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 96.37,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.37$\\pm$0.05"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_4_col_3",
+        "reference": "Peters et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "1B Word dataset",
+          "quote": "1B Word dataset",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_4_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Hashimoto et al. 2016"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 95.02,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.02"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_5_col_3",
+        "reference": "hashimoto2016joint"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_5_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "S\u00f8gaard et al. 2016"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 95.28,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_6_col_3",
+        "reference": "sogaard2016deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_6_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Yang et al. 2017"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 94.66,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.66"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_7_col_3",
+        "reference": "Yang et al. 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_7_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 94.24,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.24$\\pm$0.11"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Rei 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "mean",
+          "quote": "mean",
+          "locator": "row_8_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 94.33,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.33"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Rei 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "max",
+          "quote": "max",
+          "locator": "row_9_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "Rei 2017"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 93.88,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.88"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "reported",
+        "locator": "row_10_col_3",
+        "reference": "Rei 2017"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "reported",
+          "quote": "reported",
+          "locator": "row_10_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "noun phrase chunking"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2000"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 94.49,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "94.49"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "F$_1$ score on the CoNLL00 chunking dataset",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$ score",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we tune the parameters of three most related baselines",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "extra resource",
+          "value": "None",
+          "quote": "None",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "type",
+          "value": "maximum",
+          "quote": "maximum",
+          "locator": "row_12_col_3",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_7"
+    },
+    {
+      "method": {
+        "name": "LSTM-2048-512"
+      },
+      "task": {
+        "name": "language model"
+      },
+      "datasets": [
+        {
+          "name": "1B Word dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 320.0,
+          "unit": "h\u00b7Tesla K40"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\texttt{LSTM-2048-512} & 320 & h$\\cdot$Telsa K40"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Time $\\cdot$ Device",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Peters et al. 2017",
+        "locator": "row_2_col_0",
+        "reference": "Peters et al. 2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "device",
+          "value": "Tesla K40",
+          "quote": "h$\\cdot$Telsa K40",
+          "locator": "row_2_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "4096-8192-1024"
+      },
+      "task": {
+        "name": "language model"
+      },
+      "datasets": [
+        {
+          "name": "1B Word dataset"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "training time",
+          "value": 14112.0,
+          "unit": "h\u00b7Tesla K40"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "\\texttt{4096-8192-1024} & 14112 &h$\\cdot$Telsa K40"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "train",
+        "quote": "Time $\\cdot$ Device",
+        "locator": "row_0_col_3"
+      },
+      "split_confidence": 0.3333,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "copied",
+        "quote": "Peters et al. 2017",
+        "locator": "row_4_col_0",
+        "reference": "Peters et al. 2017"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "device",
+          "value": "Tesla K40",
+          "quote": "h$\\cdot$Telsa K40",
+          "locator": "row_4_col_4",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_8"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 92.14,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.14$\\pm$0.12"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 91.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.30$\\pm$0.13"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.63,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.63$\\pm$0.23"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score$\\pm$std",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 92.07,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.07$\\pm$0.22"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 91.19,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.19$\\pm$0.30"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.13,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.13$\\pm$0.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score$\\pm$std",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "100",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.60$\\pm$0.37"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "100",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.67,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.67$\\pm$0.32"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we train our model with different hidden state sizes",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "100",
+          "quote": "100",
+          "locator": "row_3_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 90.82,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.82$\\pm$0.08"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.69,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.69$\\pm$0.08"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_4_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 90.41,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.41$\\pm$0.07"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score$\\pm$std",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 90.63,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.63$\\pm$0.07"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LSTM-CRF"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.20$\\pm$0.07"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "reproduction",
+        "quote": "we also apply the same hidden state sizes to LSTM-CRF",
+        "locator": "referring_paragraph",
+        "reference": "Lample et al. 2016"
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_5_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_9"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.43,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.43$\\pm$0.09"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score$\\pm$std",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.85,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.85$\\pm$0.18"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 91.01,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.01$\\pm$0.19"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.16,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.16$\\pm$0.22"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score$\\pm$std",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.67,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.67$\\pm$0.28"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NH"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.66,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.66$\\pm$0.23"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "300",
+          "quote": "300",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "micro-averaged F$_1$",
+          "value": 91.44,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.44$\\pm$0.10"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F$_1$score$\\pm$std",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Recall",
+          "value": 91.95,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.95$\\pm$0.16"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Recall$\\pm$std",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    },
+    {
+      "method": {
+        "name": "LM-LSTM-CRF_NL"
+      },
+      "task": {
+        "name": "named entity recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Precision",
+          "value": 90.94,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "90.94$\\pm$0.16"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Precision$\\pm$std",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "we compare with its two variants",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "state size",
+          "value": "200",
+          "quote": "200",
+          "locator": "row_4_col_0",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_10"
+    }
+  ],
+  "per_table_voted_count": {
+    "tab_1": 0,
+    "tab_2": 0,
+    "tab_3": 0,
+    "tab_4": 13,
+    "tab_5": 14,
+    "tab_6": 18,
+    "tab_7": 13,
+    "tab_8": 6,
+    "tab_9": 15,
+    "tab_10": 15
+  },
+  "_meta": {
+    "runner": "v6b_pertable_context",
+    "model": "anthropic/claude-opus-5.5",
+    "merge": "pertable_sc_vote_2of3+cross_table_dedupe",
+    "n_tables_all": 10,
+    "n_results_tables_loose": 10,
+    "tables_completed": 10,
+    "tables_skipped_budget": 0,
+    "calls": 30,
+    "cost_usd": 2.7963880000000003,
+    "tokens_in": 113412,
+    "tokens_out": 117137,
+    "context_miss_count": 0,
+    "context_pass_cost": 0.121924
+  }
+}

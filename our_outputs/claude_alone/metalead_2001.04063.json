@@ -1,0 +1,1609 @@
+{
+  "paper_id": "2001.04063",
+  "tuples": [
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet achieves the best performances on all metrics",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ProphetNet",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{43.68}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.64,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet achieves the best performances on all metrics",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ProphetNet",
+        "column_label": "ROUGE-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{20.64}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 40.72,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet achieves the best performances on all metrics",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB",
+          "quote": "pre-trained on the same 16GB BookCorpus + English Wikipedia dataset",
+          "locator": "section_3.2"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "ProphetNet",
+        "column_label": "ROUGE-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{40.72}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 43.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "dong2019unified",
+        "quote": "UniLM~\\cite{dong2019unified}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "UniLM",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "43.33  &20.21&   40.51"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2019mass",
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "MASS",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "42.12  &19.50&  39.01"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BERTSUMEXTABS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.13,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail test set.",
+        "locator": "caption_table_1"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "liu2019text",
+        "quote": "BERTSUMEXTABS~\\cite{liu2019text}",
+        "locator": "table_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "BERTSUMEXTABS",
+        "column_label": "ROUGE-1",
+        "sentence": null,
+        "quoted_span": "42.13 & 19.60 &39.18"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set.",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms previous models on all metrics",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB",
+          "quote": "16GB in total",
+          "locator": "section_3.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ProphetNet",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{39.55}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.27,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set.",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms previous models on all metrics",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB",
+          "quote": "16GB in total",
+          "locator": "section_3.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ProphetNet",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{20.27}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.57,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set.",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms previous models on all metrics",
+        "locator": "section_3.2"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "16GB",
+          "quote": "16GB in total",
+          "locator": "section_3.1"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "ProphetNet",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.57}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 38.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on Gigaword test set.",
+        "locator": "caption_table_2"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "song2019mass",
+        "quote": "MASS~\\cite{song2019mass}",
+        "locator": "table_2"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 2",
+        "row_label": "MASS",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "38.73 & 19.71 & 35.96"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 23.91,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning split",
+          "quote": "Following~\\citet{du2017learning}, we split the SQuAD 1.1",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ProphetNet (first split)",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "\\textbf{23.91}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 26.6,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning split",
+          "quote": "Following~\\citet{du2017learning}, we split the SQuAD 1.1",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ProphetNet (first split)",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "\\textbf{26.60}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 52.26,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning split",
+          "quote": "Following~\\citet{du2017learning}, we split the SQuAD 1.1",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ProphetNet (first split)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{52.26}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 25.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "reverses the development set and test set",
+        "locator": "section_3.3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph split",
+          "quote": "data split as did in~\\citet{zhao2018paragraph}",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ProphetNet (second split)",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "\\textbf{25.80}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "METEOR",
+          "value": 27.54,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "reverses the development set and test set",
+        "locator": "section_3.3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph split",
+          "quote": "data split as did in~\\citet{zhao2018paragraph}",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ProphetNet (second split)",
+        "column_label": "MTR",
+        "sentence": null,
+        "quoted_span": "\\textbf{27.54}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 53.65,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "reverses the development set and test set",
+        "locator": "section_3.3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet outperforms all previous methods",
+        "locator": "section_3.3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "zhao2018paragraph split",
+          "quote": "data split as did in~\\citet{zhao2018paragraph}",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "ProphetNet (second split)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{53.65}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 21.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on SQuAD 1.1 test set",
+        "locator": "caption_table_3"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "dong2019unified",
+        "quote": "UniLM\\scriptsize{~\\cite{dong2019unified}}",
+        "locator": "table_3"
+      },
+      "evaluation_setting": [
+        {
+          "name": "data split",
+          "value": "du2017learning split",
+          "quote": "Following~\\citet{du2017learning}",
+          "locator": "section_3.3"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 3",
+        "row_label": "UniLM (first split)",
+        "column_label": "B4",
+        "sentence": null,
+        "quoted_span": "21.63    &25.04&   51.09"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 44.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model achieves state-of-the-art performance on CNN/DailyMail",
+        "locator": "section_3.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "ProphetNet & 160GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ProphetNet (CNN/DailyMail)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{44.20}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.17,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model achieves state-of-the-art performance on CNN/DailyMail",
+        "locator": "section_3.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "ProphetNet & 160GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ProphetNet (CNN/DailyMail)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{44.20} & 21.17"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 41.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "Our model achieves state-of-the-art performance on CNN/DailyMail",
+        "locator": "section_3.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "ProphetNet & 160GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ProphetNet (CNN/DailyMail)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{41.30}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "BART"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 44.16,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "lewis2019bart",
+        "quote": "BART~\\cite{lewis2019bart}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "160GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "BART",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "44.16 & 21.28 & 40.90"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "T5"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 21.55,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "raffel2019exploring",
+        "quote": "T5~\\cite{raffel2019exploring}",
+        "locator": "table_4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "750GB",
+          "quote": "750GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "T5",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{21.55}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet also achieves new state-of-the-art results on the Gigaword",
+        "locator": "section_3.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "ProphetNet & 160GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ProphetNet (Gigaword)",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{39.51}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-2",
+          "value": 20.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet also achieves new state-of-the-art results on the Gigaword",
+        "locator": "section_3.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "ProphetNet & 160GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ProphetNet (Gigaword)",
+        "column_label": "R-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{20.42}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-L",
+          "value": 36.69,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "Results on the CNN/DailyMail and Gigaword test sets",
+        "locator": "caption_table_4"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "ProphetNet also achieves new state-of-the-art results on the Gigaword",
+        "locator": "section_3.4"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training corpus",
+          "value": "160GB",
+          "quote": "ProphetNet & 160GB",
+          "locator": "table_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 4",
+        "row_label": "ProphetNet (Gigaword)",
+        "column_label": "R-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{36.69}"
+      },
+      "confidence": 0.9
+    },
+    {
+      "method": {
+        "name": "ProphetNet w/o pre-train"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 40.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our method can significantly improve the model performance even without pre-training",
+        "locator": "section_3.5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "section_3.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "ProphetNet w/o pre-train",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{40.66}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 39.19,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "Results on CNN/DailyMail dev set without pre-training",
+        "locator": "caption_table_5"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": "raffel2019exploring",
+        "quote": "Transformer\\scriptsize{~\\cite{raffel2019exploring}}",
+        "locator": "table_5"
+      },
+      "evaluation_setting": [
+        {
+          "name": "pre-training",
+          "value": "none",
+          "quote": "without pre-training",
+          "locator": "section_3.5"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 5",
+        "row_label": "Transformer",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "39.19    &17.60&   36.69"
+      },
+      "confidence": 0.75
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-2gram"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.52,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "n-gram comparison results on CNN/DailyMail test set",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_3.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "architecture",
+          "value": "6-layer encoder/decoder, 768 hidden",
+          "quote": "6-layer encoder, 6-layer decoder, 768 hidden size",
+          "locator": "section_3.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ProphetNet base-2gram",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "42.52  & 19.78   &39.59"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-3gram"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.61,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "n-gram comparison results on CNN/DailyMail test set",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_3.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "architecture",
+          "value": "6-layer encoder/decoder, 768 hidden",
+          "quote": "6-layer encoder, 6-layer decoder, 768 hidden size",
+          "locator": "section_3.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ProphetNet base-3gram",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{42.61}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "ProphetNet base-1gram"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ROUGE-1",
+          "value": 42.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "test",
+        "quote": "n-gram comparison results on CNN/DailyMail test set",
+        "locator": "caption_table_6"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "we compare our ProphetNet model with $n$=1, 2, and 3",
+        "locator": "section_3.6"
+      },
+      "evaluation_setting": [
+        {
+          "name": "architecture",
+          "value": "6-layer encoder/decoder, 768 hidden",
+          "quote": "6-layer encoder, 6-layer decoder, 768 hidden size",
+          "locator": "section_3.6"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 6",
+        "row_label": "ProphetNet base-1gram",
+        "column_label": "R-1",
+        "sentence": null,
+        "quoted_span": "42.21  & 19.54   &39.06"
+      },
+      "confidence": 0.85
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      30
+    ],
+    "tokens_in": 18542,
+    "tokens_out": 11045,
+    "cost_usd": 0.295068
+  }
+}

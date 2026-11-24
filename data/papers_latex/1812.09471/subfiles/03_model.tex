@@ -1,0 +1,118 @@
+\section{Approach}
+We propose to model the hierarchical relationship among each word, the slot it belongs to, and the intent label of the whole utterance by a hierarchical capsule neural network structure called {\ModelName}. The proposed architecture consists of three types of capsules: 1) {\FirstCapsule} that learn context-aware word representations, 2) {\SecondCapsule} that categorize words by their slot types via dynamic routing, and construct a representation for each type of slot by aggregating words that belong to the slot, 3) {\ThirdCapsule} determine the intent label of the utterance based on the slot representation as well as the utterance contexts. Once the intent label has been determined by {\ThirdCapsule}, the inferred utterance-level intent helps re-recognizing slots from the utterance by a re-routing schema. 
+
+\subsection{WordCaps}
+Given an input utterance \(x = \left (  \mathbf{w}_{1}, \mathbf{w}_{2}, ..., \mathbf{w}_{T}\right )\) of $T$ words, where each word is initially represented by a vector of dimension $D_W$. Here we simply trained word represenations from scratch. Various neural network structures can be used to learn context-aware word representations. For example, a recurrent neural network such as a bidirectional LSTM \citep{hochreiter1997long} can be applied to learn representations of each word in the utterance:
+\begin{equation}
+\begin{gathered}
+     \vec{\mathbf{h}}_{t} = {\rm LSTM}_{fw} (\mathbf{w}_{t}, \vec{\mathbf{h}}_{t-1}),\\
+     {\mathord{\buildrel{\lower3pt\hbox{$\scriptscriptstyle\leftarrow$}}\over {\mathbf{h}}} }_{t} = {\rm LSTM}_{bw} (\mathbf{w}_{t}, {\mathord{\buildrel{\lower3pt\hbox{$\scriptscriptstyle\leftarrow$}}\over {\mathbf{h}}} }_{t+1}).\\
+\end{gathered}
+\end{equation}
+For each word \(\mathbf{w}_t\), we concatenate each forward hidden state \(\vec{\mathbf{h}}_{t}\) obtained from the forward ${\rm LSTM}_{fw}$ with a backward hidden state \({\mathord{\buildrel{\lower3pt\hbox{$\scriptscriptstyle\leftarrow$}}\over 
+{\mathbf{h}}} }_{t}\) from ${\rm LSTM}_{bw}$ to obtain a hidden state \(\mathbf{h}_t\). The whole hidden state matrix can be defined as \(\mathbf{H} = \left(\mathbf{h}_{1}, \mathbf{h}_{2}, ..., \mathbf{h}_{T}\right) \in \mathbb{R}^{T \times 2D_{H}}\), where $D_H$ is the number of hidden units in each LSTM. 
+In this work, the parameters of WordCaps are trained with the whole model, while sophisticated pre-trained models such as ELMo \citep{peters2018deep} or BERT \citep{devlin2018bert} may also be integrated.
+ 
+\subsection{\SecondCapsule}
+Traditionally, the learned hidden state \(\mathbf{h}_t\) for each word \(\mathbf{w}_t\) is used as the logit to predict its slot tag. When $\mathbf{H}$ for all words in the utterance is learned, sequential tagging methods like the linear-chain CRF models the tag dependencies by assigning a transition score for each transition pattern between adjacent tags to ensure the best tag sequence of the utterance from all possible tag sequences.
+
+Instead of doing slot filling via sequential labeling which does not directly consider the dependencies among words, the {\SecondCapsule} learn to recognize slots via dynamic routing. The routing-by-agreement explicitly models the hierarchical relationship between capsules. For example, the routing-by-agreement mechanism send a low-level feature, e.g. a word representation in {\FirstCapsule}, to high-level capsules, e.g. {\SecondCapsule}, only when the word representation has a strong agreement with a slot representation.
+
+The agreement value on a word may vary when being recognized as different slots. For example, the word \texttt{three} may be recognized as a \texttt{party\_size\_number} slot or a \texttt{time} slot.  The {\SecondCapsule} first convert the word representation obtained in {\FirstCapsule} with respect to each slot type. We denote \(\mathbf{p}_{k|t}\) as the resulting prediction vector of the $t$-th word when being recognized as the $k$-th slot:
+\begin{equation}
+    \mathbf{p}_{k|t} = \sigma(\mathbf{W}_{k}\mathbf{h}_{t}^{T} + \mathbf{b}_{k}),
+\end{equation}
+where $k\in\{1, 2, ..., K\}$ denotes the slot type and $t\in\{1, 2, ..., T\}$. $\sigma$ is the activation function such as $tanh$. $\mathbf{W}_{k}\in \mathbb{R}^{{D_P}\times{2D_H}}$ and $\mathbf{b}_{k} \in \mathbb{R}^{D_P\times 1}$ are the weight and bias matrix for the $k$-th capsule in {\SecondCapsule}, and ${D_P}$ is the dimension of the prediction vector.
+
+\noindent\textbf{Slot Filling by Dynamic Routing-by-agreement}
+We propose to determine the slot type for each word by dynamically route prediction vectors of each word from {\FirstCapsule} to {\SecondCapsule}.
+The dynamic routing-by-agreement learns an agreement value \(c_{kt}\) that determines how likely the $t$-th word agrees to be routed to the $k$-th slot capsule.  \(c_{kt}\) is calculated by the dynamic routing-by-agreement algorithm \citep{sabour2017dynamic}, which is briefly recalled in Algorithm \ref{al::routing}.
+
+\begin{algorithm}[ht]
+\caption{Dynamic routing-by-agreement}\label{al::routing}
+\resizebox{7cm}{!}{% <-
+\begin{minipage}{1.15\linewidth}
+\begin{algorithmic}[1]
+\Procedure{Dynamic Routing}{$\mathbf{p}_{k|t}$, $iter$}
+    \State {for each {\FirstCapsule} t and {\SecondCapsule} k: ${b}_{kt}\leftarrow0$.}
+    
+    \For {$iter$~iterations}
+        \State {for all {\FirstCapsule} $t$: $\mathbf{c}_t\leftarrow\operatorname{softmax}(\mathbf{b}_t)$}
+        
+        \State {for all {\SecondCapsule} k: $\mathbf{s}_k \leftarrow \Sigma_r c_{kt}\mathbf{p}_{k|t}$}
+        
+        \State {for all {\SecondCapsule} k: $\mathbf{v}_k= \operatorname{squash}(\mathbf{s}_{k})$}
+        
+        \State {for all {\FirstCapsule} t and {\SecondCapsule} k: ${b}_{kt} \leftarrow \text{b}_{kt} + \mathbf{p}_{k|t}\cdot\mathbf{v}_{k}$}
+        
+	    \EndFor
+	\State Return $\mathbf{v}_k$
+\EndProcedure
+\end{algorithmic}
+\end{minipage}
+}
+\end{algorithm}
+
+The above algorithm determines the agreement value $c_{kt}$ between {\FirstCapsule} and {\SecondCapsule} while learning the slot representations $\mathbf{v}_k$ in an unsupervised, iterative fashion. $\mathbf{c}_t$ is a vector that consists of all $c_{kt}$ where $k\in{K}$.
+${b}_{kt}$ is the logit (initialized as zero) representing the log prior probability that the $t$-th word in {\FirstCapsule} agrees to be routed to the $k$-th slot capsule in {\SecondCapsule} (Line 2). During each iteration (Line 3), each slot representation $\mathbf{v}_k$ is calculated by aggregating all the prediction vectors for that slot type $\{{\mathbf{p}_{k|t}} | t{\in}T\}$, weighted by the agreement values $c_{kt}$ obtained from $b_{kt}$ (Line 5-6):
+\begin{equation}
+    \mathbf{s}_{k} = \sum_{t}^{T}c_{kt}\mathbf{p}_{k|t},
+\end{equation}
+\begin{equation}
+    \mathbf{v}_{k} = \operatorname{squash}(\mathbf{s}_{k}) = \frac{\left \| \mathbf{s}_{k} \right \|^{2}}{1 + \left \| \mathbf{s}_{k}\right \|^{2} }\frac{\mathbf{s}_{k}}{\left \| \mathbf{s}_{k} \right \|},
+\end{equation}
+where a squashing function $\operatorname{squash}(\cdot)$ is applied on the weighted sum \(\mathbf{s}_{k}\) to get \(\mathbf{v}_{k}\) for each slot type.
+Once we updated the slot representation $\mathbf{v}_k$ in the current iteration, the logit $b_{kt}$ becomes larger when the dot product $\mathbf{p}_{k|t}\cdot\mathbf{v}_{k}$ is large. That is, when a prediction vector $\mathbf{p}_{k|t}$ is more similar to a slot representation $\mathbf{v}_k$, the dot product is larger, indicating that it is more likely to route this word to the $k$-th slot type (Line 7). An updated, larger $b_{kt}$ will lead to a larger agreement value $c_{kt}$ between the $t$-th word and the $k$-th slot in the next iteration.
+On the other hand, it assigns low $c_{kt}$ when there is inconsistency between $p_{k|t} $ and $\mathbf{v}_k$.
+The agreement values learned via the unsupervised, iterative algorithm ensures the outputs of the {\FirstCapsule} get sent to appropriate subsequent {\SecondCapsule} after $iter_{\operatorname{slot}}$ iterations.
+
+\noindent\textbf{Cross Entropy Loss for Slot Filling}\\
+For the $t$-th word in an utterance, its slot type is determined as follows:
+\begin{equation}
+{\hat y}_t = \mathop {\arg \max }\limits_{k \in K} ({{c}_{kt}}).
+\end{equation}
+The slot filling loss is defined over the utterance as the following cross-entropy function:
+\begin{equation}
+\mathcal{L}_{slot} = - \sum\limits_t {\sum\limits_k {y_t^k\log (\hat y_t^k)} },
+\end{equation}
+where $y_t^k$ indicates the ground truth slot type for the $t$-th word. $y_t^k=1$ when the $t$-th word belongs to the $k$-th slot type.
+
+\subsection{\ThirdCapsule}
+The {\ThirdCapsule} take the output $\mathbf{v}_k$ for each slot $k \in \{1,2,...,K\}$ in {\SecondCapsule} as the input, and determine the utterance-level intent of the whole utterance.
+The {\ThirdCapsule} also convert each slot representation in {\SecondCapsule} with respect to the intent type:
+\begin{equation}
+\mathbf{q}_{l|k} = \sigma(\mathbf{W}_{l}\mathbf{v}_k^T +b_{l}),
+\end{equation}
+where $l \in \{1,2,...,L\}$ and $L$ is the number of intents. $\mathbf{W}_l \in \mathbb{R}^{D_L\times D_P}$ and $\mathbf{b}_l \in \mathbb{R}^{D_L\times 1}$ are the weight and bias matrix for the $l$-th capsule in {\ThirdCapsule}.
+
+{\ThirdCapsule} adopt the same dynamic routing-by-agreement algorithm, where:
+\begin{equation}
+\mathbf{u}_l = \textsc{Dynamic Routing}(\mathbf{q}_{l|k}, iter_{\operatorname{intent}}).
+\end{equation}
+
+\noindent\textbf{Max-margin Loss for Intent Detection}\\
+Based on the capsule theory, the orientation of the activation vector $\mathbf{u}_l$ represents intent properties while its length indicates the activation probability. 
+The loss function considers a max-margin loss on each labeled utterance:
+\begin{align}\label{eq:loss}
+\begin{split}
+\mathcal{L}_{intent}&= \sum_{l=1}^{L}\{
+\left[\kern-0.15em\left[ {{z} = z_l} \right]\kern-0.15em\right]\cdot \max (0,m^ +  - {{\left\| {{\mathbf{u}_l}} \right\|}})^2\\
+&+ \lambda \left[\kern-0.15em\left[ {{z} \ne z_l} \right]\kern-0.15em\right]\cdot \max (0,{{\left\| {{\mathbf{u}_l}} \right\|}} - m^ - )^2\},\\
+\end{split}
+\end{align}
+where $\|\mathbf{u}_l\|$ is the norm of $\mathbf{u}_l$ and $\left[\kern-0.15em\left[  \right]\kern-0.15em\right]$ is an indicator function, $z$ is the ground truth intent label for the utterance $x$. $\lambda$ is the weighting coefficient, and $m^ +$ and $m^ -$ are margins.
+
+The intent of the utterance can be easily determined by choosing the activation vector with the largest norm ${{\hat z}} = \mathop {\arg \max }\limits_{l \in \{ 1,2,...,L\} } \left\| {{{\mathbf{u}}_l}} \right\|$.
+
+\subsection{Re-Routing}
+The {\ThirdCapsule} not only determine the intent of the utterance by the length of the activation vector, but also learn discriminative intent representations of the utterance by the orientations of the activation vectors.
+Previously, the dynamic routing-by-agreement shows how low-level features such as slots help construct high-level ideas such as intents. While the high-level features also work as a guide that helps learn low-level features. For example, the \texttt{AddToPlaylist} intent activation vector in {\ThirdCapsule} also helps strength the existing slots such as \texttt{artist\_name} during slot filling on the words \texttt{Sungmin} in {\SecondCapsule}.
+
+Thus we propose a re-routing schema for {\SecondCapsule} where the dynamic routing-by-agreement is realized by the following equation that replaces the Line 7 in Algorithm \ref{al::routing}:
+\begin{equation}
+\text{b}_{kt} \leftarrow \text{b}_{kt} + \mathbf{p}_{k|t}\cdot\mathbf{v}_{k} + \alpha \cdot \mathbf{p}_{k|t}^{T}{\mathbf{W}_{RR}}\mathbf{\hat u}_{\hat z}^{T},
+\end{equation}
+where $\mathbf{\hat u}_{\hat z}$ is the intent activation vector with the largest norm.
+$\mathbf{W}_{RR}\in\mathbb{R}^{D_P \times D_L}$ is a bi-linear weight matrix, and $\alpha$ as the coefficient.
+The routing information for each word is updated toward the direction where the prediction vector not only coincides with representative slots, but also towards the most-likely intent of the utterance.
+As a result, the re-routing makes {\SecondCapsule} obtain updated routing information as well as updated slot representations.

@@ -1,0 +1,971 @@
+{
+  "paper_id": "1910.13461",
+  "tuples": [
+    {
+      "method": {
+        "name": "BERT Base"
+      },
+      "task": {
+        "name": "Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "bert",
+        "quote": "we compare our implementations with published numbers from BERT",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "BERT Base",
+        "column_label": "SQuAD 1.1 F1",
+        "sentence": null,
+        "quoted_span": "88.5"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BERT Base"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 84.3,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "bert",
+        "quote": "we compare our implementations with published numbers from BERT",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "BERT Base",
+        "column_label": "MNLI Acc",
+        "sentence": null,
+        "quoted_span": "\\textbf{84.3}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "We re-implement strong pre-training approaches",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_size",
+          "value": "base",
+          "quote": "using base-size models (6 encoder and 6 decoder layers",
+          "locator": "section_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Masked Language Model",
+        "column_label": "SQuAD 1.1 F1",
+        "sentence": null,
+        "quoted_span": "90.0"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 83.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "We re-implement strong pre-training approaches",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Masked Language Model",
+        "column_label": "MNLI Acc",
+        "sentence": null,
+        "quoted_span": "83.5"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Abstractive QA"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 24.77,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "We re-implement strong pre-training approaches",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Masked Language Model",
+        "column_label": "ELI5 PPL",
+        "sentence": null,
+        "quoted_span": "24.77"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 7.87,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "We re-implement strong pre-training approaches",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Masked Language Model",
+        "column_label": "XSum PPL",
+        "sentence": null,
+        "quoted_span": "7.87"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 12.59,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "We re-implement strong pre-training approaches",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Masked Language Model",
+        "column_label": "ConvAI2 PPL",
+        "sentence": null,
+        "quoted_span": "12.59"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Masked Language Model"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 7.06,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "We re-implement strong pre-training approaches",
+        "locator": "section_4.1_paragraph_1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Masked Language Model",
+        "column_label": "CNN/DM PPL",
+        "sentence": null,
+        "quoted_span": "7.06"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 76.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "gpt",
+        "quote": "Similarly to GPT \\citep{gpt}, we train a left-to-right",
+        "locator": "section_4.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Language Model",
+        "column_label": "SQuAD 1.1 F1",
+        "sentence": null,
+        "quoted_span": "76.7"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 80.1,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "gpt",
+        "quote": "Similarly to GPT \\citep{gpt}, we train a left-to-right",
+        "locator": "section_4.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Language Model",
+        "column_label": "MNLI Acc",
+        "sentence": null,
+        "quoted_span": "80.1"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "Language Model"
+      },
+      "task": {
+        "name": "Abstractive QA"
+      },
+      "datasets": [
+        {
+          "name": "ELI5"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 21.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "gpt",
+        "quote": "Similarly to GPT \\citep{gpt}, we train a left-to-right",
+        "locator": "section_4.1"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "Language Model",
+        "column_label": "ELI5 PPL",
+        "sentence": null,
+        "quoted_span": "\\textbf{21.40}"
+      },
+      "confidence": 0.8
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Text Infilling"
+      },
+      "task": {
+        "name": "Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 90.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "BART models with text infilling demonstrate the most consistently strong performance",
+        "locator": "caption_table_1"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_size",
+          "value": "base",
+          "quote": "using base-size models (6 encoder and 6 decoder layers",
+          "locator": "section_4"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Text Infilling",
+        "column_label": "SQuAD 1.1 F1",
+        "sentence": null,
+        "quoted_span": "\\textbf{90.8}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Text Infilling"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 84.0,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Text Infilling",
+        "column_label": "MNLI Acc",
+        "sentence": null,
+        "quoted_span": "84.0"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Text Infilling"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "XSum"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 6.61,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Text Infilling",
+        "column_label": "XSum PPL",
+        "sentence": null,
+        "quoted_span": "\\textbf{6.61}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Text Infilling"
+      },
+      "task": {
+        "name": "Dialogue"
+      },
+      "datasets": [
+        {
+          "name": "ConvAI2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 11.05,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Text Infilling",
+        "column_label": "ConvAI2 PPL",
+        "sentence": null,
+        "quoted_span": "\\textbf{11.05}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Text Infilling"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 5.83,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Text Infilling",
+        "column_label": "CNN/DM PPL",
+        "sentence": null,
+        "quoted_span": "5.83"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Text Infilling + Sentence Shuffling"
+      },
+      "task": {
+        "name": "Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DM"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "PPL",
+          "value": 5.41,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Text Infilling + Sentence Shuffling",
+        "column_label": "CNN/DM PPL",
+        "sentence": null,
+        "quoted_span": "\\textbf{5.41}"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Text Infilling + Sentence Shuffling"
+      },
+      "task": {
+        "name": "Natural Language Inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Acc",
+          "value": 83.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Text Infilling + Sentence Shuffling",
+        "column_label": "MNLI Acc",
+        "sentence": null,
+        "quoted_span": "83.8"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Document Rotation"
+      },
+      "task": {
+        "name": "Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 77.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Document Rotation",
+        "column_label": "SQuAD 1.1 F1",
+        "sentence": null,
+        "quoted_span": "77.2"
+      },
+      "confidence": 0.85
+    },
+    {
+      "method": {
+        "name": "BART Base w/ Sentence Shuffling"
+      },
+      "task": {
+        "name": "Question Answering"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 1.1"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 85.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "",
+        "locator": ""
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "",
+        "locator": ""
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "Table 1",
+        "row_label": "w/ Sentence Shuffling",
+        "column_label": "SQuAD 1.1 F1",
+        "sentence": null,
+        "quoted_span": "85.4"
+      },
+      "confidence": 0.85
+    }
+  ],
+  "_meta": {
+    "vendor": "claude",
+    "slice": "metalead_full31_v5c",
+    "model": "anthropic/claude-opus-5.5",
+    "voted": false,
+    "draft_sizes": [
+      20
+    ],
+    "tokens_in": 18680,
+    "tokens_out": 5860,
+    "cost_usd": 0.19191999999999998
+  }
+}

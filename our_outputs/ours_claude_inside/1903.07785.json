@@ -1,0 +1,3198 @@
+{
+  "paper_id": "1903.07785",
+  "tuples": [
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 45.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "OpenAI GPT     & 45.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc = Matthews correlation",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 91.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "91.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc = Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MRPC (F1)",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 80.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc = Spearman correlation",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "70.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "QQP (F1)",
+        "locator": "row_0_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.1/81.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc = Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "mnli subset",
+          "value": "matched",
+          "quote": "MNLI-(m/mm)",
+          "locator": "row_0_col_6",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.1/81.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc = Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "mnli subset",
+          "value": "mismatched",
+          "quote": "MNLI-(m/mm)",
+          "locator": "row_0_col_6",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 88.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc = Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 56.0,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "56.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc = Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "OpenAI GPT"
+      },
+      "task": {
+        "name": "Natural Language Understanding"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg. GLUE score",
+          "value": 75.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "75.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "The average column does not include the WNLI test set",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "All our models outperform the uni-directional transformer (OpenAI GPT) of [cite]",
+        "locator": "referring_paragraph",
+        "reference": "radford2018improving"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "average excludes",
+          "value": "WNLI",
+          "quote": "The average column does not include the WNLI test set",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2",
+      "_context_miss": {
+        "task": true
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 53.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CNN Base       & 53.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "mcc = Matthews correlation",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows results for three configurations of our approach",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "acc = Accuracy",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows results for three configurations of our approach",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MRPC (F1)",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows results for three configurations of our approach",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 82.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "scc = Spearman correlation",
+        "locator": "caption"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows results for three configurations of our approach",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 70.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "70.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "Test results as per the GLUE evaluation server",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "QQP (F1)",
+        "locator": "row_0_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows results for three configurations of our approach",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_2"
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "ELMo$_{BASE}$ &  95.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_1_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparison to previous published ELMo$_ BASE $ results [cite]",
+        "locator": "referring_paragraph",
+        "reference": "peters2018deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.7 & 92.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "comparison to previous published ELMo$_ BASE $ results [cite]",
+        "locator": "referring_paragraph",
+        "reference": "peters2018deep"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "model selection",
+          "value": "best dev F1",
+          "quote": "Test result was evaluated on parameter set with the best dev F1.",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CNN Large + ELMo & 96.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_2_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Both of our stacking methods outperform the previous state of the art",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.4 & 93.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Both of our stacking methods outperform the previous state of the art",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "model selection",
+          "value": "best dev F1",
+          "quote": "Test result was evaluated on parameter set with the best dev F1.",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "CNN Large + fine-tune & 96.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_3_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "fine tuning gives the biggest gain",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 93.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.9 &93.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "fine tuning gives the biggest gain",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "model selection",
+          "value": "best dev F1",
+          "quote": "Test result was evaluated on parameter set with the best dev F1.",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERT$_{BASE}$ & 96.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_4_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "referring_paragraph",
+        "reference": "devlin2018bert"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT$_{BASE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.4 & 92.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_4_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "referring_paragraph",
+        "reference": "devlin2018bert"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT$_{LARGE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 96.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "BERT$_{LARGE}$ & 96.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_5_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "referring_paragraph",
+        "reference": "devlin2018bert"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "BERT$_{LARGE}$"
+      },
+      "task": {
+        "name": "Named Entity Recognition"
+      },
+      "datasets": [
+        {
+          "name": "CoNLL-2003"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 92.8,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "96.6 & 92.8"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_5_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "copied",
+        "quote": "with comparison to ... the BERT models",
+        "locator": "referring_paragraph",
+        "reference": "devlin2018bert"
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_3"
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_1_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "previous state of the art, which used ELMo embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "ELMo$_{BASE}$"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_1_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "unknown",
+        "quote": "previous state of the art, which used ELMo embeddings",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "model selection",
+          "value": "best dev F1",
+          "quote": "Test result was evaluated on parameter set with the best dev F1.",
+          "locator": "caption",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_2_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows the results.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CNN Large + ELMo"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.2,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_2_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Table [ref] shows the results.",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "model selection",
+          "value": "best dev F1",
+          "quote": "Test result was evaluated on parameter set with the best dev F1.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "dev F1",
+        "locator": "row_3_col_1"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "dev F1",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "fine tuning is required to achieve gains over the previous state of the art",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "CNN Large + fine-tune"
+      },
+      "task": {
+        "name": "Constituency Parsing"
+      },
+      "datasets": [
+        {
+          "name": "Penn Treebank"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 95.6,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "95.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "test",
+        "quote": "test F1",
+        "locator": "row_3_col_2"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "test F1",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "fine tuning is required to achieve gains over the previous state of the art",
+        "locator": "referring_paragraph",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "model selection",
+          "value": "best dev F1",
+          "quote": "Test result was evaluated on parameter set with the best dev F1.",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_4"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 55.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "55.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "CoLA (mcc)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 92.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "SST-2 (acc)",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MRPC (F1)",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 88.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "STS-B (scc)",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "QQP (F1)",
+        "locator": "row_0_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 82.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "82.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MNLI-m (acc)",
+        "locator": "row_0_col_6"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        },
+        {
+          "name": "mnli subset",
+          "value": "matched",
+          "quote": "MNLI-m",
+          "locator": "row_0_col_6",
+          "confidence": 0.6667
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 86.5,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "QNLI (acc)",
+        "locator": "row_0_col_7"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 66.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "66.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RTE (acc)",
+        "locator": "row_0_col_8"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "two tower model"
+      },
+      "task": {
+        "name": "natural language understanding"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg. GLUE score",
+          "value": 80.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "80.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg",
+        "locator": "row_0_col_9"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5",
+      "_context_miss": {
+        "task": true
+      }
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 50.0,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "50.0"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "CoLA (mcc)",
+        "locator": "row_0_col_1"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 92.4,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.4"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "SST-2 (acc)",
+        "locator": "row_0_col_2"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.6,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.6"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MRPC (F1)",
+        "locator": "row_0_col_3"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 87.1,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "STS-B (scc)",
+        "locator": "row_0_col_4"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "bilm"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "QQP (F1)",
+        "locator": "row_0_col_5"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "base model",
+          "value": "CNN Base",
+          "quote": "Results are based on the CNN base model",
+          "locator": "caption",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_5"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 52.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "52.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "CoLA (mcc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 92.9,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "92.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "SST-2 (acc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 88.2,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.2"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MRPC (F1)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "STS-B"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Spearman correlation coefficient",
+          "value": 88.3,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "88.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "STS-B (scc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "QQP"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 87.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "87.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "QQP (F1)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "MNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 81.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "81.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MNLI-m (acc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        },
+        {
+          "name": "mnli subset",
+          "value": "matched",
+          "quote": "MNLI-m",
+          "locator": "header",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "QNLI"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 85.7,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "85.7"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "QNLI (acc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "natural language inference"
+      },
+      "datasets": [
+        {
+          "name": "RTE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 63.3,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "63.3"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "RTE (acc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "General Language Understanding"
+      },
+      "datasets": [
+        {
+          "name": "GLUE"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Avg. GLUE score",
+          "value": 79.9,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "79.9"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "Avg",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_1_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "562",
+          "quote": "562",
+          "locator": "row_1_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6",
+      "_context_miss": {
+        "task": true
+      }
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "CoLA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Matthews correlation coefficient",
+          "value": 55.5,
+          "unit": null
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "55.5"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "CoLA (mcc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "1125",
+          "quote": "1125",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "single-sentence classification"
+      },
+      "datasets": [
+        {
+          "name": "SST-2"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Accuracy",
+          "value": 93.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "93.1"
+      },
+      "confidence": 1.0,
+      "_agreement_count": 3,
+      "_agreement_share_raw": 1.0,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 1.0,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "SST-2 (acc)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 1.0,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 1.0,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "1125",
+          "quote": "1125",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    },
+    {
+      "method": {
+        "name": "CNN Base"
+      },
+      "task": {
+        "name": "sentence similarity"
+      },
+      "datasets": [
+        {
+          "name": "MRPC"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 86.1,
+          "unit": "%"
+        }
+      ],
+      "source_reference": {
+        "quoted_span": "86.1"
+      },
+      "confidence": 0.6667,
+      "_agreement_count": 2,
+      "_agreement_share_raw": 0.6667,
+      "split": {
+        "value": "dev",
+        "quote": "development sets of GLUE",
+        "locator": "caption"
+      },
+      "split_confidence": 0.6667,
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "MRPC (F1)",
+        "locator": "header"
+      },
+      "metric_variant_confidence": 0.6667,
+      "result_origin": {
+        "value": "original",
+        "quote": "Results are based on the CNN base model",
+        "locator": "caption",
+        "reference": null
+      },
+      "result_origin_confidence": 0.6667,
+      "evaluation_setting": [
+        {
+          "name": "pretraining data",
+          "value": "Common Crawl",
+          "quote": "ccrawl",
+          "locator": "row_2_col_0",
+          "confidence": 1.0
+        },
+        {
+          "name": "train data (m tok)",
+          "value": "1125",
+          "quote": "1125",
+          "locator": "row_2_col_1",
+          "confidence": 1.0
+        }
+      ],
+      "paper_version": "unknown",
+      "paper_version_confidence": 0.3333,
+      "source_table_id": "tab_6"
+    }
+  ],
+  "_meta": {
+    "runner": "v7_pertable",
+    "vendor": "claude",
+    "model": "anthropic/claude-opus-5.5",
+    "n_tables_all": 6,
+    "n_results_tables_loose": 6,
+    "tables_completed": 6,
+    "calls": 18,
+    "cost_usd": 1.7061279999999999,
+    "tokens_in": 77607,
+    "tokens_out": 69785,
+    "context_pass_cost": 0.128136
+  }
+}

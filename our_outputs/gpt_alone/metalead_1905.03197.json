@@ -1,0 +1,2928 @@
+{
+  "paper_id": "1905.03197",
+  "tuples": [
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 40.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "LEAD-3 is a baseline model",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "LEAD-3",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "LEAD-3 & 40.42"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 17.62,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "LEAD-3 is a baseline model",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "LEAD-3",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "17.62   & 36.67"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "LEAD-3"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 36.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "LEAD-3 is a baseline model",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "LEAD-3",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "17.62   & 36.67"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 43.25,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "bertsum",
+        "quote": "results of the best reported extractive model are taken from",
+        "locator": "caption_tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "Best Extractive",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "43.25 & \\textbf{20.24}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 20.24,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "bertsum",
+        "quote": "results of the best reported extractive model are taken from",
+        "locator": "caption_tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "Best Extractive",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "43.25 & \\textbf{20.24}"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "Best Extractive"
+      },
+      "task": {
+        "name": "Extractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 39.63,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "bertsum",
+        "quote": "results of the best reported extractive model are taken from",
+        "locator": "caption_tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "Best Extractive",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "20.24} & 39.63"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PGNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 39.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PGNet~\\cite{see-etal-2017-get}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "PGNet",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "39.53 & 17.28 & 37.98"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PGNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 17.28,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PGNet~\\cite{see-etal-2017-get}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "PGNet",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "39.53 & 17.28 & 37.98"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "PGNet"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 37.98,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "PGNet~\\cite{see-etal-2017-get}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "PGNet",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "39.53 & 17.28 & 37.98"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 41.22,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Bottom-Up~\\cite{gehrmann-etal-2018-bottom}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "Bottom-Up",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "41.22            & 18.68"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 18.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Bottom-Up~\\cite{gehrmann-etal-2018-bottom}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "Bottom-Up",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "18.68           & 38.34"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Bottom-Up"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 38.34,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Bottom-Up~\\cite{gehrmann-etal-2018-bottom}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "Bottom-Up",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "18.68           & 38.34"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 41.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "S2S-ELMo~\\cite{Edunov2019PretrainedLM}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "S2S-ELMo",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "41.56 & 18.94"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 18.94,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "S2S-ELMo~\\cite{Edunov2019PretrainedLM}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "S2S-ELMo",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "18.94           &   38.47"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "S2S-ELMo"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 38.47,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "S2S-ELMo~\\cite{Edunov2019PretrainedLM}",
+        "locator": "tbl:summary:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "S2S-ELMo",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "18.94           &   38.47"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 43.33,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms all previous abstractive systems",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "640 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "dataset_version",
+          "value": "non-anonymized",
+          "quote": "non-anonymized version of the CNN/DailyMail dataset",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "UniLM",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{43.33} & 20.21"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 20.21,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms all previous abstractive systems",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "640 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "dataset_version",
+          "value": "non-anonymized",
+          "quote": "non-anonymized version of the CNN/DailyMail dataset",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "UniLM",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{43.33} & 20.21"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "CNN/DailyMail"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 40.51,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Evaluation results on CNN/DailyMail summarization",
+        "locator": "caption_tbl:summary:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms all previous abstractive systems",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "640 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "dataset_version",
+          "value": "non-anonymized",
+          "quote": "non-anonymized version of the CNN/DailyMail dataset",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:result",
+        "row_label": "UniLM",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "20.21 & \\textbf{40.51}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 10.97,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "mass",
+        "quote": "Results of OpenNMT and Transformer are taken from",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "Transformer",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "10.97 & 2.23 & 10.42"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 2.23,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "mass",
+        "quote": "Results of OpenNMT and Transformer are taken from",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "Transformer",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "10.97 & 2.23 & 10.42"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Transformer"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 10.42,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "mass",
+        "quote": "Results of OpenNMT and Transformer are taken from",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "Transformer",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "10.97 & 2.23 & 10.42"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 25.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{mass}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "MASS, 10K Training Examples",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "25.03 & 9.48 & 23.48"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 9.48,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{mass}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "MASS, 10K Training Examples",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "25.03 & 9.48 & 23.48"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 23.48,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{mass}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "MASS, 10K Training Examples",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "25.03 & 9.48 & 23.48"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 32.96,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms MASS",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        },
+        {
+          "name": "input_length",
+          "value": "192 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "UniLM, 10K Training Examples",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{32.96} & \\textbf{14.68}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 14.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms MASS",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        },
+        {
+          "name": "input_length",
+          "value": "192 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "UniLM, 10K Training Examples",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{32.96} & \\textbf{14.68}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 30.56,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms MASS",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "10K Training Examples",
+          "quote": "10K Training Examples",
+          "locator": "tbl:summary:gigaword"
+        },
+        {
+          "name": "input_length",
+          "value": "192 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "UniLM, 10K Training Examples",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{14.68} & \\textbf{30.56}"
+      },
+      "confidence": 0.98
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 36.73,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "re3sum",
+        "quote": "Results of OpenNMT and Transformer are taken from",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "OpenNMT",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "36.73 & 17.86 & 33.68"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 17.86,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "re3sum",
+        "quote": "Results of OpenNMT and Transformer are taken from",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "OpenNMT",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "36.73 & 17.86 & 33.68"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "OpenNMT"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 33.68,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "copied",
+        "reference": "re3sum",
+        "quote": "Results of OpenNMT and Transformer are taken from",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "OpenNMT",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "36.73 & 17.86 & 33.68"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 37.04,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Re3Sum~\\cite{re3sum}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "Re3Sum",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "37.04 & 19.03 & 34.46"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 19.03,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Re3Sum~\\cite{re3sum}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "Re3Sum",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "37.04 & 19.03 & 34.46"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "Re3Sum"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 34.46,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Re3Sum~\\cite{re3sum}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "Re3Sum",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "37.04 & 19.03 & 34.46"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 37.66,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{mass}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "MASS, Full Training Set",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "37.66 & 18.53 & 34.89"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 18.53,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{mass}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "MASS, Full Training Set",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "37.66 & 18.53 & 34.89"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "MASS"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 34.89,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "MASS~\\cite{mass}",
+        "locator": "tbl:summary:gigaword"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "MASS, Full Training Set",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "37.66 & 18.53 & 34.89"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-1",
+          "value": 38.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms MASS",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        },
+        {
+          "name": "input_length",
+          "value": "192 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "UniLM, Full Training Set",
+        "column_label": "RG-1",
+        "sentence": null,
+        "quoted_span": "\\textbf{38.45} & \\textbf{19.45}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-2",
+          "value": 19.45,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms MASS",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        },
+        {
+          "name": "input_length",
+          "value": "192 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "UniLM, Full Training Set",
+        "column_label": "RG-2",
+        "sentence": null,
+        "quoted_span": "\\textbf{38.45} & \\textbf{19.45}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Abstractive Summarization"
+      },
+      "datasets": [
+        {
+          "name": "Gigaword"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "RG-L",
+          "value": 35.75,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "Results on Gigaword abstractive summarization",
+        "locator": "caption_tbl:summary:gigaword"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1 version of ROUGE",
+        "locator": "section_abstractive_summarization"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our model outperforms MASS",
+        "locator": "section_abstractive_summarization"
+      },
+      "evaluation_setting": [
+        {
+          "name": "training_data_regime",
+          "value": "Full Training Set, 3.8M examples",
+          "quote": "the others use 3.8M examples",
+          "locator": "caption_tbl:summary:gigaword"
+        },
+        {
+          "name": "input_length",
+          "value": "192 tokens",
+          "quote": "first $640$ and $192$ tokens for CNN/DailyMail and Gigaword",
+          "locator": "section_abstractive_summarization"
+        },
+        {
+          "name": "beam_size",
+          "value": "5",
+          "quote": "beam search with beam size of $5$",
+          "locator": "section_abstractive_summarization"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:summary:gigaword",
+        "row_label": "UniLM, Full Training Set",
+        "column_label": "RG-L",
+        "sentence": null,
+        "quoted_span": "\\textbf{19.45} & \\textbf{35.75}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "RMR+ELMo"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 71.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD development set",
+        "locator": "caption_tbl:squad:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "EM       & F1",
+        "locator": "tbl:squad:result"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "RMR+ELMo~\\citep{hu-mrc-2018}",
+        "locator": "tbl:squad:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:squad:result",
+        "row_label": "RMR+ELMo",
+        "column_label": "EM",
+        "sentence": null,
+        "quoted_span": "71.4 & 73.7"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "RMR+ELMo"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 73.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD development set",
+        "locator": "caption_tbl:squad:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "EM       & F1",
+        "locator": "tbl:squad:result"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "RMR+ELMo~\\citep{hu-mrc-2018}",
+        "locator": "tbl:squad:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:squad:result",
+        "row_label": "RMR+ELMo",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "71.4 & 73.7"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "BERT_LARGE"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 78.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD development set",
+        "locator": "caption_tbl:squad:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "EM       & F1",
+        "locator": "tbl:squad:result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "fine-tuned on the SQuAD training data for $3$ epochs",
+        "locator": "section_ext:qa"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_variant",
+          "value": "cased",
+          "quote": "is a cased model",
+          "locator": "section_ext:qa"
+        },
+        {
+          "name": "input_length",
+          "value": "384",
+          "quote": "maximum length $384$",
+          "locator": "section_ext:qa"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:squad:result",
+        "row_label": "BERT_LARGE",
+        "column_label": "EM",
+        "sentence": null,
+        "quoted_span": "78.9           & 81.8"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "BERT_LARGE"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 81.8,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD development set",
+        "locator": "caption_tbl:squad:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "EM       & F1",
+        "locator": "tbl:squad:result"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "fine-tuned on the SQuAD training data for $3$ epochs",
+        "locator": "section_ext:qa"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_variant",
+          "value": "cased",
+          "quote": "is a cased model",
+          "locator": "section_ext:qa"
+        },
+        {
+          "name": "input_length",
+          "value": "384",
+          "quote": "maximum length $384$",
+          "locator": "section_ext:qa"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:squad:result",
+        "row_label": "BERT_LARGE",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "78.9           & 81.8"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "EM",
+          "value": 80.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD development set",
+        "locator": "caption_tbl:squad:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "EM       & F1",
+        "locator": "tbl:squad:result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "\\ours{} outperforms BERT",
+        "locator": "section_ext:qa"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "384",
+          "quote": "maximum length $384$",
+          "locator": "section_ext:qa"
+        },
+        {
+          "name": "fine_tuning_epochs",
+          "value": "3",
+          "quote": "\\ours{} is fine-tuned in the same way as BERT",
+          "locator": "section_ext:qa"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:squad:result",
+        "row_label": "UniLM",
+        "column_label": "EM",
+        "sentence": null,
+        "quoted_span": "\\textbf{80.5} & \\textbf{83.4}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD 2.0"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 83.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "SQuAD development set",
+        "locator": "caption_tbl:squad:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "EM       & F1",
+        "locator": "tbl:squad:result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "\\ours{} outperforms BERT",
+        "locator": "section_ext:qa"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "384",
+          "quote": "maximum length $384$",
+          "locator": "section_ext:qa"
+        },
+        {
+          "name": "fine_tuning_epochs",
+          "value": "3",
+          "quote": "\\ours{} is fine-tuned in the same way as BERT",
+          "locator": "section_ext:qa"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:squad:result",
+        "row_label": "UniLM",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "\\textbf{80.5} & \\textbf{83.4}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "DrQA+ELMo"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "CoQA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 67.2,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CoQA development set",
+        "locator": "caption_tbl:coqa:extractive:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "compare two models in F1 scores",
+        "locator": "section_ext:qa"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "DrQA+ELMo~\\citep{coqa}",
+        "locator": "tbl:coqa:extractive:result"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:coqa:extractive:result",
+        "row_label": "DrQA+ELMo",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "{coqa} & 67.2"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "BERT_LARGE"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "CoQA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.7,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CoQA development set",
+        "locator": "caption_tbl:coqa:extractive:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "compare two models in F1 scores",
+        "locator": "section_ext:qa"
+      },
+      "result_origin": {
+        "value": "reproduction",
+        "reference": "bert",
+        "quote": "fine-tuned on the CoQA training data for $2$ epochs",
+        "locator": "section_ext:qa"
+      },
+      "evaluation_setting": [
+        {
+          "name": "model_variant",
+          "value": "cased",
+          "quote": "is a cased model",
+          "locator": "section_ext:qa"
+        },
+        {
+          "name": "input_length",
+          "value": "512",
+          "quote": "maximum length $512$",
+          "locator": "section_ext:qa"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:coqa:extractive:result",
+        "row_label": "BERT_LARGE",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "LARGE}$ & 82.7"
+      },
+      "confidence": 0.94
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Extractive QA"
+      },
+      "datasets": [
+        {
+          "name": "CoQA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 84.9,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CoQA development set",
+        "locator": "caption_tbl:coqa:extractive:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "compare two models in F1 scores",
+        "locator": "section_ext:qa"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "\\ours{} outperforms BERT",
+        "locator": "section_ext:qa"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "512",
+          "quote": "maximum length $512$",
+          "locator": "section_ext:qa"
+        },
+        {
+          "name": "fine_tuning_epochs",
+          "value": "2",
+          "quote": "fine-tuned with the same hyper-parameters as BERT",
+          "locator": "section_ext:qa"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:coqa:extractive:result",
+        "row_label": "UniLM",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "\\ours   & \\textbf{84.9}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "Seq2Seq"
+      },
+      "task": {
+        "name": "Generative QA"
+      },
+      "datasets": [
+        {
+          "name": "CoQA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 27.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CoQA development set",
+        "locator": "caption_tbl:coqa:generative:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "tbl:coqa:generative:result"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Seq2Seq and PGNet as described in~\\cite{coqa}",
+        "locator": "section_generative_qa"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:coqa:generative:result",
+        "row_label": "Seq2Seq",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "{coqa}   & 27.5"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "PGNet"
+      },
+      "task": {
+        "name": "Generative QA"
+      },
+      "datasets": [
+        {
+          "name": "CoQA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 45.4,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CoQA development set",
+        "locator": "caption_tbl:coqa:generative:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "tbl:coqa:generative:result"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "Seq2Seq and PGNet as described in~\\cite{coqa}",
+        "locator": "section_generative_qa"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:coqa:generative:result",
+        "row_label": "PGNet",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "{coqa}   & 45.4"
+      },
+      "confidence": 0.97
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Generative QA"
+      },
+      "datasets": [
+        {
+          "name": "CoQA"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "F1",
+          "value": 82.5,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "dev",
+        "quote": "CoQA development set",
+        "locator": "caption_tbl:coqa:generative:result"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "F1",
+        "locator": "tbl:coqa:generative:result"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "our generative question answering model",
+        "locator": "section_generative_qa"
+      },
+      "evaluation_setting": [
+        {
+          "name": "input_length",
+          "value": "470",
+          "quote": "maximum length of input question and passage is $470$",
+          "locator": "section_generative_qa"
+        },
+        {
+          "name": "beam_size",
+          "value": "3",
+          "quote": "beam search with beam size of $3$",
+          "locator": "section_generative_qa"
+        },
+        {
+          "name": "fine_tuning_epochs",
+          "value": "10",
+          "quote": "CoQA training set for $10$ epochs",
+          "locator": "section_generative_qa"
+        }
+      ],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "table",
+        "table_label": "tbl:coqa:generative:result",
+        "row_label": "UniLM",
+        "column_label": "F1",
+        "sentence": null,
+        "quoted_span": "\\ours & \\textbf{82.5}"
+      },
+      "confidence": 0.99
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "Question Generation"
+      },
+      "datasets": [
+        {
+          "name": "SQuAD"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "BLEU-4",
+          "value": 22.12,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "SQuAD question generation BLEU-4",
+        "locator": "abstract"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "BLEU-4 to \\textbf{22.12}",
+        "locator": "abstract"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "\\ours{} achieves new state-of-the-art results",
+        "locator": "abstract"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Moreover, \\ours{} achieves new state-of-the-art results on five natural language generation datasets, including improving the CNN/DailyMail abstractive summarization ROUGE-L to \\textbf{40.51} ($2.04$ absolute improvement), the Gigaword abstractive summarization ROUGE-L to \\textbf{35.75} ($0.86$ absolute improvement), the CoQA generative question answering F1 score to \\textbf{82.5} ($37.1$ absolute improvement), the SQuAD question generation BLEU-4 to \\textbf{22.12} ($3.75$ absolute improvement), and the DSTC7 document-grounded dialog response generation NIST-4 to \\textbf{2.67} (human performance is 2.65).",
+        "quoted_span": "BLEU-4 to \\textbf{22.12}"
+      },
+      "confidence": 0.95
+    },
+    {
+      "method": {
+        "name": "UniLM"
+      },
+      "task": {
+        "name": "document-grounded dialog response generation"
+      },
+      "datasets": [
+        {
+          "name": "DSTC7"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "NIST-4",
+          "value": 2.67,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "DSTC7 document-grounded dialog response generation",
+        "locator": "abstract"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "NIST-4 to \\textbf{2.67}",
+        "locator": "abstract"
+      },
+      "result_origin": {
+        "value": "original",
+        "reference": null,
+        "quote": "\\ours{} achieves new state-of-the-art results",
+        "locator": "abstract"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Moreover, \\ours{} achieves new state-of-the-art results on five natural language generation datasets, including improving the CNN/DailyMail abstractive summarization ROUGE-L to \\textbf{40.51} ($2.04$ absolute improvement), the Gigaword abstractive summarization ROUGE-L to \\textbf{35.75} ($0.86$ absolute improvement), the CoQA generative question answering F1 score to \\textbf{82.5} ($37.1$ absolute improvement), the SQuAD question generation BLEU-4 to \\textbf{22.12} ($3.75$ absolute improvement), and the DSTC7 document-grounded dialog response generation NIST-4 to \\textbf{2.67} (human performance is 2.65).",
+        "quoted_span": "NIST-4 to \\textbf{2.67}"
+      },
+      "confidence": 0.96
+    },
+    {
+      "method": {
+        "name": "human"
+      },
+      "task": {
+        "name": "document-grounded dialog response generation"
+      },
+      "datasets": [
+        {
+          "name": "DSTC7"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "NIST-4",
+          "value": 2.65,
+          "unit": null
+        }
+      ],
+      "split": {
+        "value": "not stated",
+        "quote": "DSTC7 document-grounded dialog response generation",
+        "locator": "abstract"
+      },
+      "metric_variant": {
+        "value": "not stated",
+        "quote": "NIST-4 to \\textbf{2.67} (human performance is 2.65)",
+        "locator": "abstract"
+      },
+      "result_origin": {
+        "value": "unknown",
+        "reference": null,
+        "quote": "human performance is 2.65",
+        "locator": "abstract"
+      },
+      "evaluation_setting": [],
+      "paper_version": "unknown",
+      "source_reference": {
+        "kind": "prose",
+        "table_label": null,
+        "row_label": null,
+        "column_label": null,
+        "sentence": "Moreover, \\ours{} achieves new state-of-the-art results on five natural language generation datasets, including improving the CNN/DailyMail abstractive summarization ROUGE-L to \\textbf{40.51} ($2.04$ absolute improvement), the Gigaword abstractive summarization ROUGE-L to \\textbf{35.75} ($0.86$ absolute improvement), the CoQA generative question answering F1 score to \\textbf{82.5} ($37.1$ absolute improvement), the SQuAD question generation BLEU-4 to \\textbf{22.12} ($3.75$ absolute improvement), and the DSTC7 document-grounded dialog response generation NIST-4 to \\textbf{2.67} (human performance is 2.65).",
+        "quoted_span": "human performance is 2.65"
+      },
+      "confidence": 0.92
+    }
+  ],
+  "_meta": {
+    "vendor": "openai",
+    "slice": "metalead_full31_v5c",
+    "model": "openai/gpt-6.1-terra-pro",
+    "voted": false,
+    "draft_sizes": [
+      54
+    ],
+    "tokens_in": 86711,
+    "tokens_out": 35748,
+    "cost_usd": 0.265451
+  }
+}

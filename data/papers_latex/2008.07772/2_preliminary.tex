@@ -1,0 +1,45 @@
+% !TEX encoding = UTF-8
+% !TEX Root = Main.tex
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/transformer-architecture.png}
+    \caption{Transformer model}
+    \label{fig:transformer}
+    \vspace{-4mm}
+\end{figure}
+
+
+\section{Background}
+\label{sec:prelimiary}
+
+We focus on the Transformer model \cite{vaswani2017attention}, shown in Figure \ref{fig:transformer}. 
+The encoder consists of $N$ layers/blocks of attention + feed-forward components. The decoder consists of $M$ layers/blocks of masked-attention, attention, and feed-forward components. 
+To illustrate, the input tensor $\mathbf{x_{i-1}}$ at the encoder is first transformed by a multi-head attention mechanism to generate the tensor $f_{ATT}(\mathbf{x_{i-1}})$. This result is added back with $\mathbf{x_{i-1}}$ as a residual connection, then layer-normalization ($f_{LN}(\cdot)$) is applied to generate the output:
+\begin{math}
+    \mathbf{x_{i}}=f_{LN}(\mathbf{x_{i-1}} + f_{ATT}(\mathbf{x_{i-1}}))
+\end{math}.
+Continuing onto the next component, $\mathbf{x_{i}}$ is passed through a feed-forward network $f_{FF}(\cdot)$, and is again added and layer-normalized to generate the output tensor: 
+$\mathbf{x_{i+1}}=f_{LN}(\mathbf{x_{i}} + f_{FF}(\mathbf{x_{i}}))$.
+Abstractly, the output tensor at each Add+Norm component in the Transformer (Figure \ref{fig:transformer}) can be expressed as: 
+%\vspace{-2mm}
+\begin{equation}
+\label{eq:postnorm}
+    \mathbf{x_{i}}=f_{LN}(\mathbf{x_{i-1}} + f_{i}(\mathbf{x_{i-1}}))
+\end{equation}
+where $f_{i}$ represents a attention, masked-attention, or feed-forward subnetwork. 
+This process repeats $2 \times N$ times for a $N$-layer encoder and $3 \times M$ times for a $M$-layer decoder.
+The final output of the decoder is passed through a softmax layer which predicts the probabilities of output words, and the entire network is optimized via back-propagation. 
+
+Optimization difficulty has been attributed to vanishing gradient, despite layer normalization \cite{xu2019improveln} providing some mitigation. 
+The lack of gradient flow between the decoder and the {\em lower} layers of the encoder is especially problematic; this can be addressed with short-cut connections \cite{bapna2018training,he2018layer-wise}.
+An orthogonal solution is to swap the positions of layerwise normalization $f_{LN}$ and subnetworks $f_{i}$ within each block \cite{Nguyen2019fixnorm,domhan2018ananmt,chen2018-best-adv-nmt} by:  
+\begin{math}
+\label{eq:prenorm}
+    \mathbf{x_{i}}=f_{i}(\mathbf{x_{i-1}} + f_{LN}(\mathbf{x_{i-1}}))
+\end{math}
+This is known as pre-LN (contrasted with post-LN in Eq.~\ref{eq:postnorm}), and has been effective in training networks up to 30 layers \cite{wang2019preln}.\footnote{The 96-layer GPT-3 \cite{brown2020gpt3} uses pre-LN.}
+
+However, it has been shown that post-LN, if trained well, can outperform pre-LN \cite{liu2020deeptransformer}. 
+Ideally, we hope to train a standard Transformer without additional architecture modifications. 
+In this sense, our motivation is similar to that of \citet{wu2019depth}, which grows the depth of a standard Transformer in a stage-wise fashion.

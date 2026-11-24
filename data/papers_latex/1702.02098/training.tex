@@ -1,0 +1,38 @@
+\subsection{Training}
+
+%Rather than enforcing label output dependencies with an explicit graphical model and an $O(n)$ structured prediction method (as in CRFs), we rely on the expressive token context representation learning of the dilated CNN. 
+
+Our main focus is to apply the ID-CNN an encoder to produce per-token logits for the first conditional model described in Sec.~\ref{sec:prob-model}, where tags are conditionally independent given deep features, since this will enable prediction that is parallelizable across the length of the input sequence. Here, maximum likelihood training is straightforward because the likelihood decouples into the sum of the likelihoods of independent logistic regression problems for every tag, with natural parameters given by Eqn.~\eqref{outputs-eqn}:
+\begin{equation}
+\frac{1}{T}\sum_{t=1}^T \log P(y_t \mid {\bf h_t}^{(L_b)}) \label{eq:loss}
+\end{equation}
+
+We can also use the ID-CNN as logits for the CRF model (Eqn.~\eqref{eq:crf}), where the partition function and its gradient are computed using the forward-backward algorithm. 
+
+We next present an alternative training method that helps bridge the gap between these two techniques. Sec.~\ref{sec:prob-model} identifies that the CRF has preferable sample complexity and accuracy since prediction directly reasons in the space of structured outputs. In response, we compile some of this reasoning in output space into ID-CNN feature extraction. Instead of explicit reasoning over output labels during inference, we train the network such that each block is predictive of output labels. Subsequent blocks learn to correct dependency violations of their predecessors, refining the final sequence prediction.
+
+To do so, we first define predictions of the model after each of the $L_b$ applications of the block. Let ${\bf h_t}^{(k)}$ be the result of applying the matrix $W_o$ from~\eqref{outputs-eqn} to ${\bf b_t}^{(k)}$, the output of block $k$. We minimize the average of the losses for each application of the block: 
+\begin{align}
+\frac{1}{L_b}\sum_{k=1}^{L_b} \frac{1}{T}\sum_{t=1}^T \log P(y_t \mid {\bf h_t}^{(k)}). \label{eq:avg-loss}
+\end{align}
+
+By rewarding accurate predictions after each application of the block, we learn a model where later blocks are used to refine initial predictions. The loss also helps reduce the vanishing gradient problem~\citep{hochreiter1998vanishing} for deep architectures. Such an approach has been applied in a variety of contexts for training very deep networks in computer vision~\citep{romero2014fitnets,szegedy2015going,lee2015deeply,gulccehre2016knowledge}, but not to our knowledge in NLP.
+
+We apply dropout~\citep{srivastava2014dropout} to the raw inputs ${\bf x_t}$ and to each block's output ${\bf b_t}^{(b)}$ to help prevent overfitting. The version of dropout typically used in practice has the undesirable property that the randomized predictor used at train time differs from the fixed one used at test time. \citet{ma2017dropout} present \textit{dropout with expectation-linear regularization}, which explicitly regularizes these two predictors to behave similarly. All of our best reported results include such regularization. This is the first investigation of the technique's effectiveness for NLP, including for RNNs. We encourage its further application.
+
+%%CFD
+%\subsubsection{Dropout with Expectation-Linear Regularization \label{drop-regularizer}}
+%
+%% From https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf: 
+%% If a unit is retained with probability p during training, the outgoing weights of that unit are multiplied by p at test time as shown in Figure 2.
+%
+%To regularize our models and avoid overfitting, we generously apply dropout~\citep{srivastava2014dropout}, which zeroes-out activations in a neural network layer with probability $p$. For simple networks, training with dropout is equivalent to training an ensemble of weaker models.  Consider a deep network $f_\theta(x)$ evaluated with random dropout pattern $D$. Under this interpretation, the correct behavior at test time is to predict using a Monte Carlo approximation of $\mathbb{E}_D[f_\theta(x)]$, obtained by sampling values of $D$.  However, typically practitioners approximate this expectation using a single evaluation of the network, with transformed parameters $\tilde{\theta} = p\theta$, chosen such that certain properties of the model hold in expectation~\citep{srivastava2014dropout}. Such an approach is more efficient at test time, and we adopt it in our experiments. On the other hand, it induces an undesirable inconsistency between train and test time. 
+%
+%In response, \citet{ma2017dropout} recently introduced a simple regularizer that explicitly minimizes the discrepancy between these predictors:
+%\begin{align}
+%\lambda \| f_{\tilde{\theta}}(x) - \mathbb{E}_D[f_\theta(x)]\|_2^2.
+%\end{align} 
+%
+%In our case, we define $f$ to be the vector of per-class probabilities for each tag from \ref{outputs-eqn}. We apply dropout to the raw inputs ${\bf x_t}$ and to the convolutional outputs ${\bf b_t}^{(L_b)}$.  We estimate the expectation in the second term with a single sample, as this provided a reasonable tradeoff between efficiency and regularization performance. We estimate the expectation in the second term with a single sample, as this provided a reasonable tradeoff between efficiency and regularization performance. 
+
+%The scaled network is still used at test time. The strength of the regularizer is governed by the hyperparameter $\lambda$. This regularizer requires a small, constant-time computational overhead of producing predictions twice during training: once with sampled dropout, and once using the scaled model parameters, but we found this extra computation to make a small difference in overall training time worth the corresponding gains in accuracy. , but we found this regularizer to improve accuracy of all our recurrent and convolutional models for NLP, described in more detail in experimental results. 

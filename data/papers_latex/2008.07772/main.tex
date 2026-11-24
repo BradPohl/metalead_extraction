@@ -1,0 +1,98 @@
+%
+% File emnlp2019.tex
+%
+%% Based on the style files for ACL 2019, which were
+%% Based on the style files for EMNLP 2018, which were
+%% Based on the style files for ACL 2018, which were
+%% Based on the style files for ACL-2015, with some improvements
+%%  taken from the NAACL-2016 style
+%% Based on the style files for ACL-2014, which were, in turn,
+%% based on ACL-2013, ACL-2012, ACL-2011, ACL-2010, ACL-IJCNLP-2009,
+%% EACL-2009, IJCNLP-2008...
+%% Based on the style files for EACL 2006 by 
+%%e.agirre@ehu.es or Sergi.Balari@uab.es
+%% and that of ACL 08 by Joakim Nivre and Noah Smith
+
+\documentclass[11pt,a4paper]{article}
+%\usepackage{smile}
+\usepackage[hyperref]{emnlp2020}
+%\usepackage{emnlp2020}
+
+\usepackage{times}
+\usepackage{latexsym}
+\renewcommand{\UrlFont}{\ttfamily\small}
+
+\usepackage{microtype}
+
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{xspace}
+\usepackage{enumitem}
+
+\usepackage{url}
+
+\usepackage{booktabs} % For formal tables
+\usepackage{diagbox}
+\usepackage{multirow}
+\usepackage{balance}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{subfigure}
+%\usepackage{caption}
+%\usepackage{subcaption}
+%\usepackage{graphicx}}
+\usepackage{microtype}
+\usepackage{xspace}
+\usepackage{wrapfig,lipsum}
+\usepackage{makecell}
+\usepackage[T1]{fontenc}
+\usepackage{soul}
+\usepackage{dsfont}
+%\newcommand{\cbb}{\mathbf{c}}
+\usepackage{tabularx, booktabs}
+
+
+\aclfinalcopy % Uncomment this line for the final submission
+
+%\setlength\titlebox{5cm}
+% You can expand the titlebox if you need extra space
+% to show all the authors. Please do not make the titlebox
+% smaller than 5cm (the original size); we will check this
+% in the camera-ready version and ask you to change it back.
+
+
+
+\newcommand\DNAME{ADMIN}
+
+\newcommand{\eat}[1]{\ignorespaces}
+
+\title{Very Deep Transformers for Neural Machine Translation}
+
+\author{
+Xiaodong Liu$^\dagger$, Kevin Duh$^\ddagger$, Liyuan Liu$^\S$ and Jianfeng Gao$^\dagger$
+ \\ 
+  $^\dagger$ Microsoft Research ~~~~
+  %~~~~~~~~~~~~~~~~
+  $^\ddagger$ Johns Hopkins University \\
+  $^\S$ University of Illinois at Urbana-Champaign\\
+  {\tt \{xiaodl,jfgao\}@microsoft.com} \\
+  \tt kevinduh@cs.jhu.edu, ll2@illinois.edu
+}
+
+\date{}
+
+\begin{document}
+\maketitle
+\input{0_abstract}
+\input{1_intro}
+\input{2_preliminary}
+\input{3_adv}
+\input{4_exp}
+\input{6_discussion}
+\input{acknowledgments}
+\bibliography{ref}
+\bibliographystyle{acl_natbib}
+%\clearpage
+\end{document}

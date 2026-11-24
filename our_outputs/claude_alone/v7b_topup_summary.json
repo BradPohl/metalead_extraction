@@ -1,0 +1,57 @@
+{
+  "vendor": "claude",
+  "slice": "metalead_full31_v5c",
+  "model": "anthropic/claude-opus-5.5",
+  "prompt": "config/prompts/frontier_fewshot_v3_v7b.md",
+  "max_tokens": 60000,
+  "per_paper": [
+    {
+      "paper_id": "1809.08370",
+      "status": "ok",
+      "cost_usd": 0.242852,
+      "tokens_in": 20348,
+      "tokens_out": 8073,
+      "error": null,
+      "wall_seconds": 52.87570810317993,
+      "draft_sizes": [
+        26
+      ],
+      "voted_size": 26
+    },
+    {
+      "paper_id": "1811.09242",
+      "status": "ok",
+      "cost_usd": 0.19113999999999998,
+      "tokens_in": 20190,
+      "tokens_out": 5519,
+      "error": null,
+      "wall_seconds": 36.839990854263306,
+      "draft_sizes": [
+        16
+      ],
+      "voted_size": 16
+    },
+    {
+      "paper_id": "1812.09471",
+      "status": "ok",
+      "cost_usd": 0.324116,
+      "tokens_in": 18784,
+      "tokens_out": 12449,
+      "error": null,
+      "wall_seconds": 79.7682089805603,
+      "draft_sizes": [
+        0
+      ],
+      "voted_size": 0,
+      "bare_claude_zero_fallback": true
+    }
+  ],
+  "total_cost_usd": 0.758108,
+  "wall_seconds": 169.48542499542236,
+  "budget_cap_usd": 12.0,
+  "cost_spike_threshold_usd": 1.5,
+  "pricing_per_m": {
+    "in": 4.0,
+    "out": 20.0
+  }
+}

@@ -1,0 +1,50 @@
+\section{Background}
+\subsection{Conditional Probability Models for Tagging}
+\label{sec:prob-model}
+Let $x = [x_1, \ldots, x_T]$ be our input text and $y = [y_1, \ldots, y_T]$ be per-token output tags. Let $D$ be the domain size of each $y_i$. We predict the most likely $y$, given a conditional model $P(y | x)$. 
+
+This paper considers two factorizations of the conditional distribution. First, we have
+\begin{equation}
+P(y | x) = \prod_{t = 1}^T P(y_t | F(x)),
+\label{eq:cond-ind}
+\end{equation}
+where the tags are conditionally independent given some features for x. Given these features, $O(D)$ prediction is simple and parallelizable across the length of the sequence. However, feature extraction may not necessarily be parallelizable. For example, RNN-based features require iterative passes along the length of $x$.
+
+We also consider a linear-chain CRF model that couples all of $y$ together:
+\begin{equation}
+P(y | x) = \frac{1}{Z_x} \prod_{t = 1}^T \psi_t(y_t | F(x)) \psi_p(y_t,y_{t-1}),\label{eq:crf}
+\end{equation}
+where $\psi_{t}$ is a local factor, $\psi_p$ is a pairwise factor that scores consecutive tags, and $Z_x$ is the partition function~\citep{lafferty2001conditional}. To avoid overfitting, $\psi_p$ does not depend on the timestep $t$ or the input $x$ in our experiments. Prediction in this model requires global search using the $O(D^2 T)$ Viterbi algorithm. 
+
+CRF prediction explicitly reasons about interactions among neighboring output tags, whereas prediction in the first model compiles this reasoning into the feature extraction step~\citep{liang2008structure}. The suitability of such compilation depends on the properties and quantity of the data. While CRF prediction requires non-trivial search in output space, it can guarantee that certain output constraints, such as for IOB tagging ~\citep{ramshaw1999text}, will always be satisfied. It may also have better sample complexity, as it imposes more prior knowledge about the structure of the interactions among the tags~\citep{JMLR:v17:15-501}. However, it has worse computational complexity than independent prediction.
+
+\section{Dilated Convolutions}
+
+%%% TODO
+%%% refer to figure somewhere in this text
+
+CNNs in NLP are typically one-dimensional, applied to a sequence of vectors representing tokens rather than to a two-dimensional grid of vectors representing pixels. In this setting, a convolutional neural network layer is equivalent to applying an affine transformation, $W_c$ to a sliding window of width $r$ tokens on either side of each token in the sequence. Here, and throughout the paper, we do not explicitly write the bias terms in affine transformations. The convolutional operator applied to each token $x_t$ with output $c_t$ is defined as:
+\begin{align}
+c_t = W_c\bigoplus_{k=0}^{r}x_{t \pm k},
+\end{align}
+where $\oplus$ is vector concatenation.
+
+Dilated convolutions perform the same operation, except rather than transforming adjacent inputs, the convolution is defined over a wider effective input width by skipping over $\delta$ inputs at a time, where $\delta$ is the dilation width. We define the dilated convolution operator:
+\begin{align}
+c_t = W_c\bigoplus_{k=0}^{r}x_{t \pm k\delta}.
+\end{align}
+A dilated convolution of width 1 is equivalent to a simple convolution. Using the same number of parameters as a simple convolution with the same radius (i.e. $W_c$ has the same dimensionality), the $\delta > 1$ dilated convolution incorporates broader context into the representation of a token than a simple convolution. 
+
+%%CFD
+%However, it is clear that simply applying a dilated convolution to the input in order to predict the output would likely miss important evidence for labeling a token. For example, a dilated convolution of width 2 would skip over the direct neighbors of a token, which often provide important context for that token's part-of-speech tag or entity membership. 
+
+\subsection{Multi-Scale Context Aggregation}
+
+%\begin{center}
+%\begin{figure*}[t!]
+%\includegraphics[scale=0.65]{blocks-dilations}
+%\caption{To incorporate very wide context window we stack a single dilated convolutional block, repeatedly feeding its output back in to itself. We predict using the representations produced by each application of the block, backpropagating the error signal $b$ times for $b$ applications of the block. \label{blocks-figs}}
+%\end{figure*}
+%\end{center}
+
+We can leverage the ability of dilated convolutions to incorporate global context without losing important local information by stacking dilated convolutions of increasing width. First described for pixel classification in computer vision, \citet{yu2015multi} achieve state-of-the-art results on image segmentation benchmarks by stacking dilated convolutions with exponentially increasing rates of dilation, a technique they refer to as \emph{multi-scale context aggregation}. By feeding the outputs of each dilated convolution as the input to the next, increasingly non-local information is incorporated into each pixel's representation. Performing a dilation-1 convolution in the first layer ensures that no pixels within the effective input width of any pixel are excluded. By doubling the dilation width at each layer, the size of the effective input width grows exponentially while the number of parameters grows only linearly with the number of layers, so a pixel representation quickly incorporates rich global evidence from the entire image. 

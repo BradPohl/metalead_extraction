@@ -1,0 +1,11 @@
+% !TEX encoding = UTF-8
+% !TEX Root = Main.tex
+
+\section{Conclusion}
+\label{sec:conclusion}
+We show that it is feasible to train Transformers at a depth that was previously believed to be difficult. 
+Using ADMIN initialization, we build Transformer-based models of 60 encoder layers and 12 decoder layers. On WMT'14 EN-FR and WMT'14 EN-EN, these deep models outperform the conventional 6-layer Transformers by up to 2.5 BLEU, and obtain state-of-the-art results.
+
+We believe that the ability to train very deep models may open up new avenues of research in NMT, including:
+(a) Training on extremely large but noisy data, e.g. back-translation \cite{edunov2018back-nmt} and adversarial training \cite{cheng2019robust,liu2020alum}, to see if it can be exploited by the larger model capacity. 
+(b) Analyzing the internal representations, to see if deeper networks can indeed extract higher-level features in syntax and semantics \cite{belinkov19}. (c) Compressing the very deep model via e.g. knowledge distillation \cite{kim-rush-2016-sequence}, to study the trade-offs between size and translation quality. (d) Analyzing how deep models work \cite{allen2020backward} in theory.

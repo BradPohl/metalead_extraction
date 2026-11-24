@@ -1,0 +1,133 @@
+{
+  "checker": "hyperparam_result_checker",
+  "impl": "one_call_per_paper_batched",
+  "model": "anthropic/claude-opus-5.5",
+  "per_paper": [
+    {
+      "paper_id": "1702.02098",
+      "pre": 53,
+      "post": 53,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 53
+      },
+      "cost_usd": 0.04822799999999999,
+      "tokens_in": 6702,
+      "tokens_out": 1071
+    },
+    {
+      "paper_id": "1709.04109",
+      "pre": 77,
+      "post": 77,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 77
+      },
+      "cost_usd": 0.067404,
+      "tokens_in": 8786,
+      "tokens_out": 1613
+    },
+    {
+      "paper_id": "1804.09849",
+      "pre": 41,
+      "post": 33,
+      "dropped": 8,
+      "verdict_counts": {
+        "RESULT": 33,
+        "OTHER_NONRESULT": 4,
+        "COUNT": 4
+      },
+      "cost_usd": 0.038444,
+      "tokens_in": 4386,
+      "tokens_out": 1045
+    },
+    {
+      "paper_id": "1811.05021",
+      "pre": 12,
+      "post": 12,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 12
+      },
+      "cost_usd": 0.011803999999999999,
+      "tokens_in": 1696,
+      "tokens_out": 251
+    },
+    {
+      "paper_id": "1908.08345",
+      "pre": 80,
+      "post": 80,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 80
+      },
+      "cost_usd": 0.068384,
+      "tokens_in": 9041,
+      "tokens_out": 1611
+    },
+    {
+      "paper_id": "1911.09483",
+      "pre": 52,
+      "post": 52,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 52
+      },
+      "cost_usd": 0.046036,
+      "tokens_in": 6254,
+      "tokens_out": 1051
+    },
+    {
+      "paper_id": "1912.08777",
+      "pre": 200,
+      "post": 134,
+      "dropped": 66,
+      "verdict_counts": {
+        "OTHER_NONRESULT": 66,
+        "RESULT": 134
+      },
+      "cost_usd": 0.183084,
+      "tokens_in": 23206,
+      "tokens_out": 4513
+    },
+    {
+      "paper_id": "2008.07772",
+      "pre": 38,
+      "post": 38,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 38
+      },
+      "cost_usd": 0.033476,
+      "tokens_in": 4514,
+      "tokens_out": 771
+    },
+    {
+      "paper_id": "2105.03654",
+      "pre": 78,
+      "post": 78,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 78
+      },
+      "cost_usd": 0.058744,
+      "tokens_in": 6831,
+      "tokens_out": 1571
+    },
+    {
+      "paper_id": "2203.16804",
+      "pre": 86,
+      "post": 86,
+      "dropped": 0,
+      "verdict_counts": {
+        "RESULT": 86
+      },
+      "cost_usd": 0.07553599999999999,
+      "tokens_in": 10229,
+      "tokens_out": 1731
+    }
+  ],
+  "total_cost_usd": 0.63114,
+  "budget_cap_usd": 2.0,
+  "wall_seconds": 111.51153612136841
+}

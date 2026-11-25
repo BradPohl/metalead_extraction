@@ -1,0 +1,1366 @@
+{
+ "paper_id": "1812.10235",
+ "tuples": [
+  {
+   "method": {
+    "name": "Recursive NN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.96
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Recursive NN  & 93.96\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Recursive NN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 95.4
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Recursive NN  & 93.96\textbackslash% & 95.4\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Joint model with recurrent intent and slot label context"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 94.47
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint model with recurrent intent and slot label context &94.47\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Joint model with recurrent intent and slot label context"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.43
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint model with recurrent intent and slot label context &94.47\textbackslash% & 98.43\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Joint model with recurrent slot label context"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 94.64
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint model with recurrent slot label context &94.64\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Joint model with recurrent slot label context"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.21
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint model with recurrent slot label context &94.64\textbackslash% & 98.21\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "RNN with Label Sampling"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 94.89
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "RNN with Label Sampling  & 94.89\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "RNN with Label Sampling"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.21
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "RNN with Label Sampling  & 94.89\textbackslash% & NA"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Hybrid RNN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.06
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Hybrid RNN & 95.06\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Hybrid RNN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.21
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Hybrid RNN & 95.06\textbackslash% & NA"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "RNN-EM"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.25
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "RNN-EM  & 95.25\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "RNN-EM"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.21
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "RNN-EM  & 95.25\textbackslash% & NA"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "CNN CRF"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.35
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "CNN CRF & 95.35\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "CNN CRF"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.21
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "CNN CRF & 95.35\textbackslash% & NA"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Encoder-labeler Deep LSTM"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.66
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Encoder-labeler Deep LSTM & 95.66\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Encoder-labeler Deep LSTM"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.21
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Encoder-labeler Deep LSTM & 95.66\textbackslash% & NA"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Joint GRU Model (W)"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.49
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint GRU Model (W) &95.49\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Joint GRU Model (W)"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint GRU Model (W) &95.49\textbackslash% &98.10\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Attention Encoder-Decoder NN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.87
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Attention Encoder-Decoder NN &95.87\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Attention Encoder-Decoder NN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.43
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Attention Encoder-Decoder NN &95.87\textbackslash% & 98.43\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.98
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Attention BiRNN & 95.98\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.21
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Attention BiRNN & 95.98\textbackslash% & 98.21\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 96.65
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model without a decoder & \textbf{96.65\textbackslash%}"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.76
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model without a decoder & \textbf{96.65\textbackslash%} & \textbf{98.76}\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 96.89
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model with a decoder & \textbf{96.89\textbackslash%}"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent Accuracy",
+     "value": 98.99
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model with a decoder & \textbf{96.89\textbackslash%} & \textbf{98.99}\textbackslash%"
+   },
+   "confidence": 0.9342
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 92.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "92.1\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 92.86
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "92.86\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.3
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "93.3\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 94.89
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "94.89\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.8
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{93.8\textbackslash%}"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 95.91
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{95.91\textbackslash%}"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 92.3
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "92.3\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 98.48
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "98.48\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.6
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "93.6\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 98.98
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "98.98\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.8
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{95.8\textbackslash%}"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 99.49
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{99.49\textbackslash%}"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 96.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "96.5\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 97.83
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "97.83\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 97.8
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "97.8\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 98.55
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "98.55\textbackslash%"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 98.2
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{98.2\textbackslash%}"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "Intent Detection and Slot Filling"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 99.27
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{99.27\textbackslash%}"
+   },
+   "confidence": 0.8046
+  },
+  {
+   "method": {
+    "name": "Bi-model based RNN semantic frame parsing model"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "intent accuracy",
+     "value": 0.5
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#002",
+    "kind": "section",
+    "quote": "state-of-the-art result on the benchmark ATIS data ... with about 0.5\\% intent accuracy improvement"
+   },
+   "confidence": 0.6865
+  },
+  {
+   "method": {
+    "name": "Bi-model based RNN semantic frame parsing model"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "slot filling",
+     "value": 0.9
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#002",
+    "kind": "section",
+    "quote": "state-of-the-art result on the benchmark ATIS data ... with about 0.5\\% intent accuracy improvement and 0.9 \\% slot filling improvement"
+   },
+   "confidence": 0.6865
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 score",
+     "value": 0.9
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#016",
+    "kind": "section",
+    "quote": "the current Bi-model with a decoder shows the state-of-the-art performance on ATIS benchmark dataset with 0.9\\% improvement on F1 score"
+   },
+   "confidence": 0.8842
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "intent accuracy",
+     "value": 0.5
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#016",
+    "kind": "section",
+    "quote": "the current Bi-model with a decoder shows the state-of-the-art performance on ATIS benchmark dataset with 0.5\\% improvement on intent accuracy"
+   },
+   "confidence": 0.8842
+  },
+  {
+   "method": {
+    "name": "Bi-model structure with a decoder"
+   },
+   "task": {
+    "name": "Intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "multi-domain data"
+    }
+   ],
+   "train_dataset": "multi-domain data",
+   "metrics": [
+    {
+     "name": "intent accuracy",
+     "value": 0.5
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#018",
+    "kind": "section",
+    "quote": "The intent accuracy has at least 0.5·\\% improvement"
+   },
+   "confidence": 0.7643
+  },
+  {
+   "method": {
+    "name": "Bi-model structure with a decoder"
+   },
+   "task": {
+    "name": "Intent detection and slot filling"
+   },
+   "datasets": [
+    {
+     "name": "multi-domain data"
+    }
+   ],
+   "train_dataset": "multi-domain data",
+   "metrics": [
+    {
+     "name": "slot filling F1 score",
+     "value": 1.0
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#018",
+    "kind": "section",
+    "quote": "The F1 score improvement is around 1\\% to 3\\% for different domains"
+   },
+   "confidence": 0.7643
+  }
+ ],
+ "_meta": {
+  "condition": "A1",
+  "model": "qwen3:8b",
+  "base_url": "http://localhost:11434/v1",
+  "group": 13,
+  "group_papers": [
+   "1812.10235"
+  ],
+  "n_chunks": 20,
+  "n_target_chunks": 14
+ }
+}

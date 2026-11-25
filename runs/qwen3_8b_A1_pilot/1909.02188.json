@@ -1,0 +1,1987 @@
+{
+ "paper_id": "1909.02188",
+ "tuples": [
+  {
+   "method": {
+    "name": "Joint Seq"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 87.3
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "87.3"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Joint Seq"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 94.3
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "94.3"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 87.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "87.8"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 94.2
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "94.2"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 88.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "88.8"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 94.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "94.8"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Intent Atten"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 88.3
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "88.3"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Intent Atten"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.2
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "95.2"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Self-Attentive Model"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 90.0
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "90.0"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Self-Attentive Model"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "95.1"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Bi-Model"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 93.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "93.5"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Bi-Model"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "95.5"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "CAPSULE-NLU"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 91.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "91.8"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "CAPSULE-NLU"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.2
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "95.2"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "SF-ID Network"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 90.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "90.5"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "SF-ID Network"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.6
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "95.6"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Our model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 94.2
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "Our model    &\textbf{94.2}"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "Our model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 98.0
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "Our model    &\textbf{94.2}"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "Our model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 86.9
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "Our model    &\textbf{94.2}"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "Our model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.9
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "Our model    &\textbf{94.2}"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "Our model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 96.9
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "Our model    &\textbf{94.2}"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "Our model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 86.5
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "Our model    &\textbf{94.2}"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "Oracle (Intent)"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 96.1
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "96.1"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "Oracle (Intent)"
+   },
+   "task": {
+    "name": "Slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 96.0
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#001",
+    "kind": "table",
+    "quote": "96.0"
+   },
+   "confidence": 0.8777
+  },
+  {
+   "method": {
+    "name": "gate-mechanism"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 92.2
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "gate-mechanism  &92.2"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "gate-mechanism"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.3
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "gate-mechanism  &92.2"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "gate-mechanism"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.6
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "gate-mechanism  &92.2"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "gate-mechanism"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 96.2
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "gate-mechanism  &92.2"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "gate-mechanism"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 82.4
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "gate-mechanism  &92.2"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "gate-mechanism"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 83.4
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "gate-mechanism  &92.2"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "pipelined model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 90.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "pipelined model  &90.8"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "pipelined model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "pipelined model  &90.8"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "pipelined model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.6
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "pipelined model  &90.8"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "pipelined model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 96.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "pipelined model  &90.8"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "pipelined model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 81.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "pipelined model  &90.8"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "pipelined model"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 82.3
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "pipelined model  &90.8"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "sentence intent augmented"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 93.7
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "sentence intent augmented  &93.7"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "sentence intent augmented"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "sentence intent augmented  &93.7"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "sentence intent augmented"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "sentence intent augmented  &93.7"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "sentence intent augmented"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 96.7
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "sentence intent augmented  &93.7"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "sentence intent augmented"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 86.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "sentence intent augmented  &93.7"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "sentence intent augmented"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 85.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "sentence intent augmented  &93.7"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "lstm+last-hidden"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "lstm+last-hidden  &- &  97.1  & -"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "lstm+last-hidden"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 95.2
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "lstm+last-hidden  &- &  97.1  & -"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "lstm+token-level"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 96.0
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "lstm+token-level  &- &  97.5  & -"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "without self-attention"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 94.1
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "without self-attention  &94.1"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "without self-attention"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.6
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "without self-attention  &94.1"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "without self-attention"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.8
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "without self-attention  &94.1"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "without self-attention"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 96.6
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "without self-attention  &94.1"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "without self-attention"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 86.6
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "without self-attention  &94.1"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "without self-attention"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 86.2
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#002",
+    "kind": "table",
+    "quote": "without self-attention  &94.1"
+   },
+   "confidence": 0.9217
+  },
+  {
+   "method": {
+    "name": "Intent detection (BERT)"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Intent detection (BERT) &{-} &{97.8} &{-}&{-} & {96.5} &{-}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Intent detection (BERT)"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 96.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Intent detection (BERT) &{-} &{97.8} &{-}&{-} & {96.5} &{-}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Slot filling (BERT)"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Slot filling (BERT) &{95.8} &{-} &{-}&{95.6} & {-} &{-}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Slot filling (BERT)"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 95.6
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Slot filling (BERT) &{95.8} &{-} &{-}&{95.6} & {-} &{-}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "BERT SLU"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 97.0
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "BERT SLU \textit{cite{chen2019bert}} &{97.0} &{98.6} &{92.8}&{96.1} & {97.5} &{88.2}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "BERT SLU"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 98.6
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "BERT SLU \textit{cite{chen2019bert}} &{97.0} &{98.6} &{92.8}&{96.1} & {97.5} &{88.2}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "BERT SLU"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 92.8
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "BERT SLU \textit{cite{chen2019bert}} &{97.0} &{98.6} &{92.8}&{96.1} & {97.5} &{88.2}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "BERT SLU"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 96.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "BERT SLU \textit{cite{chen2019bert}} &{97.0} &{98.6} &{92.8}&{96.1} & {97.5} &{88.2}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "BERT SLU"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "BERT SLU \textit{cite{chen2019bert}} &{97.0} &{98.6} &{92.8}&{96.1} & {97.5} &{88.2}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "BERT SLU"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 88.2
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "BERT SLU \textit{cite{chen2019bert}} &{97.0} &{98.6} &{92.8}&{96.1} & {97.5} &{88.2}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Our model + BERT"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 97.0
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Our model + BERT &{97.0} &{99.0} &{92.9}&{96.1} & {97.5} &{88.6}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Our model + BERT"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 99.0
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Our model + BERT &{97.0} &{99.0} &{92.9}&{96.1} & {97.5} &{88.6}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Our model + BERT"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 92.9
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Our model + BERT &{97.0} &{99.0} &{92.9}&{96.1} & {97.5} &{88.6}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Our model + BERT"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 96.1
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Our model + BERT &{97.0} &{99.0} &{92.9}&{96.1} & {97.5} &{88.6}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Our model + BERT"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 97.5
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Our model + BERT &{97.0} &{99.0} &{92.9}&{96.1} & {97.5} &{88.6}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "Our model + BERT"
+   },
+   "task": {
+    "name": "SLU"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 88.6
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1909.02188#003",
+    "kind": "table",
+    "quote": "Our model + BERT &{97.0} &{99.0} &{92.9}&{96.1} & {97.5} &{88.6}"
+   },
+   "confidence": 0.8941
+  },
+  {
+   "method": {
+    "name": "proposed method"
+   },
+   "task": {
+    "name": "slot filling"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "F1",
+     "value": 0.7
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#017",
+    "kind": "section",
+    "quote": "we achieve 0.7\\% improvement on Slot (F1) score"
+   },
+   "confidence": 0.8878
+  },
+  {
+   "method": {
+    "name": "proposed method"
+   },
+   "task": {
+    "name": "intent prediction"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "accuracy",
+     "value": 0.8
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#017",
+    "kind": "section",
+    "quote": "we achieve 0.8\\% improvement on Intent (Acc)"
+   },
+   "confidence": 0.8878
+  },
+  {
+   "method": {
+    "name": "proposed method"
+   },
+   "task": {
+    "name": "sentence-level semantic frame parsing"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS"
+    }
+   ],
+   "train_dataset": "SNIPS",
+   "metrics": [
+    {
+     "name": "accuracy",
+     "value": 3.1
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#017",
+    "kind": "section",
+    "quote": "we achieve 3.1\\% improvement on Overall (Acc)"
+   },
+   "confidence": 0.8878
+  },
+  {
+   "method": {
+    "name": "proposed method"
+   },
+   "task": {
+    "name": "slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1",
+     "value": 0.4
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#017",
+    "kind": "section",
+    "quote": "we achieve 0.4\\% improvement on Slot (F1) score"
+   },
+   "confidence": 0.8878
+  },
+  {
+   "method": {
+    "name": "proposed method"
+   },
+   "task": {
+    "name": "intent prediction"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "accuracy",
+     "value": 0.5
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#017",
+    "kind": "section",
+    "quote": "we achieve 0.5\\% improvement on Intent (Acc)"
+   },
+   "confidence": 0.8878
+  },
+  {
+   "method": {
+    "name": "proposed method"
+   },
+   "task": {
+    "name": "sentence-level semantic frame parsing"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "accuracy",
+     "value": 0.8
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1909.02188#017",
+    "kind": "section",
+    "quote": "we achieve 0.8\\% improvement on Overall (Acc)"
+   },
+   "confidence": 0.8878
+  }
+ ],
+ "_meta": {
+  "condition": "A1",
+  "model": "qwen3:8b",
+  "base_url": "http://localhost:11434/v1",
+  "group": 21,
+  "group_papers": [
+   "1909.02188"
+  ],
+  "n_chunks": 26,
+  "n_target_chunks": 19
+ }
+}

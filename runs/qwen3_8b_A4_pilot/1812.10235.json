@@ -1,0 +1,1085 @@
+{
+ "paper_id": "1812.10235",
+ "tuples": [
+  {
+   "method": {
+    "name": "Recursive NN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.96
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Recursive NN  & 93.96\\% & 95.4\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint model with recurrent intent and slot label context"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 94.47
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint model with recurrent intent and slot label context &94.47\\% & 98.43\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint model with recurrent slot label context"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 94.64
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint model with recurrent slot label context &94.64\\% & 98.21\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "RNN with Label Sampling"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 94.89
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "RNN with Label Sampling  & 94.89\\% & NA"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Hybrid RNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.06
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Hybrid RNN & 95.06\\% & NA"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "RNN-EM"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.25
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "RNN-EM  & 95.25\\% & NA"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "CNN CRF"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.35
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "CNN CRF & 95.35\\% & NA"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Encoder-labeler Deep LSTM"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.66
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Encoder-labeler Deep LSTM & 95.66\\% & NA"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint GRU Model (W)"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.49
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Joint GRU Model (W) &95.49\\%&98.10\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention Encoder-Decoder NN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.87
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Attention Encoder-Decoder NN &95.87\\% & 98.43\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.98
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Attention BiRNN & 95.98\\% & 98.21\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 96.65
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model without a decoder & \textbf{96.65\\%} & \textbf{98.76}\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 96.89
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model with a decoder & \textbf{96.89\\%} & \textbf{98.99}\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "intent accuracy",
+     "value": 98.76
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model without a decoder & \textbf{96.65\\%} & \textbf{98.76}\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "intent accuracy",
+     "value": 98.99
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#000",
+    "kind": "table",
+    "quote": "Bi-model with a decoder & \textbf{96.89\\%} & \textbf{98.99}\\%"
+   },
+   "confidence": 0.8772,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 92.1
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "92.1\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 92.3
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "92.3\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 96.5
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "96.5\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.3
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "93.3\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.6
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "93.6\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 97.8
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "97.8\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 93.8
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{93.8\\%}"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 95.8
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{95.8\\%}"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 98.2
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{98.2\\%}"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 92.86
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "92.86\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 98.48
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "98.48\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 97.83
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "97.83\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 94.89
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "94.89\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 98.98
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "98.98\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model without a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 98.55
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "98.55\\%"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Movie"
+    }
+   ],
+   "train_dataset": "Movie",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 95.91
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{95.91\\%}"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Food"
+    }
+   ],
+   "train_dataset": "Food",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 99.49
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{99.49\\%}"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "Home"
+    }
+   ],
+   "train_dataset": "Home",
+   "metrics": [
+    {
+     "name": "Accuracy",
+     "value": 99.27
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#001",
+    "kind": "table",
+    "quote": "\\textbf{99.27\\%}"
+   },
+   "confidence": 0.7011,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "intent accuracy",
+     "value": 0.5
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#016",
+    "kind": "section",
+    "quote": "the current Bi-model with a decoder shows the state-of-the-art performance on ATIS benchmark dataset with 0.9\\% improvement on F1 score and 0.5\\% improvement on intent accuracy"
+   },
+   "confidence": 0.8216,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "slot filling",
+     "value": 0.9
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#002",
+    "kind": "section",
+    "quote": "achieves state-of-the-art result on the benchmark ATIS data \textcite{hemphill1990atis,tur2010left}, with about 0.5$\backslash$% intent accuracy improvement and 0.9 $\backslash$% slot filling improvement"
+   },
+   "confidence": 0.6828,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 0.9
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#016",
+    "kind": "section",
+    "quote": "the current Bi-model with a decoder shows the state-of-the-art performance on ATIS benchmark dataset with 0.9\\% improvement on F1 score"
+   },
+   "confidence": 0.8216,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS; ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS; ATIS",
+   "metrics": [
+    {
+     "name": "intent accuracy",
+     "value": 0.5
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#018",
+    "kind": "section",
+    "quote": "The intent accuracy has at least 0.5·\\% improvement"
+   },
+   "confidence": 0.7306,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Bi-model with a decoder"
+   },
+   "task": {
+    "name": "slot filling; intent detection"
+   },
+   "datasets": [
+    {
+     "name": "SNIPS; ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS; ATIS",
+   "metrics": [
+    {
+     "name": "F1 Score",
+     "value": 1.0
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.10235#018",
+    "kind": "section",
+    "quote": "the F1 score improvement is around 1\\% to 3\\% for different domains"
+   },
+   "confidence": 0.7306,
+   "corroborated_by": []
+  }
+ ],
+ "_meta": {
+  "condition": "A4",
+  "model": "qwen3:8b",
+  "base_url": "http://localhost:11434/v1",
+  "group": 1,
+  "group_papers": [
+   "1711.05568",
+   "1811.05021",
+   "1812.09471",
+   "1812.10235",
+   "1907.00390",
+   "1909.02188"
+  ],
+  "n_chunks": 20,
+  "n_target_chunks": 14
+ }
+}

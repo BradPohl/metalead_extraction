@@ -1,0 +1,917 @@
+{
+ "paper_id": "1812.09471",
+ "tuples": [
+  {
+   "method": {
+    "name": "CNN TriCRF"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.944
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.944"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint Seq."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.873
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.873"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint Seq."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.969
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.969"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint Seq."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.732
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.732"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint Seq."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.942
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.942"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint Seq."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.926
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.926"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Joint Seq."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.807
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.807"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.878
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.878"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.967
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.967"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.741
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.741"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.942
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.942"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.911
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.911"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Attention BiRNN"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.789
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.789"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.888
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.888"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.97
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.970"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.755
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.755"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.948
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.948"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.936
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.936"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Slot-Gated Full Atten."
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.822
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.822"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "DR-AGG"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.966
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.966"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "IntentCapsNet"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.974
+    }
+   ],
+   "experiment_type": "baseline",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.974"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.918
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.918"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.973
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.973"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.809
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.809"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "AT,IS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.952
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.952"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.95
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.950"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.834
+    }
+   ],
+   "experiment_type": "proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.834"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU w/o Intent Detection"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.948
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.948"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU w/o Joint Training"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Intent (Acc)",
+     "value": 0.977
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.977"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU w/o Joint Training"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.804
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.804"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU w/o Joint Training"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Slot (F1)",
+     "value": 0.948
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.948"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  },
+  {
+   "method": {
+    "name": "Capsule-NLU w/o Joint Training"
+   },
+   "task": {
+    "name": "slot filling and intent detection"
+   },
+   "datasets": [
+    {
+     "name": "ATIS"
+    }
+   ],
+   "train_dataset": "SNIPS-NLU",
+   "metrics": [
+    {
+     "name": "Overall (Acc)",
+     "value": 0.743
+    }
+   ],
+   "experiment_type": "variation of proposed method",
+   "source": {
+    "chunk_id": "1812.09471#002",
+    "kind": "table",
+    "quote": "0.743"
+   },
+   "confidence": 0.83,
+   "corroborated_by": []
+  }
+ ],
+ "_meta": {
+  "condition": "A4",
+  "model": "qwen3:8b",
+  "base_url": "http://localhost:11434/v1",
+  "group": 1,
+  "group_papers": [
+   "1711.05568",
+   "1811.05021",
+   "1812.09471",
+   "1812.10235",
+   "1907.00390",
+   "1909.02188"
+  ],
+  "n_chunks": 20,
+  "n_target_chunks": 15
+ }
+}

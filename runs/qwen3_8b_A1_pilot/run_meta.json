@@ -1,0 +1,179 @@
+{
+ "condition": "A1",
+ "vocab": false,
+ "neighbors": false,
+ "corroborate": false,
+ "random": false,
+ "model": "qwen3:8b",
+ "base_url": "http://localhost:11434/v1",
+ "dry_run": false,
+ "reasoning_effort": "none",
+ "papers": [
+  "1812.09471",
+  "1812.10235",
+  "1907.00390",
+  "1909.02188"
+ ],
+ "n_jobs": 60,
+ "workers": 1,
+ "stopped": null,
+ "extract_stats": {
+  "parsed": 253,
+  "ungrounded": 30,
+  "invalid": 0,
+  "parse_error": 0
+ },
+ "llm": {
+  "calls": 34,
+  "cached": 26,
+  "failed": 0,
+  "tokens_in": 35049,
+  "tokens_out": 10991,
+  "cost_usd": 0.0,
+  "est_tokens_in": 37438,
+  "est_tokens_out": 27200,
+  "est_cost_usd": 0.0,
+  "wall_seconds": 205.1582932472229
+ },
+ "wall_seconds": 205.8,
+ "config": {
+  "chunk": {
+   "max_tokens": 1500,
+   "table_max_tokens": 2500,
+   "ref_context_tokens": 400
+  },
+  "embed": {
+   "model": "sentence-transformers/all-MiniLM-L6-v2"
+  },
+  "paper_graph": {
+   "alpha": 0.5,
+   "max_group_size": 6,
+   "knn": 3,
+   "min_edge": 0.15,
+   "seed": 0
+  },
+  "chunk_graph": {
+   "alpha": 0.5,
+   "k": 2,
+   "tau": 0.35,
+   "neighbor_tokens": 600,
+   "results_prior": {
+    "table": 1.0,
+    "results_section": 0.8,
+    "other_with_numbers": 0.4,
+    "other": 0.1
+   },
+   "min_node_weight": 0.0
+  },
+  "extract": {
+   "vocab_tokens": 500,
+   "max_output_tokens": 4096
+  },
+  "llm": {
+   "temperature": 0,
+   "cache_dir": "runs/_cache",
+   "budget_usd": 10.0,
+   "prices": {
+    "default": {
+     "input": 0.0,
+     "output": 0.0
+    }
+   }
+  }
+ },
+ "groups": [
+  [
+   "1511.08308"
+  ],
+  [
+   "1603.01354"
+  ],
+  [
+   "1702.02098"
+  ],
+  [
+   "1703.06345"
+  ],
+  [
+   "1709.04109"
+  ],
+  [
+   "1711.05568"
+  ],
+  [
+   "1804.09849"
+  ],
+  [
+   "1806.03489"
+  ],
+  [
+   "1808.08745"
+  ],
+  [
+   "1809.08370"
+  ],
+  [
+   "1811.05021"
+  ],
+  [
+   "1811.09242"
+  ],
+  [
+   "1812.09471"
+  ],
+  [
+   "1812.10235"
+  ],
+  [
+   "1901.10430"
+  ],
+  [
+   "1903.07785"
+  ],
+  [
+   "1905.03197"
+  ],
+  [
+   "1905.12598"
+  ],
+  [
+   "1906.05012"
+  ],
+  [
+   "1907.00390"
+  ],
+  [
+   "1908.08345"
+  ],
+  [
+   "1909.02188"
+  ],
+  [
+   "1910.13461"
+  ],
+  [
+   "1911.09483"
+  ],
+  [
+   "1911.10390"
+  ],
+  [
+   "1912.08777"
+  ],
+  [
+   "2001.04063"
+  ],
+  [
+   "2002.03184"
+  ],
+  [
+   "2008.07772"
+  ],
+  [
+   "2105.03654"
+  ],
+  [
+   "2203.16804"
+  ]
+ ]
+}

@@ -1,0 +1,1531 @@
+{
+ "groups": [
+  [
+   "1703.06345",
+   "1809.08370",
+   "1903.07785",
+   "1905.03197",
+   "1910.13461",
+   "2001.04063"
+  ],
+  [
+   "1711.05568",
+   "1811.05021",
+   "1812.09471",
+   "1812.10235",
+   "1907.00390",
+   "1909.02188"
+  ],
+  [
+   "1808.08745",
+   "1906.05012",
+   "1908.08345",
+   "1911.10390",
+   "1912.08777",
+   "2203.16804"
+  ],
+  [
+   "1804.09849",
+   "1901.10430",
+   "1911.09483",
+   "2002.03184",
+   "2008.07772"
+  ],
+  [
+   "1511.08308",
+   "1603.01354",
+   "1702.02098",
+   "1709.04109"
+  ],
+  [
+   "1811.09242",
+   "1905.12598",
+   "2105.03654"
+  ],
+  [
+   "1806.03489"
+  ]
+ ],
+ "vocab": {
+  "0": {
+   "tasks": [
+    "NER",
+    "question answering",
+    "question generation",
+    "summarization",
+    "POS Tagging",
+    "Chunking",
+    "sequence tagging",
+    "machine translation",
+    "dependency parsing",
+    "language understanding problems",
+    "word reconstruction task",
+    "GLUE",
+    "constituency parsing",
+    "natural language understanding",
+    "natural language generation",
+    "response generation",
+    "text generation",
+    "translation",
+    "comprehension",
+    "dialogue",
+    "sequence classification",
+    "token classification",
+    "sequence generation",
+    "abstractive dialogue",
+    "conversational response generation",
+    "abstractive question answering",
+    "discriminative tasks",
+    "abstractive summarization"
+   ],
+   "datasets": [
+    "CoNLL 2003",
+    "GLUE",
+    "CNN/DailyMail",
+    "Gigaword",
+    "SQuAD 1.1",
+    "PTB 2003",
+    "CoNLL 2000",
+    "CoNLL 2002",
+    "Twitter/0.1",
+    "CoNLL03/0.01",
+    "CoNLL00/0.01",
+    "CCG",
+    "Chunking",
+    "NER",
+    "FGN",
+    "POS",
+    "Dependency Parsing",
+    "Translation",
+    "Penn Treebank",
+    "SQuAD 2.0",
+    "CoQA",
+    "DSTC7 document-grounded dialog response generation",
+    "SQuAD development set",
+    "MNLI",
+    "ELI5",
+    "XSum",
+    "ConvAI2",
+    "CNN/DM",
+    "WMT'16 RO-EN",
+    "WMT'14 EN-DE",
+    "CNN/DailyMail test set",
+    "Gigaword test set",
+    "CNN/DailyMail dev set"
+   ],
+   "metrics": [
+    "F1",
+    "BLEU",
+    "ROUGE-L",
+    "Accuracy",
+    "Delta",
+    "Transfer",
+    "No Transfer",
+    "Acc.",
+    "UAS",
+    "LAS",
+    "mcc",
+    "acc",
+    "scc",
+    "dev F1",
+    "test F1",
+    "BLEU-4",
+    "NIST-4",
+    "METEOR",
+    "Matthews corr",
+    "EM",
+    "PPL",
+    "ROUGE",
+    "EM/F1",
+    "R1",
+    "R2",
+    "RL",
+    "Valid F1",
+    "Valid PPL",
+    "ROUGE-1",
+    "ROUGE-2",
+    "B4",
+    "MTR",
+    "R-1",
+    "R-2",
+    "R-L"
+   ],
+   "methods": [
+    "UniLM",
+    "BERT_BASE",
+    "BART",
+    "T-A",
+    "T-B",
+    "Shortcut LSTM",
+    "ID-CNN-CRF",
+    "JMT",
+    "TagLM",
+    "CVT-MT",
+    "ELMo frozen",
+    "Supervised",
+    "CVT",
+    "LSTM-CNN-CRF",
+    "LSTM-CNN",
+    "Tri-Trained LSTM",
+    "CNN Base",
+    "ELMo_BASE",
+    "CNN Large + ELMo",
+    "CNN Large + fine-tune",
+    "BERT_LARGE",
+    "ELMo",
+    "GPT",
+    "BERT",
+    "Masked Language Model",
+    "Masked Seq2seq",
+    "RoBERTa",
+    "XLNet",
+    "Fixed BART",
+    "Tuned BART",
+    "Seq2Seq + Attention",
+    "Best System",
+    "Best Extractive",
+    "Language Model",
+    "Baseline",
+    "LEAD-3",
+    "PTGEN",
+    "PTGEN+Coverage",
+    "S2S-ELMo",
+    "Bottom-Up",
+    "OpenNMT",
+    "Re3Sum",
+    "MASS",
+    "ProphetNet",
+    "CorefNQG",
+    "SemQG",
+    "T5",
+    "PEGASUSLARGE (C4)",
+    "PEGASUSLARGE (HugeNews)",
+    "Transformer",
+    "ProphetNet\textsubscript{w/o pre-train}",
+    "MASS\textsubscript{base}",
+    "ProphetNet\textsubscript{base}-1gram",
+    "ProphetNet\textsubscript{base}-2gram",
+    "ProphetNet\textsubscript{base}-3gram"
+   ]
+  },
+  "1": {
+   "tasks": [
+    "slot filling",
+    "intent detection",
+    "Dialogue Act Recognition",
+    "Dialogue Act Classification"
+   ],
+   "datasets": [
+    "ATIS",
+    "Snips",
+    "Switchboard Dialogue Act (SWDA)",
+    "Meeting Recorder Dialogue Act (MRDA)",
+    "Switchboard dialogue act corpus",
+    "MapTask",
+    "SwDA",
+    "SNIPS-NLU"
+   ],
+   "metrics": [
+    "F1",
+    "Accuracy",
+    "Acc",
+    "Overall (Acc)",
+    "Intent Accuracy",
+    "Sen. (Acc)"
+   ],
+   "methods": [
+    "Attention BiRNN",
+    "DRLM-Conditional",
+    "Joint Seq",
+    "CRF-ASN",
+    "Bi-LSTM-CRF",
+    "LSTM-Softmax",
+    "CNN",
+    "CRF",
+    "Simple CRF",
+    "Simple SVM",
+    "Simple Word Embedding",
+    "Simple Context state",
+    "ALDMN",
+    "RCNN",
+    "BiLSTM-Softmax",
+    "PDI",
+    "UCI",
+    "ADC",
+    "GAN",
+    "DMN",
+    "CNN TriCRF",
+    "Joint Seq.",
+    "Slot-Gated Full Atten.",
+    "Capsule-NLU",
+    "Recursive NN",
+    "Joint model with recurrent intent and slot label context",
+    "Joint model with recurrent slot label context",
+    "Bi-model without a decoder",
+    "Bi-model with a decoder",
+    "Atten.-Based",
+    "Sloted-Gated",
+    "SF-First (with CRF)",
+    "SF-ID (no interaction)",
+    "Slot-Gated Full Atten",
+    "Slot-Gated Intent Atten",
+    "gate-mechanism",
+    "pipelined model",
+    "sentence intent augmented",
+    "lstm+last-hidden",
+    "BERT SLU",
+    "Our model",
+    "Intent detection (BERT)",
+    "Slot filling (BERT)"
+   ]
+  },
+  "2": {
+   "tasks": [
+    "abstractive summarization",
+    "extreme summarization",
+    "text summarization",
+    "summarization"
+   ],
+   "datasets": [
+    "XSum",
+    "CNN/DailyMail",
+    "NYT",
+    "CNN",
+    "DailyMail",
+    "NY Times",
+    "standard summarization dataset",
+    "Gigaword",
+    "Newsroom",
+    "lvt5k-1sent",
+    "Multi-Task w/ Entailment",
+    "SEASS",
+    "DRGD",
+    "EntailGen+QuesGen",
+    "PG Networks",
+    "Struct+2Way+Rel.",
+    "CNNDM"
+   ],
+   "metrics": [
+    "ROUGE-L",
+    "ROUGE-1",
+    "ROUGE-2",
+    "F1",
+    "accuracy",
+    "novel n-grams",
+    "Info",
+    "Concise",
+    "Read",
+    "ROUGE F1",
+    "ROUGE Recall",
+    "perplexity",
+    "R-1",
+    "R-2",
+    "R-L",
+    "Bert-S",
+    "Inform.",
+    "Gramm.",
+    "Truthful.",
+    "Bst-Wst",
+    "ROUGE-1/2/L",
+    "BERTScore"
+   ],
+   "methods": [
+    "PtGen",
+    "random",
+    "ext-oracle",
+    "lead",
+    "Seq2Seq",
+    "ConvS2S",
+    "T-ConvS2S",
+    "ABS",
+    "ABS+",
+    "RAS-Elman",
+    "Featseq2seq",
+    "Open-NMT",
+    "BiSET",
+    "Concatenation",
+    "Concate+multi self-att",
+    "DCN Attention",
+    "Bi-selective layer",
+    "Fast Rerank",
+    "N-rerank",
+    "BiSET without T2A",
+    "BiSET without A2T",
+    "BiSET(full)",
+    "Oracle",
+    "Lead-3",
+    "SummaRuNNer",
+    "Refresh",
+    "Compress",
+    "Sumo",
+    "BertSum",
+    "Transformer",
+    "NeuSum",
+    "pointer-generator networks",
+    "our method (best abstract)",
+    "our method (pure extract)",
+    "human abstract",
+    "pure-ext",
+    "best-abs",
+    "PG Networks",
+    "Struct+2Way+Rel.",
+    "BRIO",
+    "BART",
+    "PEGASUS",
+    "GSum",
+    "ConSum",
+    "BRIO-Mul",
+    "BRIO-Loop",
+    "BRIO-Ctr"
+   ]
+  },
+  "3": {
+   "tasks": [
+    "machine translation",
+    "language modeling",
+    "abstractive summarization",
+    "English→French",
+    "English→German",
+    "Neural Machine Translation"
+   ],
+   "datasets": [
+    "WMT'14 English→French",
+    "WMT'14 English→German",
+    "CNN-DailyMail",
+    "IWSLT De-En",
+    "IWSLT",
+    "WMT Zh-En",
+    "Google Billion Word",
+    "WMT English-German newstest2013",
+    "WMT English-German newstest2014",
+    "WMT14 En-De",
+    "WMT14 En-Fr",
+    "IWSLT En-Vi",
+    "IWSLT 2015 De-En",
+    "WMT En-De",
+    "WMT En-Fr",
+    "newstest2014",
+    "WikiText-103",
+    "WMT'14 English-French (FR)",
+    "WMT'14 English-German (DE)"
+   ],
+   "metrics": [
+    "BLEU",
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-L",
+    "Sent/sec",
+    "Tok/sec",
+    "perplexity",
+    "TER",
+    "METEOR",
+    "BLEU via multi-bleu.perl",
+    "BLEU via sacreBLEU.py"
+   ],
+   "methods": [
+    "Transformer",
+    "DynamicConv",
+    "CNN",
+    "LSTM",
+    "GNMT",
+    "ConvS2S",
+    "Trans. Base",
+    "Trans. Big",
+    "RNMT+",
+    "Self-attention baseline",
+    "LightConv",
+    "CNN Depthwise",
+    "Gated Convolutional Model",
+    "Mixture of Experts",
+    "CNN-DailyMail",
+    "NAT",
+    "LT",
+    "IR",
+    "MUSE",
+    "MUSE-simple",
+    "ConvSeq2seq",
+    "SliceNet",
+    "Weighted Transformer",
+    "Layer-wise Coordination",
+    "NBMT",
+    "SACT",
+    "NP2MT",
+    "Fixup",
+    "TaLK Convolution",
+    "Self-Attention",
+    "Convolutional",
+    "Dynamic Convolution",
+    "Lightweight Convolution",
+    "6L-6L Default",
+    "6L-6L ADMIN",
+    "60L-12L Default",
+    "60L-12L ADMIN",
+    "36L-12L-768D ADMIN + BT",
+    "60L-12L ADMIN + BT",
+    "BT"
+   ]
+  },
+  "4": {
+   "tasks": [
+    "Named Entity Recognition",
+    "part-of-speech (POS) tagging",
+    "named entity recognition (NER)",
+    "chunking",
+    "part-of-speech tagging"
+   ],
+   "datasets": [
+    "CoNLL-2003",
+    "OntoNotes 5.0",
+    "CoNLL-2012",
+    "Penn Treebank WSJ corpus",
+    "CoNLL-2003 English NER",
+    "OntoNotes 5.0 English NER",
+    "CoNLL03 NER",
+    "CoNLL00 chunking",
+    "WSJ",
+    "PTB-POS"
+   ],
+   "metrics": [
+    "F1",
+    "Precision",
+    "Recall",
+    "BLEU",
+    "ROUGE-L",
+    "accuracy",
+    "Speed",
+    "micro-averaged F1"
+   ],
+   "methods": [
+    "BLSTM",
+    "BLSTM-CNN",
+    "FFNN",
+    "BLSTM-CNN + emb",
+    "BLSTM-CNN + lex",
+    "BLSTM + emb",
+    "BLSTM + emb + caps + lex",
+    "BLSTM-CNN + emb + caps + lex",
+    "BRNN",
+    "BLSTM-CNN-CRF",
+    "gimenez2004svmtool",
+    "toutanova2003feature",
+    "manning2011part",
+    "collobert2011natural",
+    "santos2014learning",
+    "chieu2002named",
+    "florian2003named",
+    "ando2005framework",
+    "huang2015bidirectional",
+    "Bi-LSTM",
+    "4-layer CNN",
+    "5-layer CNN",
+    "Bi-LSTM-CRF",
+    "ID-CNN",
+    "ID-CNN-CRF",
+    "4-layer ID-CNN",
+    "Bi-LSTM-CRF-Doc",
+    "ID-CNN noshare",
+    "ID-CNN 1-loss",
+    "LSTM-CRF",
+    "LSTM-CNN-CRF",
+    "LM-LSTM-CRF",
+    "LSTM-CRF$^\textit{\\star}$",
+    "LSTM-2048-512",
+    "4096-8192-1024",
+    "LM-LSTM-CRF_NL",
+    "LM-LSTM-CRF_NH"
+   ]
+  },
+  "5": {
+   "tasks": [
+    "Word sense induction",
+    "Unsupervised author name disambiguation",
+    "Named Entity Recognition"
+   ],
+   "datasets": [
+    "SemEval 2010 WSI dataset",
+    "SemEval 2013",
+    "PubMed",
+    "Arnet Dataset",
+    "SemEval 2013 Task 13",
+    "SemEval 2010 Task 14",
+    "WNUT-16",
+    "WNUT-17",
+    "CoNLL-03",
+    "CoNLL++",
+    "BC5CDR"
+   ],
+   "metrics": [
+    "F-S",
+    "V-M",
+    "AVG",
+    "accuracy",
+    "$\\delta(\\#S)$",
+    "FNMI",
+    "FBC",
+    "F1"
+   ],
+   "methods": [
+    "BNP-HC",
+    "AutoSense",
+    "LDA",
+    "Spectral",
+    "HC",
+    "HC+Zipf",
+    "Ours",
+    "Ours:ND",
+    "LSDP",
+    "SE-WSI-fix",
+    "CL-$L_2$",
+    "CL-KL",
+    "CL-$L_2$+Semi",
+    "CL-KL+Semi",
+    "w/o Context",
+    "w/ Context",
+    "SE",
+    "FM",
+    "BS",
+    "BS+tf-idf"
+   ]
+  },
+  "6": {
+   "tasks": [
+    "Named-Entity Recognition"
+   ],
+   "datasets": [
+    "extsc{CoNLL}-2003",
+    "extsc{OntoNotes} 5.0",
+    "Development Set"
+   ],
+   "metrics": [
+    "F1",
+    "BLEU",
+    "ROUGE-L",
+    "accuracy"
+   ],
+   "methods": [
+    "extsc{LS} Representation",
+    "Bi-LSTM-CRF Model",
+    "vanilla recurrent neural network model",
+    "gazetteers",
+    "character embeddings",
+    "word embeddings",
+    "capitalization features",
+    "pre-trained embeddings",
+    "language model embeddings",
+    "lexical features"
+   ]
+  }
+ },
+ "paper_vocab": {
+  "1511.08308": {
+   "tasks": [
+    "Named Entity Recognition"
+   ],
+   "datasets": [
+    "CoNLL-2003",
+    "OntoNotes 5.0",
+    "CoNLL-2012"
+   ],
+   "metrics": [
+    "F1",
+    "Precision",
+    "Recall",
+    "BLEU",
+    "ROUGE-L"
+   ],
+   "methods": [
+    "BLSTM",
+    "BLSTM-CNN",
+    "FFNN",
+    "BLSTM-CNN + emb",
+    "BLSTM-CNN + lex",
+    "BLSTM + emb",
+    "BLSTM + emb + caps + lex",
+    "BLSTM-CNN + emb + caps + lex"
+   ]
+  },
+  "1603.01354": {
+   "tasks": [
+    "part-of-speech (POS) tagging",
+    "named entity recognition (NER)"
+   ],
+   "datasets": [
+    "Penn Treebank WSJ corpus",
+    "CoNLL 2003 corpus"
+   ],
+   "metrics": [
+    "accuracy",
+    "F1",
+    "precision",
+    "recall"
+   ],
+   "methods": [
+    "BRNN",
+    "BLSTM",
+    "BLSTM-CNN",
+    "BLSTM-CNN-CRF",
+    "gimenez2004svmtool",
+    "toutanova2003feature",
+    "manning2011part",
+    "collobert2011natural",
+    "santos2014learning",
+    "chieu2002named",
+    "florian2003named",
+    "ando2005framework",
+    "huang2015bidirectional"
+   ]
+  },
+  "1702.02098": {
+   "tasks": [
+    "Named Entity Recognition"
+   ],
+   "datasets": [
+    "CoNLL-2003 English NER",
+    "OntoNotes 5.0 English NER"
+   ],
+   "metrics": [
+    "F1",
+    "Speed"
+   ],
+   "methods": [
+    "Bi-LSTM",
+    "4-layer CNN",
+    "5-layer CNN",
+    "Bi-LSTM-CRF",
+    "ID-CNN",
+    "ID-CNN-CRF",
+    "4-layer ID-CNN",
+    "Bi-LSTM-CRF-Doc",
+    "ID-CNN noshare",
+    "ID-CNN 1-loss"
+   ]
+  },
+  "1703.06345": {
+   "tasks": [
+    "POS Tagging",
+    "Chunking",
+    "NER"
+   ],
+   "datasets": [
+    "PTB 2003",
+    "CoNLL 2000",
+    "CoNLL 2003",
+    "CoNLL 2002",
+    "Twitter/0.1",
+    "CoNLL03/0.01",
+    "CoNLL00/0.01"
+   ],
+   "metrics": [
+    "Delta",
+    "Transfer",
+    "No Transfer"
+   ],
+   "methods": [
+    "T-A",
+    "T-B"
+   ]
+  },
+  "1709.04109": {
+   "tasks": [
+    "named entity recognition",
+    "chunking",
+    "part-of-speech tagging"
+   ],
+   "datasets": [
+    "CoNLL03 NER",
+    "CoNLL00 chunking",
+    "WSJ",
+    "PTB-POS"
+   ],
+   "metrics": [
+    "F1",
+    "accuracy",
+    "micro-averaged F1",
+    "BLEU",
+    "ROUGE-L"
+   ],
+   "methods": [
+    "LSTM-CRF",
+    "LSTM-CNN-CRF",
+    "LM-LSTM-CRF",
+    "LSTM-CRF$^\textit{\\star}$",
+    "LSTM-2048-512",
+    "4096-8192-1024",
+    "LM-LSTM-CRF_NL",
+    "LM-LSTM-CRF_NH"
+   ]
+  },
+  "1711.05568": {
+   "tasks": [
+    "Dialogue Act Recognition"
+   ],
+   "datasets": [
+    "Switchboard Dialogue Act (SWDA)",
+    "Meeting Recorder Dialogue Act (MRDA)"
+   ],
+   "metrics": [
+    "Accuracy"
+   ],
+   "methods": [
+    "CRF-ASN",
+    "Bi-LSTM-CRF",
+    "DRLM-Conditional",
+    "LSTM-Softmax",
+    "CNN",
+    "CRF",
+    "Simple CRF",
+    "Simple SVM",
+    "Simple Word Embedding",
+    "Simple Context state"
+   ]
+  },
+  "1804.09849": {
+   "tasks": [
+    "English→French",
+    "English→German"
+   ],
+   "datasets": [
+    "WMT'14 English→French",
+    "WMT'14 English→German"
+   ],
+   "metrics": [
+    "BLEU"
+   ],
+   "methods": [
+    "GNMT",
+    "ConvS2S",
+    "Trans. Base",
+    "Trans. Big",
+    "RNMT+",
+    "Transformer"
+   ]
+  },
+  "1806.03489": {
+   "tasks": [
+    "Named-Entity Recognition"
+   ],
+   "datasets": [
+    "extsc{CoNLL}-2003",
+    "extsc{OntoNotes} 5.0",
+    "Development Set"
+   ],
+   "metrics": [
+    "F1",
+    "BLEU",
+    "ROUGE-L",
+    "accuracy"
+   ],
+   "methods": [
+    "extsc{LS} Representation",
+    "Bi-LSTM-CRF Model",
+    "vanilla recurrent neural network model",
+    "gazetteers",
+    "character embeddings",
+    "word embeddings",
+    "capitalization features",
+    "pre-trained embeddings",
+    "language model embeddings",
+    "lexical features"
+   ]
+  },
+  "1808.08745": {
+   "tasks": [
+    "extreme summarization"
+   ],
+   "datasets": [
+    "CNN",
+    "DailyMail",
+    "NY Times",
+    "XSum"
+   ],
+   "metrics": [
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-L",
+    "F1",
+    "novel n-grams",
+    "accuracy"
+   ],
+   "methods": [
+    "ext-oracle",
+    "lead",
+    "Seq2Seq",
+    "PtGen",
+    "ConvS2S",
+    "T-ConvS2S",
+    "random"
+   ]
+  },
+  "1809.08370": {
+   "tasks": [
+    "sequence tagging",
+    "machine translation",
+    "dependency parsing"
+   ],
+   "datasets": [
+    "CCG",
+    "Chunking",
+    "NER",
+    "FGN",
+    "POS",
+    "Dependency Parsing",
+    "Translation"
+   ],
+   "metrics": [
+    "Acc.",
+    "F1",
+    "UAS",
+    "LAS",
+    "BLEU"
+   ],
+   "methods": [
+    "Shortcut LSTM",
+    "ID-CNN-CRF",
+    "JMT",
+    "TagLM",
+    "CVT-MT",
+    "ELMo frozen",
+    "Supervised",
+    "CVT",
+    "LSTM-CNN-CRF",
+    "LSTM-CNN",
+    "Tri-Trained LSTM"
+   ]
+  },
+  "1811.05021": {
+   "tasks": [
+    "Dialogue Act Classification"
+   ],
+   "datasets": [
+    "Switchboard dialogue act corpus",
+    "MapTask corpus",
+    "SwDA",
+    "MapTask"
+   ],
+   "metrics": [
+    "Accuracy"
+   ],
+   "methods": [
+    "ALDMN",
+    "RCNN",
+    "BiLSTM-Softmax",
+    "DRLM-Conditional",
+    "PDI",
+    "UCI",
+    "ADC",
+    "GAN",
+    "DMN"
+   ]
+  },
+  "1811.09242": {
+   "tasks": [
+    "Word sense induction",
+    "Unsupervised author name disambiguation"
+   ],
+   "datasets": [
+    "SemEval 2010 WSI dataset",
+    "SemEval 2013",
+    "PubMed",
+    "Arnet Dataset"
+   ],
+   "metrics": [
+    "F-S",
+    "V-M",
+    "AVG",
+    "$\\delta(\\#S)$",
+    "accuracy"
+   ],
+   "methods": [
+    "LDA",
+    "Spectral",
+    "HC",
+    "HC+Zipf",
+    "BNP-HC",
+    "AutoSense"
+   ]
+  },
+  "1812.09471": {
+   "tasks": [
+    "slot filling",
+    "intent detection"
+   ],
+   "datasets": [
+    "SNIPS-NLU",
+    "ATIS"
+   ],
+   "metrics": [
+    "F1",
+    "Acc",
+    "Overall (Acc)"
+   ],
+   "methods": [
+    "CNN TriCRF",
+    "Joint Seq.",
+    "Attention BiRNN",
+    "Slot-Gated Full Atten.",
+    "Capsule-NLU"
+   ]
+  },
+  "1812.10235": {
+   "tasks": [
+    "intent detection",
+    "slot filling"
+   ],
+   "datasets": [
+    "ATIS dataset"
+   ],
+   "metrics": [
+    "F1 Score",
+    "Intent Accuracy",
+    "Accuracy"
+   ],
+   "methods": [
+    "Recursive NN",
+    "Joint model with recurrent intent and slot label context",
+    "Joint model with recurrent slot label context",
+    "Attention BiRNN",
+    "Bi-model without a decoder",
+    "Bi-model with a decoder"
+   ]
+  },
+  "1901.10430": {
+   "tasks": [
+    "machine translation",
+    "language modeling",
+    "abstractive summarization"
+   ],
+   "datasets": [
+    "WMT'14 English-German",
+    "WMT'14 English-French",
+    "IWSLT",
+    "WMT Zh-En",
+    "Google Billion Word",
+    "CNN-DailyMail",
+    "WMT English-German newstest2013",
+    "WMT English-German newstest2014"
+   ],
+   "metrics": [
+    "BLEU",
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-L",
+    "Sent/sec",
+    "Tok/sec"
+   ],
+   "methods": [
+    "Self-attention baseline",
+    "LightConv",
+    "DynamicConv",
+    "CNN",
+    "CNN Depthwise",
+    "Gated Convolutional Model",
+    "Mixture of Experts",
+    "LSTM",
+    "CNN-DailyMail",
+    "NAT",
+    "LT",
+    "IR"
+   ]
+  },
+  "1903.07785": {
+   "tasks": [
+    "language understanding problems",
+    "word reconstruction task",
+    "GLUE",
+    "NER",
+    "constituency parsing"
+   ],
+   "datasets": [
+    "GLUE",
+    "CoNLL-2003",
+    "Penn Treebank"
+   ],
+   "metrics": [
+    "mcc",
+    "acc",
+    "F1",
+    "scc",
+    "dev F1",
+    "test F1"
+   ],
+   "methods": [
+    "CNN Base",
+    "ELMo_BASE",
+    "CNN Large + ELMo",
+    "CNN Large + fine-tune",
+    "BERT_BASE",
+    "BERT_LARGE"
+   ]
+  },
+  "1905.03197": {
+   "tasks": [
+    "natural language understanding",
+    "natural language generation",
+    "question answering",
+    "question generation",
+    "response generation",
+    "summarization"
+   ],
+   "datasets": [
+    "GLUE Benchmark",
+    "SQuAD 2.0",
+    "CoQA",
+    "CNN/DailyMail",
+    "Gigaword",
+    "DSTC7 document-grounded dialog response generation",
+    "SQuAD development set"
+   ],
+   "metrics": [
+    "ROUGE-L",
+    "F1",
+    "BLEU-4",
+    "NIST-4",
+    "METEOR",
+    "Accuracy",
+    "Matthews corr",
+    "EM"
+   ],
+   "methods": [
+    "ELMo",
+    "GPT",
+    "BERT",
+    "UniLM"
+   ]
+  },
+  "1905.12598": {
+   "tasks": [
+    "word sense induction"
+   ],
+   "datasets": [
+    "SemEval 2013 Task 13",
+    "SemEval 2010 Task 14"
+   ],
+   "metrics": [
+    "FNMI",
+    "FBC",
+    "AVG",
+    "F-S",
+    "V-M"
+   ],
+   "methods": [
+    "Ours",
+    "Ours:ND",
+    "LSDP",
+    "AutoSense",
+    "SE-WSI-fix",
+    "BNP-HC"
+   ]
+  },
+  "1906.05012": {
+   "tasks": [
+    "abstractive summarization"
+   ],
+   "datasets": [
+    "standard summarization dataset"
+   ],
+   "metrics": [
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-L",
+    "Info",
+    "Concise",
+    "Read"
+   ],
+   "methods": [
+    "ABS",
+    "ABS+",
+    "RAS-Elman",
+    "Featseq2seq",
+    "Open-NMT",
+    "BiSET",
+    "Concatenation",
+    "Concate+multi self-att",
+    "DCN Attention",
+    "Bi-selective layer",
+    "Fast Rerank",
+    "Random",
+    "N-rerank",
+    "BiSET without T2A",
+    "BiSET without A2T",
+    "BiSET(full)"
+   ]
+  },
+  "1907.00390": {
+   "tasks": [
+    "slot filling",
+    "intent detection"
+   ],
+   "datasets": [
+    "ATIS",
+    "Snips"
+   ],
+   "metrics": [
+    "F1",
+    "Acc",
+    "Sen. (Acc)"
+   ],
+   "methods": [
+    "Joint Seq",
+    "Atten.-Based",
+    "Sloted-Gated",
+    "SF-First (with CRF)",
+    "SF-ID (no interaction)"
+   ]
+  },
+  "1908.08345": {
+   "tasks": [
+    "text summarization"
+   ],
+   "datasets": [
+    "CNN/DailyMail",
+    "NYT",
+    "XSum"
+   ],
+   "metrics": [
+    "ROUGE F1",
+    "ROUGE Recall",
+    "ROUGE-L",
+    "perplexity"
+   ],
+   "methods": [
+    "Oracle",
+    "Lead-3",
+    "SummaRuNNer",
+    "Refresh",
+    "Compress",
+    "Sumo",
+    "PTGen",
+    "BertSum",
+    "Transformer",
+    "NeuSum"
+   ]
+  },
+  "1909.02188": {
+   "tasks": [
+    "intent detection",
+    "slot filling"
+   ],
+   "datasets": [
+    "SNIPS",
+    "ATIS"
+   ],
+   "metrics": [
+    "F1",
+    "Acc",
+    "Overall (Acc)"
+   ],
+   "methods": [
+    "Joint Seq",
+    "Attention BiRNN",
+    "Slot-Gated Full Atten",
+    "Slot-Gated Intent Atten",
+    "gate-mechanism",
+    "pipelined model",
+    "sentence intent augmented",
+    "lstm+last-hidden",
+    "BERT SLU",
+    "Our model",
+    "Intent detection (BERT)",
+    "Slot filling (BERT)"
+   ]
+  },
+  "1910.13461": {
+   "tasks": [
+    "text generation",
+    "translation",
+    "comprehension",
+    "summarization",
+    "question answering",
+    "dialogue",
+    "sequence classification",
+    "token classification",
+    "sequence generation",
+    "abstractive dialogue",
+    "question answering",
+    "summarization",
+    "conversational response generation",
+    "abstractive question answering",
+    "discriminative tasks",
+    "translation"
+   ],
+   "datasets": [
+    "SQuAD 1.1",
+    "MNLI",
+    "ELI5",
+    "XSum",
+    "ConvAI2",
+    "CNN/DM",
+    "GLUE",
+    "WMT'16 RO-EN",
+    "WMT'14 EN-DE",
+    "CoNLL-2003"
+   ],
+   "metrics": [
+    "F1",
+    "Accuracy",
+    "PPL",
+    "BLEU",
+    "ROUGE",
+    "EM/F1",
+    "R1",
+    "R2",
+    "RL",
+    "Valid F1",
+    "Valid PPL"
+   ],
+   "methods": [
+    "BERT Base",
+    "Masked Language Model",
+    "Masked Seq2seq",
+    "UniLM",
+    "RoBERTa",
+    "XLNet",
+    "BART",
+    "Fixed BART",
+    "Tuned BART",
+    "Seq2Seq + Attention",
+    "Best System",
+    "Best Extractive",
+    "Language Model",
+    "Baseline"
+   ]
+  },
+  "1911.09483": {
+   "tasks": [
+    "machine translation"
+   ],
+   "datasets": [
+    "WMT14 En-De",
+    "WMT14 En-Fr",
+    "IWSLT De-En",
+    "IWSLT En-Vi",
+    "IWSLT 2015 De-En"
+   ],
+   "metrics": [
+    "BLEU"
+   ],
+   "methods": [
+    "MUSE",
+    "MUSE-simple",
+    "ConvSeq2seq",
+    "SliceNet",
+    "Transformer",
+    "Weighted Transformer",
+    "Layer-wise Coordination",
+    "NBMT",
+    "SACT",
+    "NP2MT",
+    "Fixup",
+    "DynamicConv"
+   ]
+  },
+  "1911.10390": {
+   "tasks": [
+    "summarization"
+   ],
+   "datasets": [
+    "Gigaword",
+    "Newsroom",
+    "lvt5k-1sent",
+    "Multi-Task w/ Entailment",
+    "SEASS",
+    "DRGD",
+    "EntailGen+QuesGen",
+    "PG Networks",
+    "Struct+2Way+Rel."
+   ],
+   "metrics": [
+    "R-1",
+    "R-2",
+    "R-L",
+    "Bert-S",
+    "Inform.",
+    "Gramm.",
+    "Truthful.",
+    "Bst-Wst"
+   ],
+   "methods": [
+    "pointer-generator networks",
+    "our method (best abstract)",
+    "our method (pure extract)",
+    "human abstract",
+    "pure-ext",
+    "best-abs",
+    "PG Networks",
+    "Struct+2Way+Rel."
+   ]
+  },
+  "1912.08777": {
+   "tasks": [],
+   "datasets": [],
+   "metrics": [],
+   "methods": []
+  },
+  "2001.04063": {
+   "tasks": [
+    "abstractive summarization",
+    "question generation"
+   ],
+   "datasets": [
+    "CNN/DailyMail",
+    "Gigaword",
+    "SQuAD 1.1",
+    "CNN/DailyMail test set",
+    "Gigaword test set",
+    "CNN/DailyMail dev set",
+    "CNN/DailyMail test set"
+   ],
+   "metrics": [
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-L",
+    "B4",
+    "MTR",
+    "R-1",
+    "R-2",
+    "R-L",
+    "F1"
+   ],
+   "methods": [
+    "LEAD-3",
+    "PTGEN",
+    "PTGEN+Coverage",
+    "S2S-ELMo",
+    "Bottom-Up",
+    "OpenNMT",
+    "Re3Sum",
+    "MASS",
+    "UniLM",
+    "ProphetNet",
+    "CorefNQG",
+    "SemQG",
+    "T5",
+    "PEGASUSLARGE (C4)",
+    "PEGASUSLARGE (HugeNews)",
+    "BART",
+    "Transformer",
+    "ProphetNet\textsubscript{w/o pre-train}",
+    "MASS\textsubscript{base}",
+    "ProphetNet\textsubscript{base}-1gram",
+    "ProphetNet\textsubscript{base}-2gram",
+    "ProphetNet\textsubscript{base}-3gram"
+   ]
+  },
+  "2002.03184": {
+   "tasks": [
+    "machine translation",
+    "abstractive summarization",
+    "language modeling"
+   ],
+   "datasets": [
+    "WMT En-De",
+    "WMT En-Fr",
+    "newstest2014",
+    "IWSLT De-En",
+    "CNN-DailyMail",
+    "WikiText-103"
+   ],
+   "metrics": [
+    "BLEU",
+    "Rouge-1",
+    "Rouge-2",
+    "Rouge-L",
+    "perplexity"
+   ],
+   "methods": [
+    "TaLK Convolution",
+    "Self-Attention",
+    "Convolutional",
+    "Dynamic Convolution",
+    "Lightweight Convolution",
+    "LSTM",
+    "CNN"
+   ]
+  },
+  "2008.07772": {
+   "tasks": [
+    "Neural Machine Translation"
+   ],
+   "datasets": [
+    "WMT'14 English-French (FR)",
+    "WMT'14 English-German (DE)"
+   ],
+   "metrics": [
+    "TER",
+    "METEOR",
+    "BLEU",
+    "BLEU score",
+    "BLEU via multi-bleu.perl",
+    "BLEU via sacreBLEU.py"
+   ],
+   "methods": [
+    "6L-6L Default",
+    "6L-6L ADMIN",
+    "60L-12L Default",
+    "60L-12L ADMIN",
+    "36L-12L-768D ADMIN + BT",
+    "60L-12L ADMIN + BT",
+    "BT"
+   ]
+  },
+  "2105.03654": {
+   "tasks": [
+    "Named Entity Recognition"
+   ],
+   "datasets": [
+    "WNUT-16",
+    "WNUT-17",
+    "CoNLL-03",
+    "CoNLL++",
+    "BC5CDR"
+   ],
+   "metrics": [
+    "F1",
+    "accuracy"
+   ],
+   "methods": [
+    "CL-$L_2$",
+    "CL-KL",
+    "CL-$L_2$+Semi",
+    "CL-KL+Semi",
+    "w/o Context",
+    "w/ Context",
+    "SE",
+    "FM",
+    "BS",
+    "BS+tf-idf"
+   ]
+  },
+  "2203.16804": {
+   "tasks": [
+    "abstractive summarization"
+   ],
+   "datasets": [
+    "CNNDM",
+    "XSum",
+    "NYT",
+    "CNN/DailyMail",
+    "CNNDM"
+   ],
+   "metrics": [
+    "ROUGE-1",
+    "ROUGE-2",
+    "ROUGE-L",
+    "ROUGE-1/2/L",
+    "accuracy",
+    "BERTScore",
+    "F1"
+   ],
+   "methods": [
+    "BRIO",
+    "BART",
+    "PEGASUS",
+    "GSum",
+    "ConSum",
+    "BRIO-Mul",
+    "BRIO-Loop",
+    "BRIO-Ctr"
+   ]
+  }
+ }
+}

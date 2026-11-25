@@ -190,7 +190,7 @@ def _prepipeline(s: str) -> tuple[str, str, str, bool]:
 
 
 def _load_tables():
-    d = yaml.safe_load(CFG.read_text())
+    d = yaml.safe_load(CFG.read_text(encoding='utf-8'))
     out = {}
     for kind in ('datasets', 'tasks'):
         table = d.get(kind, {}) or {}

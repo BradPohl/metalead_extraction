@@ -32,9 +32,9 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
 from entity_match_v11 import entity_match_v11  # noqa: E402
 
-GOLD = json.load(open(ROOT / 'data' / 'metalead_annotations' / 'metalead_annotations.json'))
-PAPERS = json.load(open(ROOT / 'splits' / 'metalead_31_papers.json'))
-CORR = yaml.safe_load((ROOT / 'data' / 'metalead_annotations' / 'key_corrections.yaml').read_text()) or {}
+GOLD = json.load(open(ROOT / 'data' / 'metalead_annotations' / 'metalead_annotations.json', encoding='utf-8'))
+PAPERS = json.load(open(ROOT / 'splits' / 'metalead_31_papers.json', encoding='utf-8'))
+CORR = yaml.safe_load((ROOT / 'data' / 'metalead_annotations' / 'key_corrections.yaml').read_text(encoding='utf-8')) or {}
 
 
 def gold_for(pid):
@@ -55,7 +55,7 @@ def load(run_dir, prefix, pid):
     f = Path(run_dir) / f'{prefix}{pid}.json'
     if not f.exists():
         return []
-    return json.loads(f.read_text()).get('tuples', [])
+    return json.loads(f.read_text(encoding='utf-8')).get('tuples', [])
 
 
 def _values(t):

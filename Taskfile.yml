@@ -1,0 +1,124 @@
+version: '3'
+
+# Run `task` to list tasks. Override variables on the command line, e.g.
+#   task pilot MODEL=gemma3:12b
+#   task extract COND=A4 MODEL=gpt-4.1-mini BASE_URL=
+# An empty BASE_URL sends the call to OpenAI (needs OPENAI_API_KEY).
+
+vars:
+  MODEL: qwen3:8b
+  BASE_URL: http://localhost:11434/v1
+  COND: A4
+  BASE_COND: A1                       # condition the bootstrap compares against
+  PAPERS: ''                          # space-separated ids; empty = all 31
+  SUFFIX: ''                          # appended to the run folder name
+  PILOT_SUFFIX: _pilot
+  PILOT_PAPERS: 1812.09471 1812.10235 1907.00390 1909.02188   # the intent/slot group
+  TAG: '{{.MODEL | replace ":" "_" | replace "/" "_"}}'
+
+# OUT, BASE_OUT, URL_FLAG and PAPER_FLAG are set inside each task, not here. Variables defined
+# at the top are resolved once, so a task called with `vars: {COND: A1}` would still see the
+# global COND in them (the pilot ran A1 on all papers into the A4 folder because of this).
+
+env:
+  HF_HUB_OFFLINE: '1'                 # MiniLM is cached locally; skip network checks
+  PYTHONUTF8: '1'
+
+tasks:
+  default:
+    cmds:
+      - task --list
+    silent: true
+
+  setup:
+    desc: Install Python packages
+    cmds:
+      - pip install numpy scipy pyyaml networkx sentence-transformers openai
+
+  baselines:
+    desc: Score the five existing systems (reproduces the README tables)
+    cmds:
+      - for d in ours_claude_inside ours_deepseek_inside ours_gpt_inside; do echo "$d"; python scripts/score.py --pred our_outputs/$d --require-value | tail -1; done
+      - for d in gpt_alone claude_alone; do echo "$d"; python scripts/score.py --pred our_outputs/$d --prefix metalead_ --require-value | tail -1; done
+
+  ollama:check:
+    desc: Check the Ollama server, the model, and the context length
+    cmds:
+      - curl -s http://localhost:11434/api/tags | python -c "import sys,json; print('\n'.join(m['name'] for m in json.load(sys.stdin)['models']))"
+      - 'echo "OLLAMA_CONTEXT_LENGTH=${OLLAMA_CONTEXT_LENGTH:-not set (set it to 8192 or higher)}"'
+      - ollama ps
+
+  ollama:pull:
+    desc: Pull the model named by MODEL
+    cmds:
+      - ollama pull {{.MODEL}}
+
+  dry:
+    desc: Estimate tokens and cost for COND without calling the model
+    vars:
+      OUT: 'runs/{{.TAG}}_{{.COND}}{{.SUFFIX}}'
+      URL_FLAG: '{{if .BASE_URL}}--base-url {{.BASE_URL}}{{end}}'
+      PAPER_FLAG: '{{if .PAPERS}}--papers {{.PAPERS}}{{end}}'
+    cmds:
+      - python -m gog.run --condition {{.COND}} --model {{.MODEL}} {{.URL_FLAG}} {{.PAPER_FLAG}} --out {{.OUT}}_dry --dry-run
+
+  extract:
+    desc: Run one condition (COND, MODEL, BASE_URL, PAPERS)
+    vars:
+      OUT: 'runs/{{.TAG}}_{{.COND}}{{.SUFFIX}}'
+      URL_FLAG: '{{if .BASE_URL}}--base-url {{.BASE_URL}}{{end}}'
+      PAPER_FLAG: '{{if .PAPERS}}--papers {{.PAPERS}}{{end}}'
+    cmds:
+      - python -m gog.run --condition {{.COND}} --model {{.MODEL}} {{.URL_FLAG}} {{.PAPER_FLAG}} --out {{.OUT}}
+
+  score:
+    desc: Score a run on all 31 papers, value-matched, with macro, ET-Accuracy and per-group views
+    vars:
+      OUT: 'runs/{{.TAG}}_{{.COND}}{{.SUFFIX}}'
+    cmds:
+      - python scripts/score.py --pred {{.OUT}} --require-value
+      - python scripts/score_extra.py --pred {{.OUT}} --require-value
+
+  compare:
+    desc: Paired bootstrap of a run against the same model's BASE_COND run
+    vars:
+      OUT: 'runs/{{.TAG}}_{{.COND}}{{.SUFFIX}}'
+      BASE_OUT: 'runs/{{.TAG}}_{{.BASE_COND}}{{.SUFFIX}}'
+    cmds:
+      - python scripts/score.py --pred {{.OUT}} --require-value --baseline {{.BASE_OUT}}
+
+  pilot:a1:
+    desc: A1 on the 4-paper intent/slot group, scored on those papers (PILOT_SUFFIX names the run, default _pilot)
+    cmds:
+      - task: extract
+        vars: {COND: A1, PAPERS: '{{.PILOT_PAPERS}}', SUFFIX: '{{.PILOT_SUFFIX}}'}
+      - python scripts/score_extra.py --pred runs/{{.TAG}}_A1{{.PILOT_SUFFIX}} --papers {{.PILOT_PAPERS}} --require-value
+
+  pilot:a4:
+    desc: A4 on the same group (the first A4 run also makes the 31 vocabulary calls)
+    cmds:
+      - task: extract
+        vars: {COND: A4, PAPERS: '{{.PILOT_PAPERS}}', SUFFIX: '{{.PILOT_SUFFIX}}'}
+      - python scripts/score_extra.py --pred runs/{{.TAG}}_A4{{.PILOT_SUFFIX}} --papers {{.PILOT_PAPERS}} --require-value
+
+  pilot:
+    desc: pilot:a1, then pilot:a4
+    cmds:
+      - task: pilot:a1
+      - task: pilot:a4
+
+  ablation:
+    desc: A1, A2, A3, A4 and the random control C3 on all 31 papers, then compare each with A1
+    cmds:
+      - for: [A1, A2, A3, A4, C3]
+        task: extract
+        vars: {COND: '{{.ITEM}}'}
+      - for: [A2, A3, A4, C3]
+        task: compare
+        vars: {COND: '{{.ITEM}}'}
+
+  clean:cache:
+    desc: Delete cached model responses (the next run re-pays for every call)
+    prompt: This deletes runs/_cache. Continue?
+    cmds:
+      - rm -rf runs/_cache

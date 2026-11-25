@@ -28,7 +28,7 @@ from entity_match_v9 import (
 )
 
 _WL_PATH = Path(__file__).resolve().parent.parent / 'config' / 'short_metric_whitelist.yaml'
-_WHITELIST = set((yaml.safe_load(_WL_PATH.read_text()) or {}).get('short_metrics', []))
+_WHITELIST = set((yaml.safe_load(_WL_PATH.read_text(encoding='utf-8')) or {}).get('short_metrics', []))
 
 METRIC_ALIAS_SRC = {
     'accuracy':        ['percentage correct', 'top 1 accuracy', 'top-1 accuracy',

@@ -1,0 +1,41 @@
+# Graph-of-graphs (GoG) extraction settings. Read by gog/config.py.
+# Nothing in gog/ reads the MetaLead annotations or the scorer's alias configs.
+
+chunk:
+  max_tokens: 1500          # section chunks are split on paragraphs above this
+  table_max_tokens: 2500    # long tables are split into row blocks with the header repeated
+  ref_context_tokens: 400   # text from paragraphs that \ref a table, attached to the table chunk
+
+embed:
+  model: sentence-transformers/all-MiniLM-L6-v2
+
+paper_graph:
+  alpha: 0.5                # w = alpha * cosine(embedding) + (1 - alpha) * jaccard(vocabulary)
+  max_group_size: 6
+  knn: 3                    # keep each paper's top-3 edges; a dense graph has no community structure
+  min_edge: 0.15            # paper edges below this weight are dropped before grouping
+  seed: 0
+
+chunk_graph:
+  alpha: 0.5
+  k: 2                      # neighbor chunks from other papers shown with each target chunk
+  tau: 0.35                 # minimum chunk edge weight for a neighbor
+  neighbor_tokens: 600      # cap per neighbor chunk in the prompt
+  results_prior:            # multiplies PageRank to give the chunk's node weight
+    table: 1.0
+    results_section: 0.8
+    other_with_numbers: 0.4
+    other: 0.1
+  min_node_weight: 0.0      # chunks below this are not sent for extraction (0 keeps all candidates)
+
+extract:
+  vocab_tokens: 500         # cap on the group vocabulary block in the prompt
+  max_output_tokens: 4096
+
+llm:
+  temperature: 0
+  cache_dir: runs/_cache
+  budget_usd: 10.0
+  # USD per million tokens. Edit to match the model you run; local models cost 0.
+  prices:
+    default: {input: 0.0, output: 0.0}

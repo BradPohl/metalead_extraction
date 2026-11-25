@@ -130,6 +130,32 @@ Records in `our_outputs/ours_*` carry more fields than the scorer reads: the quo
 cell, the agreement between readings (`confidence`), split, metric variant, evaluation
 setting, and origin of the result.
 
+## Graph-of-graphs extraction (`gog/`)
+
+An extractor built to test whether similar chunks of different papers help each other.
+The top graph links papers by embedding similarity and shared names (kNN graph, Louvain
+groups). Each group then gets a chunk graph over its papers' tables and sections. Each
+chunk is extracted with its closest chunks from other papers shown as reference only. A
+record is kept only when its value is printed in its own chunk. Results that several
+papers report raise each other's confidence. Settings are in `config/gog.yaml`; the
+pipeline never reads the annotations or the scorer's configs.
+
+```bash
+python -m gog.run --condition A3 --model <openai model> --out runs/x --dry-run   # cost estimate, no calls
+python -m gog.run --condition A4 --model <ollama tag> --base-url http://localhost:11434/v1 --out runs/y
+python scripts/score.py --pred runs/y --require-value --baseline runs/y_A1
+python scripts/score_extra.py --pred runs/y --require-value   # macro scores, ET-Accuracy, per group
+```
+
+Conditions: A1 per paper only; A2 + group vocabulary; A3 + neighbor chunks; A4 + corroboration
+and recall probe; C3 = A3 with random groups and neighbors (control). Responses are cached
+in `runs/_cache`, so re-running a condition is free. For Ollama, set `OLLAMA_CONTEXT_LENGTH=8192`
+or higher, since the default context is shorter than the prompts. Prices for the cost estimate
+and the budget guard (`budget_usd`) are set under `llm` in `config/gog.yaml`.
+
+The scorer reads its files as UTF-8. Before this was explicit, it scored about 6 F1 points
+low on Windows machines with a cp1252 locale.
+
 ## Notes on use
 
 The LaTeX sources come from arXiv and each paper keeps its own license. Please keep this
